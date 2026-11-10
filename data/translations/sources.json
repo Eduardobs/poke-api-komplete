@@ -1,0 +1,234 @@
+{
+  "MoveFlavorText": [
+    {
+      "key": {
+        "move_id": 896,
+        "version_group_id": 25
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 897,
+        "version_group_id": 25
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 898,
+        "version_group_id": 25
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 899,
+        "version_group_id": 25
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 900,
+        "version_group_id": 25
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10001,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10002,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10003,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10004,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10005,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10006,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10007,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10008,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10009,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10010,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10011,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10012,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10013,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10014,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10015,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10016,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10017,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    },
+    {
+      "key": {
+        "move_id": 10018,
+        "version_group_id": 13
+      },
+      "source": {
+        "flavor_text": ""
+      },
+      "copy": {}
+    }
+  ]
+}

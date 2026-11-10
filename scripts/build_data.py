@@ -44,10 +44,8 @@ def build():
         build_all()
         (UPSTREAM / '.snapshot-db-ready').touch()
     # Apply on every build, including when the upstream SQLite snapshot is cached.
-    from localize_moves import apply_move_translations
-    apply_move_translations()
-    from localize_resources import apply_resource_translations
-    apply_resource_translations()
+    from localization import apply_translations
+    apply_translations()
     client = Client(SERVER_NAME='snapshot.invalid', wsgi_url_scheme='https')
     def get(path):
         response = client.get(path, secure=True)

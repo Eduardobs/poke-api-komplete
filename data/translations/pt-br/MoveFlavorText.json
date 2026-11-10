@@ -1,0 +1,8438 @@
+{
+  "source_sha256": "913e11f9c9e5913d9287cb9ad0827c3b01f6c7d30c09bc1ad41ffbdcbba4537c",
+  "entries": [
+    {
+      "key": {
+        "move_id": 1,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 2,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 3,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 4,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 5,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 6,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Espalha dinheiro no valor de cinco vezes o nível do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 7,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 8,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode congelar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 9,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 11,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 12,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nocauteia o alvo com um único golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 13,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Precisa de um turno de preparação antes de atacar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 14,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 15,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 16,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano e pode atingir Pokémon que estejam no ar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 17,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 18,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Encerra batalhas contra Pokémon selvagens. Contra Treinadores, força a troca do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 19,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário voa alto, evita ataques e atinge o alvo no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 20,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de fugir e causa dano por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 21,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 22,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 23,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 24,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge duas vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 25,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 26,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Se errar, o usuário recebe metade do dano que teria causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 27,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 28,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 29,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 30,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 31,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 32,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nocauteia o alvo com um único golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 33,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 34,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 35,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de fugir e causa dano por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 36,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário recebe um quarto do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 37,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca por dois a três turnos seguidos e depois deixa o usuário confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 38,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário recebe um terço do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 39,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 40,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 41,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge duas vezes no mesmo turno e pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 42,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 43,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 44,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 45,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 46,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Encerra batalhas contra Pokémon selvagens. Contra Treinadores, força a troca do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 47,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Faz o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 48,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Deixa o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 49,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa exatamente 20 PS de dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 50,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Desabilita o último golpe usado pelo alvo por um a oito turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 51,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 52,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 53,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 54,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Protege os atributos do usuário contra alterações causadas por golpes adversários."
+      }
+    },
+    {
+      "key": {
+        "move_id": 55,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 56,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 57,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano e pode atingir alvos que estejam usando Dive."
+      }
+    },
+    {
+      "key": {
+        "move_id": 58,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode congelar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 59,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode congelar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 60,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 61,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 62,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir o Ataque do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 63,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 64,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 65,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 66,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O usuário recebe um quarto do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 67,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto mais pesado o alvo, maior o poder, até o máximo de 120."
+      }
+    },
+    {
+      "key": {
+        "move_id": 68,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Devolve o dobro do dano recebido pelo último ataque físico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 69,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano equivalente ao nível do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 70,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 71,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 72,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 73,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Planta sementes no alvo e drena seus PS a cada turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 74,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque e o Ataque Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 75,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 76,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Precisa de um turno de preparação antes de atacar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 77,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Envenena o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 78,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Paralisa o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 79,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Faz o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 80,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca por dois a três turnos seguidos e depois deixa o usuário confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 81,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Velocidade do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 82,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa exatamente 40 PS de dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 83,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de fugir e causa dano por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 84,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 85,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 86,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Paralisa o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 87,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 88,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 89,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano e pode atingir alvos que estejam usando Dig."
+      }
+    },
+    {
+      "key": {
+        "move_id": 90,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nocauteia o alvo com um único golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 91,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário se enterra, evita ataques e atinge o alvo no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 92,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Envenena gravemente o alvo, causando dano crescente a cada turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 93,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 94,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 95,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Faz o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 96,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 97,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Velocidade do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 98,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 99,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Se receber um ataque após usar este golpe, o Ataque do usuário aumenta em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 100,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Encerra batalhas contra Pokémon selvagens. Não tem efeito em outras batalhas."
+      }
+    },
+    {
+      "key": {
+        "move_id": 101,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano equivalente ao nível do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 102,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Copia o último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 103,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 104,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a evasão do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 105,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 106,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 107,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a evasão do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 108,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 109,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Deixa o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 110,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 111,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 112,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 113,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz pela metade o dano de ataques especiais por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 114,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Anula as alterações de atributos, precisão e evasão de todos os Pokémon."
+      }
+    },
+    {
+      "key": {
+        "move_id": 115,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz pela metade o dano de ataques físicos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 116,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a chance de acerto crítico do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 117,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Espera dois turnos e devolve o dobro do dano recebido."
+      }
+    },
+    {
+      "key": {
+        "move_id": 118,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Escolhe e usa aleatoriamente um golpe do jogo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 119,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Usa o último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 120,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário desmaia."
+      }
+    },
+    {
+      "key": {
+        "move_id": 121,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 122,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 123,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 124,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 125,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 126,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 127,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 128,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de fugir e causa dano por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 129,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 130,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa do usuário em um estágio e prepara o ataque por um turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 131,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 132,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 133,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa Especial do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 134,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Reduz a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 135,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 136,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Se errar, o usuário recebe metade do dano que teria causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 137,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Paralisa o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 138,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Só funciona contra alvos adormecidos. Recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 139,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Envenena o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 140,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 141,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 142,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Faz o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 143,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Prepara o ataque por um turno e pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 144,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário se transforma em uma cópia do alvo até sair da batalha."
+      }
+    },
+    {
+      "key": {
+        "move_id": 145,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 146,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 147,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Faz o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 148,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Reduz a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 149,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano entre 50% e 150% do nível do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 150,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Não tem efeito."
+      }
+    },
+    {
+      "key": {
+        "move_id": 151,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 152,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 153,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário desmaia."
+      }
+    },
+    {
+      "key": {
+        "move_id": 154,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 155,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge duas vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 156,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário dorme por dois turnos e recupera todos os PS."
+      }
+    },
+    {
+      "key": {
+        "move_id": 157,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 158,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 159,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 160,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Muda o tipo do usuário para o tipo de um de seus golpes, escolhido ao acaso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 161,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar, congelar ou paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 162,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano equivalente à metade dos PS atuais do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 163,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 164,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Consome um quarto dos PS máximos do usuário para criar um substituto que absorve dano e alterações de condição até ser destruído."
+      }
+    },
+    {
+      "key": {
+        "move_id": 165,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O usuário perde um quarto de seus PS máximos como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 166,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "É substituído permanentemente pelo último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 167,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge três vezes, aumentando o poder em 100% a cada acerto."
+      }
+    },
+    {
+      "key": {
+        "move_id": 168,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Rouba o item do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 169,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de sair da batalha."
+      }
+    },
+    {
+      "key": {
+        "move_id": 170,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Garante que o próximo golpe do usuário acerte o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 171,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O alvo perde um quarto dos PS máximos a cada turno enquanto dorme."
+      }
+    },
+    {
+      "key": {
+        "move_id": 172,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo. Descongela o usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 173,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Só funciona enquanto o usuário dorme. Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 174,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Usuários do tipo Fantasma sacrificam metade dos PS máximos para amaldiçoar o alvo. Outros reduzem sua Velocidade e aumentam seu Ataque e sua Defesa."
+      }
+    },
+    {
+      "key": {
+        "move_id": 175,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto menos PS o usuário tiver, maior o poder, até o máximo de 200."
+      }
+    },
+    {
+      "key": {
+        "move_id": 176,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Muda o tipo do usuário para um tipo aleatório resistente ou imune ao último golpe recebido."
+      }
+    },
+    {
+      "key": {
+        "move_id": 177,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 178,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Velocidade do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 179,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto menos PS o usuário tiver, maior o poder, até o máximo de 200."
+      }
+    },
+    {
+      "key": {
+        "move_id": 180,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz em quatro os PP do último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 181,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode congelar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 182,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Protege o usuário de golpes neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 183,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 184,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Velocidade do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 185,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 186,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Deixa o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 187,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Consome metade dos PS máximos do usuário para elevar seu Ataque ao máximo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 188,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 189,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 190,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 191,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Espalha espinhos que causam dano aos adversários quando entram em campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 192,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 193,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ignora a evasão do alvo e permite que golpes Normais e Lutadores atinjam alvos do tipo Fantasma."
+      }
+    },
+    {
+      "key": {
+        "move_id": 194,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Se o usuário desmaiar neste turno, o alvo também desmaia."
+      }
+    },
+    {
+      "key": {
+        "move_id": 195,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário e o alvo desmaiam após três turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 196,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 197,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Protege o usuário de golpes neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 198,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 199,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Garante que o próximo golpe do usuário acerte o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 200,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca por dois a três turnos seguidos e depois deixa o usuário confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 201,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Cria uma tempestade de areia por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 202,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 203,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede que os PS do usuário caiam abaixo de 1 neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 204,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 205,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra a cada uso consecutivo e volta ao normal após cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 206,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Deixa o alvo com pelo menos 1 PS."
+      }
+    },
+    {
+      "key": {
+        "move_id": 207,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque do alvo em dois estágios e o deixa confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 208,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 209,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 210,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra a cada uso consecutivo, atingindo o máximo após cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 211,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode aumentar a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 212,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de sair da batalha."
+      }
+    },
+    {
+      "key": {
+        "move_id": 213,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Deixa o alvo de sexo oposto apaixonado, com 50% de chance de não atacar o usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 214,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Usa aleatoriamente um dos outros três golpes do usuário enquanto ele dorme."
+      }
+    },
+    {
+      "key": {
+        "move_id": 215,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Cura as condições de estado de toda a equipe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 216,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O poder aumenta com a amizade, até o máximo de 102."
+      }
+    },
+    {
+      "key": {
+        "move_id": 217,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano com poder aleatório entre 40 e 120 ou recupera um quarto dos PS máximos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 218,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O poder aumenta quanto menor for a amizade, até o máximo de 102."
+      }
+    },
+    {
+      "key": {
+        "move_id": 219,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Protege o lado do usuário contra condições de estado e confusão por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 220,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Iguala os PS do usuário e do alvo à média de seus PS atuais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 221,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo. Descongela o usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 222,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O poder varia aleatoriamente entre 10 e 150."
+      }
+    },
+    {
+      "key": {
+        "move_id": 223,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 224,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 225,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 226,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Permite trocar o usuário e transferir seus efeitos ao substituto."
+      }
+    },
+    {
+      "key": {
+        "move_id": 227,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Força o alvo a repetir seu último golpe por dois a seis turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 228,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge alvos que tentam sair de campo com o dobro do poder."
+      }
+    },
+    {
+      "key": {
+        "move_id": 229,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Liberta o usuário de golpes que o prendem e remove sementes e espinhos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 230,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a evasão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 231,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 232,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode aumentar o Ataque do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 233,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 234,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do usuário. A recuperação varia com o clima."
+      }
+    },
+    {
+      "key": {
+        "move_id": 235,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do usuário. A recuperação varia com o clima."
+      }
+    },
+    {
+      "key": {
+        "move_id": 236,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do usuário. A recuperação varia com o clima."
+      }
+    },
+    {
+      "key": {
+        "move_id": 237,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O tipo e o poder dependem dos IVs do usuário. O poder varia entre 30 e 70."
+      }
+    },
+    {
+      "key": {
+        "move_id": 238,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 239,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 240,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Faz chover por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 241,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Intensifica a luz solar por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 242,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 243,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Devolve o dobro do dano recebido pelo último ataque especial."
+      }
+    },
+    {
+      "key": {
+        "move_id": 244,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Substitui as alterações de atributos do usuário pelas do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 245,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 246,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode aumentar todos os atributos do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 247,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 248,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge o alvo dois turnos depois."
+      }
+    },
+    {
+      "key": {
+        "move_id": 249,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 250,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Prende o alvo e causa dano de um dezesseis avos de seus PS máximos por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 251,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge uma vez para cada Pokémon da equipe que não esteja desmaiado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 252,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Só funciona no primeiro turno do usuário em campo e faz o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 253,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário repete este golpe por vários turnos. Nenhum Pokémon pode dormir nesse período."
+      }
+    },
+    {
+      "key": {
+        "move_id": 254,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Armazena energia até três vezes para usar com Spit Up ou Swallow."
+      }
+    },
+    {
+      "key": {
+        "move_id": 255,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder é igual a 100 vezes a quantidade de energia armazenada com Stockpile."
+      }
+    },
+    {
+      "key": {
+        "move_id": 256,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera um quarto, metade ou todos os PS conforme tenha usado Stockpile uma, duas ou três vezes."
+      }
+    },
+    {
+      "key": {
+        "move_id": 257,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 258,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Provoca granizo por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 259,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de usar o mesmo golpe duas vezes seguidas."
+      }
+    },
+    {
+      "key": {
+        "move_id": 260,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque Especial do alvo em um estágio e o deixa confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 261,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Queima o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 262,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque e o Ataque Especial do alvo em dois estágios. O usuário desmaia."
+      }
+    },
+    {
+      "key": {
+        "move_id": 263,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra se o usuário estiver queimado, paralisado ou envenenado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 264,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O ataque falha se o usuário receber dano antes de agir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 265,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa o dobro do dano contra alvos paralisados e cura a paralisia."
+      }
+    },
+    {
+      "key": {
+        "move_id": 266,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atrai para o usuário os golpes de alvo único neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 267,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Usa um golpe que depende do ambiente."
+      }
+    },
+    {
+      "key": {
+        "move_id": 268,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa Especial do usuário em um estágio e dobra o poder de seus golpes Elétricos no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 269,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Por alguns turnos, o alvo só pode usar golpes que causam dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 270,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta em 50% o dano do próximo golpe do aliado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 271,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca os itens do usuário e do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 272,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Copia a habilidade do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 273,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário recupera metade dos PS máximos ao final do próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 274,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Usa aleatoriamente um golpe de outro Pokémon da equipe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 275,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Prende o usuário em campo e recupera um dezesseis avos de seus PS máximos a cada turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 276,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque e a Defesa do usuário em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 277,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Reflete o primeiro golpe de estado direcionado ao usuário neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 278,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera o último item consumido pelo usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 279,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa o dobro do dano se o usuário receber dano antes de atacar neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 280,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Destrói Reflect e Light Screen."
+      }
+    },
+    {
+      "key": {
+        "move_id": 281,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Faz o alvo dormir ao final do próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 282,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Remove o item segurado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 283,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz os PS do alvo até igualá-los aos PS do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 284,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto mais PS o usuário tiver, maior o poder, até o máximo de 150."
+      }
+    },
+    {
+      "key": {
+        "move_id": 285,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca as habilidades do usuário e do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 286,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de usar golpes que o usuário também conhece."
+      }
+    },
+    {
+      "key": {
+        "move_id": 287,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Cura queimadura, paralisia ou envenenamento do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 288,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Se o usuário desmaiar neste turno, os PP do golpe que o derrotou caem para zero."
+      }
+    },
+    {
+      "key": {
+        "move_id": 289,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Rouba o efeito de um golpe que o alvo usaria em si mesmo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 290,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode causar uma condição de estado que depende do ambiente."
+      }
+    },
+    {
+      "key": {
+        "move_id": 291,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário mergulha, evita ataques e atinge o alvo no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 292,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 293,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Muda o tipo do usuário conforme o ambiente."
+      }
+    },
+    {
+      "key": {
+        "move_id": 294,
+        "version_group_id": 26
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque Especial do usuário em três estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 295,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 296,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 297,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 298,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Deixa o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 299,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico e pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 300,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Reduz pela metade o dano de golpes Elétricos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 301,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O poder dobra a cada uso consecutivo e volta ao normal após cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 302,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 303,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 304,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 305,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode envenenar gravemente o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 306,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 307,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 308,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 309,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode aumentar o Ataque do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 310,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 311,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Sob um clima ativo, dobra o poder e muda de tipo conforme o clima."
+      }
+    },
+    {
+      "key": {
+        "move_id": 312,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Cura as condições de estado de toda a equipe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 313,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 314,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 315,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque Especial do usuário em dois estágios após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 316,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ignora a evasão do alvo e permite que golpes Normais e Lutadores atinjam alvos do tipo Fantasma."
+      }
+    },
+    {
+      "key": {
+        "move_id": 317,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 318,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode aumentar todos os atributos do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 319,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 320,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Faz o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 321,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque e a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 322,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa e a Defesa Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 323,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto mais PS o usuário tiver, maior o poder, até o máximo de 150."
+      }
+    },
+    {
+      "key": {
+        "move_id": 324,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 325,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 326,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 327,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano e pode atingir alvos que estejam usando Bounce ou Fly."
+      }
+    },
+    {
+      "key": {
+        "move_id": 328,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de fugir e causa dano por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 329,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nocauteia o alvo com um único golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 330,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 331,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 332,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 333,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 334,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 335,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de sair da batalha."
+      }
+    },
+    {
+      "key": {
+        "move_id": 336,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 337,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 338,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 339,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque e a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 340,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário salta alto, evita ataques e atinge o alvo no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 341,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 342,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico e pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 343,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Rouba o item do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 344,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo. O usuário recebe um terço do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 345,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 346,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Reduz pela metade o dano de golpes de Fogo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 347,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque Especial e a Defesa Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 348,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 349,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque e a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 350,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 351,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 352,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 353,
+        "version_group_id": 26
+      },
+      "text": {
+        "flavor_text": "Atinge o alvo dois turnos depois."
+      }
+    },
+    {
+      "key": {
+        "move_id": 354,
+        "version_group_id": 27
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque Especial do usuário em dois estágios após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 355,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 356,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Por cinco turnos, desabilita golpes e imunidades relacionados a voo ou levitação."
+      }
+    },
+    {
+      "key": {
+        "move_id": 357,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ignora a evasão do alvo e permite que golpes Psíquicos atinjam alvos do tipo Sombrio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 358,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Dobra o poder contra alvos adormecidos e os acorda."
+      }
+    },
+    {
+      "key": {
+        "move_id": 359,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 360,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto mais lento o usuário, maior o poder, até o máximo de 150."
+      }
+    },
+    {
+      "key": {
+        "move_id": 361,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário desmaia. Seu substituto recupera todos os PS e é curado de condições de estado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 362,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Dobra o poder contra alvos com menos da metade dos PS máximos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 363,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O poder e o tipo dependem da fruta segurada."
+      }
+    },
+    {
+      "key": {
+        "move_id": 364,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge o alvo mesmo sob Protect ou Detect."
+      }
+    },
+    {
+      "key": {
+        "move_id": 365,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Se o alvo segurar uma fruta, dobra o dano e consome a fruta."
+      }
+    },
+    {
+      "key": {
+        "move_id": 366,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Dobra a Velocidade dos aliados por três turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 367,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta um atributo aleatório de um aliado em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 368,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Devolve 1,5 vez o dano ao último Pokémon que atingiu o usuário neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 369,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário sai de campo após atacar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 370,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa e a Defesa Especial do usuário em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 371,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra se o alvo já tiver agido neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 372,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra se o alvo já tiver recebido dano neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 373,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de usar itens segurados."
+      }
+    },
+    {
+      "key": {
+        "move_id": 374,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Arremessa o item segurado contra o alvo. O poder depende do item."
+      }
+    },
+    {
+      "key": {
+        "move_id": 375,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Transfere a condição de estado do usuário para o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 376,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Quanto menos PP restarem, maior o poder, até o máximo de 200."
+      }
+    },
+    {
+      "key": {
+        "move_id": 377,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de recuperar PS por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 378,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Quanto mais PS o alvo tiver, maior o poder, até o máximo de 121."
+      }
+    },
+    {
+      "key": {
+        "move_id": 379,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca o Ataque e a Defesa do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 380,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Anula a habilidade do alvo até ele sair de campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 381,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de conseguir acertos críticos por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 382,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Usa o golpe do alvo antes dele, com poder aumentado em 50%."
+      }
+    },
+    {
+      "key": {
+        "move_id": 383,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Usa o último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 384,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca as alterações de Ataque e Ataque Especial do usuário com as do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 385,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca as alterações de Defesa e Defesa Especial do usuário com as do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 386,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Quanto mais aumentos de atributos o alvo tiver, maior o poder, até o máximo de 200."
+      }
+    },
+    {
+      "key": {
+        "move_id": 387,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Só funciona após o usuário ter usado todos os seus outros golpes."
+      }
+    },
+    {
+      "key": {
+        "move_id": 388,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Muda a habilidade do alvo para Insomnia."
+      }
+    },
+    {
+      "key": {
+        "move_id": 389,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Só funciona se o alvo estiver prestes a usar um golpe que causa dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 390,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Espalha espinhos venenosos que envenenam adversários quando entram em campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 391,
+        "version_group_id": 26
+      },
+      "text": {
+        "flavor_text": "Troca as alterações de atributos do usuário com as do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 392,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera um dezesseis avos dos PS máximos do usuário a cada turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 393,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Torna o usuário imune a golpes e efeitos do tipo Terrestre por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 394,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo. O usuário recebe um terço do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 395,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 396,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 397,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Velocidade do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 398,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 399,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 400,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 401,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 402,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 403,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 404,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 405,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 406,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 407,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 408,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 409,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 410,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 411,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 412,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 413,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário recebe um terço do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 414,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 415,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca os itens do usuário e do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 416,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 417,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque Especial do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 418,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 419,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa o dobro do dano se o usuário receber dano antes de atacar neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 420,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 421,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 422,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo e fazê-lo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 423,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode congelar o alvo e fazê-lo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 424,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo e fazê-lo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 425,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 426,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 427,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 428,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 429,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 430,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 431,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 432,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a evasão do alvo em um estágio e remove efeitos do lado adversário do campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 433,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Por cinco turnos, Pokémon mais lentos agem antes dos mais rápidos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 434,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque Especial do usuário em dois estágios após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 435,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 436,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 437,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque Especial do usuário em dois estágios após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 438,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 439,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 440,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico e pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 441,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 442,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 443,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 444,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 445,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque Especial do alvo em dois estágios se ele for do sexo oposto."
+      }
+    },
+    {
+      "key": {
+        "move_id": 446,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano aos adversários quando entram em campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 447,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto mais pesado o alvo, maior o poder, até o máximo de 120."
+      }
+    },
+    {
+      "key": {
+        "move_id": 448,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "A chance de confundir o alvo aumenta com o volume do som gravado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 449,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O tipo do golpe depende da placa ou do disco segurado pelo usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 450,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Se o alvo segurar uma fruta, dobra o dano e consome a fruta."
+      }
+    },
+    {
+      "key": {
+        "move_id": 451,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode aumentar o Ataque Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 452,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário recebe um terço do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 453,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 454,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 455,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa e a Defesa Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 456,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 457,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário recebe metade do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 458,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge duas vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 459,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 460,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 461,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário desmaia e seu substituto é completamente curado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 462,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto mais PS o alvo tiver, maior o poder, até o máximo de 121."
+      }
+    },
+    {
+      "key": {
+        "move_id": 463,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de fugir e causa dano por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 464,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Faz o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 465,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 466,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode aumentar todos os atributos do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 467,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário desaparece, evita ataques e ataca no próximo turno, atravessando Protect e Detect."
+      }
+    },
+    {
+      "key": {
+        "move_id": 468,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque e a precisão do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 469,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Protege os aliados de golpes que atingem vários alvos neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 470,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Iguala a Defesa e a Defesa Especial do usuário e do alvo às respectivas médias."
+      }
+    },
+    {
+      "key": {
+        "move_id": 471,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Iguala o Ataque e o Ataque Especial do usuário e do alvo às respectivas médias."
+      }
+    },
+    {
+      "key": {
+        "move_id": 472,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca a Defesa e a Defesa Especial de todos os Pokémon por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 473,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Calcula o dano usando a Defesa do alvo em vez da Defesa Especial."
+      }
+    },
+    {
+      "key": {
+        "move_id": 474,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa o dobro do dano se o alvo estiver envenenado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 475,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta a Velocidade do usuário em dois estágios e reduz seu peso pela metade."
+      }
+    },
+    {
+      "key": {
+        "move_id": 476,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atrai para o usuário os golpes de alvo único neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 477,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Golpes contra o alvo têm 100% de precisão por três turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 478,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Anula os efeitos dos itens segurados por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 479,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Remove imunidades a dano do tipo Terrestre."
+      }
+    },
+    {
+      "key": {
+        "move_id": 480,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Sempre resulta em acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 481,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Também causa dano aos Pokémon adjacentes ao alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 482,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 483,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque Especial, a Defesa Especial e a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 484,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto mais pesado o usuário for em relação ao alvo, maior o poder, até o máximo de 120."
+      }
+    },
+    {
+      "key": {
+        "move_id": 485,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge todos os Pokémon que compartilham um tipo com o usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 486,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto mais rápido o usuário for em relação ao alvo, maior o poder, até o máximo de 150."
+      }
+    },
+    {
+      "key": {
+        "move_id": 487,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Muda o tipo do alvo para Água."
+      }
+    },
+    {
+      "key": {
+        "move_id": 488,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano e aumenta a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 489,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque, a Defesa e a precisão do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 490,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 491,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 492,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Calcula o dano usando o atributo de ataque do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 493,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Muda a habilidade do alvo para Simple."
+      }
+    },
+    {
+      "key": {
+        "move_id": 494,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Substitui a habilidade do alvo pela habilidade do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 495,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Faz o alvo agir logo em seguida neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 496,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra se o golpe for usado mais de uma vez no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 497,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder aumenta em 100% a cada uso consecutivo por aliados, até o máximo de 200."
+      }
+    },
+    {
+      "key": {
+        "move_id": 498,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ignora as alterações de atributos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 499,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Remove todas as alterações de atributos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 500,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder aumenta com os aumentos de atributos do usuário, até 31 vezes o valor inicial."
+      }
+    },
+    {
+      "key": {
+        "move_id": 501,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Protege os aliados de golpes com prioridade neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 502,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca a posição do usuário com a do aliado do lado oposto."
+      }
+    },
+    {
+      "key": {
+        "move_id": 503,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 504,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque, o Ataque Especial e a Velocidade em dois estágios, mas reduz a Defesa e a Defesa Especial em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 505,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 506,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra se o alvo tiver uma condição de estado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 507,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Leva o alvo para o alto, evita ataques contra ambos e o solta no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 508,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque do usuário em um estágio e sua Velocidade em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 509,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Encerra batalhas contra Pokémon selvagens. Contra Treinadores, força a troca do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 510,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Destrói a fruta segurada pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 511,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Faz o alvo agir por último neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 512,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra se o usuário não estiver segurando um item."
+      }
+    },
+    {
+      "key": {
+        "move_id": 513,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário adota o tipo do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 514,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra se um aliado tiver desmaiado no turno anterior."
+      }
+    },
+    {
+      "key": {
+        "move_id": 515,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano equivalente aos PS restantes do usuário, que desmaia em seguida."
+      }
+    },
+    {
+      "key": {
+        "move_id": 516,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Entrega o item segurado pelo usuário ao alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 517,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 518,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Com Grass Pledge, reduz pela metade a Velocidade dos adversários por quatro turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 519,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Com Water Pledge, dobra a chance dos efeitos adicionais dos golpes aliados por quatro turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 520,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Com Fire Pledge, causa dano de um oitavo dos PS máximos dos adversários por turno durante quatro turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 521,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário sai de campo após atacar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 522,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 523,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 524,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Sempre resulta em acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 525,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Encerra batalhas contra Pokémon selvagens. Contra Treinadores, força a troca do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 526,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque e o Ataque Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 527,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 528,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário recebe um quarto do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 529,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 530,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge duas vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 531,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 532,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 533,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ignora as alterações de atributos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 534,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 535,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto mais pesado o usuário for em relação ao alvo, maior o poder, até o máximo de 120."
+      }
+    },
+    {
+      "key": {
+        "move_id": 536,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 537,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 538,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa do usuário em três estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 539,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 540,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Calcula o dano usando a Defesa do alvo em vez da Defesa Especial."
+      }
+    },
+    {
+      "key": {
+        "move_id": 541,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 542,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 543,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O usuário recebe um quarto do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 544,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge duas vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 545,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 546,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O tipo do golpe depende da placa ou do disco segurado pelo usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 547,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 548,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Calcula o dano usando a Defesa do alvo em vez da Defesa Especial."
+      }
+    },
+    {
+      "key": {
+        "move_id": 549,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 550,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 551,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 552,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode aumentar o Ataque Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 553,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Precisa de um turno de preparação e pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 554,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Precisa de um turno de preparação e pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 555,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 556,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 557,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa, a Defesa Especial e a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 558,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa o dobro do dano quando combinado com Fusion Bolt."
+      }
+    },
+    {
+      "key": {
+        "move_id": 559,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa o dobro do dano quando combinado com Fusion Flare."
+      }
+    },
+    {
+      "key": {
+        "move_id": 560,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano dos tipos Lutador e Voador ao mesmo tempo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 561,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Protege todos os aliados de golpes que causam dano. Só funciona no primeiro turno do usuário em campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 562,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Só funciona após o usuário ter comido uma fruta."
+      }
+    },
+    {
+      "key": {
+        "move_id": 563,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque e o Ataque Especial de todos os Pokémon do tipo Planta em campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 564,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Cobre o lado adversário do campo com uma teia que reduz a Velocidade de quem entra em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 565,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque do usuário em dois estágios se nocautear o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 566,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário desaparece, evita ataques e ataca no próximo turno, atravessando Protect e Detect."
+      }
+    },
+    {
+      "key": {
+        "move_id": 567,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Acrescenta o tipo Fantasma aos tipos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 568,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque e o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 569,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Transforma todos os golpes Normais em Elétricos até o fim do turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 570,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera PS equivalentes à metade do dano total causado a todos os alvos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 571,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Acrescenta o tipo Planta aos tipos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 572,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 573,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "É supereficaz contra o tipo Água."
+      }
+    },
+    {
+      "key": {
+        "move_id": 574,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 575,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque e o Ataque Especial de todos os alvos em um estágio e faz o usuário sair de campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 576,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Inverte as alterações de atributos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 577,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera PS equivalentes a 75% do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 578,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Protege todos os aliados de golpes que não causam dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 579,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa de todos os Pokémon do tipo Planta em campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 580,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Por cinco turnos, recupera um dezesseis avos dos PS máximos dos Pokémon no chão a cada turno e aumenta em 50% o poder de seus golpes de Planta."
+      }
+    },
+    {
+      "key": {
+        "move_id": 581,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Por cinco turnos, protege Pokémon no chão contra condições de estado e confusão e reduz pela metade o poder de golpes de Dragão recebidos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 582,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Transforma o próximo golpe do alvo em Elétrico se ele ainda não tiver agido neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 583,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir o Ataque do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 584,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 585,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 586,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 587,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede todos os Pokémon de fugir ou sair de campo durante o próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 588,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Bloqueia ataques e reduz o Ataque de quem fizer contato em dois estágios. Muda Aegislash para a Forma Escudo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 589,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 590,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 591,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode aumentar a Defesa do usuário em dois estágios para cada alvo atingido."
+      }
+    },
+    {
+      "key": {
+        "move_id": 592,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 593,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ignora e destrói efeitos de proteção."
+      }
+    },
+    {
+      "key": {
+        "move_id": 594,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes."
+      }
+    },
+    {
+      "key": {
+        "move_id": 595,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 596,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Bloqueia ataques e causa dano de um oitavo dos PS máximos a quem fizer contato."
+      }
+    },
+    {
+      "key": {
+        "move_id": 597,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa Especial do aliado escolhido em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 598,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 599,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque, o Ataque Especial e a Velocidade do alvo em um estágio se ele estiver envenenado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 600,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Explode se o alvo usar um golpe de Fogo neste turno, causando dano de um quarto dos PS máximos e impedindo o golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 601,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Após um turno de preparação, aumenta o Ataque Especial, a Defesa Especial e a Velocidade do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 602,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa e a Defesa Especial dos aliados com Plus ou Minus em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 603,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Dobra o dinheiro recebido ao vencer a batalha."
+      }
+    },
+    {
+      "key": {
+        "move_id": 604,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Por cinco turnos, impede Pokémon no chão de dormir e aumenta em 50% o poder de seus golpes Elétricos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 605,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 606,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Não tem efeito."
+      }
+    },
+    {
+      "key": {
+        "move_id": 607,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Não tem efeito."
+      }
+    },
+    {
+      "key": {
+        "move_id": 608,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 609,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 610,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Deixa o alvo com pelo menos 1 PS."
+      }
+    },
+    {
+      "key": {
+        "move_id": 611,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de fugir e causa dano por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 612,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque do usuário em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 613,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Recupera PS equivalentes a 75% do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 614,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Derruba o alvo no chão e atinge até Pokémon Voadores ou que estejam levitando."
+      }
+    },
+    {
+      "key": {
+        "move_id": 615,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de sair da batalha."
+      }
+    },
+    {
+      "key": {
+        "move_id": 616,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 617,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O usuário recebe metade do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 618,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 619,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 620,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa e a Defesa Especial do usuário em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 621,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ignora e destrói efeitos de proteção."
+      }
+    },
+    {
+      "key": {
+        "move_id": 622,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 623,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 624,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 625,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 626,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 627,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 628,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 629,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 630,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 631,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 632,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 633,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 634,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 635,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 636,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 637,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 638,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 639,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 640,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 641,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 642,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 643,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 644,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 645,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 646,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 647,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 648,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 649,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 650,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 651,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 652,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 653,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 654,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 655,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 656,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 657,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 658,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 659,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do usuário, ou dois terços durante uma tempestade de areia."
+      }
+    },
+    {
+      "key": {
+        "move_id": 660,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Só funciona no primeiro turno do usuário em campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 661,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Protege o usuário até o fim do turno e envenena quem tentar atingi-lo com um golpe de contato."
+      }
+    },
+    {
+      "key": {
+        "move_id": 662,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Prende o alvo em campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 663,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ignora as alterações de atributos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 664,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Cura a queimadura do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 665,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 666,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera metade dos PS máximos do alvo, ou dois terços sob Grassy Terrain."
+      }
+    },
+    {
+      "key": {
+        "move_id": 667,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 668,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recupera PS equivalentes ao Ataque atual do alvo e reduz o Ataque dele em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 669,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Precisa de um turno de preparação antes de atacar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 670,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 671,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Faz os adversários do alvo direcionarem seus ataques a ele até o fim do turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 672,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Envenena o alvo e reduz sua Velocidade em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 673,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Garante um acerto crítico no próximo golpe do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 674,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque e o Ataque Especial dos aliados com Plus ou Minus em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 675,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de usar golpes sonoros por dois turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 676,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano aos adversários, mas recupera metade dos PS máximos dos aliados."
+      }
+    },
+    {
+      "key": {
+        "move_id": 677,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Prende o alvo em campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 678,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Protege Pokémon no chão contra golpes com prioridade e aumenta em 50% o poder de seus golpes Psíquicos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 679,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque do alvo em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 680,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa do alvo em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 681,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder aumenta com os aumentos de atributos do usuário, até 31 vezes o valor inicial."
+      }
+    },
+    {
+      "key": {
+        "move_id": 682,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Remove o tipo Fogo do usuário após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 683,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca a Velocidade do usuário com a do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 684,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 685,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Cura a condição de estado do alvo e recupera metade dos PS máximos do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 686,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Tem o mesmo tipo do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 687,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Anula a habilidade do alvo se ele agir antes."
+      }
+    },
+    {
+      "key": {
+        "move_id": 688,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque do alvo em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 689,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Força o alvo a repetir seu último golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 690,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Queima quem fizer contato com o usuário antes do ataque."
+      }
+    },
+    {
+      "key": {
+        "move_id": 691,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa do usuário em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 692,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 693,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 694,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o dano recebido por cinco turnos. Só pode ser usado durante granizo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 695,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 696,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 697,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 698,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano equivalente a 75% dos PS restantes do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 699,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 700,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 701,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 702,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta todos os atributos do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 703,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ativa Psychic Terrain após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 704,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Só causa dano se o usuário tiver sido atingido por um golpe físico neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 705,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque Especial do usuário em dois estágios após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 706,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Destrói Reflect e Light Screen."
+      }
+    },
+    {
+      "key": {
+        "move_id": 707,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra se o último golpe do usuário tiver falhado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 708,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 709,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 710,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 711,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 712,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Rouba os aumentos de atributos do alvo antes de causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 713,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ignora habilidades que poderiam interferir no golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 714,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ignora habilidades que poderiam interferir no golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 715,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque e o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 716,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 717,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano equivalente à metade dos PS atuais do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 718,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O tipo do golpe depende da placa ou do disco segurado pelo usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 719,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 720,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano e faz o usuário perder metade dos PS máximos, arredondada para cima."
+      }
+    },
+    {
+      "key": {
+        "move_id": 721,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano e transforma golpes Normais em Elétricos até o fim do turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 722,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 723,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Calcula o dano usando o Ataque ou o Ataque Especial do usuário, o que for maior."
+      }
+    },
+    {
+      "key": {
+        "move_id": 724,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ignora habilidades que poderiam interferir no golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 725,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ignora habilidades que poderiam interferir no golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 726,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 727,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano e remove o terreno ativo do campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 728,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge todos os adversários e aumenta o Ataque, a Defesa, o Ataque Especial, a Defesa Especial e a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 729,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 730,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 731,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 732,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 733,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 734,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 735,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 736,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 737,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 738,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 739,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 740,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 741,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 742,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Atinge duas vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 743,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Protege o usuário de golpes neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 744,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa o dobro do dano se o alvo estiver em Dynamax."
+      }
+    },
+    {
+      "key": {
+        "move_id": 745,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ignora golpes e habilidades adversários que redirecionam ataques, atingindo o alvo escolhido."
+      }
+    },
+    {
+      "key": {
+        "move_id": 746,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o usuário e o alvo de sair de campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 747,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário consome sua fruta e aumenta sua Defesa em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 748,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o usuário de sair de campo e aumenta todos os seus atributos em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 749,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Velocidade do alvo em um estágio e dobra a eficácia de golpes de Fogo contra ele até que saia de campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 750,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Muda o tipo do alvo para Psíquico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 751,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge duas vezes. Em batalhas em dupla, atinge ambos os adversários; se não puder atingir um deles, atinge o outro duas vezes."
+      }
+    },
+    {
+      "key": {
+        "move_id": 752,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Todos os Pokémon em campo consomem suas frutas."
+      }
+    },
+    {
+      "key": {
+        "move_id": 753,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Prende o alvo em campo e reduz sua Defesa e sua Defesa Especial em um estágio ao fim de cada turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 754,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O poder dobra se o usuário agir antes do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 755,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O poder dobra se o usuário agir antes do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 756,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca os efeitos de campo entre o lado do usuário e o lado do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 757,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Intensifica a luz solar por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 758,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao acertar, reduz o Ataque Especial de todos os adversários em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 759,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Por cinco turnos, impede Pokémon no chão de dormir e aumenta em 50% o poder de seus golpes Elétricos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 760,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao acertar, reduz a Velocidade de todos os adversários em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 761,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao acertar, aumenta o Ataque do usuário e de seus aliados em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 762,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao acertar, reduz a Defesa de todos os adversários em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 763,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Provoca granizo por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 764,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao acertar, aumenta o Ataque Especial do usuário e de seus aliados em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 765,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Faz chover por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 766,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao acertar, aumenta a Velocidade do usuário e de seus aliados em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 767,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Por cinco turnos, protege Pokémon no chão contra condições de estado e confusão e reduz pela metade o poder de golpes de Dragão recebidos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 768,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao acertar, reduz o Ataque de todos os adversários em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 769,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Protege Pokémon no chão contra golpes com prioridade e aumenta em 50% o poder de seus golpes Psíquicos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 770,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Cria uma tempestade de areia por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 771,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao acertar, aumenta a Defesa Especial do usuário e de seus aliados em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 772,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao acertar, reduz a Defesa Especial de todos os adversários em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 773,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Por cinco turnos, recupera um dezesseis avos dos PS máximos dos Pokémon no chão a cada turno e aumenta em 50% o poder de seus golpes de Planta."
+      }
+    },
+    {
+      "key": {
+        "move_id": 774,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao acertar, aumenta a Defesa do usuário e de seus aliados em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 775,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário perde 33% dos PS máximos e aumenta todos os seus atributos em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 776,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Calcula o dano usando a Defesa do usuário como Ataque, incluindo alterações de estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 777,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque e o Ataque Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 778,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 779,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de fugir e causa dano por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 780,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 781,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa o dobro do dano se o alvo estiver em Dynamax."
+      }
+    },
+    {
+      "key": {
+        "move_id": 782,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Causa o dobro do dano se o alvo estiver em Dynamax."
+      }
+    },
+    {
+      "key": {
+        "move_id": 783,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a Velocidade do usuário em um estágio. É Elétrico na forma Full Belly e Sombrio na forma Hangry."
+      }
+    },
+    {
+      "key": {
+        "move_id": 784,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque do alvo em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 785,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 786,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 787,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 788,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa do alvo em um estágio. O dano aumenta em 50% sob o efeito de Gravity."
+      }
+    },
+    {
+      "key": {
+        "move_id": 789,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode reduzir o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 790,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 791,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Cada Pokémon do lado do usuário recupera um quarto dos PS máximos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 792,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Protege o usuário de golpes neste turno. Se bloquear um golpe de contato, reduz a Defesa do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 793,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 794,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 795,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 796,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano e faz o usuário perder metade dos PS máximos, arredondada para cima."
+      }
+    },
+    {
+      "key": {
+        "move_id": 797,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Sob Psychic Terrain, se o usuário estiver no chão, atinge todos os adversários e aumenta o poder em 50%."
+      }
+    },
+    {
+      "key": {
+        "move_id": 798,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Remove Electric Terrain, Grassy Terrain, Misty Terrain ou Psychic Terrain. Falha se nenhum terreno estiver ativo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 799,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge de duas a cinco vezes e depois aumenta a Velocidade e reduz a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 800,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Precisa de um turno de preparação, durante o qual aumenta o Ataque Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 801,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode envenenar o alvo. Usa a categoria física ou especial, conforme a que causar mais dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 802,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Sob Misty Terrain, se o usuário estiver no chão, aumenta o poder em 50%."
+      }
+    },
+    {
+      "key": {
+        "move_id": 803,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Sob Grassy Terrain, se o usuário estiver no chão, aumenta a prioridade em um."
+      }
+    },
+    {
+      "key": {
+        "move_id": 804,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Sob Electric Terrain, se o usuário estiver no chão, dobra o poder."
+      }
+    },
+    {
+      "key": {
+        "move_id": 805,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Se houver um terreno ativo e o usuário estiver no chão, dobra o poder e muda de tipo conforme o terreno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 806,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_id": 807,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Queima o alvo se algum atributo dele tiver aumentado neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 808,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder dobra se algum atributo do usuário tiver sido reduzido neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 809,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Falha se o alvo não estiver segurando um item."
+      }
+    },
+    {
+      "key": {
+        "move_id": 810,
+        "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Remove o item segurado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 811,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque e a Defesa do alvo em um estágio. Falha se não houver um aliado adjacente ao usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 812,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O usuário sai de campo após atacar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 813,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge três vezes, aumentando o poder em 100% a cada acerto."
+      }
+    },
+    {
+      "key": {
+        "move_id": 814,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge duas vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 815,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 816,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Cura as condições de estado de todos os Pokémon do lado do usuário e recupera um quarto de seus PS máximos, arredondado para cima."
+      }
+    },
+    {
+      "key": {
+        "move_id": 817,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Sempre resulta em acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 818,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Atinge três vezes e sempre resulta em acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 819,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de fugir e causa dano por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 820,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quanto mais PS o usuário tiver, maior o poder, até o máximo de 150."
+      }
+    },
+    {
+      "key": {
+        "move_id": 821,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode congelar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 822,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 823,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa do alvo em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 824,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 825,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 826,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Remove três PP do último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 827,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com garras destruidoras e pode envenenar, paralisar ou fazer o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 828,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Envolve-se em energia psíquica para atingir o alvo e aumentar a própria Defesa."
+      }
+    },
+    {
+      "key": {
+        "move_id": 829,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Troca o Ataque e a Defesa do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 830,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com machados de pedra e deixa fragmentos rochosos ao redor do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 831,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Envolve os adversários em ventos ferozes de amor e ódio e pode reduzir o Ataque deles."
+      }
+    },
+    {
+      "key": {
+        "move_id": 832,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Emite um poder misterioso para atacar e aumentar o Ataque Especial do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 833,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com chamas por dois a três turnos seguidos e depois deixa o usuário confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 834,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Envolve o corpo em água e investe contra o alvo, causando também bastante dano ao usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 835,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Dispara clorofila acumulada contra o alvo e também causa dano ao usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 836,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Arremessa enormes blocos de gelo contra o alvo e pode fazê-lo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 837,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Executa uma dança intensa que aumenta o Ataque, a Defesa e a Velocidade do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 838,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Investe com todo o corpo contra o alvo e reduz a Defesa e a Defesa Especial do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 839,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Dispara farpas tóxicas que podem envenenar o alvo. O poder dobra se ele já estiver envenenado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 840,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Corta o alvo com asas envoltas em aura e aumenta a Velocidade do usuário. Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 841,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com um ressentimento assustador e reduz o Ataque do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 842,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Endurece a pele como um escudo de ferro e aumenta bastante a Defesa do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 843,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com um chute seguido de três flechas. Tem maior chance de acerto crítico e pode reduzir a Defesa do alvo ou fazê-lo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_id": 844,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com várias bolas de fogo e pode queimar o alvo. O poder dobra se ele tiver uma condição de estado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 845,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Corta o alvo com uma lâmina de concha e espalha fragmentos pontiagudos sob ele."
+      }
+    },
+    {
+      "key": {
+        "move_id": 846,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca os adversários com ventos extremamente frios e pode reduzir a Velocidade deles."
+      }
+    },
+    {
+      "key": {
+        "move_id": 847,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Invoca uma tempestade de raios e ventos que pode paralisar os adversários."
+      }
+    },
+    {
+      "key": {
+        "move_id": 848,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Envolve os adversários em ventos ferozes e areia escaldante e pode queimá-los."
+      }
+    },
+    {
+      "key": {
+        "move_id": 849,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recebe a bênção da lua crescente para recuperar PS e curar as condições de estado do usuário e dos aliados em campo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 850,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Eleva o próprio ânimo, cura suas condições de estado e aumenta o Ataque Especial e a Defesa Especial."
+      }
+    },
+    {
+      "key": {
+        "move_id": 851,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quando o usuário está teracristalizado, usa seu tipo Tera. Calcula o dano com o Ataque ou o Ataque Especial do usuário, o que for maior."
+      }
+    },
+    {
+      "key": {
+        "move_id": 852,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Protege o usuário com uma armadilha de seda e reduz a Velocidade de quem fizer contato."
+      }
+    },
+    {
+      "key": {
+        "move_id": 853,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com um chute de cima para baixo e pode confundir o alvo. Se errar, o usuário recebe dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 854,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Vinga os aliados derrotados. Quanto mais aliados tiverem desmaiado na equipe, maior o poder."
+      }
+    },
+    {
+      "key": {
+        "move_id": 855,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com uma luz que afeta a mente e reduz bastante a Defesa Especial do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 856,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com elegância. Se o usuário tiver um Tatsugiri na boca, aumenta um de seus atributos conforme a forma dele."
+      }
+    },
+    {
+      "key": {
+        "move_id": 857,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Envolve o punho em uma torrente de água e desfere um soco com prioridade."
+      }
+    },
+    {
+      "key": {
+        "move_id": 858,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Libera um extrato muito picante que aumenta bastante o Ataque do alvo e reduz bastante sua Defesa."
+      }
+    },
+    {
+      "key": {
+        "move_id": 859,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Gira com força para atingir o alvo e reduz bastante a Velocidade do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 860,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca em grupo, atingindo o alvo de uma a dez vezes seguidas."
+      }
+    },
+    {
+      "key": {
+        "move_id": 861,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Recobre os pés de gelo e gira para atingir o alvo, destruindo o terreno ativo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 862,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Investe sem cautela. Até o próximo turno do usuário, ataques contra ele não erram e causam o dobro do dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 863,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Revive um Pokémon desmaiado da equipe com metade de seus PS máximos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 864,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Cobre o alvo de sal e causa dano a cada turno. Pokémon de Aço e Água sofrem mais dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 865,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Executa três mergulhos coordenados e atinge o alvo três vezes seguidas."
+      }
+    },
+    {
+      "key": {
+        "move_id": 866,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca girando, liberta o usuário de efeitos como Bind, Wrap e Leech Seed e envenena os adversários."
+      }
+    },
+    {
+      "key": {
+        "move_id": 867,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Desenha a essência do alvo e muda as habilidades do usuário e de seus aliados para a habilidade dele."
+      }
+    },
+    {
+      "key": {
+        "move_id": 868,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Consome os próprios PS para aumentar bastante o Ataque, o Ataque Especial e a Velocidade do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 869,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Faz uma reverência para distrair o alvo antes de cortá-lo. Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 870,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Arremessa um buquê preparado contra o alvo. Nunca erra e sempre resulta em acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 871,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com chamas como se cantasse e aumenta o Ataque Especial do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 872,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com passos de dança leves e fluidos e aumenta a Velocidade do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 873,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Investe como um touro furioso. O tipo depende da forma do usuário. Destrói barreiras como Light Screen e Reflect."
+      }
+    },
+    {
+      "key": {
+        "move_id": 874,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com uma chuva de moedas e reduz o Ataque Especial do usuário. Gera dinheiro após a batalha."
+      }
+    },
+    {
+      "key": {
+        "move_id": 875,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Corta o alvo com uma lâmina etérea. O poder aumenta em 50% sob Electric Terrain."
+      }
+    },
+    {
+      "key": {
+        "move_id": 876,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com água fervente. Sob luz solar intensa, o poder aumenta em 50% em vez de diminuir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 877,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Invoca uma calamidade que reduz pela metade os PS do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 878,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Investe contra o solo com uma explosão de energia ancestral. O poder recebe um aumento extra se o golpe for supereficaz."
+      }
+    },
+    {
+      "key": {
+        "move_id": 879,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Avança em alta velocidade com eletricidade futurista. O poder recebe um aumento extra se o golpe for supereficaz."
+      }
+    },
+    {
+      "key": {
+        "move_id": 880,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Consome os próprios PS para criar um substituto e troca de lugar com um Pokémon da equipe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 881,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Conta uma piada gelada, sai de campo e provoca uma nevasca por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 882,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Remove Spikes, Stealth Rock, Sticky Web, Toxic Spikes e substitutos, além de aumentar o Ataque e a Velocidade do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 883,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Provoca uma nevasca por cinco turnos, aumentando a Defesa dos Pokémon do tipo Gelo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 884,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Salta sobre o alvo e reduz a Velocidade dele."
+      }
+    },
+    {
+      "key": {
+        "move_id": 885,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca de surpresa com movimentos ágeis e aumenta a Velocidade do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 886,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com água tão fria que reduz o Ataque do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 887,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Gira uma parte pontiaguda do corpo para perfurar o alvo, atravessando proteções como Protect e Detect."
+      }
+    },
+    {
+      "key": {
+        "move_id": 888,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Dispara raios místicos pelos olhos e atinge o alvo duas vezes seguidas."
+      }
+    },
+    {
+      "key": {
+        "move_id": 889,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Transforma raiva em energia. O poder aumenta conforme o número de ataques recebidos pelo usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 890,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Dispara a própria armadura como projéteis em chamas e reduz a Defesa e a Defesa Especial do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 891,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Concentra ressentimento em um corte e recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 892,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Libera toda a eletricidade do corpo em um ataque poderoso. O usuário perde o tipo Elétrico após o golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 893,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com um enorme martelo. Não pode ser usado duas vezes seguidas."
+      }
+    },
+    {
+      "key": {
+        "move_id": 894,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Retalia com força ampliada contra o último adversário que causou dano ao usuário."
+      }
+    },
+    {
+      "key": {
+        "move_id": 895,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Corta o alvo com água pressurizada. Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 896,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com uma investida flamejante que pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 897,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com uma investida sombria que pode fazer o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_id": 898,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com uma investida tóxica que pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 899,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com uma investida de combate que pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 900,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com uma investida mágica que pode confundir o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 901,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Libera energia de uma lua cheia vermelha como sangue. Não pode ser usado duas vezes seguidas."
+      }
+    },
+    {
+      "key": {
+        "move_id": 902,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Dispara chá contra o alvo, pode queimá-lo e recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 903,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Cobre o alvo com uma explosão de xarope pegajoso que reduz sua Velocidade a cada turno por três turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 904,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com um porrete envolto em hera. O tipo muda conforme a máscara do usuário e há maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 905,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Acumula eletricidade e aumenta o Ataque Especial no primeiro turno; ataca no segundo. Sob chuva, ataca imediatamente."
+      }
+    },
+    {
+      "key": {
+        "move_id": 906,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Bombardeia o alvo com energia de cristais. Quando usado por Terapagos na Forma Estelar, atinge todos os adversários."
+      }
+    },
+    {
+      "key": {
+        "move_id": 907,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Dispara um raio de luz. Às vezes, todas as cabeças atacam juntas e dobram o poder do golpe."
+      }
+    },
+    {
+      "key": {
+        "move_id": 908,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Protege o usuário com pelos escaldantes e queima quem fizer contato."
+      }
+    },
+    {
+      "key": {
+        "move_id": 909,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com uma descarga elétrica com prioridade. Falha se o alvo não estiver preparando um ataque."
+      }
+    },
+    {
+      "key": {
+        "move_id": 910,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Usa a luz acumulada sobre a cabeça para cortar o alvo, mesmo que ele esteja protegido."
+      }
+    },
+    {
+      "key": {
+        "move_id": 911,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Dispara lâminas de partículas duas vezes seguidas. Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_id": 912,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Esmaga o alvo com um braço, uma garra ou algo semelhante. Quanto mais PS o alvo tiver, maior o poder."
+      }
+    },
+    {
+      "key": {
+        "move_id": 913,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Solta um grito dracônico que aumenta a chance de acerto crítico dos aliados, com efeito maior nos do tipo Dragão."
+      }
+    },
+    {
+      "key": {
+        "move_id": 914,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com uma voz angelical e confunde o alvo se algum atributo dele tiver aumentado neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 915,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca movido pelo desespero. O poder dobra se o golpe anterior do usuário tiver falhado."
+      }
+    },
+    {
+      "key": {
+        "move_id": 916,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Eletrifica o corpo e se lança sobre o alvo. Se errar, o usuário recebe dano."
+      }
+    },
+    {
+      "key": {
+        "move_id": 917,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ataca com ondas sonoras desagradáveis e impede o alvo de recuperar PS por golpes, habilidades ou itens por dois turnos."
+      }
+    },
+    {
+      "key": {
+        "move_id": 918,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reage ao movimento do alvo com um golpe da palma da mão que o faz hesitar. Falha se o alvo não estiver preparando um golpe com prioridade."
+      }
+    },
+    {
+      "key": {
+        "move_id": 919,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Envolve o alvo em uma corrente tóxica e corrosiva que pode envenená-lo gravemente."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10001,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico no Hyper Mode."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10002,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10003,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10004,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10005,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10006,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Pode congelar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10007,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "O usuário perde metade de seus PS como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10008,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10009,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10010,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10011,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10012,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Reduz a Defesa do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10013,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Reduz pela metade os PS de todos os Pokémon em campo. O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10014,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Impede o alvo de sair da batalha."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10015,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Reduz a evasão do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10016,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Deixa o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10017,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Remove Light Screen, Reflect e Safeguard."
+      }
+    },
+    {
+      "key": {
+        "move_id": 10018,
+        "version_group_id": 13
+      },
+      "text": {
+        "flavor_text": "Ativa Shadow Sky por cinco turnos."
+      }
+    }
+  ]
+}

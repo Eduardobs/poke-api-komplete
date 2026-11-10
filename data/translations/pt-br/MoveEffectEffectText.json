@@ -1,0 +1,4118 @@
+{
+  "source_sha256": "531169efd33ee273bba2bfecc26c778c0d4cba3ef1907d20a2a2a4bdf55acaef",
+  "entries": [
+    {
+      "key": {
+        "move_effect_id": 1
+      },
+      "text": {
+        "short_effect": "Causa dano sem efeitos adicionais.",
+        "effect": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 2
+      },
+      "text": {
+        "short_effect": "Faz o alvo dormir.",
+        "effect": "Faz o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 3
+      },
+      "text": {
+        "short_effect": "Pode envenenar o alvo.",
+        "effect": "Pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 4
+      },
+      "text": {
+        "short_effect": "Recupera PS equivalentes à metade do dano causado.",
+        "effect": "Recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 5
+      },
+      "text": {
+        "short_effect": "Pode queimar o alvo.",
+        "effect": "Pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 6
+      },
+      "text": {
+        "short_effect": "Pode congelar o alvo.",
+        "effect": "Pode congelar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 7
+      },
+      "text": {
+        "short_effect": "Pode paralisar o alvo.",
+        "effect": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 8
+      },
+      "text": {
+        "short_effect": "O usuário desmaia.",
+        "effect": "O usuário desmaia."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 9
+      },
+      "text": {
+        "short_effect": "Só funciona contra alvos adormecidos. Recupera PS equivalentes à metade do dano causado.",
+        "effect": "Só funciona contra alvos adormecidos. Recupera PS equivalentes à metade do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 10
+      },
+      "text": {
+        "short_effect": "Usa o último golpe usado pelo alvo.",
+        "effect": "Usa o último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 11
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque do usuário em um estágio.",
+        "effect": "Aumenta o Ataque do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 12
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa do usuário em um estágio.",
+        "effect": "Aumenta a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 14
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque Especial do usuário em um estágio.",
+        "effect": "Aumenta o Ataque Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 17
+      },
+      "text": {
+        "short_effect": "Aumenta a evasão do usuário em um estágio.",
+        "effect": "Aumenta a evasão do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 18
+      },
+      "text": {
+        "short_effect": "Nunca erra.",
+        "effect": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 19
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque do alvo em um estágio.",
+        "effect": "Reduz o Ataque do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 20
+      },
+      "text": {
+        "short_effect": "Reduz a Defesa do alvo em um estágio.",
+        "effect": "Reduz a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 21
+      },
+      "text": {
+        "short_effect": "Reduz a Velocidade do alvo em um estágio.",
+        "effect": "Reduz a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 24
+      },
+      "text": {
+        "short_effect": "Reduz a precisão do alvo em um estágio.",
+        "effect": "Reduz a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 25
+      },
+      "text": {
+        "short_effect": "Reduz a evasão do alvo em um estágio.",
+        "effect": "Reduz a evasão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 26
+      },
+      "text": {
+        "short_effect": "Anula as alterações de atributos, precisão e evasão de todos os Pokémon.",
+        "effect": "Anula as alterações de atributos, precisão e evasão de todos os Pokémon."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 27
+      },
+      "text": {
+        "short_effect": "Espera dois turnos e devolve o dobro do dano recebido.",
+        "effect": "Espera dois turnos e devolve o dobro do dano recebido."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 28
+      },
+      "text": {
+        "short_effect": "Ataca por dois a três turnos seguidos e depois deixa o usuário confuso.",
+        "effect": "Ataca por dois a três turnos seguidos e depois deixa o usuário confuso."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 29
+      },
+      "text": {
+        "short_effect": "Encerra batalhas contra Pokémon selvagens. Contra Treinadores, força a troca do alvo.",
+        "effect": "Encerra batalhas contra Pokémon selvagens. Contra Treinadores, força a troca do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 30
+      },
+      "text": {
+        "short_effect": "Atinge de duas a cinco vezes no mesmo turno.",
+        "effect": "Atinge de duas a cinco vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 31
+      },
+      "text": {
+        "short_effect": "Muda o tipo do usuário para o tipo de um de seus golpes, escolhido ao acaso.",
+        "effect": "Muda o tipo do usuário para o tipo de um de seus golpes, escolhido ao acaso."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 32
+      },
+      "text": {
+        "short_effect": "Pode fazer o alvo hesitar.",
+        "effect": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 33
+      },
+      "text": {
+        "short_effect": "Recupera metade dos PS máximos do usuário.",
+        "effect": "Recupera metade dos PS máximos do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 34
+      },
+      "text": {
+        "short_effect": "Envenena gravemente o alvo, causando dano crescente a cada turno.",
+        "effect": "Envenena gravemente o alvo, causando dano crescente a cada turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 35
+      },
+      "text": {
+        "short_effect": "Espalha dinheiro no valor de cinco vezes o nível do usuário.",
+        "effect": "Espalha dinheiro no valor de cinco vezes o nível do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 36
+      },
+      "text": {
+        "short_effect": "Reduz pela metade o dano de ataques especiais por cinco turnos.",
+        "effect": "Reduz pela metade o dano de ataques especiais por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 37
+      },
+      "text": {
+        "short_effect": "Pode queimar, congelar ou paralisar o alvo.",
+        "effect": "Pode queimar, congelar ou paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 38
+      },
+      "text": {
+        "short_effect": "O usuário dorme por dois turnos e recupera todos os PS.",
+        "effect": "O usuário dorme por dois turnos e recupera todos os PS."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 39
+      },
+      "text": {
+        "short_effect": "Nocauteia o alvo com um único golpe.",
+        "effect": "Nocauteia o alvo com um único golpe."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 40
+      },
+      "text": {
+        "short_effect": "Precisa de um turno de preparação antes de atacar.",
+        "effect": "Precisa de um turno de preparação antes de atacar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 41
+      },
+      "text": {
+        "short_effect": "Causa dano equivalente à metade dos PS atuais do alvo.",
+        "effect": "Causa dano equivalente à metade dos PS atuais do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 42
+      },
+      "text": {
+        "short_effect": "Causa exatamente 40 PS de dano.",
+        "effect": "Causa exatamente 40 PS de dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 43
+      },
+      "text": {
+        "short_effect": "Impede o alvo de fugir e causa dano por dois a cinco turnos.",
+        "effect": "Impede o alvo de fugir e causa dano por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 44
+      },
+      "text": {
+        "short_effect": "Tem maior chance de acerto crítico.",
+        "effect": "Tem maior chance de acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 45
+      },
+      "text": {
+        "short_effect": "Atinge duas vezes no mesmo turno.",
+        "effect": "Atinge duas vezes no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 46
+      },
+      "text": {
+        "short_effect": "Se errar, o usuário recebe metade do dano que teria causado.",
+        "effect": "Se errar, o usuário recebe metade do dano que teria causado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 47
+      },
+      "text": {
+        "short_effect": "Protege os atributos do usuário contra alterações causadas por golpes adversários.",
+        "effect": "Protege os atributos do usuário contra alterações causadas por golpes adversários."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 48
+      },
+      "text": {
+        "short_effect": "Aumenta a chance de acerto crítico do usuário.",
+        "effect": "Aumenta a chance de acerto crítico do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 49
+      },
+      "text": {
+        "short_effect": "O usuário recebe um quarto do dano causado como dano de recuo.",
+        "effect": "O usuário recebe um quarto do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 50
+      },
+      "text": {
+        "short_effect": "Deixa o alvo confuso.",
+        "effect": "Deixa o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 51
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque do usuário em dois estágios.",
+        "effect": "Aumenta o Ataque do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 52
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa do usuário em dois estágios.",
+        "effect": "Aumenta a Defesa do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 53
+      },
+      "text": {
+        "short_effect": "Aumenta a Velocidade do usuário em dois estágios.",
+        "effect": "Aumenta a Velocidade do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 54
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque Especial do usuário em dois estágios.",
+        "effect": "Aumenta o Ataque Especial do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 55
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa Especial do usuário em dois estágios.",
+        "effect": "Aumenta a Defesa Especial do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 58
+      },
+      "text": {
+        "short_effect": "O usuário se transforma em uma cópia do alvo até sair da batalha.",
+        "effect": "O usuário se transforma em uma cópia do alvo até sair da batalha."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 59
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque do alvo em dois estágios.",
+        "effect": "Reduz o Ataque do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 60
+      },
+      "text": {
+        "short_effect": "Reduz a Defesa do alvo em dois estágios.",
+        "effect": "Reduz a Defesa do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 61
+      },
+      "text": {
+        "short_effect": "Reduz a Velocidade do alvo em dois estágios.",
+        "effect": "Reduz a Velocidade do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 62
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque Especial do alvo em dois estágios.",
+        "effect": "Reduz o Ataque Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 63
+      },
+      "text": {
+        "short_effect": "Reduz a Defesa Especial do alvo em dois estágios.",
+        "effect": "Reduz a Defesa Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 66
+      },
+      "text": {
+        "short_effect": "Reduz pela metade o dano de ataques físicos.",
+        "effect": "Reduz pela metade o dano de ataques físicos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 67
+      },
+      "text": {
+        "short_effect": "Envenena o alvo.",
+        "effect": "Envenena o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 68
+      },
+      "text": {
+        "short_effect": "Paralisa o alvo.",
+        "effect": "Paralisa o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 69
+      },
+      "text": {
+        "short_effect": "Pode reduzir o Ataque do alvo em um estágio.",
+        "effect": "Pode reduzir o Ataque do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 70
+      },
+      "text": {
+        "short_effect": "Pode reduzir a Defesa do alvo em um estágio.",
+        "effect": "Pode reduzir a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 71
+      },
+      "text": {
+        "short_effect": "Pode reduzir a Velocidade do alvo em um estágio.",
+        "effect": "Pode reduzir a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 72
+      },
+      "text": {
+        "short_effect": "Pode reduzir o Ataque Especial do alvo em um estágio.",
+        "effect": "Pode reduzir o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 73
+      },
+      "text": {
+        "short_effect": "Pode reduzir a Defesa Especial do alvo em um estágio.",
+        "effect": "Pode reduzir a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 74
+      },
+      "text": {
+        "short_effect": "Pode reduzir a precisão do alvo em um estágio.",
+        "effect": "Pode reduzir a precisão do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 75
+      },
+      "text": {
+        "short_effect": "Causa dano e reduz o Ataque Especial do alvo em um estágio.",
+        "effect": "Causa dano e reduz o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 76
+      },
+      "text": {
+        "short_effect": "Prepara o ataque por um turno e pode fazer o alvo hesitar.",
+        "effect": "Prepara o ataque por um turno e pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 77
+      },
+      "text": {
+        "short_effect": "Pode deixar o alvo confuso.",
+        "effect": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 78
+      },
+      "text": {
+        "short_effect": "Atinge duas vezes no mesmo turno e pode envenenar o alvo.",
+        "effect": "Atinge duas vezes no mesmo turno e pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 79
+      },
+      "text": {
+        "short_effect": "Nunca erra.",
+        "effect": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 80
+      },
+      "text": {
+        "short_effect": "Consome um quarto dos PS máximos do usuário para criar um substituto que absorve dano e alterações de condição até ser destruído.",
+        "effect": "Consome um quarto dos PS máximos do usuário para criar um substituto que absorve dano e alterações de condição até ser destruído."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 81
+      },
+      "text": {
+        "short_effect": "O usuário precisa descansar no próximo turno.",
+        "effect": "O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 82
+      },
+      "text": {
+        "short_effect": "Se receber um ataque após usar este golpe, o Ataque do usuário aumenta em um estágio.",
+        "effect": "Se receber um ataque após usar este golpe, o Ataque do usuário aumenta em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 83
+      },
+      "text": {
+        "short_effect": "Copia o último golpe usado pelo alvo.",
+        "effect": "Copia o último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 84
+      },
+      "text": {
+        "short_effect": "Escolhe e usa aleatoriamente um golpe do jogo.",
+        "effect": "Escolhe e usa aleatoriamente um golpe do jogo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 85
+      },
+      "text": {
+        "short_effect": "Planta sementes no alvo e drena seus PS a cada turno.",
+        "effect": "Planta sementes no alvo e drena seus PS a cada turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 86
+      },
+      "text": {
+        "short_effect": "Não tem efeito.",
+        "effect": "Não tem efeito."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 87
+      },
+      "text": {
+        "short_effect": "Desabilita o último golpe usado pelo alvo por um a oito turnos.",
+        "effect": "Desabilita o último golpe usado pelo alvo por um a oito turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 88
+      },
+      "text": {
+        "short_effect": "Causa dano equivalente ao nível do usuário.",
+        "effect": "Causa dano equivalente ao nível do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 89
+      },
+      "text": {
+        "short_effect": "Causa dano entre 50% e 150% do nível do usuário.",
+        "effect": "Causa dano entre 50% e 150% do nível do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 90
+      },
+      "text": {
+        "short_effect": "Devolve o dobro do dano recebido pelo último ataque físico.",
+        "effect": "Devolve o dobro do dano recebido pelo último ataque físico."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 91
+      },
+      "text": {
+        "short_effect": "Força o alvo a repetir seu último golpe por dois a seis turnos.",
+        "effect": "Força o alvo a repetir seu último golpe por dois a seis turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 92
+      },
+      "text": {
+        "short_effect": "Iguala os PS do usuário e do alvo à média de seus PS atuais.",
+        "effect": "Iguala os PS do usuário e do alvo à média de seus PS atuais."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 93
+      },
+      "text": {
+        "short_effect": "Só funciona enquanto o usuário dorme. Pode fazer o alvo hesitar.",
+        "effect": "Só funciona enquanto o usuário dorme. Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 94
+      },
+      "text": {
+        "short_effect": "Muda o tipo do usuário para um tipo aleatório resistente ou imune ao último golpe recebido.",
+        "effect": "Muda o tipo do usuário para um tipo aleatório resistente ou imune ao último golpe recebido."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 95
+      },
+      "text": {
+        "short_effect": "Garante que o próximo golpe do usuário acerte o alvo.",
+        "effect": "Garante que o próximo golpe do usuário acerte o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 96
+      },
+      "text": {
+        "short_effect": "É substituído permanentemente pelo último golpe usado pelo alvo.",
+        "effect": "É substituído permanentemente pelo último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 98
+      },
+      "text": {
+        "short_effect": "Usa aleatoriamente um dos outros três golpes do usuário enquanto ele dorme.",
+        "effect": "Usa aleatoriamente um dos outros três golpes do usuário enquanto ele dorme."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 99
+      },
+      "text": {
+        "short_effect": "Se o usuário desmaiar neste turno, o alvo também desmaia.",
+        "effect": "Se o usuário desmaiar neste turno, o alvo também desmaia."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 100
+      },
+      "text": {
+        "short_effect": "Quanto menos PS o usuário tiver, maior o poder, até o máximo de 200.",
+        "effect": "Quanto menos PS o usuário tiver, maior o poder, até o máximo de 200."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 101
+      },
+      "text": {
+        "short_effect": "Reduz em quatro os PP do último golpe usado pelo alvo.",
+        "effect": "Reduz em quatro os PP do último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 102
+      },
+      "text": {
+        "short_effect": "Deixa o alvo com pelo menos 1 PS.",
+        "effect": "Deixa o alvo com pelo menos 1 PS."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 103
+      },
+      "text": {
+        "short_effect": "Cura as condições de estado de toda a equipe.",
+        "effect": "Cura as condições de estado de toda a equipe."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 104
+      },
+      "text": {
+        "short_effect": "Causa dano sem efeitos adicionais.",
+        "effect": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 105
+      },
+      "text": {
+        "short_effect": "Atinge três vezes, aumentando o poder em 100% a cada acerto.",
+        "effect": "Atinge três vezes, aumentando o poder em 100% a cada acerto."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 106
+      },
+      "text": {
+        "short_effect": "Rouba o item do alvo.",
+        "effect": "Rouba o item do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 107
+      },
+      "text": {
+        "short_effect": "Impede o alvo de sair da batalha.",
+        "effect": "Impede o alvo de sair da batalha."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 108
+      },
+      "text": {
+        "short_effect": "O alvo perde um quarto dos PS máximos a cada turno enquanto dorme.",
+        "effect": "O alvo perde um quarto dos PS máximos a cada turno enquanto dorme."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 109
+      },
+      "text": {
+        "short_effect": "Aumenta a evasão do usuário em dois estágios.",
+        "effect": "Aumenta a evasão do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 110
+      },
+      "text": {
+        "short_effect": "Usuários do tipo Fantasma sacrificam metade dos PS máximos para amaldiçoar o alvo. Outros reduzem sua Velocidade e aumentam seu Ataque e sua Defesa.",
+        "effect": "Usuários do tipo Fantasma sacrificam metade dos PS máximos para amaldiçoar o alvo. Outros reduzem sua Velocidade e aumentam seu Ataque e sua Defesa."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 112
+      },
+      "text": {
+        "short_effect": "Protege o usuário de golpes neste turno.",
+        "effect": "Protege o usuário de golpes neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 113
+      },
+      "text": {
+        "short_effect": "Espalha espinhos que causam dano aos adversários quando entram em campo.",
+        "effect": "Espalha espinhos que causam dano aos adversários quando entram em campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 114
+      },
+      "text": {
+        "short_effect": "Ignora a evasão do alvo e permite que golpes Normais e Lutadores atinjam alvos do tipo Fantasma.",
+        "effect": "Ignora a evasão do alvo e permite que golpes Normais e Lutadores atinjam alvos do tipo Fantasma."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 115
+      },
+      "text": {
+        "short_effect": "O usuário e o alvo desmaiam após três turnos.",
+        "effect": "O usuário e o alvo desmaiam após três turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 116
+      },
+      "text": {
+        "short_effect": "Cria uma tempestade de areia por cinco turnos.",
+        "effect": "Cria uma tempestade de areia por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 117
+      },
+      "text": {
+        "short_effect": "Impede que os PS do usuário caiam abaixo de 1 neste turno.",
+        "effect": "Impede que os PS do usuário caiam abaixo de 1 neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 118
+      },
+      "text": {
+        "short_effect": "O poder dobra a cada uso consecutivo e volta ao normal após cinco turnos.",
+        "effect": "O poder dobra a cada uso consecutivo e volta ao normal após cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 119
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque do alvo em dois estágios e o deixa confuso.",
+        "effect": "Aumenta o Ataque do alvo em dois estágios e o deixa confuso."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 120
+      },
+      "text": {
+        "short_effect": "O poder dobra a cada uso consecutivo, atingindo o máximo após cinco turnos.",
+        "effect": "O poder dobra a cada uso consecutivo, atingindo o máximo após cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 121
+      },
+      "text": {
+        "short_effect": "Deixa o alvo de sexo oposto apaixonado, com 50% de chance de não atacar o usuário.",
+        "effect": "Deixa o alvo de sexo oposto apaixonado, com 50% de chance de não atacar o usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 122
+      },
+      "text": {
+        "short_effect": "O poder aumenta com a amizade, até o máximo de 102.",
+        "effect": "O poder aumenta com a amizade, até o máximo de 102."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 123
+      },
+      "text": {
+        "short_effect": "Causa dano com poder aleatório entre 40 e 120 ou recupera um quarto dos PS máximos do alvo.",
+        "effect": "Causa dano com poder aleatório entre 40 e 120 ou recupera um quarto dos PS máximos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 124
+      },
+      "text": {
+        "short_effect": "O poder aumenta quanto menor for a amizade, até o máximo de 102.",
+        "effect": "O poder aumenta quanto menor for a amizade, até o máximo de 102."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 125
+      },
+      "text": {
+        "short_effect": "Protege o lado do usuário contra condições de estado e confusão por cinco turnos.",
+        "effect": "Protege o lado do usuário contra condições de estado e confusão por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 126
+      },
+      "text": {
+        "short_effect": "Pode queimar o alvo. Descongela o usuário.",
+        "effect": "Pode queimar o alvo. Descongela o usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 127
+      },
+      "text": {
+        "short_effect": "O poder varia aleatoriamente entre 10 e 150.",
+        "effect": "O poder varia aleatoriamente entre 10 e 150."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 128
+      },
+      "text": {
+        "short_effect": "Permite trocar o usuário e transferir seus efeitos ao substituto.",
+        "effect": "Permite trocar o usuário e transferir seus efeitos ao substituto."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 129
+      },
+      "text": {
+        "short_effect": "Atinge alvos que tentam sair de campo com o dobro do poder.",
+        "effect": "Atinge alvos que tentam sair de campo com o dobro do poder."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 130
+      },
+      "text": {
+        "short_effect": "Liberta o usuário de golpes que o prendem e remove sementes e espinhos.",
+        "effect": "Liberta o usuário de golpes que o prendem e remove sementes e espinhos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 131
+      },
+      "text": {
+        "short_effect": "Causa exatamente 20 PS de dano.",
+        "effect": "Causa exatamente 20 PS de dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 133
+      },
+      "text": {
+        "short_effect": "Recupera metade dos PS máximos do usuário. A recuperação varia com o clima.",
+        "effect": "Recupera metade dos PS máximos do usuário. A recuperação varia com o clima."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 136
+      },
+      "text": {
+        "short_effect": "O tipo e o poder dependem dos IVs do usuário. O poder varia entre 30 e 70.",
+        "effect": "O tipo e o poder dependem dos IVs do usuário. O poder varia entre 30 e 70."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 137
+      },
+      "text": {
+        "short_effect": "Faz chover por cinco turnos.",
+        "effect": "Faz chover por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 138
+      },
+      "text": {
+        "short_effect": "Intensifica a luz solar por cinco turnos.",
+        "effect": "Intensifica a luz solar por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 139
+      },
+      "text": {
+        "short_effect": "Pode aumentar a Defesa do usuário em um estágio.",
+        "effect": "Pode aumentar a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 140
+      },
+      "text": {
+        "short_effect": "Pode aumentar o Ataque do usuário em um estágio.",
+        "effect": "Pode aumentar o Ataque do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 141
+      },
+      "text": {
+        "short_effect": "Pode aumentar todos os atributos do usuário em um estágio.",
+        "effect": "Pode aumentar todos os atributos do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 143
+      },
+      "text": {
+        "short_effect": "Consome metade dos PS máximos do usuário para elevar seu Ataque ao máximo.",
+        "effect": "Consome metade dos PS máximos do usuário para elevar seu Ataque ao máximo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 144
+      },
+      "text": {
+        "short_effect": "Substitui as alterações de atributos do usuário pelas do alvo.",
+        "effect": "Substitui as alterações de atributos do usuário pelas do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 145
+      },
+      "text": {
+        "short_effect": "Devolve o dobro do dano recebido pelo último ataque especial.",
+        "effect": "Devolve o dobro do dano recebido pelo último ataque especial."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 146
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa do usuário em um estágio e prepara o ataque por um turno.",
+        "effect": "Aumenta a Defesa do usuário em um estágio e prepara o ataque por um turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 147
+      },
+      "text": {
+        "short_effect": "Pode fazer o alvo hesitar.",
+        "effect": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 148
+      },
+      "text": {
+        "short_effect": "Causa dano e pode atingir alvos que estejam usando Dig.",
+        "effect": "Causa dano e pode atingir alvos que estejam usando Dig."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 149
+      },
+      "text": {
+        "short_effect": "Atinge o alvo dois turnos depois.",
+        "effect": "Atinge o alvo dois turnos depois."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 150
+      },
+      "text": {
+        "short_effect": "Causa dano e pode atingir Pokémon que estejam no ar.",
+        "effect": "Causa dano e pode atingir Pokémon que estejam no ar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 151
+      },
+      "text": {
+        "short_effect": "Pode fazer o alvo hesitar.",
+        "effect": "Pode fazer o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 152
+      },
+      "text": {
+        "short_effect": "Precisa de um turno de preparação antes de atacar.",
+        "effect": "Precisa de um turno de preparação antes de atacar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 153
+      },
+      "text": {
+        "short_effect": "Pode paralisar o alvo.",
+        "effect": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 154
+      },
+      "text": {
+        "short_effect": "Encerra batalhas contra Pokémon selvagens. Não tem efeito em outras batalhas.",
+        "effect": "Encerra batalhas contra Pokémon selvagens. Não tem efeito em outras batalhas."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 155
+      },
+      "text": {
+        "short_effect": "Atinge uma vez para cada Pokémon da equipe que não esteja desmaiado.",
+        "effect": "Atinge uma vez para cada Pokémon da equipe que não esteja desmaiado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 156
+      },
+      "text": {
+        "short_effect": "O usuário voa alto, evita ataques e atinge o alvo no próximo turno.",
+        "effect": "O usuário voa alto, evita ataques e atinge o alvo no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 157
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa do usuário em um estágio.",
+        "effect": "Aumenta a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 159
+      },
+      "text": {
+        "short_effect": "Só funciona no primeiro turno do usuário em campo e faz o alvo hesitar.",
+        "effect": "Só funciona no primeiro turno do usuário em campo e faz o alvo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 160
+      },
+      "text": {
+        "short_effect": "O usuário repete este golpe por vários turnos. Nenhum Pokémon pode dormir nesse período.",
+        "effect": "O usuário repete este golpe por vários turnos. Nenhum Pokémon pode dormir nesse período."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 161
+      },
+      "text": {
+        "short_effect": "Armazena energia até três vezes para usar com Spit Up ou Swallow.",
+        "effect": "Armazena energia até três vezes para usar com Spit Up ou Swallow."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 162
+      },
+      "text": {
+        "short_effect": "O poder é igual a 100 vezes a quantidade de energia armazenada com Stockpile.",
+        "effect": "O poder é igual a 100 vezes a quantidade de energia armazenada com Stockpile."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 163
+      },
+      "text": {
+        "short_effect": "Recupera um quarto, metade ou todos os PS conforme tenha usado Stockpile uma, duas ou três vezes.",
+        "effect": "Recupera um quarto, metade ou todos os PS conforme tenha usado Stockpile uma, duas ou três vezes."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 165
+      },
+      "text": {
+        "short_effect": "Provoca granizo por cinco turnos.",
+        "effect": "Provoca granizo por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 166
+      },
+      "text": {
+        "short_effect": "Impede o alvo de usar o mesmo golpe duas vezes seguidas.",
+        "effect": "Impede o alvo de usar o mesmo golpe duas vezes seguidas."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 167
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque Especial do alvo em um estágio e o deixa confuso.",
+        "effect": "Aumenta o Ataque Especial do alvo em um estágio e o deixa confuso."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 168
+      },
+      "text": {
+        "short_effect": "Queima o alvo.",
+        "effect": "Queima o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 169
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque e o Ataque Especial do alvo em dois estágios. O usuário desmaia.",
+        "effect": "Reduz o Ataque e o Ataque Especial do alvo em dois estágios. O usuário desmaia."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 170
+      },
+      "text": {
+        "short_effect": "O poder dobra se o usuário estiver queimado, paralisado ou envenenado.",
+        "effect": "O poder dobra se o usuário estiver queimado, paralisado ou envenenado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 171
+      },
+      "text": {
+        "short_effect": "O ataque falha se o usuário receber dano antes de agir.",
+        "effect": "O ataque falha se o usuário receber dano antes de agir."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 172
+      },
+      "text": {
+        "short_effect": "Causa o dobro do dano contra alvos paralisados e cura a paralisia.",
+        "effect": "Causa o dobro do dano contra alvos paralisados e cura a paralisia."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 173
+      },
+      "text": {
+        "short_effect": "Atrai para o usuário os golpes de alvo único neste turno.",
+        "effect": "Atrai para o usuário os golpes de alvo único neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 174
+      },
+      "text": {
+        "short_effect": "Usa um golpe que depende do ambiente.",
+        "effect": "Usa um golpe que depende do ambiente."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 175
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa Especial do usuário em um estágio e dobra o poder de seus golpes Elétricos no próximo turno.",
+        "effect": "Aumenta a Defesa Especial do usuário em um estágio e dobra o poder de seus golpes Elétricos no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 176
+      },
+      "text": {
+        "short_effect": "Por alguns turnos, o alvo só pode usar golpes que causam dano.",
+        "effect": "Por alguns turnos, o alvo só pode usar golpes que causam dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 177
+      },
+      "text": {
+        "short_effect": "Aumenta em 50% o dano do próximo golpe do aliado.",
+        "effect": "Aumenta em 50% o dano do próximo golpe do aliado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 178
+      },
+      "text": {
+        "short_effect": "Troca os itens do usuário e do alvo.",
+        "effect": "Troca os itens do usuário e do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 179
+      },
+      "text": {
+        "short_effect": "Copia a habilidade do alvo.",
+        "effect": "Copia a habilidade do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 180
+      },
+      "text": {
+        "short_effect": "O usuário recupera metade dos PS máximos ao final do próximo turno.",
+        "effect": "O usuário recupera metade dos PS máximos ao final do próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 181
+      },
+      "text": {
+        "short_effect": "Usa aleatoriamente um golpe de outro Pokémon da equipe.",
+        "effect": "Usa aleatoriamente um golpe de outro Pokémon da equipe."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 182
+      },
+      "text": {
+        "short_effect": "Prende o usuário em campo e recupera um dezesseis avos de seus PS máximos a cada turno.",
+        "effect": "Prende o usuário em campo e recupera um dezesseis avos de seus PS máximos a cada turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 183
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque e a Defesa do usuário em um estágio após causar dano.",
+        "effect": "Reduz o Ataque e a Defesa do usuário em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 184
+      },
+      "text": {
+        "short_effect": "Reflete o primeiro golpe de estado direcionado ao usuário neste turno.",
+        "effect": "Reflete o primeiro golpe de estado direcionado ao usuário neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 185
+      },
+      "text": {
+        "short_effect": "Recupera o último item consumido pelo usuário.",
+        "effect": "Recupera o último item consumido pelo usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 186
+      },
+      "text": {
+        "short_effect": "Causa o dobro do dano se o usuário receber dano antes de atacar neste turno.",
+        "effect": "Causa o dobro do dano se o usuário receber dano antes de atacar neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 187
+      },
+      "text": {
+        "short_effect": "Destrói Reflect e Light Screen.",
+        "effect": "Destrói Reflect e Light Screen."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 188
+      },
+      "text": {
+        "short_effect": "Faz o alvo dormir ao final do próximo turno.",
+        "effect": "Faz o alvo dormir ao final do próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 189
+      },
+      "text": {
+        "short_effect": "Remove o item segurado pelo alvo.",
+        "effect": "Remove o item segurado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 190
+      },
+      "text": {
+        "short_effect": "Reduz os PS do alvo até igualá-los aos PS do usuário.",
+        "effect": "Reduz os PS do alvo até igualá-los aos PS do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 191
+      },
+      "text": {
+        "short_effect": "Quanto mais PS o usuário tiver, maior o poder, até o máximo de 150.",
+        "effect": "Quanto mais PS o usuário tiver, maior o poder, até o máximo de 150."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 192
+      },
+      "text": {
+        "short_effect": "Troca as habilidades do usuário e do alvo.",
+        "effect": "Troca as habilidades do usuário e do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 193
+      },
+      "text": {
+        "short_effect": "Impede o alvo de usar golpes que o usuário também conhece.",
+        "effect": "Impede o alvo de usar golpes que o usuário também conhece."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 194
+      },
+      "text": {
+        "short_effect": "Cura queimadura, paralisia ou envenenamento do usuário.",
+        "effect": "Cura queimadura, paralisia ou envenenamento do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 195
+      },
+      "text": {
+        "short_effect": "Se o usuário desmaiar neste turno, os PP do golpe que o derrotou caem para zero.",
+        "effect": "Se o usuário desmaiar neste turno, os PP do golpe que o derrotou caem para zero."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 196
+      },
+      "text": {
+        "short_effect": "Rouba o efeito de um golpe que o alvo usaria em si mesmo.",
+        "effect": "Rouba o efeito de um golpe que o alvo usaria em si mesmo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 197
+      },
+      "text": {
+        "short_effect": "Quanto mais pesado o alvo, maior o poder, até o máximo de 120.",
+        "effect": "Quanto mais pesado o alvo, maior o poder, até o máximo de 120."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 198
+      },
+      "text": {
+        "short_effect": "Pode causar uma condição de estado que depende do ambiente.",
+        "effect": "Pode causar uma condição de estado que depende do ambiente."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 199
+      },
+      "text": {
+        "short_effect": "O usuário recebe um terço do dano causado como dano de recuo.",
+        "effect": "O usuário recebe um terço do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 200
+      },
+      "text": {
+        "short_effect": "Deixa o alvo confuso.",
+        "effect": "Deixa o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 201
+      },
+      "text": {
+        "short_effect": "Tem maior chance de acerto crítico e pode queimar o alvo.",
+        "effect": "Tem maior chance de acerto crítico e pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 202
+      },
+      "text": {
+        "short_effect": "Reduz pela metade o dano de golpes Elétricos.",
+        "effect": "Reduz pela metade o dano de golpes Elétricos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 203
+      },
+      "text": {
+        "short_effect": "Pode envenenar gravemente o alvo.",
+        "effect": "Pode envenenar gravemente o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 204
+      },
+      "text": {
+        "short_effect": "Sob um clima ativo, dobra o poder e muda de tipo conforme o clima.",
+        "effect": "Sob um clima ativo, dobra o poder e muda de tipo conforme o clima."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 205
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque Especial do usuário em dois estágios após causar dano.",
+        "effect": "Reduz o Ataque Especial do usuário em dois estágios após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 206
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque e a Defesa do alvo em um estágio.",
+        "effect": "Reduz o Ataque e a Defesa do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 207
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa e a Defesa Especial do usuário em um estágio.",
+        "effect": "Aumenta a Defesa e a Defesa Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 208
+      },
+      "text": {
+        "short_effect": "Causa dano e pode atingir alvos que estejam usando Bounce ou Fly.",
+        "effect": "Causa dano e pode atingir alvos que estejam usando Bounce ou Fly."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 209
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque e a Defesa do usuário em um estágio.",
+        "effect": "Aumenta o Ataque e a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 210
+      },
+      "text": {
+        "short_effect": "Tem maior chance de acerto crítico e pode envenenar o alvo.",
+        "effect": "Tem maior chance de acerto crítico e pode envenenar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 211
+      },
+      "text": {
+        "short_effect": "Reduz pela metade o dano de golpes de Fogo.",
+        "effect": "Reduz pela metade o dano de golpes de Fogo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 212
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque Especial e a Defesa Especial do usuário em um estágio.",
+        "effect": "Aumenta o Ataque Especial e a Defesa Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 213
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque e a Velocidade do usuário em um estágio.",
+        "effect": "Aumenta o Ataque e a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 214
+      },
+      "text": {
+        "short_effect": "Muda o tipo do usuário conforme o ambiente.",
+        "effect": "Muda o tipo do usuário conforme o ambiente."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 215
+      },
+      "text": {
+        "short_effect": "Recupera metade dos PS máximos do usuário.",
+        "effect": "Recupera metade dos PS máximos do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 216
+      },
+      "text": {
+        "short_effect": "Por cinco turnos, desabilita golpes e imunidades relacionados a voo ou levitação.",
+        "effect": "Por cinco turnos, desabilita golpes e imunidades relacionados a voo ou levitação."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 217
+      },
+      "text": {
+        "short_effect": "Ignora a evasão do alvo e permite que golpes Psíquicos atinjam alvos do tipo Sombrio.",
+        "effect": "Ignora a evasão do alvo e permite que golpes Psíquicos atinjam alvos do tipo Sombrio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 218
+      },
+      "text": {
+        "short_effect": "Dobra o poder contra alvos adormecidos e os acorda.",
+        "effect": "Dobra o poder contra alvos adormecidos e os acorda."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 219
+      },
+      "text": {
+        "short_effect": "Reduz a Velocidade do usuário em um estágio.",
+        "effect": "Reduz a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 220
+      },
+      "text": {
+        "short_effect": "Quanto mais lento o usuário, maior o poder, até o máximo de 150.",
+        "effect": "Quanto mais lento o usuário, maior o poder, até o máximo de 150."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 221
+      },
+      "text": {
+        "short_effect": "O usuário desmaia. Seu substituto recupera todos os PS e é curado de condições de estado.",
+        "effect": "O usuário desmaia. Seu substituto recupera todos os PS e é curado de condições de estado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 222
+      },
+      "text": {
+        "short_effect": "Dobra o poder contra alvos com menos da metade dos PS máximos.",
+        "effect": "Dobra o poder contra alvos com menos da metade dos PS máximos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 223
+      },
+      "text": {
+        "short_effect": "O poder e o tipo dependem da fruta segurada.",
+        "effect": "O poder e o tipo dependem da fruta segurada."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 224
+      },
+      "text": {
+        "short_effect": "Atinge o alvo mesmo sob Protect ou Detect.",
+        "effect": "Atinge o alvo mesmo sob Protect ou Detect."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 225
+      },
+      "text": {
+        "short_effect": "Se o alvo segurar uma fruta, dobra o dano e consome a fruta.",
+        "effect": "Se o alvo segurar uma fruta, dobra o dano e consome a fruta."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 226
+      },
+      "text": {
+        "short_effect": "Dobra a Velocidade dos aliados por três turnos.",
+        "effect": "Dobra a Velocidade dos aliados por três turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 227
+      },
+      "text": {
+        "short_effect": "Aumenta um atributo aleatório de um aliado em dois estágios.",
+        "effect": "Aumenta um atributo aleatório de um aliado em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 228
+      },
+      "text": {
+        "short_effect": "Devolve 1,5 vez o dano ao último Pokémon que atingiu o usuário neste turno.",
+        "effect": "Devolve 1,5 vez o dano ao último Pokémon que atingiu o usuário neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 229
+      },
+      "text": {
+        "short_effect": "O usuário sai de campo após atacar.",
+        "effect": "O usuário sai de campo após atacar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 230
+      },
+      "text": {
+        "short_effect": "Reduz a Defesa e a Defesa Especial do usuário em um estágio após causar dano.",
+        "effect": "Reduz a Defesa e a Defesa Especial do usuário em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 231
+      },
+      "text": {
+        "short_effect": "O poder dobra se o alvo já tiver agido neste turno.",
+        "effect": "O poder dobra se o alvo já tiver agido neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 232
+      },
+      "text": {
+        "short_effect": "O poder dobra se o alvo já tiver recebido dano neste turno.",
+        "effect": "O poder dobra se o alvo já tiver recebido dano neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 233
+      },
+      "text": {
+        "short_effect": "Impede o alvo de usar itens segurados.",
+        "effect": "Impede o alvo de usar itens segurados."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 234
+      },
+      "text": {
+        "short_effect": "Arremessa o item segurado contra o alvo. O poder depende do item.",
+        "effect": "Arremessa o item segurado contra o alvo. O poder depende do item."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 235
+      },
+      "text": {
+        "short_effect": "Transfere a condição de estado do usuário para o alvo.",
+        "effect": "Transfere a condição de estado do usuário para o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 236
+      },
+      "text": {
+        "short_effect": "Quanto menos PP restarem, maior o poder, até o máximo de 200.",
+        "effect": "Quanto menos PP restarem, maior o poder, até o máximo de 200."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 237
+      },
+      "text": {
+        "short_effect": "Impede o alvo de recuperar PS por cinco turnos.",
+        "effect": "Impede o alvo de recuperar PS por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 238
+      },
+      "text": {
+        "short_effect": "Quanto mais PS o alvo tiver, maior o poder, até o máximo de 121.",
+        "effect": "Quanto mais PS o alvo tiver, maior o poder, até o máximo de 121."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 239
+      },
+      "text": {
+        "short_effect": "Troca o Ataque e a Defesa do usuário.",
+        "effect": "Troca o Ataque e a Defesa do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 240
+      },
+      "text": {
+        "short_effect": "Anula a habilidade do alvo até ele sair de campo.",
+        "effect": "Anula a habilidade do alvo até ele sair de campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 241
+      },
+      "text": {
+        "short_effect": "Impede o alvo de conseguir acertos críticos por cinco turnos.",
+        "effect": "Impede o alvo de conseguir acertos críticos por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 242
+      },
+      "text": {
+        "short_effect": "Usa o golpe do alvo antes dele, com poder aumentado em 50%.",
+        "effect": "Usa o golpe do alvo antes dele, com poder aumentado em 50%."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 243
+      },
+      "text": {
+        "short_effect": "Usa o último golpe usado pelo alvo.",
+        "effect": "Usa o último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 244
+      },
+      "text": {
+        "short_effect": "Troca as alterações de Ataque e Ataque Especial do usuário com as do alvo.",
+        "effect": "Troca as alterações de Ataque e Ataque Especial do usuário com as do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 245
+      },
+      "text": {
+        "short_effect": "Troca as alterações de Defesa e Defesa Especial do usuário com as do alvo.",
+        "effect": "Troca as alterações de Defesa e Defesa Especial do usuário com as do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 246
+      },
+      "text": {
+        "short_effect": "Quanto mais aumentos de atributos o alvo tiver, maior o poder, até o máximo de 200.",
+        "effect": "Quanto mais aumentos de atributos o alvo tiver, maior o poder, até o máximo de 200."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 247
+      },
+      "text": {
+        "short_effect": "Só funciona após o usuário ter usado todos os seus outros golpes.",
+        "effect": "Só funciona após o usuário ter usado todos os seus outros golpes."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 248
+      },
+      "text": {
+        "short_effect": "Muda a habilidade do alvo para Insomnia.",
+        "effect": "Muda a habilidade do alvo para Insomnia."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 249
+      },
+      "text": {
+        "short_effect": "Só funciona se o alvo estiver prestes a usar um golpe que causa dano.",
+        "effect": "Só funciona se o alvo estiver prestes a usar um golpe que causa dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 250
+      },
+      "text": {
+        "short_effect": "Espalha espinhos venenosos que envenenam adversários quando entram em campo.",
+        "effect": "Espalha espinhos venenosos que envenenam adversários quando entram em campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 251
+      },
+      "text": {
+        "short_effect": "Troca as alterações de atributos do usuário com as do alvo.",
+        "effect": "Troca as alterações de atributos do usuário com as do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 252
+      },
+      "text": {
+        "short_effect": "Recupera um dezesseis avos dos PS máximos do usuário a cada turno.",
+        "effect": "Recupera um dezesseis avos dos PS máximos do usuário a cada turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 253
+      },
+      "text": {
+        "short_effect": "Torna o usuário imune a golpes e efeitos do tipo Terrestre por cinco turnos.",
+        "effect": "Torna o usuário imune a golpes e efeitos do tipo Terrestre por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 254
+      },
+      "text": {
+        "short_effect": "Pode queimar o alvo. O usuário recebe um terço do dano causado como dano de recuo.",
+        "effect": "Pode queimar o alvo. O usuário recebe um terço do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 255
+      },
+      "text": {
+        "short_effect": "O usuário perde um quarto de seus PS máximos como dano de recuo.",
+        "effect": "O usuário perde um quarto de seus PS máximos como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 256
+      },
+      "text": {
+        "short_effect": "O usuário mergulha, evita ataques e atinge o alvo no próximo turno.",
+        "effect": "O usuário mergulha, evita ataques e atinge o alvo no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 257
+      },
+      "text": {
+        "short_effect": "O usuário se enterra, evita ataques e atinge o alvo no próximo turno.",
+        "effect": "O usuário se enterra, evita ataques e atinge o alvo no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 258
+      },
+      "text": {
+        "short_effect": "Causa dano e pode atingir alvos que estejam usando Dive.",
+        "effect": "Causa dano e pode atingir alvos que estejam usando Dive."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 259
+      },
+      "text": {
+        "short_effect": "Reduz a evasão do alvo em um estágio e remove efeitos do lado adversário do campo.",
+        "effect": "Reduz a evasão do alvo em um estágio e remove efeitos do lado adversário do campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 260
+      },
+      "text": {
+        "short_effect": "Por cinco turnos, Pokémon mais lentos agem antes dos mais rápidos.",
+        "effect": "Por cinco turnos, Pokémon mais lentos agem antes dos mais rápidos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 261
+      },
+      "text": {
+        "short_effect": "Pode congelar o alvo.",
+        "effect": "Pode congelar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 262
+      },
+      "text": {
+        "short_effect": "Prende o alvo e causa dano de um dezesseis avos de seus PS máximos por dois a cinco turnos.",
+        "effect": "Prende o alvo e causa dano de um dezesseis avos de seus PS máximos por dois a cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 263
+      },
+      "text": {
+        "short_effect": "Pode paralisar o alvo. O usuário recebe um terço do dano causado como dano de recuo.",
+        "effect": "Pode paralisar o alvo. O usuário recebe um terço do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 264
+      },
+      "text": {
+        "short_effect": "O usuário salta alto, evita ataques e atinge o alvo no próximo turno.",
+        "effect": "O usuário salta alto, evita ataques e atinge o alvo no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 266
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque Especial do alvo em dois estágios se ele for do sexo oposto.",
+        "effect": "Reduz o Ataque Especial do alvo em dois estágios se ele for do sexo oposto."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 267
+      },
+      "text": {
+        "short_effect": "Causa dano aos adversários quando entram em campo.",
+        "effect": "Causa dano aos adversários quando entram em campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 268
+      },
+      "text": {
+        "short_effect": "A chance de confundir o alvo aumenta com o volume do som gravado.",
+        "effect": "A chance de confundir o alvo aumenta com o volume do som gravado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 269
+      },
+      "text": {
+        "short_effect": "O tipo do golpe depende da placa ou do disco segurado pelo usuário.",
+        "effect": "O tipo do golpe depende da placa ou do disco segurado pelo usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 270
+      },
+      "text": {
+        "short_effect": "O usuário recebe metade do dano causado como dano de recuo.",
+        "effect": "O usuário recebe metade do dano causado como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 271
+      },
+      "text": {
+        "short_effect": "O usuário desmaia e seu substituto é completamente curado.",
+        "effect": "O usuário desmaia e seu substituto é completamente curado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 272
+      },
+      "text": {
+        "short_effect": "Pode reduzir a Defesa Especial do alvo em dois estágios.",
+        "effect": "Pode reduzir a Defesa Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 273
+      },
+      "text": {
+        "short_effect": "O usuário desaparece, evita ataques e ataca no próximo turno, atravessando Protect e Detect.",
+        "effect": "O usuário desaparece, evita ataques e ataca no próximo turno, atravessando Protect e Detect."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 274
+      },
+      "text": {
+        "short_effect": "Pode queimar o alvo e fazê-lo hesitar.",
+        "effect": "Pode queimar o alvo e fazê-lo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 275
+      },
+      "text": {
+        "short_effect": "Pode congelar o alvo e fazê-lo hesitar.",
+        "effect": "Pode congelar o alvo e fazê-lo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 276
+      },
+      "text": {
+        "short_effect": "Pode paralisar o alvo e fazê-lo hesitar.",
+        "effect": "Pode paralisar o alvo e fazê-lo hesitar."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 277
+      },
+      "text": {
+        "short_effect": "Pode aumentar o Ataque Especial do usuário em um estágio.",
+        "effect": "Pode aumentar o Ataque Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 278
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque e a precisão do usuário em um estágio.",
+        "effect": "Aumenta o Ataque e a precisão do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 279
+      },
+      "text": {
+        "short_effect": "Protege os aliados de golpes que atingem vários alvos neste turno.",
+        "effect": "Protege os aliados de golpes que atingem vários alvos neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 280
+      },
+      "text": {
+        "short_effect": "Iguala a Defesa e a Defesa Especial do usuário e do alvo às respectivas médias.",
+        "effect": "Iguala a Defesa e a Defesa Especial do usuário e do alvo às respectivas médias."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 281
+      },
+      "text": {
+        "short_effect": "Iguala o Ataque e o Ataque Especial do usuário e do alvo às respectivas médias.",
+        "effect": "Iguala o Ataque e o Ataque Especial do usuário e do alvo às respectivas médias."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 282
+      },
+      "text": {
+        "short_effect": "Troca a Defesa e a Defesa Especial de todos os Pokémon por cinco turnos.",
+        "effect": "Troca a Defesa e a Defesa Especial de todos os Pokémon por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 283
+      },
+      "text": {
+        "short_effect": "Calcula o dano usando a Defesa do alvo em vez da Defesa Especial.",
+        "effect": "Calcula o dano usando a Defesa do alvo em vez da Defesa Especial."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 284
+      },
+      "text": {
+        "short_effect": "Causa o dobro do dano se o alvo estiver envenenado.",
+        "effect": "Causa o dobro do dano se o alvo estiver envenenado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 285
+      },
+      "text": {
+        "short_effect": "Aumenta a Velocidade do usuário em dois estágios e reduz seu peso pela metade.",
+        "effect": "Aumenta a Velocidade do usuário em dois estágios e reduz seu peso pela metade."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 286
+      },
+      "text": {
+        "short_effect": "Golpes contra o alvo têm 100% de precisão por três turnos.",
+        "effect": "Golpes contra o alvo têm 100% de precisão por três turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 287
+      },
+      "text": {
+        "short_effect": "Anula os efeitos dos itens segurados por cinco turnos.",
+        "effect": "Anula os efeitos dos itens segurados por cinco turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 288
+      },
+      "text": {
+        "short_effect": "Remove imunidades a dano do tipo Terrestre.",
+        "effect": "Remove imunidades a dano do tipo Terrestre."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 289
+      },
+      "text": {
+        "short_effect": "Sempre resulta em acerto crítico.",
+        "effect": "Sempre resulta em acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 290
+      },
+      "text": {
+        "short_effect": "Também causa dano aos Pokémon adjacentes ao alvo.",
+        "effect": "Também causa dano aos Pokémon adjacentes ao alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 291
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque Especial, a Defesa Especial e a Velocidade do usuário em um estágio.",
+        "effect": "Aumenta o Ataque Especial, a Defesa Especial e a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 292
+      },
+      "text": {
+        "short_effect": "Quanto mais pesado o usuário for em relação ao alvo, maior o poder, até o máximo de 120.",
+        "effect": "Quanto mais pesado o usuário for em relação ao alvo, maior o poder, até o máximo de 120."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 293
+      },
+      "text": {
+        "short_effect": "Atinge todos os Pokémon que compartilham um tipo com o usuário.",
+        "effect": "Atinge todos os Pokémon que compartilham um tipo com o usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 294
+      },
+      "text": {
+        "short_effect": "Quanto mais rápido o usuário for em relação ao alvo, maior o poder, até o máximo de 150.",
+        "effect": "Quanto mais rápido o usuário for em relação ao alvo, maior o poder, até o máximo de 150."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 295
+      },
+      "text": {
+        "short_effect": "Muda o tipo do alvo para Água.",
+        "effect": "Muda o tipo do alvo para Água."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 296
+      },
+      "text": {
+        "short_effect": "Causa dano e aumenta a Velocidade do usuário em um estágio.",
+        "effect": "Causa dano e aumenta a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 297
+      },
+      "text": {
+        "short_effect": "Reduz a Defesa Especial do alvo em dois estágios.",
+        "effect": "Reduz a Defesa Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 298
+      },
+      "text": {
+        "short_effect": "Calcula o dano usando o atributo de ataque do alvo.",
+        "effect": "Calcula o dano usando o atributo de ataque do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 299
+      },
+      "text": {
+        "short_effect": "Muda a habilidade do alvo para Simple.",
+        "effect": "Muda a habilidade do alvo para Simple."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 300
+      },
+      "text": {
+        "short_effect": "Substitui a habilidade do alvo pela habilidade do usuário.",
+        "effect": "Substitui a habilidade do alvo pela habilidade do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 301
+      },
+      "text": {
+        "short_effect": "Faz o alvo agir logo em seguida neste turno.",
+        "effect": "Faz o alvo agir logo em seguida neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 302
+      },
+      "text": {
+        "short_effect": "O poder dobra se o golpe for usado mais de uma vez no mesmo turno.",
+        "effect": "O poder dobra se o golpe for usado mais de uma vez no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 303
+      },
+      "text": {
+        "short_effect": "O poder aumenta em 100% a cada uso consecutivo por aliados, até o máximo de 200.",
+        "effect": "O poder aumenta em 100% a cada uso consecutivo por aliados, até o máximo de 200."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 304
+      },
+      "text": {
+        "short_effect": "Ignora as alterações de atributos do alvo.",
+        "effect": "Ignora as alterações de atributos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 305
+      },
+      "text": {
+        "short_effect": "Remove todas as alterações de atributos do alvo.",
+        "effect": "Remove todas as alterações de atributos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 306
+      },
+      "text": {
+        "short_effect": "O poder aumenta com os aumentos de atributos do usuário, até 31 vezes o valor inicial.",
+        "effect": "O poder aumenta com os aumentos de atributos do usuário, até 31 vezes o valor inicial."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 307
+      },
+      "text": {
+        "short_effect": "Protege os aliados de golpes com prioridade neste turno.",
+        "effect": "Protege os aliados de golpes com prioridade neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 308
+      },
+      "text": {
+        "short_effect": "Troca a posição do usuário com a do aliado do lado oposto.",
+        "effect": "Troca a posição do usuário com a do aliado do lado oposto."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 309
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque, o Ataque Especial e a Velocidade em dois estágios, mas reduz a Defesa e a Defesa Especial em um estágio.",
+        "effect": "Aumenta o Ataque, o Ataque Especial e a Velocidade em dois estágios, mas reduz a Defesa e a Defesa Especial em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 310
+      },
+      "text": {
+        "short_effect": "Recupera metade dos PS máximos do alvo.",
+        "effect": "Recupera metade dos PS máximos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 311
+      },
+      "text": {
+        "short_effect": "O poder dobra se o alvo tiver uma condição de estado.",
+        "effect": "O poder dobra se o alvo tiver uma condição de estado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 312
+      },
+      "text": {
+        "short_effect": "Leva o alvo para o alto, evita ataques contra ambos e o solta no próximo turno.",
+        "effect": "Leva o alvo para o alto, evita ataques contra ambos e o solta no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 313
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque do usuário em um estágio e sua Velocidade em dois estágios.",
+        "effect": "Aumenta o Ataque do usuário em um estágio e sua Velocidade em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 314
+      },
+      "text": {
+        "short_effect": "Encerra batalhas contra Pokémon selvagens. Contra Treinadores, força a troca do alvo.",
+        "effect": "Encerra batalhas contra Pokémon selvagens. Contra Treinadores, força a troca do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 315
+      },
+      "text": {
+        "short_effect": "Destrói a fruta segurada pelo alvo.",
+        "effect": "Destrói a fruta segurada pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 316
+      },
+      "text": {
+        "short_effect": "Faz o alvo agir por último neste turno.",
+        "effect": "Faz o alvo agir por último neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 317
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque e o Ataque Especial do usuário em um estágio.",
+        "effect": "Aumenta o Ataque e o Ataque Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 318
+      },
+      "text": {
+        "short_effect": "O poder dobra se o usuário não estiver segurando um item.",
+        "effect": "O poder dobra se o usuário não estiver segurando um item."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 319
+      },
+      "text": {
+        "short_effect": "O usuário adota o tipo do alvo.",
+        "effect": "O usuário adota o tipo do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 320
+      },
+      "text": {
+        "short_effect": "O poder dobra se um aliado tiver desmaiado no turno anterior.",
+        "effect": "O poder dobra se um aliado tiver desmaiado no turno anterior."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 321
+      },
+      "text": {
+        "short_effect": "Causa dano equivalente aos PS restantes do usuário, que desmaia em seguida.",
+        "effect": "Causa dano equivalente aos PS restantes do usuário, que desmaia em seguida."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 322
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque Especial do usuário em três estágios.",
+        "effect": "Aumenta o Ataque Especial do usuário em três estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 323
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque, a Defesa e a precisão do usuário em um estágio.",
+        "effect": "Aumenta o Ataque, a Defesa e a precisão do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 324
+      },
+      "text": {
+        "short_effect": "Entrega o item segurado pelo usuário ao alvo.",
+        "effect": "Entrega o item segurado pelo usuário ao alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 325
+      },
+      "text": {
+        "short_effect": "Com Grass Pledge, reduz pela metade a Velocidade dos adversários por quatro turnos.",
+        "effect": "Com Grass Pledge, reduz pela metade a Velocidade dos adversários por quatro turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 326
+      },
+      "text": {
+        "short_effect": "Com Water Pledge, dobra a chance dos efeitos adicionais dos golpes aliados por quatro turnos.",
+        "effect": "Com Water Pledge, dobra a chance dos efeitos adicionais dos golpes aliados por quatro turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 327
+      },
+      "text": {
+        "short_effect": "Com Fire Pledge, causa dano de um oitavo dos PS máximos dos adversários por turno durante quatro turnos.",
+        "effect": "Com Fire Pledge, causa dano de um oitavo dos PS máximos dos adversários por turno durante quatro turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 328
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque e o Ataque Especial do usuário em um estágio.",
+        "effect": "Aumenta o Ataque e o Ataque Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 329
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa do usuário em três estágios.",
+        "effect": "Aumenta a Defesa do usuário em três estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 330
+      },
+      "text": {
+        "short_effect": "Pode fazer o alvo dormir.",
+        "effect": "Pode fazer o alvo dormir."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 331
+      },
+      "text": {
+        "short_effect": "Reduz a Velocidade do alvo em um estágio.",
+        "effect": "Reduz a Velocidade do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 332
+      },
+      "text": {
+        "short_effect": "Precisa de um turno de preparação e pode paralisar o alvo.",
+        "effect": "Precisa de um turno de preparação e pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 333
+      },
+      "text": {
+        "short_effect": "Precisa de um turno de preparação e pode queimar o alvo.",
+        "effect": "Precisa de um turno de preparação e pode queimar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 334
+      },
+      "text": {
+        "short_effect": "Pode deixar o alvo confuso.",
+        "effect": "Pode deixar o alvo confuso."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 335
+      },
+      "text": {
+        "short_effect": "Reduz a Defesa, a Defesa Especial e a Velocidade do usuário em um estágio.",
+        "effect": "Reduz a Defesa, a Defesa Especial e a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 336
+      },
+      "text": {
+        "short_effect": "Causa o dobro do dano quando combinado com Fusion Bolt.",
+        "effect": "Causa o dobro do dano quando combinado com Fusion Bolt."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 337
+      },
+      "text": {
+        "short_effect": "Causa o dobro do dano quando combinado com Fusion Flare.",
+        "effect": "Causa o dobro do dano quando combinado com Fusion Flare."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 338
+      },
+      "text": {
+        "short_effect": "Causa dano dos tipos Lutador e Voador ao mesmo tempo.",
+        "effect": "Causa dano dos tipos Lutador e Voador ao mesmo tempo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 339
+      },
+      "text": {
+        "short_effect": "Só funciona após o usuário ter comido uma fruta.",
+        "effect": "Só funciona após o usuário ter comido uma fruta."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 340
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque e o Ataque Especial de todos os Pokémon do tipo Planta em campo.",
+        "effect": "Aumenta o Ataque e o Ataque Especial de todos os Pokémon do tipo Planta em campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 341
+      },
+      "text": {
+        "short_effect": "Cobre o lado adversário do campo com uma teia que reduz a Velocidade de quem entra em um estágio.",
+        "effect": "Cobre o lado adversário do campo com uma teia que reduz a Velocidade de quem entra em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 342
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque do usuário em dois estágios se nocautear o alvo.",
+        "effect": "Aumenta o Ataque do usuário em dois estágios se nocautear o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 343
+      },
+      "text": {
+        "short_effect": "Acrescenta o tipo Fantasma aos tipos do alvo.",
+        "effect": "Acrescenta o tipo Fantasma aos tipos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 344
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque e o Ataque Especial do alvo em um estágio.",
+        "effect": "Reduz o Ataque e o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 345
+      },
+      "text": {
+        "short_effect": "Transforma todos os golpes Normais em Elétricos até o fim do turno.",
+        "effect": "Transforma todos os golpes Normais em Elétricos até o fim do turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 346
+      },
+      "text": {
+        "short_effect": "Recupera PS equivalentes à metade do dano total causado a todos os alvos.",
+        "effect": "Recupera PS equivalentes à metade do dano total causado a todos os alvos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 347
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque e o Ataque Especial de todos os alvos em um estágio e faz o usuário sair de campo.",
+        "effect": "Reduz o Ataque e o Ataque Especial de todos os alvos em um estágio e faz o usuário sair de campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 348
+      },
+      "text": {
+        "short_effect": "Inverte as alterações de atributos do alvo.",
+        "effect": "Inverte as alterações de atributos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 349
+      },
+      "text": {
+        "short_effect": "Recupera PS equivalentes a 75% do dano causado.",
+        "effect": "Recupera PS equivalentes a 75% do dano causado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 350
+      },
+      "text": {
+        "short_effect": "Protege todos os aliados de golpes que não causam dano.",
+        "effect": "Protege todos os aliados de golpes que não causam dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 351
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa de todos os Pokémon do tipo Planta em campo.",
+        "effect": "Aumenta a Defesa de todos os Pokémon do tipo Planta em campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 352
+      },
+      "text": {
+        "short_effect": "Por cinco turnos, recupera um dezesseis avos dos PS máximos dos Pokémon no chão a cada turno e aumenta em 50% o poder de seus golpes de Planta.",
+        "effect": "Por cinco turnos, recupera um dezesseis avos dos PS máximos dos Pokémon no chão a cada turno e aumenta em 50% o poder de seus golpes de Planta."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 353
+      },
+      "text": {
+        "short_effect": "Por cinco turnos, protege Pokémon no chão contra condições de estado e confusão e reduz pela metade o poder de golpes de Dragão recebidos.",
+        "effect": "Por cinco turnos, protege Pokémon no chão contra condições de estado e confusão e reduz pela metade o poder de golpes de Dragão recebidos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 354
+      },
+      "text": {
+        "short_effect": "Transforma o próximo golpe do alvo em Elétrico se ele ainda não tiver agido neste turno.",
+        "effect": "Transforma o próximo golpe do alvo em Elétrico se ele ainda não tiver agido neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 355
+      },
+      "text": {
+        "short_effect": "Impede todos os Pokémon de fugir ou sair de campo durante o próximo turno.",
+        "effect": "Impede todos os Pokémon de fugir ou sair de campo durante o próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 356
+      },
+      "text": {
+        "short_effect": "Bloqueia ataques e reduz o Ataque de quem fizer contato em dois estágios. Muda Aegislash para a Forma Escudo.",
+        "effect": "Bloqueia ataques e reduz o Ataque de quem fizer contato em dois estágios. Muda Aegislash para a Forma Escudo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 357
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque do alvo em um estágio.",
+        "effect": "Reduz o Ataque do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 358
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque Especial do alvo em um estágio.",
+        "effect": "Reduz o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 359
+      },
+      "text": {
+        "short_effect": "Pode aumentar a Defesa do usuário em dois estágios para cada alvo atingido.",
+        "effect": "Pode aumentar a Defesa do usuário em dois estágios para cada alvo atingido."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 360
+      },
+      "text": {
+        "short_effect": "Ignora e destrói efeitos de proteção.",
+        "effect": "Ignora e destrói efeitos de proteção."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 361
+      },
+      "text": {
+        "short_effect": "Atinge de duas a cinco vezes.",
+        "effect": "Atinge de duas a cinco vezes."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 362
+      },
+      "text": {
+        "short_effect": "Bloqueia ataques e causa dano de um oitavo dos PS máximos a quem fizer contato.",
+        "effect": "Bloqueia ataques e causa dano de um oitavo dos PS máximos a quem fizer contato."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 363
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa Especial do aliado escolhido em um estágio.",
+        "effect": "Aumenta a Defesa Especial do aliado escolhido em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 364
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque, o Ataque Especial e a Velocidade do alvo em um estágio se ele estiver envenenado.",
+        "effect": "Reduz o Ataque, o Ataque Especial e a Velocidade do alvo em um estágio se ele estiver envenenado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 365
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque do alvo em um estágio.",
+        "effect": "Reduz o Ataque do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 366
+      },
+      "text": {
+        "short_effect": "Após um turno de preparação, aumenta o Ataque Especial, a Defesa Especial e a Velocidade do usuário em dois estágios.",
+        "effect": "Após um turno de preparação, aumenta o Ataque Especial, a Defesa Especial e a Velocidade do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 367
+      },
+      "text": {
+        "short_effect": "Aumenta a Defesa e a Defesa Especial dos aliados com Plus ou Minus em um estágio.",
+        "effect": "Aumenta a Defesa e a Defesa Especial dos aliados com Plus ou Minus em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 368
+      },
+      "text": {
+        "short_effect": "Dobra o dinheiro recebido ao vencer a batalha.",
+        "effect": "Dobra o dinheiro recebido ao vencer a batalha."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 369
+      },
+      "text": {
+        "short_effect": "Por cinco turnos, impede Pokémon no chão de dormir e aumenta em 50% o poder de seus golpes Elétricos.",
+        "effect": "Por cinco turnos, impede Pokémon no chão de dormir e aumenta em 50% o poder de seus golpes Elétricos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 370
+      },
+      "text": {
+        "short_effect": "Não tem efeito.",
+        "effect": "Não tem efeito."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 371
+      },
+      "text": {
+        "short_effect": "Não tem efeito.",
+        "effect": "Não tem efeito."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 372
+      },
+      "text": {
+        "short_effect": "Pode paralisar o alvo.",
+        "effect": "Pode paralisar o alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 373
+      },
+      "text": {
+        "short_effect": "Derruba o alvo no chão e atinge até Pokémon Voadores ou que estejam levitando.",
+        "effect": "Derruba o alvo no chão e atinge até Pokémon Voadores ou que estejam levitando."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 374
+      },
+      "text": {
+        "short_effect": "Impede o alvo de sair da batalha.",
+        "effect": "Impede o alvo de sair da batalha."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 375
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque do usuário em um estágio após causar dano.",
+        "effect": "Aumenta o Ataque do usuário em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 376
+      },
+      "text": {
+        "short_effect": "Acrescenta o tipo Planta aos tipos do alvo.",
+        "effect": "Acrescenta o tipo Planta aos tipos do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 377
+      },
+      "text": {
+        "short_effect": "Protege todos os aliados de golpes que causam dano. Só funciona no primeiro turno do usuário em campo.",
+        "effect": "Protege todos os aliados de golpes que causam dano. Só funciona no primeiro turno do usuário em campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 378
+      },
+      "text": {
+        "short_effect": "Explode se o alvo usar um golpe de Fogo neste turno, causando dano de um quarto dos PS máximos e impedindo o golpe.",
+        "effect": "Explode se o alvo usar um golpe de Fogo neste turno, causando dano de um quarto dos PS máximos e impedindo o golpe."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 379
+      },
+      "text": {
+        "short_effect": "Causa dano sem efeitos adicionais.",
+        "effect": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 380
+      },
+      "text": {
+        "short_effect": "É supereficaz contra o tipo Água.",
+        "effect": "É supereficaz contra o tipo Água."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 381
+      },
+      "text": {
+        "short_effect": "Nunca erra.",
+        "effect": "Nunca erra."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 382
+      },
+      "text": {
+        "short_effect": "Recupera metade dos PS máximos do usuário, ou dois terços durante uma tempestade de areia.",
+        "effect": "Recupera metade dos PS máximos do usuário, ou dois terços durante uma tempestade de areia."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 383
+      },
+      "text": {
+        "short_effect": "Só funciona no primeiro turno do usuário em campo.",
+        "effect": "Só funciona no primeiro turno do usuário em campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 384
+      },
+      "text": {
+        "short_effect": "Protege o usuário até o fim do turno e envenena quem tentar atingi-lo com um golpe de contato.",
+        "effect": "Protege o usuário até o fim do turno e envenena quem tentar atingi-lo com um golpe de contato."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 385
+      },
+      "text": {
+        "short_effect": "Prende o alvo em campo.",
+        "effect": "Prende o alvo em campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 386
+      },
+      "text": {
+        "short_effect": "Cura a queimadura do alvo.",
+        "effect": "Cura a queimadura do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 387
+      },
+      "text": {
+        "short_effect": "Recupera metade dos PS máximos do alvo, ou dois terços sob Grassy Terrain.",
+        "effect": "Recupera metade dos PS máximos do alvo, ou dois terços sob Grassy Terrain."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 388
+      },
+      "text": {
+        "short_effect": "Recupera PS equivalentes ao Ataque atual do alvo e reduz o Ataque dele em um estágio.",
+        "effect": "Recupera PS equivalentes ao Ataque atual do alvo e reduz o Ataque dele em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 389
+      },
+      "text": {
+        "short_effect": "Faz os adversários do alvo direcionarem seus ataques a ele até o fim do turno.",
+        "effect": "Faz os adversários do alvo direcionarem seus ataques a ele até o fim do turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 390
+      },
+      "text": {
+        "short_effect": "Envenena o alvo e reduz sua Velocidade em um estágio.",
+        "effect": "Envenena o alvo e reduz sua Velocidade em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 391
+      },
+      "text": {
+        "short_effect": "Garante um acerto crítico no próximo golpe do usuário.",
+        "effect": "Garante um acerto crítico no próximo golpe do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 392
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque e o Ataque Especial dos aliados com Plus ou Minus em um estágio.",
+        "effect": "Aumenta o Ataque e o Ataque Especial dos aliados com Plus ou Minus em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 393
+      },
+      "text": {
+        "short_effect": "Impede o alvo de usar golpes sonoros por dois turnos.",
+        "effect": "Impede o alvo de usar golpes sonoros por dois turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 394
+      },
+      "text": {
+        "short_effect": "Causa dano aos adversários, mas recupera metade dos PS máximos dos aliados.",
+        "effect": "Causa dano aos adversários, mas recupera metade dos PS máximos dos aliados."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 395
+      },
+      "text": {
+        "short_effect": "Protege Pokémon no chão contra golpes com prioridade e aumenta em 50% o poder de seus golpes Psíquicos.",
+        "effect": "Protege Pokémon no chão contra golpes com prioridade e aumenta em 50% o poder de seus golpes Psíquicos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 396
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque do alvo em um estágio após causar dano.",
+        "effect": "Reduz o Ataque do alvo em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 397
+      },
+      "text": {
+        "short_effect": "Reduz a Defesa do alvo em um estágio após causar dano.",
+        "effect": "Reduz a Defesa do alvo em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 398
+      },
+      "text": {
+        "short_effect": "Remove o tipo Fogo do usuário após causar dano.",
+        "effect": "Remove o tipo Fogo do usuário após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 399
+      },
+      "text": {
+        "short_effect": "Troca a Velocidade do usuário com a do alvo.",
+        "effect": "Troca a Velocidade do usuário com a do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 400
+      },
+      "text": {
+        "short_effect": "Cura a condição de estado do alvo e recupera metade dos PS máximos do usuário.",
+        "effect": "Cura a condição de estado do alvo e recupera metade dos PS máximos do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 401
+      },
+      "text": {
+        "short_effect": "Tem o mesmo tipo do usuário.",
+        "effect": "Tem o mesmo tipo do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 402
+      },
+      "text": {
+        "short_effect": "Anula a habilidade do alvo se ele agir antes.",
+        "effect": "Anula a habilidade do alvo se ele agir antes."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 403
+      },
+      "text": {
+        "short_effect": "Força o alvo a repetir seu último golpe.",
+        "effect": "Força o alvo a repetir seu último golpe."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 404
+      },
+      "text": {
+        "short_effect": "Queima quem fizer contato com o usuário antes do ataque.",
+        "effect": "Queima quem fizer contato com o usuário antes do ataque."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 405
+      },
+      "text": {
+        "short_effect": "Reduz a Defesa do usuário em um estágio após causar dano.",
+        "effect": "Reduz a Defesa do usuário em um estágio após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 406
+      },
+      "text": {
+        "short_effect": "Causa dano sem efeitos adicionais.",
+        "effect": "Causa dano sem efeitos adicionais."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 407
+      },
+      "text": {
+        "short_effect": "Reduz o dano recebido por cinco turnos. Só pode ser usado durante granizo.",
+        "effect": "Reduz o dano recebido por cinco turnos. Só pode ser usado durante granizo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 408
+      },
+      "text": {
+        "short_effect": "Só causa dano se o usuário tiver sido atingido por um golpe físico neste turno.",
+        "effect": "Só causa dano se o usuário tiver sido atingido por um golpe físico neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 409
+      },
+      "text": {
+        "short_effect": "O poder dobra se o último golpe do usuário tiver falhado.",
+        "effect": "O poder dobra se o último golpe do usuário tiver falhado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 410
+      },
+      "text": {
+        "short_effect": "Rouba os aumentos de atributos do alvo antes de causar dano.",
+        "effect": "Rouba os aumentos de atributos do alvo antes de causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 411
+      },
+      "text": {
+        "short_effect": "Ignora habilidades que poderiam interferir no golpe.",
+        "effect": "Ignora habilidades que poderiam interferir no golpe."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 412
+      },
+      "text": {
+        "short_effect": "Reduz o Ataque e o Ataque Especial do alvo em um estágio.",
+        "effect": "Reduz o Ataque e o Ataque Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 413
+      },
+      "text": {
+        "short_effect": "Causa dano equivalente a 75% dos PS restantes do alvo.",
+        "effect": "Causa dano equivalente a 75% dos PS restantes do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 414
+      },
+      "text": {
+        "short_effect": "Aumenta todos os atributos do usuário em dois estágios.",
+        "effect": "Aumenta todos os atributos do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 415
+      },
+      "text": {
+        "short_effect": "Ativa Psychic Terrain após causar dano.",
+        "effect": "Ativa Psychic Terrain após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 416
+      },
+      "text": {
+        "short_effect": "Calcula o dano usando o Ataque ou o Ataque Especial do usuário, o que for maior.",
+        "effect": "Calcula o dano usando o Ataque ou o Ataque Especial do usuário, o que for maior."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 417
+      },
+      "text": {
+        "short_effect": "Causa dano e transforma golpes Normais em Elétricos até o fim do turno.",
+        "effect": "Causa dano e transforma golpes Normais em Elétricos até o fim do turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 418
+      },
+      "text": {
+        "short_effect": "Causa dano e remove o terreno ativo do campo.",
+        "effect": "Causa dano e remove o terreno ativo do campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 419
+      },
+      "text": {
+        "short_effect": "Atinge todos os adversários e aumenta o Ataque, a Defesa, o Ataque Especial, a Defesa Especial e a Velocidade do usuário em um estágio.",
+        "effect": "Atinge todos os adversários e aumenta o Ataque, a Defesa, o Ataque Especial, a Defesa Especial e a Velocidade do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 420
+      },
+      "text": {
+        "short_effect": "Causa dano e faz o usuário perder metade dos PS máximos, arredondada para cima.",
+        "effect": "Causa dano e faz o usuário perder metade dos PS máximos, arredondada para cima."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 421
+      },
+      "text": {
+        "short_effect": "Causa o dobro do dano se o alvo estiver em Dynamax.",
+        "effect": "Causa o dobro do dano se o alvo estiver em Dynamax."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 422
+      },
+      "text": {
+        "short_effect": "Ignora golpes e habilidades adversários que redirecionam ataques, atingindo o alvo escolhido.",
+        "effect": "Ignora golpes e habilidades adversários que redirecionam ataques, atingindo o alvo escolhido."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 423
+      },
+      "text": {
+        "short_effect": "Planta sementes no alvo após causar dano.",
+        "effect": "Planta sementes no alvo após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 424
+      },
+      "text": {
+        "short_effect": "Cura as condições de estado de toda a equipe após causar dano.",
+        "effect": "Cura as condições de estado de toda a equipe após causar dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 425
+      },
+      "text": {
+        "short_effect": "Atinge duas vezes, com chance de fazer o alvo hesitar a cada acerto.",
+        "effect": "Atinge duas vezes, com chance de fazer o alvo hesitar a cada acerto."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 443
+      },
+      "text": {
+        "short_effect": "Atinge de duas a cinco vezes e depois aumenta a Velocidade e reduz a Defesa do usuário em um estágio.",
+        "effect": "Atinge de duas a cinco vezes e depois aumenta a Velocidade e reduz a Defesa do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 445
+      },
+      "text": {
+        "short_effect": "Impede o usuário e o alvo de sair de campo.",
+        "effect": "Impede o usuário e o alvo de sair de campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 446
+      },
+      "text": {
+        "short_effect": "O usuário consome sua fruta e aumenta sua Defesa em dois estágios.",
+        "effect": "O usuário consome sua fruta e aumenta sua Defesa em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 447
+      },
+      "text": {
+        "short_effect": "Impede o usuário de sair de campo e aumenta todos os seus atributos em um estágio.",
+        "effect": "Impede o usuário de sair de campo e aumenta todos os seus atributos em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 448
+      },
+      "text": {
+        "short_effect": "Reduz a Velocidade do alvo em um estágio e dobra a eficácia de golpes de Fogo contra ele até que saia de campo.",
+        "effect": "Reduz a Velocidade do alvo em um estágio e dobra a eficácia de golpes de Fogo contra ele até que saia de campo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 449
+      },
+      "text": {
+        "short_effect": "Muda o tipo do alvo para Psíquico.",
+        "effect": "Muda o tipo do alvo para Psíquico."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 450
+      },
+      "text": {
+        "short_effect": "Atinge duas vezes. Em batalhas em dupla, atinge ambos os adversários; se não puder atingir um deles, atinge o outro duas vezes.",
+        "effect": "Atinge duas vezes. Em batalhas em dupla, atinge ambos os adversários; se não puder atingir um deles, atinge o outro duas vezes."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 451
+      },
+      "text": {
+        "short_effect": "Todos os Pokémon em campo consomem suas frutas.",
+        "effect": "Todos os Pokémon em campo consomem suas frutas."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 452
+      },
+      "text": {
+        "short_effect": "Prende o alvo em campo e reduz sua Defesa e sua Defesa Especial em um estágio ao fim de cada turno.",
+        "effect": "Prende o alvo em campo e reduz sua Defesa e sua Defesa Especial em um estágio ao fim de cada turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 453
+      },
+      "text": {
+        "short_effect": "O poder dobra se o usuário agir antes do alvo.",
+        "effect": "O poder dobra se o usuário agir antes do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 454
+      },
+      "text": {
+        "short_effect": "Troca os efeitos de campo entre o lado do usuário e o lado do alvo.",
+        "effect": "Troca os efeitos de campo entre o lado do usuário e o lado do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 455
+      },
+      "text": {
+        "short_effect": "Ao acertar, reduz o Ataque Especial de todos os adversários em um estágio.",
+        "effect": "Ao acertar, reduz o Ataque Especial de todos os adversários em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 456
+      },
+      "text": {
+        "short_effect": "Ao acertar, reduz a Velocidade de todos os adversários em um estágio.",
+        "effect": "Ao acertar, reduz a Velocidade de todos os adversários em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 457
+      },
+      "text": {
+        "short_effect": "Ao acertar, aumenta o Ataque do usuário e de seus aliados em um estágio.",
+        "effect": "Ao acertar, aumenta o Ataque do usuário e de seus aliados em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 458
+      },
+      "text": {
+        "short_effect": "Ao acertar, reduz a Defesa de todos os adversários em um estágio.",
+        "effect": "Ao acertar, reduz a Defesa de todos os adversários em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 459
+      },
+      "text": {
+        "short_effect": "Ao acertar, aumenta o Ataque Especial do usuário e de seus aliados em um estágio.",
+        "effect": "Ao acertar, aumenta o Ataque Especial do usuário e de seus aliados em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 460
+      },
+      "text": {
+        "short_effect": "Ao acertar, aumenta a Velocidade do usuário e de seus aliados em um estágio.",
+        "effect": "Ao acertar, aumenta a Velocidade do usuário e de seus aliados em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 461
+      },
+      "text": {
+        "short_effect": "Ao acertar, reduz o Ataque de todos os adversários em um estágio.",
+        "effect": "Ao acertar, reduz o Ataque de todos os adversários em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 462
+      },
+      "text": {
+        "short_effect": "Ao acertar, aumenta a Defesa Especial do usuário e de seus aliados em um estágio.",
+        "effect": "Ao acertar, aumenta a Defesa Especial do usuário e de seus aliados em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 463
+      },
+      "text": {
+        "short_effect": "Ao acertar, reduz a Defesa Especial de todos os adversários em um estágio.",
+        "effect": "Ao acertar, reduz a Defesa Especial de todos os adversários em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 464
+      },
+      "text": {
+        "short_effect": "Ao acertar, aumenta a Defesa do usuário e de seus aliados em um estágio.",
+        "effect": "Ao acertar, aumenta a Defesa do usuário e de seus aliados em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 465
+      },
+      "text": {
+        "short_effect": "O usuário perde 33% dos PS máximos e aumenta todos os seus atributos em um estágio.",
+        "effect": "O usuário perde 33% dos PS máximos e aumenta todos os seus atributos em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 466
+      },
+      "text": {
+        "short_effect": "Calcula o dano usando a Defesa do usuário como Ataque, incluindo alterações de estágios.",
+        "effect": "Calcula o dano usando a Defesa do usuário como Ataque, incluindo alterações de estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 467
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque e o Ataque Especial do alvo em dois estágios.",
+        "effect": "Aumenta o Ataque e o Ataque Especial do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 468
+      },
+      "text": {
+        "short_effect": "Aumenta a Velocidade do usuário em um estágio. É Elétrico na forma Full Belly e Sombrio na forma Hangry.",
+        "effect": "Aumenta a Velocidade do usuário em um estágio. É Elétrico na forma Full Belly e Sombrio na forma Hangry."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 469
+      },
+      "text": {
+        "short_effect": "Reduz a Defesa Especial do alvo em um estágio.",
+        "effect": "Reduz a Defesa Especial do alvo em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 470
+      },
+      "text": {
+        "short_effect": "Reduz a Defesa do alvo em um estágio. O dano aumenta em 50% sob o efeito de Gravity.",
+        "effect": "Reduz a Defesa do alvo em um estágio. O dano aumenta em 50% sob o efeito de Gravity."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 471
+      },
+      "text": {
+        "short_effect": "Cada Pokémon do lado do usuário recupera um quarto dos PS máximos.",
+        "effect": "Cada Pokémon do lado do usuário recupera um quarto dos PS máximos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 472
+      },
+      "text": {
+        "short_effect": "Protege o usuário de golpes neste turno. Se bloquear um golpe de contato, reduz a Defesa do usuário em dois estágios.",
+        "effect": "Protege o usuário de golpes neste turno. Se bloquear um golpe de contato, reduz a Defesa do usuário em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 473
+      },
+      "text": {
+        "short_effect": "Sob Psychic Terrain, se o usuário estiver no chão, atinge todos os adversários e aumenta o poder em 50%.",
+        "effect": "Sob Psychic Terrain, se o usuário estiver no chão, atinge todos os adversários e aumenta o poder em 50%."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 474
+      },
+      "text": {
+        "short_effect": "Remove Electric Terrain, Grassy Terrain, Misty Terrain ou Psychic Terrain. Falha se nenhum terreno estiver ativo.",
+        "effect": "Remove Electric Terrain, Grassy Terrain, Misty Terrain ou Psychic Terrain. Falha se nenhum terreno estiver ativo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 475
+      },
+      "text": {
+        "short_effect": "Precisa de um turno de preparação, durante o qual aumenta o Ataque Especial do usuário em um estágio.",
+        "effect": "Precisa de um turno de preparação, durante o qual aumenta o Ataque Especial do usuário em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 476
+      },
+      "text": {
+        "short_effect": "Pode envenenar o alvo. Usa a categoria física ou especial, conforme a que causar mais dano.",
+        "effect": "Pode envenenar o alvo. Usa a categoria física ou especial, conforme a que causar mais dano."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 477
+      },
+      "text": {
+        "short_effect": "Sob Misty Terrain, se o usuário estiver no chão, aumenta o poder em 50%.",
+        "effect": "Sob Misty Terrain, se o usuário estiver no chão, aumenta o poder em 50%."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 478
+      },
+      "text": {
+        "short_effect": "Sob Grassy Terrain, se o usuário estiver no chão, aumenta a prioridade em um.",
+        "effect": "Sob Grassy Terrain, se o usuário estiver no chão, aumenta a prioridade em um."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 479
+      },
+      "text": {
+        "short_effect": "Sob Electric Terrain, se o usuário estiver no chão, dobra o poder.",
+        "effect": "Sob Electric Terrain, se o usuário estiver no chão, dobra o poder."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 480
+      },
+      "text": {
+        "short_effect": "Se houver um terreno ativo e o usuário estiver no chão, dobra o poder e muda de tipo conforme o terreno.",
+        "effect": "Se houver um terreno ativo e o usuário estiver no chão, dobra o poder e muda de tipo conforme o terreno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 481
+      },
+      "text": {
+        "short_effect": "Queima o alvo se algum atributo dele tiver aumentado neste turno.",
+        "effect": "Queima o alvo se algum atributo dele tiver aumentado neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 482
+      },
+      "text": {
+        "short_effect": "O poder dobra se algum atributo do usuário tiver sido reduzido neste turno.",
+        "effect": "O poder dobra se algum atributo do usuário tiver sido reduzido neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 483
+      },
+      "text": {
+        "short_effect": "Falha se o alvo não estiver segurando um item.",
+        "effect": "Falha se o alvo não estiver segurando um item."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 484
+      },
+      "text": {
+        "short_effect": "Aumenta o Ataque e a Defesa do alvo em um estágio. Falha se não houver um aliado adjacente ao usuário.",
+        "effect": "Aumenta o Ataque e a Defesa do alvo em um estágio. Falha se não houver um aliado adjacente ao usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 485
+      },
+      "text": {
+        "short_effect": "Cura as condições de estado de todos os Pokémon do lado do usuário e recupera um quarto de seus PS máximos, arredondado para cima.",
+        "effect": "Cura as condições de estado de todos os Pokémon do lado do usuário e recupera um quarto de seus PS máximos, arredondado para cima."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 486
+      },
+      "text": {
+        "short_effect": "Atinge três vezes e sempre resulta em acerto crítico.",
+        "effect": "Atinge três vezes e sempre resulta em acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 487
+      },
+      "text": {
+        "short_effect": "Remove três PP do último golpe usado pelo alvo.",
+        "effect": "Remove três PP do último golpe usado pelo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 10001
+      },
+      "text": {
+        "short_effect": "Tem maior chance de acerto crítico no Hyper Mode.",
+        "effect": "Tem maior chance de acerto crítico no Hyper Mode."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 10002
+      },
+      "text": {
+        "short_effect": "O usuário perde metade de seus PS como dano de recuo.",
+        "effect": "O usuário perde metade de seus PS como dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 10003
+      },
+      "text": {
+        "short_effect": "Reduz pela metade os PS de todos os Pokémon em campo. O usuário precisa descansar no próximo turno.",
+        "effect": "Reduz pela metade os PS de todos os Pokémon em campo. O usuário precisa descansar no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 10004
+      },
+      "text": {
+        "short_effect": "Reduz a evasão do alvo em dois estágios.",
+        "effect": "Reduz a evasão do alvo em dois estágios."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 10005
+      },
+      "text": {
+        "short_effect": "Remove Light Screen, Reflect e Safeguard.",
+        "effect": "Remove Light Screen, Reflect e Safeguard."
+      }
+    },
+    {
+      "key": {
+        "move_effect_id": 10006
+      },
+      "text": {
+        "short_effect": "Ativa Shadow Sky por cinco turnos.",
+        "effect": "Ativa Shadow Sky por cinco turnos."
+      }
+    }
+  ]
+}

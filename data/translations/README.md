@@ -1,35 +1,98 @@
-# Descrições em português brasileiro
+# Traduções dos recursos
 
-Os arquivos deste diretório complementam os dados vendorizados, usando o idioma
-`pt-br` (ID 13). As traduções são aplicadas ao SQLite antes de gerar o REST e de
-importar o PostgreSQL para GraphQL. Não há consulta a serviços de tradução no
-build nem durante requisições da API.
+Todas as traduções usam um único formato e um único pipeline em
+`scripts/localization.py`. Golpes, habilidades, espécies, itens, formas, Pokédex
+e demais descrições seguem as mesmas etapas de descoberta de fontes, validação
+e gravação. Os textos são aplicados ao SQLite antes da geração do REST e da
+importação do PostgreSQL para GraphQL, sem serviços externos durante o build
+ou as requisições.
 
-Os arquivos `move*.pt-br.txt` contêm os resumos de golpes mantidos pelo projeto.
-Os arquivos `resources/*.json` contêm traduções automáticas dos textos ingleses
-dos demais recursos, inicialmente produzidas com Google Tradutor (`en` → `pt-BR`).
-Descrições com quebras de linha foram retraduzidas com o modelo local
-`gemma4:e4b`, unindo as frases antes da tradução. Os textos receberam ajustes de
-terminologia e revisão por amostragem. Não são traduções oficiais
-da franquia. Nomes próprios de Pokémon, golpes, habilidades e itens são mantidos
-como nos campos de nome em inglês da API.
+## Estrutura única
 
-Cada arquivo JSON corresponde a um modelo relacional. `key` identifica o recurso
-e, quando aplicável, sua versão; `text` contém os campos traduzidos. Para textos
-que variam por jogo, é selecionada a versão inglesa de lançamento mais recente,
-sem substituir os registros dos outros idiomas. Descrições de efeitos e de
-alterações históricas são traduzidas separadamente. Os nomes de espécies são
-copiados do inglês para acompanhar o campo traduzido `genus`.
+`locales.json` registra cada idioma com `name`, `id`, `source_id` e `catalog`.
+O caminho de `catalog` é relativo a este diretório. Cada idioma possui uma pasta,
+como `pt-br/`, com um JSON por modelo relacional, inclusive `MoveFlavorText.json`
+e `MoveEffectEffectText.json` para golpes:
 
-`source_sha256` registra os textos e as chaves do snapshot original. O build
-rejeita arquivos incompletos, fontes alteradas, campos vazios quando o original
-contém texto e textos maiores que os limites dos modelos. Ao atualizar o
-upstream, exporte novamente as fontes para atualizar as traduções e seus hashes:
-
-```sh
-vendor/pokeapi/.venv/bin/python scripts/localize_resources.py --export-sources /tmp/translation-sources.json
+```json
+{
+  "source_sha256": "hash das fontes exportadas para este modelo",
+  "entries": [
+    {
+      "key": {"ability_id": 1},
+      "text": {"effect": "Texto completo", "short_effect": "Resumo"}
+    }
+  ]
+}
 ```
 
-Depois de editar uma tradução, execute `npm run data:build` e `npm test`.
-Para atualizar um PostgreSQL existente, siga o processo de importação em banco
-vazio descrito no README principal.
+`key` identifica o recurso e, quando aplicável, a versão; `text` contém os campos
+traduzidos. As fontes são descobertas pelos campos dos modelos. Para descrições
+que variam por jogo, o pipeline seleciona a versão de lançamento mais recente.
+Nomes próprios de espécies são copiados da origem para acompanhar `genus`.
+
+`sources.json` registra fontes complementares para descrições que não existem no
+upstream. Cada entrada usa `key`, `source` e `copy`, como as fontes exportadas.
+Um campo vazio em `source` indica ausência de texto original. Atualmente são
+23 descrições de golpes já mantidas pelo projeto. Essas entradas passam pelo
+mesmo fluxo dos demais recursos, com validação de chaves, referências, campos,
+hash e textos; não há seleção especial de versões nem montagem de resumos para
+golpes durante o build. As versões dessas fontes são explícitas no catálogo.
+
+## Adicionar ou atualizar traduções
+
+1. Cadastre o idioma nos dados de origem (`Language`) e em `locales.json`.
+2. Exporte as fontes pelo comando comum abaixo, usando `--locale NOME` para
+   selecionar o idioma registrado.
+3. Crie os JSONs no diretório do idioma seguindo o formato comum, preservando as
+   chaves e calculando `source_sha256` com `source_hash` de `scripts/localization.py`.
+4. Execute o teste de traduções e gere novamente os dados.
+
+```sh
+vendor/pokeapi/.venv/bin/python scripts/localization.py --locale pt-br --export-sources /tmp/translation-sources.json
+npm run test:translations
+npm run data:build
+npm test
+```
+
+O hash usa SHA-256 do JSON das fontes do modelo com `ensure_ascii=False` e
+`sort_keys=True`, conforme `source_hash`. A validação rejeita cobertura incompleta,
+fontes alteradas, campos vazios quando há texto original, mudanças em placeholders,
+tokens não resolvidos e textos acima dos limites do banco. O padrão se aplica
+também aos resumos dos golpes. Não é necessário criar scripts por recurso.
+
+A aplicação ocorre em uma transação para todos os idiomas, com uma leitura dos
+registros de destino por modelo e gravações em lotes de até 250 registros.
+Textos inalterados não geram atualizações e os IDs existentes são preservados.
+REST mantém seus shards estáticos; GraphQL usa as tabelas importadas e seus
+filtros e caches existentes. Para atualizar um PostgreSQL existente, siga o
+processo de importação em banco vazio no README principal.
+
+## Seleção pelos consumidores
+
+REST expõe o idioma em `language.name`; GraphQL oferece `language_id` e a relação
+`language`. Consulte `/api/v2/language/` para descobrir idiomas. Quando um texto
+não estiver disponível, o consumidor pode buscar explicitamente o idioma de
+origem como alternativa. Para textos históricos, selecione também a versão
+pretendida: o projeto não traduz todas as versões dos jogos.
+
+| Recurso | Campos REST | Modelos relacionais do GraphQL |
+| --- | --- | --- |
+| Habilidades | `effect_entries`, `flavor_text_entries`, `effect_changes` | `AbilityEffectText`, `AbilityFlavorText`, `AbilityChangeEffectText` |
+| Espécies | `flavor_text_entries`, `genera`, `form_descriptions` | `PokemonSpeciesFlavorText`, `PokemonSpeciesName`, `PokemonSpeciesDescription` |
+| Itens | `effect_entries`, `flavor_text_entries` | `ItemEffectText`, `ItemFlavorText` |
+| Formas e formatos | `flavor_text_entries`, `names` | `PokemonFormFlavorText`, `PokemonShapeName` |
+| Pokédex | `descriptions` | `PokedexDescription` |
+| Golpes | `effect_entries`, `flavor_text_entries` | `MoveEffectEffectText`, `MoveFlavorText` |
+
+Os campos GraphQL seguem `contracts/graphql.schema.graphql`, por exemplo
+`abilityeffecttexts`, `pokemonspeciesflavortexts` e `moveflavortexts`.
+
+## Origem dos textos existentes
+
+Os resumos dos 937 golpes em português brasileiro são mantidos pelo projeto.
+Os textos dos demais recursos foram inicialmente produzidos com Google Tradutor
+(`en` → `pt-BR`); descrições com quebras de linha foram retraduzidas com o modelo
+local `gemma4:e4b`. Houve ajustes de terminologia e revisão por amostragem.
+Não são traduções oficiais da franquia. Os nomes próprios continuam vindos do
+upstream; os resumos de golpes não são traduções integrais dos efeitos longos.

@@ -9,6 +9,7 @@
     "build": "wrangler deploy --dry-run --outdir dist",
     "deploy": "wrangler deploy",
     "test": "node tests/api.test.js && node tests/edge-cache.test.js && node tests/snapshot-cache.test.js && node tests/backend.regression.test.js",
+    "test:translations": "vendor/pokeapi/.venv/bin/python tests/localization.test.py",
     "test:backend": "node tests/backend.regression.test.js",
     "test:compatibility": "node tests/backend.compatibility.test.js",
     "start": "node --max-old-space-size=192 src/backend/server.js",
