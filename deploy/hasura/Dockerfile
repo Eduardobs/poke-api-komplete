@@ -1,0 +1,10 @@
+FROM hasura/graphql-engine:v2.50.2.cli-migrations-v3
+COPY vendor/pokeapi/graphql/v1beta2/metadata /hasura-metadata
+ENV HASURA_GRAPHQL_METADATA_DIR=/hasura-metadata \
+    HASURA_GRAPHQL_UNAUTHORIZED_ROLE=anon \
+    HASURA_GRAPHQL_ENABLE_CONSOLE=false \
+    HASURA_GRAPHQL_DEV_MODE=false \
+    HASURA_GRAPHQL_DISALLOW_INCONSISTENT_METADATA=true \
+    HASURA_GRAPHQL_ENABLE_TELEMETRY=false \
+    HASURA_GRAPHQL_SCHEMA_SYNC_POLL_INTERVAL=0 \
+    GHCRTS="-N1 -M400m"

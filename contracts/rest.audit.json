@@ -1,0 +1,13 @@
+{
+  "mode": "all-records",
+  "reference": {
+    "repository": "https://github.com/PokeAPI/pokeapi",
+    "commit": "5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7",
+    "implementation": "Unmodified official Django views/serializers, same local CSV snapshot"
+  },
+  "comparisons": 15537,
+  "detailResponses": 14134,
+  "encounterResponses": 1351,
+  "publicRoutingContract": "contracts/rest.contract.json",
+  "liveHttpComparison": "Unavailable in this environment: pokeapi.co returned Cloudflare 403 (1010). This report checks the pinned official source, not live data equality."
+}

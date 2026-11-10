@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/PokeAPI/pokeapi",
+  "commit": "5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7",
+  "metadata": "vendor/pokeapi/graphql/v1beta2/metadata",
+  "image": "hasura/graphql-engine:v2.50.2",
+  "role": "anon",
+  "queryFields": 327
+}

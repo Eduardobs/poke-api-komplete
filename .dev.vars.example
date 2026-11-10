@@ -1,0 +1,3 @@
+GRAPHQL_BACKEND_URL="http://localhost:8080/v1beta2"
+# Change on snapshot updates to invalidate the 60-second edge cache immediately.
+CACHE_VERSION="1"

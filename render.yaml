@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: poke-api-komplete
+    runtime: docker
+    plan: free
+    autoDeployTrigger: checksPass
+    dockerfilePath: ./deploy/backend/Dockerfile
+    dockerContext: .
+    healthCheckPath: /healthz
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: PORT
+        value: '8080'
+      - key: PG_POOL_MAX
+        value: '4'

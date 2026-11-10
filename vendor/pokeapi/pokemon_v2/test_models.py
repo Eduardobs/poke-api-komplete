@@ -1,0 +1,268 @@
+import csv
+import os
+import re
+from unittest import mock
+
+from django.conf import settings
+from django.test import TestCase
+from typing_extensions import override
+
+from data.v2.utils import media
+from data.v2.utils.media import POKEMON_SPRITE_CONFIG, pokemon_form_sprite_lookup
+from pokemon_v2.models import *
+
+
+class AbilityTestCase(TestCase):
+    @override
+    def setUp(self):
+        Ability.objects.create(name="Smell", generation_id=3, is_main_series=True)
+
+    def fields_are_valid(self):
+        smell = Ability.objects.get(name="Smell")
+        assert smell.generation is not None
+        self.assertEqual(smell.generation.pk, 3)
+
+
+class EncounterPokemonDetailTestCase(TestCase):
+    def test_unique_encounter_pokemon_details(self):
+        csv_dir = os.path.join(settings.BASE_DIR, "data", "v2", "csv")
+        with open(os.path.join(csv_dir, "encounter_pokemon_details.csv")) as infile:
+            reader = csv.DictReader(infile)
+            encounter_ids = []
+            duplicate_ids = []
+            for row in reader:
+                if row["encounter_id"] in encounter_ids:
+                    duplicate_ids.append(row["encounter_id"])
+                else:
+                    encounter_ids.append(row["encounter_id"])
+
+            if duplicate_ids:
+                self.fail(f"Duplicate encounter ID(s) found in encounter_pokemon_details.csv: {duplicate_ids}")
+
+
+class EvolutionCSVDataIntegrityTestCase(TestCase):
+    """Test data integrity of new evolution foreign keys and evolution variables."""
+
+    def test_required_and_evolved_pokemon_form_foreign_keys(self):
+        csv_dir = os.path.join(settings.BASE_DIR, "data", "v2", "csv")
+        forms_path = os.path.join(csv_dir, "pokemon_forms.csv")
+        with open(forms_path, encoding="utf-8") as f:
+            valid_form_ids = {row["id"] for row in csv.DictReader(f)}
+
+        evo_path = os.path.join(csv_dir, "pokemon_evolution.csv")
+        with open(evo_path, encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                required_pokemon_form_id = row.get("required_pokemon_form_id", "").strip()
+                evolved_pokemon_form_id = row.get("evolved_pokemon_form_id", "").strip()
+                if required_pokemon_form_id:
+                    self.assertIn(
+                        required_pokemon_form_id,
+                        valid_form_ids,
+                        f"Row {row['id']}: '{required_pokemon_form_id=}' doesn't exist in pokemon_forms.csv",
+                    )
+                if evolved_pokemon_form_id:
+                    self.assertIn(
+                        evolved_pokemon_form_id,
+                        valid_form_ids,
+                        f"Row {row['id']}: '{evolved_pokemon_form_id=}' doesn't exist in pokemon_forms.csv",
+                    )
+
+    def test_evolution_triggers_foreign_keys(self):
+        csv_dir = os.path.join(settings.BASE_DIR, "data", "v2", "csv")
+        triggers_path = os.path.join(csv_dir, "evolution_triggers.csv")
+        with open(triggers_path, encoding="utf-8") as f:
+            valid_trigger_ids = {row["id"] for row in csv.DictReader(f)}
+
+        evo_path = os.path.join(csv_dir, "pokemon_evolution.csv")
+        with open(evo_path, encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                trigger_id = row.get("evolution_trigger_id", "").strip()
+                if trigger_id:
+                    self.assertIn(
+                        trigger_id,
+                        valid_trigger_ids,
+                        f"Row {row['id']}: evolution_trigger_id '{trigger_id}' doesn't exist in evolution_triggers.csv",
+                    )
+
+    def test_evolution_variables_integrity(self):
+        csv_dir = os.path.join(settings.BASE_DIR, "data", "v2", "csv")
+        var_path = os.path.join(csv_dir, "evolution_variables.csv")
+        with open(var_path, encoding="utf-8") as f:
+            var_rows = list(csv.DictReader(f))
+            self.assertTrue(len(var_rows) >= 2, "Expected at least 2 evolution variables (EC, PID)")
+            symbols = {r["symbol"] for r in var_rows}
+            self.assertIn("EC", symbols)
+            self.assertIn("PID", symbols)
+
+
+class CSVResourceNameValidationTestCase(TestCase):
+    """
+    Test that all resource identifiers in CSV files follow ASCII slug format.
+
+    Resource identifiers are used in API URLs and should be URL-safe ASCII slugs
+    (lowercase letters, numbers, and hyphens only).
+
+    This test validates the data source (CSV files) before it's loaded into the database.
+    """
+
+    # Pattern for valid resource identifiers: lowercase letters, numbers, and hyphens only
+    VALID_IDENTIFIER_PATTERN = re.compile(r"^[a-z0-9-]+$")
+
+    def test_all_csv_identifiers_are_ascii_slugs(self):
+        """
+        Validate that all resource identifiers in CSV files follow the ASCII slug format.
+
+        Identifiers should only contain:
+        - Lowercase letters (a-z)
+        - Numbers (0-9)
+        - Hyphens (-)
+
+        This test will fail if any CSV contains identifiers with:
+        - Unicode characters (ñ, ', é, etc.)
+        - Uppercase letters
+        - Spaces
+        - Special characters (&, (), ', etc.)
+        """
+        violations = []
+        csv_dir = os.path.join(settings.BASE_DIR, "data", "v2", "csv")
+
+        for filename in sorted(os.listdir(csv_dir)):
+            if not filename.endswith(".csv"):
+                continue
+
+            csv_path = os.path.join(csv_dir, filename)
+
+            try:
+                with open(csv_path, encoding="utf-8") as csvfile:
+                    reader = csv.DictReader(csvfile)
+
+                    if "identifier" not in (reader.fieldnames or []):
+                        continue
+
+                    for row_num, row in enumerate(reader, start=2):
+                        identifier = row.get("identifier", "").strip()
+
+                        # Skip empty identifiers
+                        if not identifier:
+                            continue
+
+                        # Check if identifier matches the pattern
+                        if not self.VALID_IDENTIFIER_PATTERN.match(identifier):
+                            violations.append(
+                                {
+                                    "file": filename,
+                                    "row": row_num,
+                                    "id": row.get("id", "N/A"),
+                                    "identifier": identifier,
+                                }
+                            )
+
+            except Exception as e:  # noqa: BLE001
+                violations.append(
+                    {
+                        "file": filename,
+                        "row": "N/A",
+                        "id": "N/A",
+                        "identifier": f"Error reading file: {e!s}",
+                    }
+                )
+
+        error_lines = []
+
+        # Report violations
+        if violations:
+            error_lines.extend(
+                (
+                    f"\n\nFound {len(violations)} resource(s) with invalid identifiers (not ASCII slugs):",
+                    "\nIdentifiers must match pattern: ^[a-z0-9-]+$",
+                    "\nInvalid identifiers found in CSV files:",
+                )
+            )
+
+            error_lines.extend("  - {file} (row {row}, id={id}): {identifier}".format(**v) for v in violations)
+
+            error_lines.extend(
+                (
+                    "\nThese identifiers contain invalid characters and must be normalized.",
+                    "Update the CSV files in data/v2/csv/ to fix these identifiers.",
+                    "\nSuggested fixes:",
+                    "  - Remove Unicode apostrophes (') and replace with regular hyphens or remove",
+                    "  - Remove Unicode letters (ñ → n)",
+                    "  - Remove parentheses and other special characters",
+                    "  - Convert to lowercase",
+                )
+            )
+
+            self.fail("\n".join(error_lines))
+
+    def test_identifier_pattern_examples(self):
+        """Test that the validation pattern works correctly with example identifiers."""
+        # Valid identifiers
+        valid_identifiers = [
+            "pikachu",
+            "charizard-mega-x",
+            "mr-mime",
+            "ho-oh",
+            "type-null",
+            "item-123",
+            "mega-stone",
+        ]
+
+        for identifier in valid_identifiers:
+            self.assertTrue(
+                self.VALID_IDENTIFIER_PATTERN.match(identifier),
+                f"{identifier} should be valid but was rejected",
+            )
+
+        # Invalid identifiers
+        invalid_identifiers = [
+            "Pikachu",  # Uppercase
+            "Mr. Mime",  # Space and period
+            "kofu's-wallet",  # Unicode apostrophe
+            "jalapeño",  # Unicode ñ
+            "steel-bottle-(r)",  # Parentheses
+            "b&w-grass-tablecloth",  # Ampersand
+            "farfetch'd",  # Apostrophe
+            "kofu's-wallet",  # Regular apostrophe
+        ]
+
+        for identifier in invalid_identifiers:
+            self.assertFalse(
+                self.VALID_IDENTIFIER_PATTERN.match(identifier),
+                f"{identifier} should be invalid but was accepted",
+            )
+
+
+class PokemonSpriteConfigTestCase(TestCase):
+    def test_generation_vi_sprite_group_keys_and_paths(self):
+        # keys are version-group names and each group's sprites live in a folder of the
+        # same name (https://github.com/PokeAPI/pokeapi/issues/1684)
+        gen_vi = POKEMON_SPRITE_CONFIG["versions"]["generation-vi"]
+
+        self.assertEqual(set(gen_vi), {"icons", "omega-ruby-alpha-sapphire", "x-y"})
+        for group, sprites in gen_vi.items():
+            for path, _extension in sprites.values():
+                self.assertTrue(
+                    path.startswith(f"pokemon/versions/generation-vi/{group}/"),
+                    f"{group} path {path} is not under the {group}/ sprites folder",
+                )
+
+    # https://github.com/PokeAPI/pokeapi/issues/1687: unown-a's front sprite is stored as
+    # 201.png, not 201-a.png, so default forms must fall back to the bare pokemon id
+    def test_form_sprite_lookup_falls_back_to_pokemon_id_for_default_forms(self):
+        # pokemon_forms.csv columns: id, identifier, form_identifier, pokemon_id, introduced_in, is_default
+        unown_a = ["201", "unown-a", "a", "201", "3", "1"]
+        unown_b = ["10001", "unown-b", "b", "201", "3", "0"]
+        images = {"pokemon/201.png", "pokemon/back/201-a.png", "pokemon/back/201.png"}
+
+        with mock.patch.object(media, "RESOURCE_IMAGES", images):
+            unown_a_lookup = pokemon_form_sprite_lookup(unown_a)
+            unown_b_lookup = pokemon_form_sprite_lookup(unown_b)
+
+            self.assertEqual(unown_a_lookup("pokemon/", "png"), media.MEDIA_DIR.format(file_name="pokemon/201.png"))
+            # a form-specific sprite still takes precedence over the fallback
+            self.assertEqual(
+                unown_a_lookup("pokemon/back/", "png"), media.MEDIA_DIR.format(file_name="pokemon/back/201-a.png")
+            )
+            # non-default forms never borrow the base pokemon's sprite
+            self.assertIsNone(unown_b_lookup("pokemon/", "png"))

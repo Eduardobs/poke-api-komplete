@@ -1,0 +1,13 @@
+import { getIntrospectionQuery, buildClientSchema, lexicographicSortSchema, printSchema } from 'graphql';
+import { writeFile, readFile } from 'node:fs/promises';
+const url = process.env.HASURA_GRAPHQL_URL;
+if (!url) throw new Error('Set HASURA_GRAPHQL_URL to your own Hasura instance.');
+const response = await fetch(url, { method: 'POST', headers: { 'content-type': 'application/json', 'x-hasura-role': 'anon' }, body: JSON.stringify({ query: getIntrospectionQuery() }) });
+const result = await response.json();
+if (!response.ok || result.errors) throw new Error('Hasura anonymous introspection failed: ' + JSON.stringify(result.errors));
+await writeFile('contracts/graphql.introspection.json', JSON.stringify(result.data) + '\n');
+const schema = lexicographicSortSchema(buildClientSchema(result.data));
+await writeFile('contracts/graphql.schema.graphql', printSchema(schema) + '\n');
+const source = JSON.parse(await readFile('upstream.lock.json', 'utf8'));
+await writeFile('contracts/graphql.provenance.json', JSON.stringify({ repository: source.repository, commit: source.commit, metadata: 'vendor/pokeapi/graphql/v1beta2/metadata', image: 'hasura/graphql-engine:v2.50.2', role: 'anon', queryFields: Object.keys(schema.getQueryType().getFields()).length }, null, 2) + '\n');
+console.log(`Captured official anonymous schema: ${Object.keys(schema.getQueryType().getFields()).length} root fields`);

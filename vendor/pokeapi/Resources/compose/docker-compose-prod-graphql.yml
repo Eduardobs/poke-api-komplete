@@ -1,0 +1,36 @@
+services:
+  cache:
+    restart: "no"
+
+  app:
+    image: pokeapi/pokeapi:master
+    env_file: .env
+    restart: "no"
+
+  web:
+    depends_on:
+      graphiql:
+        condition: service_started
+      graphql-engine:
+        condition: service_healthy
+    logging:
+      driver: gcplogs
+      options:
+        gcp-project: 'pokeapi-215911'
+
+  graphql-engine:
+    cpus: 0.7
+    memswap_limit: 3g
+    mem_limit: 700m
+    environment:
+      HASURA_GRAPHQL_SCHEMA_SYNC_POLL_INTERVAL: 0
+      HASURA_GRAPHQL_EVENTS_HTTP_POOL_SIZE: 10
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
+
+  graphiql:
+    image: pokeapi/graphiql:v1beta2-2.1.0
+    expose:
+      - 80
+    depends_on:
+      - graphql-engine
+    restart: always

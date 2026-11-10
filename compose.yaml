@@ -1,0 +1,45 @@
+name: poke-api-komplete
+services:
+  postgres:
+    image: postgres:18.4-alpine3.24
+    environment:
+      POSTGRES_USER: pokeapi
+      POSTGRES_DB: pokeapi
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+    ports:
+      - '127.0.0.1:5432:5432'
+    volumes:
+      - postgres:/var/lib/postgresql
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U pokeapi -d pokeapi']
+      interval: 2s
+      timeout: 5s
+      retries: 30
+  hasura:
+    profiles: ['reference']
+    build:
+      context: .
+      dockerfile: deploy/hasura/Dockerfile
+    environment:
+      HASURA_GRAPHQL_DATABASE_URL: postgres://pokeapi:${POSTGRES_PASSWORD}@postgres:5432/pokeapi
+      HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_GRAPHQL_ADMIN_SECRET:?Set HASURA_GRAPHQL_ADMIN_SECRET}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - '127.0.0.1:18080:8080'
+  backend:
+    build:
+      context: .
+      dockerfile: deploy/backend/Dockerfile
+    environment:
+      DATABASE_URL: postgres://pokeapi:${POSTGRES_PASSWORD}@postgres:5432/pokeapi
+      PORT: '8080'
+      PG_POOL_MAX: '4'
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - '127.0.0.1:8080:8080'
+volumes:
+  postgres:

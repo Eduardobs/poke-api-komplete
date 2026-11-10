@@ -1,0 +1,10 @@
+{
+  "publicMetaSourceHash": "e2710d30d14b3f4dc6a02a4a71e8619cd835b7ff",
+  "vendoredSourceHash": "5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7",
+  "commitsAhead": 15,
+  "csvModelsAndGraphqlMetadataUnchanged": true,
+  "publicSerializersSha256": "2073edf7dacb34e9429196752c373cbd6cd5f77de87e2bdb3f2d2a01257c48d2",
+  "firstAndLastDetailComparisons": 100,
+  "differences": [],
+  "scope": "Public deployed serializers loaded against the same local snapshot. This does not assert live data equality or sprite-manifest equality."
+}
