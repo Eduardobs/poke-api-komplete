@@ -28,7 +28,8 @@ e `MoveEffectEffectText.json` para golpes:
 
 `key` identifica o recurso e, quando aplicável, a versão; `text` contém os campos
 traduzidos. As fontes são descobertas pelos campos dos modelos. Para descrições
-que variam por jogo, o pipeline seleciona a versão de lançamento mais recente.
+que variam por jogo, o pipeline inclui todas as versões com texto no idioma de
+origem.
 Nomes próprios de espécies são copiados da origem para acompanhar `genus`.
 
 `sources.json` registra fontes complementares para descrições que não existem no
@@ -74,7 +75,8 @@ REST expõe o idioma em `language.name`; GraphQL oferece `language_id` e a rela�
 `language`. Consulte `/api/v2/language/` para descobrir idiomas. Quando um texto
 não estiver disponível, o consumidor pode buscar explicitamente o idioma de
 origem como alternativa. Para textos históricos, selecione também a versão
-pretendida: o projeto não traduz todas as versões dos jogos.
+pretendida: as traduções preservam a chave `version_id` ou `version_group_id`
+de cada fonte.
 
 | Recurso | Campos REST | Modelos relacionais do GraphQL |
 | --- | --- | --- |
@@ -96,3 +98,10 @@ Os textos dos demais recursos foram inicialmente produzidos com Google Tradutor
 local `gemma4:e4b`. Houve ajustes de terminologia e revisão por amostragem.
 Não são traduções oficiais da franquia. Os nomes próprios continuam vindos do
 upstream; os resumos de golpes não são traduções integrais dos efeitos longos.
+
+As descrições históricas ausentes foram traduzidas com `gemma4:e4b` local e
+Google Tradutor (`en` → `pt-BR`), usando somente textos públicos dos CSVs do
+PokeAPI no serviço externo. Foram reutilizadas traduções para fontes idênticas
+após normalização de espaços. Os textos pt-BR já existentes foram preservados.
+A cobertura inclui todas as versões
+com fonte em inglês, além das fontes complementares mantidas pelo projeto.

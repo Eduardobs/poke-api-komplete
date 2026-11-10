@@ -20,8 +20,12 @@ test('every move exposes a Brazilian Portuguese description without replacing En
     const moves = JSON.parse(await readFile(new URL(`${shard}.json`, folder)));
     for (const move of Object.values(moves)) {
       const descriptions = move.flavor_text_entries.filter(entry => entry.language.name === 'pt-br');
-      assert.equal(descriptions.length, 1, move.name);
-      assert.ok(descriptions[0].flavor_text.trim(), move.name);
+      assert.ok(descriptions.length >= 1, move.name);
+      for (const description of descriptions) assert.ok(description.flavor_text.trim(), move.name);
+      for (const english of move.flavor_text_entries.filter(entry => entry.language.name === 'en')) {
+        assert.ok(descriptions.some(entry => entry.version_group.name === english.version_group.name),
+          `${move.name}: ${english.version_group.name}`);
+      }
       if (move.effect_entries.some(entry => entry.language.name === 'en')) {
         const effect = move.effect_entries.find(entry => entry.language.name === 'pt-br');
         assert.ok(effect?.short_effect.trim(), move.name);
@@ -43,9 +47,11 @@ test('all localized REST descriptions have a Brazilian Portuguese entry', async 
   let checked = 0;
   const inspect = (value, path) => {
     if (Array.isArray(value)) {
-      const english = value.find(entry => entry?.language?.name === 'en');
-      if (english && descriptive.some(field => typeof english[field] === 'string' && english[field].trim())) {
-        const portuguese = value.find(entry => entry?.language?.name === 'pt-br');
+      for (const english of value.filter(entry => entry?.language?.name === 'en')) {
+        if (!descriptive.some(field => typeof english[field] === 'string' && english[field].trim())) continue;
+        const portuguese = value.find(entry => entry?.language?.name === 'pt-br'
+          && entry.version?.name === english.version?.name
+          && entry.version_group?.name === english.version_group?.name);
         assert.ok(portuguese, path);
         for (const field of descriptive) {
           if (typeof english[field] === 'string' && english[field].trim()) {

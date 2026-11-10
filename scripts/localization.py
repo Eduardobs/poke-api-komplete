@@ -39,10 +39,6 @@ SPECIAL_FIELDS = {
 
 def source_resources(source_id, language_id):
     from django.apps import apps
-    from pokemon_v2.models import Version, VersionGroup
-
-    groups = dict(VersionGroup.objects.values_list('id', 'order'))
-    versions = {pk: (groups[group], pk) for pk, group in Version.objects.values_list('id', 'version_group_id')}
     resources = {}
     coverage = {}
     shapes = {}
@@ -57,19 +53,13 @@ def source_resources(source_id, language_id):
         entity_keys = [key for key in keys if key not in {'version_id', 'version_group_id'}]
         selected = {}
         for row in model.objects.filter(language_id=source_id).order_by('pk').values(*keys, *translated, *copied):
-            entity = tuple(row[key] for key in entity_keys)
-            if 'version_id' in row:
-                rank = versions[row['version_id']]
-            elif 'version_group_id' in row:
-                rank = (groups[row['version_group_id']], 0)
-            else:
-                rank = (0, 0)
-            if entity not in selected or rank > selected[entity][0]:
-                selected[entity] = (rank, row)
+            # Version is part of a description's identity: historical games
+            # can describe different mechanics for the same resource.
+            selected[tuple(row[key] for key in keys)] = row
         available = set(model.objects.exclude(language_id=language_id).values_list(*entity_keys))
         coverage[model.__name__] = (available, entity_keys)
         rows = []
-        for _, row in sorted(selected.values(), key=lambda item: tuple(item[1][key] for key in keys)):
+        for row in sorted(selected.values(), key=lambda row: tuple(row[key] for key in keys)):
             rows.append({'key': {key: row[key] for key in keys},
                          'source': {field: row[field] for field in translated},
                          'copy': {field: row[field] for field in copied}})

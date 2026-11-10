@@ -15,7 +15,7 @@ import django
 django.setup()
 from django.db import connection, transaction
 from django.test.utils import CaptureQueriesContext
-from localization import apply_translations, persist_rows, load_locales, validated_rows
+from localization import apply_translations, persist_rows, load_locales, validated_rows, source_resources
 from pokemon_v2.models import AbilityEffectText
 
 
@@ -52,7 +52,7 @@ class LocalizationTest(unittest.TestCase):
     def test_all_resources_use_the_same_catalog_validation(self):
         locale = load_locales()[0]
         rows = validated_rows(locale)
-        self.assertEqual(len(rows), 7079)
+        self.assertEqual(len(rows), 38573)
         self.assertIn('MoveFlavorText', {model.__name__ for model, _, _ in rows})
         # Existing translations in another target language must not affect sources.
         self.assertEqual(len(validated_rows({**locale, 'id': 12})), len(rows))
@@ -78,6 +78,41 @@ class LocalizationTest(unittest.TestCase):
                      {'effect': row.effect, 'short_effect': row.short_effect})
             with self.assertRaises(ValueError):
                 persist_rows([entry, entry], 13)
+            transaction.set_rollback(True)
+
+    def test_every_source_version_has_a_translation(self):
+        from django.apps import apps
+
+        locale = load_locales()[0]
+        resources = source_resources(locale['source_id'], locale['id'])
+        translated = validated_rows(locale)
+        for name in resources:
+            model = apps.get_model('pokemon_v2', name)
+            keys = [field.attname for field in model._meta.local_concrete_fields
+                    if field.is_relation and field.name != 'language']
+            expected = set(model.objects.filter(language_id=locale['source_id']).values_list(*keys))
+            actual = {tuple(key[field] for field in keys) for row_model, key, _ in translated
+                      if row_model == model}
+            self.assertTrue(expected.issubset(actual), name)
+        move_sources = resources['MoveFlavorText']
+        pound = [row for row in move_sources if row['key']['move_id'] == 1]
+        self.assertGreater(len(pound), 1)
+        self.assertGreater(len({row['source']['flavor_text'] for row in pound}), 1)
+
+    def test_historical_flavor_texts_are_applied_without_changing_english(self):
+        from pokemon_v2.models import MoveFlavorText
+
+        with transaction.atomic():
+            english = list(MoveFlavorText.objects.filter(language_id=9, move_id=1)
+                           .order_by('version_group_id').values('version_group_id', 'flavor_text'))
+            apply_translations()
+            portuguese = list(MoveFlavorText.objects.filter(language_id=13, move_id=1)
+                              .values('version_group_id', 'flavor_text'))
+            self.assertTrue({row['version_group_id'] for row in english}.issubset(
+                {row['version_group_id'] for row in portuguese}))
+            self.assertGreater(len({row['flavor_text'] for row in portuguese}), 1)
+            self.assertEqual(english, list(MoveFlavorText.objects.filter(language_id=9, move_id=1)
+                                          .order_by('version_group_id').values('version_group_id', 'flavor_text')))
             transaction.set_rollback(True)
 
 
