@@ -95,6 +95,28 @@ O Worker estará em `http://localhost:8787`. O Cache API da borda depende do amb
 
 As contas e a publicação remota precisam ser feitas pelo proprietário. O projeto não provisiona contas nem habilita planos pagos. Na ausência do Worker, o domínio Render continua oferecendo a API completa. Se uma requisição REST muito grande exceder o limite de CPU do Worker Free, o domínio Render é a alternativa sem esse limite específico de 10 ms.
 
+## Publicação automática do Worker
+
+O workflow `.github/workflows/check.yml` pode publicar o Worker após todos os testes, benchmark e build/teste Docker passarem. Usa o mesmo checkout e os mesmos assets validados, sem gerar novamente o snapshot. A publicação ocorre apenas em pushes para a branch padrão do repositório (atualmente `master` neste checkout); pull requests e outras branches não publicam.
+
+Configuração única:
+
+1. No Cloudflare, crie um API Token com o modelo **Edit Cloudflare Workers**, limitado à conta em que publicará. Copie também o **Account ID** dessa conta. Consulte a [documentação oficial da integração com GitHub Actions](https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/).
+2. No GitHub, abra **Settings → Secrets and variables → Actions → Secrets** e cadastre três *repository secrets*:
+
+   | Secret | Valor |
+   | --- | --- |
+   | `CLOUDFLARE_API_TOKEN` | Token criado no Cloudflare |
+   | `CLOUDFLARE_ACCOUNT_ID` | ID da conta Cloudflare |
+   | `GRAPHQL_BACKEND_URL` | `https://SEU-SERVICO.onrender.com/v1beta2` |
+
+3. Na aba **Variables** da mesma página, crie a *repository variable* `ENABLE_WORKER_DEPLOY` com o valor literal `true`.
+4. Envie um commit com o workflow para a branch padrão. No GitHub Actions, acompanhe **Verify PokeAPI compatibility → Deploy tested Worker and snapshot to Cloudflare**. Sem a variável de habilitação, o passo aparece como ignorado e os testes continuam funcionando.
+
+O Wrangler autentica por token, sem `wrangler login` na CI. O workflow cadastra `GRAPHQL_BACKEND_URL` como secret do Worker na própria publicação e usa o SHA do commit em `CACHE_VERSION`, invalidando o cache da borda a cada deploy. As execuções da mesma branch são serializadas para evitar publicações concorrentes. Se habilitar a publicação sem os secrets, o passo falha com uma mensagem indicando a configuração ausente.
+
+Para desativar a automação, remova `ENABLE_WORKER_DEPLOY` ou altere seu valor para `false`. O comando manual `npm run deploy` continua disponível. A automação publica o Worker e seus assets; a importação de um novo banco e a coordenação das atualizações do dataset entre Neon/Render/Cloudflare continuam seguindo o procedimento anterior. O Render, configurado com `checksPass`, aguarda a conclusão desse workflow antes de iniciar seu deploy automático.
+
 ## Contratos disponíveis
 
 REST: `/api/v2/`, as 50 coleções oficiais, `/api/v2/meta/` e `/api/v2/pokemon/{id}/encounters`. Há suporte a IDs, nomes, HEAD, CORS e redirecionamento `/api/v1/`. Paginação e erros `{status,message}` reproduzem a publicação oficial, inclusive `parseInt`, última página e `q` ignorado. As referências REST usam o domínio da implantação. Metadados têm `deploy_date`, `hash` e `tag`; `/snapshot.json` informa a origem do dataset.
