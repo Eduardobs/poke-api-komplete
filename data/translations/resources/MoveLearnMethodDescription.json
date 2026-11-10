@@ -1,0 +1,101 @@
+{
+  "source_sha256": "b5f3a834b37f681084fcd8779cc2bcaac7d34212692710ab9f4525cb0859cc9b",
+  "entries": [
+    {
+      "key": {
+        "move_learn_method_id": 1
+      },
+      "text": {
+        "description": "Aprendedo quando um Pokémon atinge um determinado nível."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 2
+      },
+      "text": {
+        "description": "Aparece em um Pokémon recém-nascido, se o pai tiver feito o mesmo golpe."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 3
+      },
+      "text": {
+        "description": "Pode ser ensinado a qualquer momento por um NPC."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 4
+      },
+      "text": {
+        "description": "Pode ser ensinado a qualquer momento usando um TM ou HM."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 5
+      },
+      "text": {
+        "description": "Aprendeu quando um Pikachu não alugado ajudou a vencer a Prime Cup Master Ball R-2.  Ele deve participar de todas as batalhas e você deve vencer sem continuar."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 6
+      },
+      "text": {
+        "description": "Aparece em um Pichu cuja mãe segurava um Light Ball.  O pai não pode ser Ditto."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 7
+      },
+      "text": {
+        "description": "Aparece em um Shadow Pokémon à medida que ele se torna cada vez mais purificado."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 8
+      },
+      "text": {
+        "description": "Aparece em um Pokémon Shadow Snatched."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 9
+      },
+      "text": {
+        "description": "Aparece em um Shadow Pokémon à medida que ele se torna cada vez mais purificado."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 10
+      },
+      "text": {
+        "description": "Aparece quando Rotom ou Cosplay Pikachu muda de forma.  Desaparece se o Pokémon mudar de forma e este golpe só pode ser aprendido através da mudança de forma."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 11
+      },
+      "text": {
+        "description": "Pode ser ensinado usando o Zygarde Cube.  Deve encontrar o núcleo Zygarde correspondente primeiro em Sol/Lua.  Todos os golpes estão disponíveis imediatamente em Ultra Sun/Ultra Moon."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 12
+      },
+      "text": {
+        "description": "Ensinado através do menu de treinamento em Pokémon Champions."
+      }
+    }
+  ]
+}

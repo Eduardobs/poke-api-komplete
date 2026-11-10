@@ -1,0 +1,37 @@
+{
+  "source_sha256": "c01ff1f2ce0ebdd19f2e4321188dfcdd4ade978614e52bc161a80b73f70e43f9",
+  "entries": [
+    {
+      "key": {
+        "evolution_variable_id": 1
+      },
+      "text": {
+        "description": "Um número inteiro não assinado de 32 bits introduzido na Geração VI que é gerado junto com o valor da personalidade de um Pokémon. Ele é usado para calcular variações de forma interna (como Dudunsparce, Maushold e Wurmple), determinar padrões de pontos Spinda, quebrar empates em cálculos de características e estruturar dados de Pokémon."
+      }
+    },
+    {
+      "key": {
+        "evolution_variable_id": 2
+      },
+      "text": {
+        "description": "Um inteiro não assinado de 32 bits gerado quando um Pokémon é criado pela primeira vez pelo jogo. Introduzido na Geração III, ele dita várias características internas de um Pokémon, incluindo sua Natureza (nas Gerações III-IV), gênero, habilidade, brilho, letra Unown, manchas Spinda e ramo de evolução (como Wurmple)."
+      }
+    },
+    {
+      "key": {
+        "evolution_variable_id": 3
+      },
+      "text": {
+        "description": "A direção em que Milcery é girado para evoluí-lo, introduzida em Pokémon Sword e Shield: 0 para sentido horário, 1 para sentido anti-horário. Juntamente com a duração da centrifugação e a hora do dia, determina qual Creme o Alcremie resultante recebe."
+      }
+    },
+    {
+      "key": {
+        "evolution_variable_id": 4
+      },
+      "text": {
+        "description": "A duração em segundos do giro realizado para evoluir Milcery, introduzido em Pokémon Sword e Shield. Juntamente com a direção de rotação e a hora do dia, determina qual Creme o Alcremie resultante recebe."
+      }
+    }
+  ]
+}

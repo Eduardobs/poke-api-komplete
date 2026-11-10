@@ -1,0 +1,173 @@
+{
+  "source_sha256": "9bc2a737cf1041791fa98d51c2bec1c39bd5f5bb11744649b1292668d258cb09",
+  "entries": [
+    {
+      "key": {
+        "move_attribute_id": 1
+      },
+      "text": {
+        "description": "O usuário toca o alvo.  Isso ativa algumas habilidades (por exemplo, Static) e itens (por exemplo, Sticky Barb)."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 2
+      },
+      "text": {
+        "description": "Este golpe tem um turno de carregamento que pode ser ignorado com Power Herb."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 3
+      },
+      "text": {
+        "description": "No turno seguinte ao uso deste golpe, a ação do Pokémon é ignorada para que ele possa recarregar."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 4
+      },
+      "text": {
+        "description": "Este golpe não funcionará se o alvo tiver usado Detect ou Protect neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 5
+      },
+      "text": {
+        "description": "Essa mudança pode ser refletida no usuário com Magic Coat ou Magic Bounce."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 6
+      },
+      "text": {
+        "description": "Este golpe será roubado se outro Pokémon tiver usado Snatch neste turno."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 7
+      },
+      "text": {
+        "description": "Um Pokémon alvo deste golpe pode usar Mirror Move para copiá-lo."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 8
+      },
+      "text": {
+        "description": "Este golpe tem 1,2× seu poder normal quando usado por um Pokémon com Iron Fist."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 9
+      },
+      "text": {
+        "description": "Pokémon com Soundproof são imunes a este golpe."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 10
+      },
+      "text": {
+        "description": "Este golpe não pode ser usado em Gravity alto."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 11
+      },
+      "text": {
+        "description": "Este golpe pode ser usado enquanto estiver congelado para forçar o descongelamento do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 12
+      },
+      "text": {
+        "description": "Em batalhas triplas, este golpe pode ser usado em qualquer lado para atingir o Pokémon adversário mais distante."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 13
+      },
+      "text": {
+        "description": "Esta movimentação está bloqueada por Heal Block."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 14
+      },
+      "text": {
+        "description": "Este golpe ignora o Substitute do alvo."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 15
+      },
+      "text": {
+        "description": "Pokémon com Overcoat e Pokémon do tipo Grass são imunes a este golpe."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 16
+      },
+      "text": {
+        "description": "Este golpe tem 1,5x seu poder normal quando usado por um Pokémon com Strong Jaw."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 17
+      },
+      "text": {
+        "description": "Este golpe tem 1,5x seu poder normal quando usado por um Pokémon com Mega Launcher."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 18
+      },
+      "text": {
+        "description": "Esta movimentação está bloqueada por Bulletproof."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 19
+      },
+      "text": {
+        "description": "Este golpe é bloqueado por Aroma Veil e curado por Mental Herb."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 20
+      },
+      "text": {
+        "description": "Este golpe não pode ser usado durante Sky Battles."
+      }
+    },
+    {
+      "key": {
+        "move_attribute_id": 21
+      },
+      "text": {
+        "description": "Este golpe aciona Dancer."
+      }
+    }
+  ]
+}

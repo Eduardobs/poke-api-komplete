@@ -1,0 +1,285 @@
+{
+  "source_sha256": "2fc068516ee125d9dd55522ea4d17e657f630110c492f5c7f6d37b7f96dafc1e",
+  "entries": [
+    {
+      "key": {
+        "pokedex_id": 1
+      },
+      "text": {
+        "description": "Dex nacional inteiro"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 2
+      },
+      "text": {
+        "description": "Kanto dex vermelho/azul/amarelo"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 3
+      },
+      "text": {
+        "description": "Gold/Silver/Crystal Johto dex — chamado de \"Novo\" Pokédex no jogo"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 4
+      },
+      "text": {
+        "description": "Ruby/Sapphire/Esmeralda Hoenn dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 5
+      },
+      "text": {
+        "description": "Diamante/Pearl Sinnoh dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 6
+      },
+      "text": {
+        "description": "Platinum Sinnoh dex – uma versão estendida de Diamond e Pearl"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 7
+      },
+      "text": {
+        "description": "HeartGold/SoulSilver Johto dex —Gold/Silver/Crystal’s, estendido para adicionar evoluções da Geração IV baseadas em golpes"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 8
+      },
+      "text": {
+        "description": "Unova dex preto/branco"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 9
+      },
+      "text": {
+        "description": "Preto 2/Branco 2 Unova dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 11
+      },
+      "text": {
+        "description": "Ordem da galeria Pokémon Conquest"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 12
+      },
+      "text": {
+        "description": ""
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 13
+      },
+      "text": {
+        "description": ""
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 14
+      },
+      "text": {
+        "description": ""
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 15
+      },
+      "text": {
+        "description": "Omega Ruby/Alpha Sapphire Hoenn Dex—Ruby/Sapphire/Emerald’s, atualizado para adicionar novas evoluções"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 16
+      },
+      "text": {
+        "description": "Sol/Lua Alola dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 17
+      },
+      "text": {
+        "description": "Sol/Lua Melemele dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 18
+      },
+      "text": {
+        "description": "Sol/Lua Akala dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 19
+      },
+      "text": {
+        "description": "Sol/Lua Ula'ula dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 20
+      },
+      "text": {
+        "description": "Sol/Lua Poni dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 21
+      },
+      "text": {
+        "description": "Ultra Sol/Ultra Lua Alola dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 22
+      },
+      "text": {
+        "description": "Ultra Sol/Ultra Lua Melemele dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 23
+      },
+      "text": {
+        "description": "Ultra Sol/Ultra Lua Akala dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 24
+      },
+      "text": {
+        "description": "Ultra Sol/Ultra Lua Ula'ula dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 25
+      },
+      "text": {
+        "description": "Ultra Sol/Ultra Lua Poni dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 26
+      },
+      "text": {
+        "description": "Vamos lá: Pikachu/Vamos lá: Eevee Kanto dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 27
+      },
+      "text": {
+        "description": "Espada/Shield Galar dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 28
+      },
+      "text": {
+        "description": "Ilha da Armadura dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 29
+      },
+      "text": {
+        "description": "Coroa Tundra dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 30
+      },
+      "text": {
+        "description": "Hisui dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 31
+      },
+      "text": {
+        "description": "Paldea dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 32
+      },
+      "text": {
+        "description": "Kitakami dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 33
+      },
+      "text": {
+        "description": "Academia de Mirtilo dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 34
+      },
+      "text": {
+        "description": "Cidade Lumiose dex"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 35
+      },
+      "text": {
+        "description": "Dex do hiperespaço"
+      }
+    },
+    {
+      "key": {
+        "pokedex_id": 36
+      },
+      "text": {
+        "description": "dex dos campeões"
+      }
+    }
+  ]
+}

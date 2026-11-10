@@ -37,6 +37,8 @@ Após alterar os CSVs, remova `vendor/pokeapi/.snapshot-db-ready` e gere novamen
 
 As descrições resumidas dos 937 golpes em português brasileiro são mantidas pelo projeto em `data/translations/`. O build aplica as traduções ao SQLite mesmo quando o snapshot já está em cache. REST expõe os textos em `flavor_text_entries` e, para golpes com efeito cadastrado, em `effect_entries` (`effect` e `short_effect` contêm o mesmo resumo). GraphQL expõe os mesmos dados nas relações `moveflavortexts` e `moveeffecteffecttexts`, com `language_id: 13` (`pt-br`). São resumos dos efeitos, não traduções integrais dos textos longos nem de todas as versões históricas; cada golpe tem uma descrição associada à versão mais recente disponível. Os textos dos demais idiomas são preservados. Depois de adicionar ou editar traduções, execute `npm run data:build` e atualize o PostgreSQL pelo processo acima.
 
+Os demais recursos também recebem descrições em `pt-br`: habilidades (efeitos completos, resumos e alterações históricas), espécies (textos da Pokédex, categoria e formas), itens e seus efeitos, características, crescimento, métodos de aprendizado, alvos e categorias de golpes, concursos e variáveis de evolução. As traduções automáticas são versionadas em [data/translations/](data/translations/README.md), com validação de cobertura e limites do banco. Para textos que variam por jogo, é incluída uma entrada da versão mais recente disponível. REST usa `language.name: "pt-br"`; GraphQL usa `language_id: 13`. O build e a API funcionam sem serviço externo de tradução.
+
 ## Executar localmente
 
 ```sh

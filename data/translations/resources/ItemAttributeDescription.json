@@ -1,0 +1,69 @@
+{
+  "source_sha256": "5914e3164786b59c935692870bee0b415d61b3ec59589681c10d79beef04d703",
+  "entries": [
+    {
+      "key": {
+        "item_attribute_id": 1
+      },
+      "text": {
+        "description": "Tem uma contagem na bolsa"
+      }
+    },
+    {
+      "key": {
+        "item_attribute_id": 2
+      },
+      "text": {
+        "description": "Consumido quando usado"
+      }
+    },
+    {
+      "key": {
+        "item_attribute_id": 3
+      },
+      "text": {
+        "description": "Utilizável fora da batalha"
+      }
+    },
+    {
+      "key": {
+        "item_attribute_id": 4
+      },
+      "text": {
+        "description": "Utilizável em batalha"
+      }
+    },
+    {
+      "key": {
+        "item_attribute_id": 5
+      },
+      "text": {
+        "description": "Pode ser segurado por um Pokémon"
+      }
+    },
+    {
+      "key": {
+        "item_attribute_id": 6
+      },
+      "text": {
+        "description": "Funciona passivamente quando segurado"
+      }
+    },
+    {
+      "key": {
+        "item_attribute_id": 7
+      },
+      "text": {
+        "description": "Pode ser usado por um Pokémon quando segurado"
+      }
+    },
+    {
+      "key": {
+        "item_attribute_id": 8
+      },
+      "text": {
+        "description": "Aparece em Sinnoh Underground"
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "source_sha256": "7a01ed21168121cc721bb243c568909a567522224c3793101cb810dad5aff7ca",
+  "entries": [
+    {
+      "key": {
+        "super_contest_effect_id": 1
+      },
+      "text": {
+        "flavor_text": "Permite que o usuário execute primeiro no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 2
+      },
+      "text": {
+        "flavor_text": "Permite que o usuário atue por último no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 4
+      },
+      "text": {
+        "flavor_text": "Ganhe +2 se a Tensão do Juiz aumentar."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 5
+      },
+      "text": {
+        "flavor_text": "Uma performance básica usando um golpe conhecido pelo Pokémon."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 6
+      },
+      "text": {
+        "flavor_text": "Ganhe +3 se nenhum outro Pokémon tiver escolhido o mesmo Juiz."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 7
+      },
+      "text": {
+        "flavor_text": "Permite realizar o mesmo golpe duas vezes seguidas."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 8
+      },
+      "text": {
+        "flavor_text": "O aumento da tensão é adicionado à pontuação de desempenho."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 9
+      },
+      "text": {
+        "flavor_text": "Ganhe +15 se todos os Pokémon escolherem o mesmo Juiz."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 10
+      },
+      "text": {
+        "flavor_text": "Reduz a voltagem de todos os juízes em um cada."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 11
+      },
+      "text": {
+        "flavor_text": "Ganhe o dobro da pontuação no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 12
+      },
+      "text": {
+        "flavor_text": "Rouba a Voltagem do Pokémon que acabou de sair."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 13
+      },
+      "text": {
+        "flavor_text": "Evita que a Tensão suba no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 14
+      },
+      "text": {
+        "flavor_text": "Torna a ordem dos competidores aleatória no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 15
+      },
+      "text": {
+        "flavor_text": "Ganha o dobro da pontuação no desempenho final."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 16
+      },
+      "text": {
+        "flavor_text": "Aumenta a pontuação se a tensão estiver baixa."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 17
+      },
+      "text": {
+        "flavor_text": "Ganhe +2 se o Pokémon for o primeiro a atuar no turno."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 18
+      },
+      "text": {
+        "flavor_text": "Ganhe +2 se o Pokémon for o último a atuar no turno."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 19
+      },
+      "text": {
+        "flavor_text": "Evita que a tensão caia no mesmo turno."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 20
+      },
+      "text": {
+        "flavor_text": "Ganhe +3 se dois Pokémon aumentarem a Voltagem consecutivamente."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 21
+      },
+      "text": {
+        "flavor_text": "Ganhe uma pontuação mais alta quanto mais tarde o Pokémon atuar."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 22
+      },
+      "text": {
+        "flavor_text": "Ganhe +3 se o Pokémon que acabou de atingir atingir a Voltagem máxima."
+      }
+    },
+    {
+      "key": {
+        "super_contest_effect_id": 23
+      },
+      "text": {
+        "flavor_text": "Ganhe +3 se o Pokémon obtiver a pontuação mais baixa."
+      }
+    }
+  ]
+}

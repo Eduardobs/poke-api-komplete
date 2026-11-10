@@ -1,0 +1,245 @@
+{
+  "source_sha256": "52fec7e0654f07e0470019828da287693129446673c7990c9a7f95547e24440c",
+  "entries": [
+    {
+      "key": {
+        "characteristic_id": 1
+      },
+      "text": {
+        "description": "Adora comer"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 2
+      },
+      "text": {
+        "description": "Orgulhoso de seu poder"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 3
+      },
+      "text": {
+        "description": "Corpo Sturdy"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 4
+      },
+      "text": {
+        "description": "Altamente curioso"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 5
+      },
+      "text": {
+        "description": "Força de vontade"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 6
+      },
+      "text": {
+        "description": "Gosta de correr"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 7
+      },
+      "text": {
+        "description": "Faz muitas sestas"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 8
+      },
+      "text": {
+        "description": "Gosta de se debater"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 9
+      },
+      "text": {
+        "description": "Capaz de receber golpes"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 10
+      },
+      "text": {
+        "description": "Travesso"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 11
+      },
+      "text": {
+        "description": "Um tanto vaidoso"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 12
+      },
+      "text": {
+        "description": "Alerta para sons"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 13
+      },
+      "text": {
+        "description": "Acena muito"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 14
+      },
+      "text": {
+        "description": "Um pouco temperamental"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 15
+      },
+      "text": {
+        "description": "Altamente persistente"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 16
+      },
+      "text": {
+        "description": "Completamente astuto"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 17
+      },
+      "text": {
+        "description": "Fortemente desafiador"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 18
+      },
+      "text": {
+        "description": "Impetuoso e bobo"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 19
+      },
+      "text": {
+        "description": "Espalha as coisas com frequência"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 20
+      },
+      "text": {
+        "description": "Gosta de lutar"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 21
+      },
+      "text": {
+        "description": "Boa resistência"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 22
+      },
+      "text": {
+        "description": "Muitas vezes perdido em pensamentos"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 23
+      },
+      "text": {
+        "description": "Odeia perder"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 24
+      },
+      "text": {
+        "description": "Meio palhaço"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 25
+      },
+      "text": {
+        "description": "Gosta de relaxar"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 26
+      },
+      "text": {
+        "description": "Temperamento rápido"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 27
+      },
+      "text": {
+        "description": "Boa perseverança"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 28
+      },
+      "text": {
+        "description": "Muito meticuloso"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 29
+      },
+      "text": {
+        "description": "Um tanto teimoso"
+      }
+    },
+    {
+      "key": {
+        "characteristic_id": 30
+      },
+      "text": {
+        "description": "Rápido para fugir"
+      }
+    }
+  ]
+}

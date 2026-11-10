@@ -1,0 +1,125 @@
+{
+  "source_sha256": "8ee7adc92e849033aac07b4527fc2a9ec38bc143799108bd0be33bd2bac57d7e",
+  "entries": [
+    {
+      "key": {
+        "move_target_id": 1
+      },
+      "text": {
+        "description": "Um golpe específico.  A forma como esse golpe é escolhido depende do golpe que está sendo usado."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 2
+      },
+      "text": {
+        "description": "Um outro Pokémon em campo, selecionado pelo treinador.  Golpes roubados reutilizam o mesmo alvo."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 3
+      },
+      "text": {
+        "description": "O aliado do usuário (se houver)."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 4
+      },
+      "text": {
+        "description": "O lado do campo do usuário.  Afeta o usuário e seu aliado (se houver)."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 5
+      },
+      "text": {
+        "description": "O usuário ou seu aliado, selecionado pelo treinador."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 6
+      },
+      "text": {
+        "description": "O lado oposto do campo.  Afeta Pokémon adversários."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 7
+      },
+      "text": {
+        "description": "O usuário."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 8
+      },
+      "text": {
+        "description": "Um Pokémon adversário, selecionado aleatoriamente."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 9
+      },
+      "text": {
+        "description": "Todos os outros Pokémon no campo."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 10
+      },
+      "text": {
+        "description": "Um outro Pokémon em campo, selecionado pelo treinador."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 11
+      },
+      "text": {
+        "description": "Todos os Pokémon adversários."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 12
+      },
+      "text": {
+        "description": "Todo o campo.  Afeta todos os Pokémon."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 13
+      },
+      "text": {
+        "description": "O usuário e seus aliados."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 14
+      },
+      "text": {
+        "description": "Todos os Pokémon em campo."
+      }
+    },
+    {
+      "key": {
+        "move_target_id": 15
+      },
+      "text": {
+        "description": "Todos os aliados do usuário."
+      }
+    }
+  ]
+}

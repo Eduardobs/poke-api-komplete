@@ -1,0 +1,277 @@
+{
+  "source_sha256": "b972e78fcd781452714689233d6bbdf5168793b41c0bbed1867f44aa5c719f1b",
+  "entries": [
+    {
+      "key": {
+        "pokemon_species_id": 172
+      },
+      "text": {
+        "description": "Pichu de orelhas pontudas só pode ser recebido levando o Pichu brilhante de uma promoção oficial para o santuário de Celebi na Floresta Ilex.  Pichu de orelhas pontudas é sempre feminino, não pode evoluir, não pode ser levado para o Wi-Fi Club ou Union Room e não pode ser transferido para a Geração V, mas por outro lado é um Pichu normal."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 201
+      },
+      "text": {
+        "description": "Os formulários afetam apenas a aparência.  Uma forma é determinada aleatoriamente antes de um encontro selvagem e não pode ser alterada."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 351
+      },
+      "text": {
+        "description": "A forma muda junto com o tipo para combinar com o clima da batalha, devido a Forecast.  Castform está sempre em sua forma normal fora da batalha, independentemente do clima."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 386
+      },
+      "text": {
+        "description": "As formas têm atributos diferentes e podem aprender diferentes golpes. Os golpes são mantidos através das mudanças de forma. Na Geração III, a forma de Deoxys depende do jogo: Forma Normal em Ruby e Sapphire, Forma Ataque em FireRed, Forma Defesa em LeafGreen e Forma Velocidade em Emerald. Em jogos subsequentes, todas as formas existem. Meteoritos para mudar a forma de Deoxys podem ser encontrados nos seguintes locais, dependendo do jogo: * Diamond, Pearl e Platinum: No canto sudoeste de Veilstone City. * HeartGold e SoulSilver: No final oeste da Route 3, perto de Pewter City. * Black e White 1 e 2: No museu em Nacrene City, há um meteorito em exposição que alterna entre todas as formas."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 412
+      },
+      "text": {
+        "description": "As formas afetam apenas a aparência, embora se tornem permanentes com a evolução.  Burmy selvagens e recém-eclodidos estão sempre em uma capa de planta.  A camuflagem de Burmy muda para combinar com o terreno após uma batalha da qual ele participou: Capa de Planta por padrão; Manto Arenoso em áreas arenosas ou rochosas, como praias, cavernas e trilhas; e capa de lixo em edifícios."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 413
+      },
+      "text": {
+        "description": "Os formulários têm atributos e movepools diferentes.  Durante a evolução, a capa atual de Burmy se torna a forma de Wormadam e não pode mais ser alterada."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 421
+      },
+      "text": {
+        "description": "A forma de luz solar está ativa durante a luz solar forte.  Caso contrário, Cherrim assume como padrão o formato Nublado."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 422
+      },
+      "text": {
+        "description": "Os formulários afetam apenas a aparência.  Uma forma é determinada antes de um encontro selvagem com base no fato de a batalha ser no oeste ou no leste de Sinnoh, ou herdada da mãe durante a reprodução, e não pode ser alterada."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 423
+      },
+      "text": {
+        "description": "Os formulários afetam apenas a aparência.  Uma forma é determinada antes de um encontro selvagem com base no fato de a batalha ser no oeste ou no leste de Sinnoh e não pode ser alterada."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 479
+      },
+      "text": {
+        "description": "As formas têm movimentos e tipos característicos diferentes, e as atributos das formas de aparelho são diferentes das da forma normal. Na Geração IV, todas as formas são do tipo Elétrico/Fantasma. Ao mudar de forma, o antigo movimento característico (se houver) é removido e o novo deve ser aprendido, sobrescrevendo outro movimento se necessário, ou a troca será cancelada; no entanto, ele pode ser esquecido enquanto estiver na nova forma. Se Rotom só souber seu movimento característico ao reverter para sua forma padrão, ele aprende Choque do Trovão para evitar ficar sem movimentos. Aparelhos para mudar a forma de Rotom podem ser encontrados nos seguintes locais, dependendo do jogo: * Platinum: No Edifício Eterna da Equipe Galáctica. Requer uma Chave Secreta. * HeartGold e SoulSilver: No Edifício do Escritório da Silph Co. Entre no prédio ao caminhar com Rotom e entre no elevador quebrado. * Black e White 1 & 2: No Shopping Mall Nine. Encontrado em caixas em um depósito no primeiro andar, no canto direito."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 487
+      },
+      "text": {
+        "description": "As formas têm atributos diferentes e podem aprender diferentes golpes de tutores. Os golpes são mantidos através das mudanças de forma. Giratina se transforma na Forma Origem no Distortion World ou ao segurar um Griseous Orb. Caso contrário, assume sua Forma Alterada. Na Geração IV, o Griseous Orb retorna para a bolsa ao entrar no Wi-Fi Club ou na Union Room."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 492
+      },
+      "text": {
+        "description": "As formas têm atributos diferentes e podem aprender diferentes golpes. Os golpes são mantidos através das mudanças de forma. Shaymin se transforma na Forma Céu com o uso de um Gracidea. É limitado à Forma Terra à noite, quando congelado, e nas caixas do sistema de armazenamento; sob estas condições, o Shaymin Céu reverte para a Forma Terra, e o Gracidea não tem efeito. O Gracidea deve ser usado novamente para retornar à Forma Céu. Na Geração IV, Shaymin também é limitado à Forma Terra no Wi-Fi Club e na Union Room. Um Gracidea pode ser recebido mostrando um Shaymin encontrado em um encontro fatídico a um certo NPC, dependendo do jogo: * Platinum: Uma mulher em Floaroma Town, no sudoeste. * HeartGold e SoulSilver: O dono da loja de flores de Goldenrod City. * Black e White: Uma mulher no Pokémon Center de Lacunosa Town. * Black 2 e White 2: Uma mulher no Pokémon Center de Striaton City."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 493
+      },
+      "text": {
+        "description": "A forma muda junto com o tipo para corresponder a uma Placa retida, devido a Multitype."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 550
+      },
+      "text": {
+        "description": "As formas têm uma habilidade diferente e diferentes itens selvagens.  Basculin com listras azuis são mais raros na versão preta e na versão preta 2, e Basculin com listras vermelhas na versão branca e na versão branca 2."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 555
+      },
+      "text": {
+        "description": "Os formulários têm atributos e tipos diferentes.  Se a habilidade de Darmanitan for Zen Mode, ele muda para Zen Mode em batalha se terminar um turno com menos de 50% de PS, e volta para o Modo Padrão se terminar um turno com 50% de PS ou mais, sair da batalha ou perder sua habilidade."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 585
+      },
+      "text": {
+        "description": "As formas afetam apenas a aparência. Deerling muda de forma para corresponder à estação se estiver no time ao carregar o jogo. Se a estação mudou desde que o jogo foi salvo, e o jogo foi salvo em local fechado, a estação do salvamento anterior será exibida ao carregar o jogo, e Deerling mudará de acordo com essa estação. Ao sair para o exterior, a mudança de estação é exibida e Deerling mudará novamente."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 586
+      },
+      "text": {
+        "description": "As formas só afetam a aparência. Sawsbuck muda de forma para corresponder à estação se estiver no time ao carregar o jogo. Se a estação mudou desde que o jogo foi salvo, e o jogo foi salvo em local fechado, a estação do salvamento anterior será exibida ao carregar o jogo, e Sawsbuck mudará de acordo com essa estação. Ao sair para o exterior, a mudança de estação é exibida e Deerling mudará novamente."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 641
+      },
+      "text": {
+        "description": "As formas têm atributos e habilidades diferentes. Tornadus muda de forma quando o Reveal Glass é usado nele. O Reveal Glass pode ser obtido levando um Therian Tornadus para o Abundant Shrine. (Landorus pode ser obtido na Forma Theriana a partir do Dream Radar.)"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 642
+      },
+      "text": {
+        "description": "As formas têm atributos e habilidades diferentes. Thundurus muda de forma quando o Reveal Glass é usado nele. O Reveal Glass pode ser obtido levando um Therian Thundurus para o Abundant Shrine. (Landorus pode ser obtido na Forma Theriana a partir do Dream Radar.)"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 645
+      },
+      "text": {
+        "description": "As formas têm atributos e habilidades diferentes. Landorus muda de forma quando o Vidro de Revelação é usado nele. O Vidro de Revelação pode ser obtido levando um Landorus Therian ao Santuário Abundante. (Landorus pode ser obtido na Forma Therian do Radar dos Sonhos.)"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 646
+      },
+      "text": {
+        "description": "Os formulários têm diferentes atributos, habilidades e movimentos exclusivos.  Kyurem se funde com Reshiram para se tornar Kyurem branco ou Zekrom para se tornar Kyurem preto.  Os DNA Splicers são usados ​​para fundir Kyurem com outro Pokémon ou separá-los novamente.  Enquanto estiver fundido, o outro Pokémon desaparece.  Os movimentos exclusivos são substituídos pelos movimentos equivalentes ao mudar de forma."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 647
+      },
+      "text": {
+        "description": "Os formulários afetam apenas a aparência.  Nas versões Black and White 2, Keldeo se torna a Forma Resoluta quando aprende Secret Sword e reverte para a Forma Ordinária se esquecer esse movimento."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 648
+      },
+      "text": {
+        "description": "Os formulários têm atributos e tipos diferentes.  Meloetta muda de forma ao usar Relic Song em batalha e reverte para Aria Forme fora da batalha."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 649
+      },
+      "text": {
+        "description": "Alterações no formulário para corresponder ao Drive retido de Genesect.  As únicas diferenças são a cor da arma e o tipo de Techno Blast."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 666
+      },
+      "text": {
+        "description": "As formas só diferem na aparência. O padrão de Vivillon depende da região geográfica do mundo real definida no 3DS do seu treinador original e não pode ser alterado. Trocar um Scatterbug, Spewpa ou ovo não afeta o padrão que ele terá como Vivillon. Mudar a configuração de região do 3DS não afetará o padrão de Vivillon do jogo até que o jogador inicie um novo jogo. Os Padrões Fancy e Poké Ball não correspondem a nenhuma região e estão disponíveis apenas por distribuições."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 669
+      },
+      "text": {
+        "description": "Os formulários diferem apenas na aparência.  A flor de Flabébé é definida quando é encontrada e não pode ser alterada."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 670
+      },
+      "text": {
+        "description": "As cinco formas normais de Floette diferem apenas na aparência. A flor de Floette é definida quando ele é encontrado, ou como um Flabébé, e não pode ser alterada. Eternal Floette tem atributos mais altas, não pode evoluir nem ser criado, e aprende Luz da Ruína no nível 50. Atualmente, não é obtível."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 671
+      },
+      "text": {
+        "description": "Os formulários diferem apenas na aparência.  A flor de Florges é definida como Flabébé ou Floette e não pode ser alterada."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 676
+      },
+      "text": {
+        "description": "Os formulários diferem apenas na aparência.  O acabamento do Furfrou pode ser alterado a qualquer momento no Friseur Furfrou na cidade de Lumiose.  Ele reverte à sua forma natural após cinco dias, a menos que seja aparado novamente ou se for depositado no PC."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 678
+      },
+      "text": {
+        "description": "Meowstic masculino e feminino têm diferentes movimentos de subida de nível e habilidades ocultas.  Embora as diferenças de género não sejam normalmente consideradas formas separadas, as Meowstic são tratadas como tal para fins práticos."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 681
+      },
+      "text": {
+        "description": "Os formulários têm atributos diferentes.  Se a habilidade de Aegislash for Stance Change, ele muda para Blade Forme antes de usar um movimento de dano e reverte para Shield Forme antes de usar King’s Shield ou ao sair do campo."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 710
+      },
+      "text": {
+        "description": "Os formulários têm atributos diferentes.  O tamanho de Pumpkaboo é definido quando é encontrado e não pode ser alterado."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 711
+      },
+      "text": {
+        "description": "Os formulários têm atributos diferentes.  O tamanho de Gourgeist é definido como Pumpkaboo e não pode ser alterado."
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 716
+      },
+      "text": {
+        "description": "Os formulários diferem apenas na aparência.  Xerneas está sempre no modo neutro fora da batalha e no modo ativo durante a batalha."
+      }
+    }
+  ]
+}

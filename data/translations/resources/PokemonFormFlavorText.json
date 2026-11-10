@@ -1,0 +1,572 @@
+{
+  "source_sha256": "a163dd6b0b343d668f0dd1505338dcbcc0ad6033afd24514abdb04bcf523600e",
+  "entries": [
+    {
+      "key": {
+        "pokemon_form_id": 386,
+        "version_id": 8
+      },
+      "text": {
+        "flavor_text": "DEOXYS emergiu de um vírus vindo do espaço. Ele é altamente inteligente e empunha poderes psicocinéticos. Este POKéMON dispara lasers do órgão cristalino em seu peito."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 550,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Quando um cardume de Basculin aparece em um lago, tudo mais desaparece, exceto Corphish e Crawdaunt. É assim que os Basculin são violentos."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 741,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Este Oricorio bebeu néctar vermelho. Se seu Treinador der a ordem errada, este Pokémon apaixonado fica ferozmente zangado."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10031,
+        "version_id": 10
+      },
+      "text": {
+        "flavor_text": "Este DEOXY se transformou em sua aparência agressiva. Ele pode enganar os inimigos alterando sua aparência."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10032,
+        "version_id": 11
+      },
+      "text": {
+        "flavor_text": "Quando muda de forma, uma aurora aparece. Ele absorve ataques alterando sua estrutura celular."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10033,
+        "version_id": 9
+      },
+      "text": {
+        "flavor_text": "Um POKéMON que mutou de um vírus extraterrestre exposto a um feixe de laser. Seu corpo é configurado para agilidade e velocidade superiores."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10066,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Algumas pessoas o chamam de “o bandido do lago”. Se as diferenças de cor são significativas ainda não é sabido."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10133,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Para apoiar sua flor, que cresceu devido à Mega Evolução, suas costas e pernas ficaram mais fortes."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10134,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "O poder avassalador que enche todo o seu corpo faz com que ele fique preto e cria chamas azuis intensas."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10135,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Seu laço com seu Treinador é a fonte de seu poder. Ele ostenta velocidade e manobrabilidade maiores que as de um caça a jato."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10136,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "O canhão em suas costas é tão poderoso quanto um canhão de tanque. Suas pernas e costas resistentes permitem que ele suporte o recuo de disparar o canhão."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10137,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "É adepto à precognição. Quando os ataques erram completamente Alakazam, é porque ele está vendo o futuro."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10138,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Ele pode passar por outras dimensões e aparecer em qualquer lugar. Causou um alvoroço uma vez quando ficou apenas uma perna para fora de uma parede."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10139,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Seu filhote cresceu rapidamente, graças à energia da Mega Evolução. Mãe e filhote exibem seu trabalho em equipe harmonioso na batalha."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10140,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Com seus chifres renomados, ele pode levantar um oponente 10 vezes mais pesado que ele e voar com facilidade."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10141,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Embora obedeça ao seu impulso instintivo de destruir tudo ao seu alcance, ele responderá aos comandos de um Treinador em quem realmente confia."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10142,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "O poder da Mega Evolução restaurou completamente seus genes. As rochas em seu corpo são mais duras que diamante."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10143,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "O poder psíquico aumentou seus músculos. Ele tem uma força de preensão de uma tonelada e pode correr cem metros em apenas dois segundos!"
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10144,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Apesar do tamanho reduzido, seu poder mental cresceu fenomenalmente. Com um mero pensamento, ele pode desintegrar um arranha-céu em cacos."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10145,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Grandes quantidades de energia estimulam intensamente as células de Ampharos, aparentemente despertando o sangue de dragão adormecido."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10146,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "É melhor em bater em coisas do que em agarrá-las. Quando luta por muito tempo, o peso de suas pinças se torna demais para suportar."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10147,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Um influxo tremendo de energia o constrói, mas quando a Mega Evolução termina, Heracross sente uma dor terrível em seus músculos."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10148,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Todo o corpo de Houndoom gera calor quando ele Mega Evolui. Seu sopro ígneo e temível transforma seus oponentes em cinzas."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10149,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Os efeitos da Mega Evolução o tornam mais feroz do que nunca. Não está claro se ele consegue ouvir os comandos de seu Treinador."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10152,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Seus dois conjuntos de mandíbulas se agitam violentamente como se tivessem vontade própria. Um ranger delas pode transformar um bloco de pedra em pó."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10155,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Excesso de eletricidade se acumulou em seu corpo, irritando Manectric. Sua velocidade explosiva é igual à de um raio."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10156,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "A Mega Evolução aumenta sua vingança, e o poder amaldiçoado que era contido por seu zíper vaza."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10157,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Ele converte a energia da Mega Evolução em uma aura intimidadora. Pessoas sem coração desmaiam de choque ao vê-la."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10158,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Sua disposição é mais viciosa do que antes de sua Mega Evolução. Garchomp despedaça seus oponentes com as foices em ambos os braços."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10159,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Banhado em energia explosiva, seus instintos combativos despertaram. Para seus inimigos, ele não tem misericórdia alguma."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10168,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Ele bloqueia todos e quaisquer ataques com sua gema de tamanho gigante. No entanto, a pedra é um fardo pesado e limita os movimentos de Mega Sableye."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10172,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "No momento em que ele avança contra seu oponente, espinhos afiados saltam da cabeça de Sharpedo, deixando seu oponente com feridas profundas."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10173,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Sob a influência dos fluidos digestivos de Shellder, Slowpoke despertou, ganhando muita força—e um pouco de motivação a mais."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10175,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Com sua força muscular agora muito aumentada, ele pode voar continuamente por duas semanas sem descansar."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10176,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "O poder da Mega Evolução foi tão forte que esmigalhou a mandíbula de Glalie. Sua incapacidade de comer bem deixa Glalie irritado."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10178,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Quando sabe que não pode vencer, ele crava as garras de suas pernas no oponente e começa a contagem regressiva para uma grande explosão."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10190,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Mega Evolução desperta seus instintos combativos. Ele perdeu qualquer pelo que atrapalhasse seus ataques."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10191,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Ele coloca suas patas dianteiras dentro de seu casco para se tornar aerodinâmico para voar. Salamence voa em alta velocidade sobre todos os tipos de características topográficas."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10192,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Suas pernas se tornaram ferrões venenosos. Ele espetisca sua presa repetidamente com os ferrões em seus membros, desferindo o golpe final com o ferrão em seu traseiro."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10193,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Seus bigodes fornecem um olfato apurado, permitindo-lhe captar o cheiro de comida escondida e localizá-la instantaneamente."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10194,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Ele faz seus subordinados Rattata coletarem comida para ele, alimentando-se apenas dos itens mais nutritivos e deliciosos."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10202,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Ele adora panquecas preparadas com uma receita secreta de Alola. Alguns se perguntam se essa receita guarda a chave para a evolução deste Pokémon."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10203,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Seu corpo coberto de gelo permite que ele deslize pelo chão com velocidade de bala, arremessando seus inimigos quando os atinge."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10204,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Esta é a forma de Sandslash após adaptação a um ambiente gélido. O ar frio emitido por seu corpo afia seus espinhos de gelo."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10205,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Ele parece neve ganhando vida, e o hálito que ele exala é de -58 graus Fahrenheit. Outro nome para ele é Keokeo."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10206,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Ele vive em montanhas perpetuamente cobertas de neve e é reverenciado como uma divindade encarnada. Ele aparece envolto em uma nevasca."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10207,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Depois de viver em solo com alto teor de ferro por algum tempo, três bigodes de aço brotaram do topo de sua cabeça."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10208,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Eles são chamados de trigêmeos, mas não são idênticos — os elementos metálicos em seus corpos diferem ligeiramente. A prova está em seus bigodes!"
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10209,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Altamente inteligente e orgulhoso, é famoso por ser difícil de lidar—mas isso também é motivo de sua popularidade."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10210,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Ele tem o pelo mais elegante. O ondular de seu pelo no calor da batalha tem uma beleza própria."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10211,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Sua cabeça de pedra é imbuída de eletricidade e magnetismo. Se você pisar descuidadamente em uma, você sofrerá um choque doloroso."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10212,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Quando desce rolando por um caminho de montanha, tudo em seu caminho é eletrocutado e arremessado."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10213,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Ele usa magnetismo para acelerar e disparar rochas tingidas de eletricidade. Mesmo que não acerte diretamente, o choque de eletricidade fará o trabalho."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10214,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Ele tem uma paixão por lixo acima de tudo, digerindo-o rapidamente e criando cristais brilhantes de veneno cintilante."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10215,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "A coloração de Muk se torna cada vez mais vívida quanto mais ele se alimenta de seu prato favorito—lixo."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10216,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "O forte sol da região de Alola despertou o poder escondido dentro de Exeggcute. Este é o resultado."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10217,
+        "version_id": 32
+      },
+      "text": {
+        "flavor_text": "Ele transformou o espírito de sua querida mãe falecida em chamas, e esta noite ele dançará novamente em luto por outros de sua espécie."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10225,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Este Oricorio bebeu néctar amarelo brilhante. Quando vê alguém de mau humor, ele tentará animar a pessoa com uma dança."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10226,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Este Oricorio bebeu néctar rosa. Ele se empolga tanto com sua dança que às vezes não ouve as ordens de seu Treinador."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10227,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Este Oricorio bebeu néctar roxo. Alguns dançarinos usam sua dança graciosa e elegante como inspiração."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10314,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Esta é a forma de Necrozma enquanto ele absorve o poder de Solgaleo, tornando-o extremamente feroz e impossível de controlar."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10315,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "Esta é sua forma enquanto ele devora a luz de Lunala. Ele agarra os inimigos com suas garras gigantes e os rasga com força bruta."
+      }
+    },
+    {
+      "key": {
+        "pokemon_form_id": 10316,
+        "version_id": 30
+      },
+      "text": {
+        "flavor_text": "A luz que emana de todo o seu corpo afeta os seres vivos e a natureza, impactando-os de várias maneiras."
+      }
+    }
+  ]
+}

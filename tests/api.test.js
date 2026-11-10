@@ -38,6 +38,43 @@ test('every move exposes a Brazilian Portuguese description without replacing En
   assert.match(recent.flavor_text_entries.find(entry => entry.language.name === 'pt-br').flavor_text, /envenená-lo gravemente/);
 });
 
+test('all localized REST descriptions have a Brazilian Portuguese entry', async () => {
+  const descriptive = ['description', 'effect', 'short_effect', 'flavor_text', 'genus', 'flavor', 'awesome_name'];
+  let checked = 0;
+  const inspect = (value, path) => {
+    if (Array.isArray(value)) {
+      const english = value.find(entry => entry?.language?.name === 'en');
+      if (english && descriptive.some(field => typeof english[field] === 'string' && english[field].trim())) {
+        const portuguese = value.find(entry => entry?.language?.name === 'pt-br');
+        assert.ok(portuguese, path);
+        for (const field of descriptive) {
+          if (typeof english[field] === 'string' && english[field].trim()) {
+            assert.ok(portuguese[field]?.trim(), `${path}.${field}`);
+          }
+        }
+        checked++;
+      }
+      value.forEach((entry, index) => inspect(entry, `${path}[${index}]`));
+    } else if (value && typeof value === 'object') {
+      for (const [key, entry] of Object.entries(value)) inspect(entry, `${path}.${key}`);
+    }
+  };
+  const root = new URL('../public/data/', import.meta.url);
+  for (const folder of await readdir(root, { withFileTypes: true })) {
+    if (!folder.isDirectory()) continue;
+    const resource = new URL(`${folder.name}/`, root);
+    for (const file of await readdir(resource)) {
+      if (!/^\d+\.json$/.test(file)) continue;
+      inspect(JSON.parse(await readFile(new URL(file, resource))), `${folder.name}/${file}`);
+    }
+  }
+  assert.ok(checked > 5000, `Expected catalog-wide coverage, found ${checked}`);
+  const ability = await (await call('/api/v2/ability/limber/')).json();
+  assert.match(ability.effect_entries.find(entry => entry.language.name === 'pt-br').short_effect, /paralis/i);
+  const species = await (await call('/api/v2/pokemon-species/bulbasaur/')).json();
+  assert.match(species.flavor_text_entries.find(entry => entry.language.name === 'pt-br').flavor_text, /semente/i);
+});
+
 // These expectations were captured by running the unchanged PokeAPI/deploy helpers.
 test('public REST root includes exactly all 51 official entries, including meta', async () => {
   const root = await (await call('/api/v2/')).json();

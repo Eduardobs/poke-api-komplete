@@ -1,0 +1,55 @@
+{
+  "source_sha256": "e72df01db3b008f4d2bd193d7125912236fb0fffb8cc2ee45726890850319123",
+  "entries": [
+    {
+      "key": {
+        "contest_type_id": 1
+      },
+      "text": {
+        "color": "Vermelho",
+        "flavor": "Picante",
+        "name": "Estilo"
+      }
+    },
+    {
+      "key": {
+        "contest_type_id": 2
+      },
+      "text": {
+        "color": "Azul",
+        "flavor": "Seco",
+        "name": "Beleza"
+      }
+    },
+    {
+      "key": {
+        "contest_type_id": 3
+      },
+      "text": {
+        "color": "Rosa",
+        "flavor": "Doce",
+        "name": "Fofura"
+      }
+    },
+    {
+      "key": {
+        "contest_type_id": 4
+      },
+      "text": {
+        "color": "Verde",
+        "flavor": "Amargo",
+        "name": "Esperteza"
+      }
+    },
+    {
+      "key": {
+        "contest_type_id": 5
+      },
+      "text": {
+        "color": "Amarelo",
+        "flavor": "Azedo",
+        "name": "Robustez"
+      }
+    }
+  ]
+}

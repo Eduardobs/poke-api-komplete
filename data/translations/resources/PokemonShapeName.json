@@ -1,0 +1,131 @@
+{
+  "source_sha256": "fb0df9d7e4b1e7449bee98cbc9cb93eb1d3b1994d51347fd34afb2a1734a3124",
+  "entries": [
+    {
+      "key": {
+        "pokemon_shape_id": 1
+      },
+      "text": {
+        "awesome_name": "Pomáceo",
+        "name": "Bola"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 2
+      },
+      "text": {
+        "awesome_name": "caudal",
+        "name": "Rabisco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 3
+      },
+      "text": {
+        "awesome_name": "Ictiico",
+        "name": "Peixe"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 4
+      },
+      "text": {
+        "awesome_name": "Braquial",
+        "name": "Armas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 5
+      },
+      "text": {
+        "awesome_name": "Alvine",
+        "name": "bolha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 6
+      },
+      "text": {
+        "awesome_name": "Ciurina",
+        "name": "Vertical"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 7
+      },
+      "text": {
+        "awesome_name": "Crural",
+        "name": "Pernas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 8
+      },
+      "text": {
+        "awesome_name": "Mensal",
+        "name": "Quadrúpede"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 9
+      },
+      "text": {
+        "awesome_name": "Alar",
+        "name": "Asas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 10
+      },
+      "text": {
+        "awesome_name": "cilial",
+        "name": "Tentáculos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 11
+      },
+      "text": {
+        "awesome_name": "Policefálico",
+        "name": "Cabeças"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 12
+      },
+      "text": {
+        "awesome_name": "Antropomórfico",
+        "name": "Humanóide"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 13
+      },
+      "text": {
+        "awesome_name": "Lepidóptero",
+        "name": "Asas de inseto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_shape_id": 14
+      },
+      "text": {
+        "awesome_name": "Quitinoso",
+        "name": "Armadura"
+      }
+    }
+  ]
+}

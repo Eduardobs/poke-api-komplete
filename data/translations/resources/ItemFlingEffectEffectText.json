@@ -1,0 +1,61 @@
+{
+  "source_sha256": "5a743bb539d22a8d076f17bbd0a4fbaee61a31fc1e908bef64213cf4874052de",
+  "entries": [
+    {
+      "key": {
+        "item_fling_effect_id": 1
+      },
+      "text": {
+        "effect": "Envenena gravemente o alvo."
+      }
+    },
+    {
+      "key": {
+        "item_fling_effect_id": 2
+      },
+      "text": {
+        "effect": "Queima o alvo."
+      }
+    },
+    {
+      "key": {
+        "item_fling_effect_id": 3
+      },
+      "text": {
+        "effect": "Ativa imediatamente o efeito da fruta no alvo."
+      }
+    },
+    {
+      "key": {
+        "item_fling_effect_id": 4
+      },
+      "text": {
+        "effect": "Ativa imediatamente o efeito da erva no alvo."
+      }
+    },
+    {
+      "key": {
+        "item_fling_effect_id": 5
+      },
+      "text": {
+        "effect": "Paralisa o alvo."
+      }
+    },
+    {
+      "key": {
+        "item_fling_effect_id": 6
+      },
+      "text": {
+        "effect": "Envenena o alvo."
+      }
+    },
+    {
+      "key": {
+        "item_fling_effect_id": 7
+      },
+      "text": {
+        "effect": "O alvo irá hesitar se ainda não tiver passado neste turno."
+      }
+    }
+  ]
+}

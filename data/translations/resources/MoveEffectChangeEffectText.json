@@ -1,0 +1,229 @@
+{
+  "source_sha256": "ca78aecf34839e1c6be109839f0b5f6622de6445d722bebbe000f52b029cc9dc",
+  "entries": [
+    {
+      "key": {
+        "move_effect_change_id": 1
+      },
+      "text": {
+        "effect": "Reduz pela metade a defesa do alvo para cálculo de dano, o que é semelhante a dobrar o poder do ataque."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 2
+      },
+      "text": {
+        "effect": "Atinge Pokémon sob os efeitos de Dig e Fly."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 3
+      },
+      "text": {
+        "effect": "Não faz nada em batalhas de treinadores."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 4
+      },
+      "text": {
+        "effect": "Funciona durante o sono por meio de Sleep Talk, se não estiver com integridade total."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 5
+      },
+      "text": {
+        "effect": "Se este golpe falhar, o usuário sofre 1 ponto de dano no recuo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 6
+      },
+      "text": {
+        "effect": "Se este golpe falhar, o usuário sofre dano igual à metade de seu PS máximo arredondado para baixo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 7
+      },
+      "text": {
+        "effect": "Bloqueia o usuário neste golpe.  Devido a um bug, se esse golpe falhar, sua precisão cai para 1/256 enquanto o usuário ainda estiver bloqueado."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 8
+      },
+      "text": {
+        "effect": "Pode chamar qualquer golpe, exceto Struggle e ele mesmo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 9
+      },
+      "text": {
+        "effect": "Não interage com Stomp."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 10
+      },
+      "text": {
+        "effect": "Aumenta a evasão em um estágio."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 11
+      },
+      "text": {
+        "effect": "Não aumenta a Defesa."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 12
+      },
+      "text": {
+        "effect": "Não atinge Pokémon sob os efeitos de Dig."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 13
+      },
+      "text": {
+        "effect": "Não atinge Pokémon sob os efeitos de Fly."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 14
+      },
+      "text": {
+        "effect": "Não interage com Minimize."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 15
+      },
+      "text": {
+        "effect": "Não atinge Pokémon sob os efeitos de Fly."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 16
+      },
+      "text": {
+        "effect": "Determina o dano usando o Ataque base de cada participante e a Defesa base do oponente no lugar das atributos calculadas."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 17
+      },
+      "text": {
+        "effect": "Swift pode atingir o usuário enquanto estiver no ar, e nenhum outro golpe pode.  Devido a um bug, se o usuário não conseguir realizar o segundo turno do golpe, por ex. devido à paralisia, ele permanece no ar até desligar ou usar Fly novamente com sucesso.  Enquanto isso, ele pode agir como se estivesse no chão, mas os golpes ainda erram."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 18
+      },
+      "text": {
+        "effect": "Não aumenta Defesa ou Defesa Especial."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 19
+      },
+      "text": {
+        "effect": "Não aumenta a Defesa Especial do usuário."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 20
+      },
+      "text": {
+        "effect": "Cura Pokémon substitutos pela metade de seu PS máximo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 21
+      },
+      "text": {
+        "effect": "Inflige danos do tipo Normal."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 22
+      },
+      "text": {
+        "effect": "Swift pode atingir o usuário enquanto estiver no subsolo, e nenhum outro golpe pode.  Devido a um bug, se o usuário não conseguir realizar o segundo turno do golpe, por ex. devido à paralisia, ele permanece no subsolo até que seja desligado ou use Dig novamente com sucesso.  Enquanto isso, ele pode agir como se estivesse na superfície, mas os golpes ainda não percebem."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 23
+      },
+      "text": {
+        "effect": "Não interage com Hail."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 24
+      },
+      "text": {
+        "effect": "Ignora Wonder Guard."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 25
+      },
+      "text": {
+        "effect": "Dura dois ou três turnos."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 26
+      },
+      "text": {
+        "effect": "Se o alvo não estiver sob o efeito de Detect ou Protect, esta movimentação falhará."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 27
+      },
+      "text": {
+        "effect": "O usuário recebe 1/2 do dano causado no recuo."
+      }
+    },
+    {
+      "key": {
+        "move_effect_change_id": 28
+      },
+      "text": {
+        "effect": "As barreiras são destruídas mesmo que este golpe não tenha efeito."
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source_sha256": "ec61b519119c11e12be4e3286d4fd9320e68957af62a969f9622b9e0636d1f33",
+  "entries": [
+    {
+      "key": {
+        "move_damage_class_id": 1
+      },
+      "text": {
+        "description": "Nenhum dano"
+      }
+    },
+    {
+      "key": {
+        "move_damage_class_id": 2
+      },
+      "text": {
+        "description": "Dano físico, controlado por Ataque e Defesa"
+      }
+    },
+    {
+      "key": {
+        "move_damage_class_id": 3
+      },
+      "text": {
+        "description": "Dano especial, controlado por Ataque Especial e Defesa Especial"
+      }
+    }
+  ]
+}

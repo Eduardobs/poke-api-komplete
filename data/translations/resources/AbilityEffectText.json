@@ -1,0 +1,2831 @@
+{
+  "source_sha256": "01d36d02a191ec03adb539d7139bbf8b4996df7c7021ae4c59d739a589d18455",
+  "entries": [
+    {
+      "key": {
+        "ability_id": 1
+      },
+      "text": {
+        "effect": "Os golpes prejudiciais deste Pokémon têm 10% de chance de fazer o alvo hesitar a cada golpe, se ainda não causarem vacilação como efeito secundário.\n\nEsta habilidade não acumula com um item segurado.\n\nFora de batalha: A taxa de encontros selvagens é reduzida pela metade enquanto este Pokémon é o primeiro no grupo.",
+        "short_effect": "Tem 10% de chance de fazer o Pokémon alvo hesitar a cada golpe."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 2
+      },
+      "text": {
+        "effect": "O clima muda para chuva quando este Pokémon entra em batalha e não termina a menos que seja substituído por outra condição climática.\n\nSe vários Pokémon com esta habilidade, Drought, Sand Stream ou Snow Warning, forem enviados ao mesmo tempo, as habilidades serão ativadas em ordem de velocidade, respeitando Trick Room.  O clima de cada habilidade cancelará o clima anterior, e apenas o clima convocado pelo Pokémon mais lento permanecerá.",
+        "short_effect": "Invoca chuva que dura indefinidamente ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 3
+      },
+      "text": {
+        "effect": "A velocidade deste Pokémon aumenta um estágio após cada turno.",
+        "short_effect": "Aumenta a velocidade um estágio após cada turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 4
+      },
+      "text": {
+        "effect": "Os golpes não podem causar acertos críticos contra este Pokémon.\n\nEsta habilidade funciona de forma idêntica a Shell Armor.",
+        "short_effect": "Protege contra ataques críticos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 5
+      },
+      "text": {
+        "effect": "Quando este Pokémon estiver com PS máximo, qualquer golpe que o derrube o deixará com 1 PS.  Independentemente do seu PS atual, ele também é imune aos golpes de KO de um golpe: Fissure, Guillotine, Horn Drill e Sheer Cold.\n\nSe este Pokémon estiver segurando um Focus Sash, esta habilidade terá precedência e o item não será consumido.",
+        "short_effect": "Evita ser nocauteado com PS total, deixando 1 PS em vez disso.  Protege contra golpes de KO de um golpe, independentemente do PS."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 6
+      },
+      "text": {
+        "effect": "Enquanto este Pokémon estiver em batalha, Self-Destruct e Explosion falharão e Aftermath não terá efeito.",
+        "short_effect": "Impede que Self-Destruct, Explosion e Aftermath funcionem enquanto o Pokémon está em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 7
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ser paralisado.\n\nSe um Pokémon ficar paralisado e adquirir esta habilidade, sua paralisia será curada; isso inclui recuperar uma habilidade perdida ao sair da batalha.",
+        "short_effect": "Previne a paralisia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 8
+      },
+      "text": {
+        "effect": "Durante uma tempestade de areia, este Pokémon tem 1,25x sua evasão e não sofre danos de tempestade de areia, independentemente do tipo.\n\nO bônus de evasão não conta como modificador de atributos.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontros selvagens será reduzida pela metade em uma tempestade de areia.",
+        "short_effect": "Aumenta a evasão para 1,25× durante uma tempestade de areia.  Protege contra danos causados ​​por tempestades de areia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 9
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe tem 30% de chance de ficar paralisado.\n\nPokémon imunes a golpes do tipo Elétrico ainda podem ficar paralisados ​​por esta habilidade.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, há 50% de chance de que os encontros sejam com um Pokémon Elétrico, se aplicável.",
+        "short_effect": "Tem 30% de chance de paralisar Pokémon atacantes ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 10
+      },
+      "text": {
+        "effect": "Sempre que um golpe do tipo Elétrico atinge este Pokémon, ele cura 1/4 do seu PS máximo, negando qualquer outro efeito sobre ele.\n\nEsta habilidade não terá efeito se este Pokémon for do tipo Terra e, portanto, imune a golpes elétricos.  Os golpes elétricos irão ignorar o Substitute deste Pokémon.\n\nEste efeito inclui golpes que não causam dano, ou seja, Thunder Wave.",
+        "short_effect": "Absorve golpes elétricos, curando 1/4 do PS máximo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 11
+      },
+      "text": {
+        "effect": "Sempre que um golpe do tipo Água atinge este Pokémon, ele cura 1/4 do seu PS máximo, negando qualquer outro efeito sobre ele.\n\nOs golpes de água irão ignorar o Substitute deste Pokémon.",
+        "short_effect": "Absorve golpes de água, curando 1/4 do PS máximo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 12
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ser apaixonado e é imune a Captivate.\n\nSe um Pokémon estiver apaixonado e adquirir essa habilidade, sua paixão será eliminada.",
+        "short_effect": "Previne a paixão e protege contra Captivate."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 13
+      },
+      "text": {
+        "effect": "Enquanto este Pokémon estiver em batalha, o clima ainda poderá estar em jogo, mas não terá nenhum dos seus efeitos.\n\nEsta habilidade funciona de forma idêntica a Air Lock.",
+        "short_effect": "Nega todos os efeitos do clima, mas não impede o clima em si."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 14
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon têm 1,3x de precisão.\n\nEsta habilidade não tem efeito nos golpes de KO de um golpe (Fissure, Guillotine, Horn Drill e Sheer Cold).\n\nFora de batalha: Se o primeiro Pokémon do grupo tiver essa habilidade, a chance de um Pokémon selvagem possuir um determinado item aumenta de 50%, 5% ou 1% para 60%, 20% ou 5%, respectivamente.",
+        "short_effect": "Aumenta a precisão dos golpes para 1,3×."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 15
+      },
+      "text": {
+        "effect": "Este Pokémon não pode estar dormindo.\n\nIsso faz com que Rest falhe completamente.  Se um Pokémon estiver dormindo e adquirir esta habilidade, ele acordará imediatamente; isso inclui recuperar uma habilidade perdida ao sair da batalha.\n\nEsta habilidade funciona de forma idêntica a Vital Spirit em batalha.",
+        "short_effect": "Impede o sono."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 16
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon sofre dano de um golpe, o tipo do Pokémon muda para corresponder ao golpe.\n\nSe o Pokémon tiver dois tipos, ambos serão substituídos.  O Pokémon deve sofrer dano diretamente; por exemplo, golpes bloqueados por um Substitute não ativarão essa habilidade, nem golpes que causem dano indiretamente, como Spikes.\n\nEsta habilidade entra em vigor apenas no último golpe de um ataque de múltiplos golpes.\n\nEm Pokémon Colosseum e XD: Gale of Darkness, esta habilidade não tem efeito em golpes do tipo Shadow.",
+        "short_effect": "Muda de tipo para corresponder quando atingido por um golpe prejudicial."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 17
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ser envenenado.  Isso inclui veneno ruim.\n\nSe um Pokémon for envenenado e adquirir esta habilidade, seu veneno será curado; isso inclui recuperar uma habilidade perdida ao sair da batalha.",
+        "short_effect": "Previne veneno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 18
+      },
+      "text": {
+        "effect": "Este Pokémon é imune a golpes do tipo Fogo.  Depois que este Pokémon for atingido por um golpe Fire, seus próprios golpes Fire causarão 1,5x mais dano até que ele saia da batalha.\n\nEsta habilidade não tem efeito enquanto o Pokémon estiver congelado.  O bônus de dano de Fogo é mantido mesmo se o Pokémon for congelado e descongelado ou se a habilidade for perdida ou desativada.  Os golpes de fogo irão ignorar o Substitute deste Pokémon.  Esta habilidade tem efeito mesmo em golpes que não causam dano, ou seja, Will-O-Wisp.",
+        "short_effect": "Protege contra golpes de Fogo.  Uma vez bloqueado, os golpes de Fogo do próprio Pokémon causam 1,5x de dano até que ele saia da batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 19
+      },
+      "text": {
+        "effect": "Este Pokémon é imune aos efeitos extras dos golpes usados contra ele.\n\nAn extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.",
+        "short_effect": "Protege contra efeitos extras de golpes recebidos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 20
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ser confundido.\n\nSe um Pokémon ficar confuso e adquirir esta habilidade, sua confusão será curada imediatamente.",
+        "short_effect": "Evita confusão."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 21
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ser forçado a sair da batalha por golpes como Whirlwind.\n\nDragon Tail e Circle Throw ainda causam dano a este Pokémon.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de sucesso durante a pesca aumenta.",
+        "short_effect": "Evita ser forçado a sair da batalha pelos golpes de outros Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 22
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, o Ataque do oponente é reduzido em um estágio.  Numa batalha dupla, ambos os oponentes são afetados.\n\nEsta habilidade também entra em vigor quando adquirida durante uma batalha, mas não terá efeito novamente se for perdida e recuperada sem sair da batalha.\n\nEsta habilidade não tem efeito em um oponente que possua Substitute.\n\nFora de batalha: Se o primeiro Pokémon do grupo tiver essa habilidade, qualquer encontro aleatório com um Pokémon cinco ou mais níveis abaixo dele tem 50% de chance de ser ignorado.",
+        "short_effect": "Reduz o ataque dos oponentes em um estágio ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 23
+      },
+      "text": {
+        "effect": "Enquanto este Pokémon estiver em batalha, os Pokémon oponentes não poderão fugir ou trocar de posição.\n\nOutros Pokémon com esta habilidade não são afetados.  Pokémon com Run Away ainda podem fugir.  Os Pokémon ainda podem trocar com o uso de um golpe ou item.",
+        "short_effect": "Impede que os oponentes fujam ou troquem."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 24
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe sofre 1/8 do seu PS máximo em dano.\n\nEsta habilidade funciona de forma idêntica a Iron Barbs.",
+        "short_effect": "Causa dano ao Pokémon atacante em 1/8 do seu PS máximo ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 25
+      },
+      "text": {
+        "effect": "Este Pokémon é imune a golpes prejudiciais que não são muito eficazes contra ele.\n\nGolpes que infligem dano fixo, como Night Shade ou Seismic Toss, são considerados supereficazes se seus tipos forem.  Danos não causados ​​diretamente por golpes, como danos causados ​​pelo clima, uma doença de status ou Spikes, não são evitados.\n\nEsta habilidade não pode ser copiada com Role Play ou trocada com Skill Swap, mas pode ser copiada com Trace, desabilitada com Gastro Acid ou alterada com Worry Seed.  Este Pokémon ainda pode usar o próprio Role Play para perder essa habilidade, mas não Skill Swap.\n\nSe este Pokémon tiver um Substitute, esta habilidade bloqueará golpes normalmente e quaisquer golpes não bloqueados reagirão ao Substitute normalmente.",
+        "short_effect": "Protege contra golpes prejudiciais que não são muito eficazes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 26
+      },
+      "text": {
+        "effect": "Este Pokémon é imune a ataques do tipo Ground, Spikes, Toxic Spikes e Arena Trap.\n\nEsta habilidade é desativada durante Gravity ou Ingrain, ou enquanto segura um Iron Ball.  Esta capacidade não é desativada durante Roost.",
+        "short_effect": "Evita golpes terrestres."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 27
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe tem 30% de chance de ficar paralisado, envenenado ou adormecido, escolhido aleatoriamente.\n\nNada é feito para compensar se o usuário do golpe estiver imune a uma dessas doenças; há simplesmente uma chance menor de o usuário da mudança ser afetado.",
+        "short_effect": "Tem 30% de chance de causar paralisia, veneno ou sono ao atacar Pokémon ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 28
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon for queimado, paralisado ou envenenado, o Pokémon que lhe deu aquela doença também receberá a doença.\n\nEsta habilidade devolve veneno ruim quando este Pokémon está gravemente envenenado.  Esta habilidade não pode transmitir uma doença de status que o Pokémon não recebeu diretamente de outro Pokémon, como o veneno de Toxic Spikes ou a queimadura de um Flame Orb.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, os Pokémon selvagens terão 50% de chance de ter a natureza do Pokémon líder e 50% de chance de receber uma natureza aleatória como de costume, incluindo a natureza do Pokémon líder.  Isso não funciona em Pokémon recebidos fora da batalha ou em roaming lendários.",
+        "short_effect": "Copia queimaduras, paralisia e veneno recebidos no Pokémon que os infligiu."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 29
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ter suas atributos reduzidas por outros Pokémon.\n\nEsta habilidade não evita quaisquer perdas de atributos além dos modificadores de atributos, como o corte de velocidade devido à paralisia.  Este Pokémon ainda pode receber modificadores de atributos negativos por meio de Guard Swap, Heart Swap ou Power Swap.\n\nEsta habilidade funciona de forma idêntica a White Smoke em batalha.",
+        "short_effect": "Impede que as atributos sejam reduzidas por outros Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 30
+      },
+      "text": {
+        "effect": "Este Pokémon é curado de qualquer problema grave de status quando é trocado por outro Pokémon.\n\nSe esta habilidade for adquirida durante a batalha, o Pokémon será curado ao sair da batalha antes de perder a habilidade temporária.",
+        "short_effect": "Cura qualquer doença grave de status ao desligar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 31
+      },
+      "text": {
+        "effect": "Todos os outros golpes do tipo Elétrico de alvo único de Pokémon são redirecionados para este Pokémon se ele for um alvo elegível.  Os golpes elétricos de outros Pokémon aumentam o Ataque Especial deste Pokémon em um estágio, negando qualquer outro efeito sobre ele, e não podem perdê-lo.\n\nSe o alvo pretendido do golpe também tiver essa habilidade, o golpe não será redirecionado.  Quando vários Pokémon com esta habilidade são alvos possíveis para redirecionamento, o golpe é redirecionado para aquele com a atributo de velocidade mais alta ou, em caso de empate, para um Pokémon empatado aleatório.  Follow Me tem precedência sobre esta habilidade.\n\nSe o Pokémon for do tipo Terra e, portanto, imune a golpes elétricos, sua imunidade impede o aumento do Ataque Especial.",
+        "short_effect": "Redireciona golpes elétricos de alvo único para este Pokémon sempre que possível.  Absorve golpes elétricos, aumentando o Ataque Especial em um estágio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 32
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon têm o dobro da chance de efeito normal.\n\nUma chance de efeito é a chance de um golpe infligir uma doença de status, causar uma mudança de atributo ou fazer o alvo hesitar, além do efeito principal do golpe.  Por exemplo, a chance de Flamethrower de queimar o alvo é duplicada, mas a chance de sucesso de Protect e o aumento da taxa de acerto crítico de Air Cutter não são afetados.\n\nSecret Power não é afetado.",
+        "short_effect": "Dobra a chance de ocorrerem efeitos extras dos golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 33
+      },
+      "text": {
+        "effect": "A velocidade deste Pokémon é duplicada durante a chuva.\n\nEste bônus não conta como modificador de atributos.",
+        "short_effect": "Dobra a velocidade durante a chuva."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 34
+      },
+      "text": {
+        "effect": "A velocidade deste Pokémon é duplicada durante a luz solar forte.\n\nEste bônus não conta como modificador de atributos.",
+        "short_effect": "Dobra a velocidade durante luz solar forte."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 35
+      },
+      "text": {
+        "effect": "Fora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontro selvagem será duplicada.\n\nEsta habilidade não tem efeito em batalha.",
+        "short_effect": "Dobra a taxa de encontro selvagem."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 36
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, ele copia uma habilidade aleatória do oponente.\n\nEsta habilidade não pode copiar Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace ou Zen Mode.",
+        "short_effect": "Copia a habilidade de um oponente ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 37
+      },
+      "text": {
+        "effect": "O ataque deste Pokémon é duplicado durante a batalha.\n\nEste bônus não conta como modificador de atributos.\n\nEsta habilidade funciona de forma idêntica a Pure Power.",
+        "short_effect": "Duplas de ataque em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 38
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe tem 30% de chance de ser envenenado.",
+        "short_effect": "Tem 30% de chance de envenenar Pokémon atacantes ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 39
+      },
+      "text": {
+        "effect": "Este Pokémon não pode hesitar.",
+        "short_effect": "Evita vacilações."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 40
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ser congelado.\n\nSe um Pokémon estiver congelado e adquirir esta habilidade, ele irá descongelar imediatamente; isso inclui recuperar uma habilidade perdida ao sair da batalha.\n\nFora de batalha: Se algum Pokémon do grupo tiver essa habilidade, cada ovo do grupo terá seu contador de eclosão diminuído em 2 (em vez de 1) a cada ciclo de etapa, fazendo com que os ovos eclodam aproximadamente duas vezes mais rápido.  Este efeito não se acumula se vários Pokémon tiverem esta habilidade ou Flame Body.",
+        "short_effect": "Evita o congelamento."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 41
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ser queimado.\n\nSe um Pokémon for queimado e adquirir esta habilidade, sua queimadura será curada; isso inclui recuperar uma habilidade perdida ao sair da batalha.",
+        "short_effect": "Previne queimaduras."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 42
+      },
+      "text": {
+        "effect": "Enquanto este Pokémon estiver em batalha, os Pokémon do tipo Steel adversários não poderão fugir ou trocar de posição.\n\nPokémon com Run Away ainda podem fugir.  Os Pokémon ainda podem trocar com o uso de um golpe ou item.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, os Pokémon do tipo Steel terão uma taxa de encontro mais alta.",
+        "short_effect": "Impede que oponentes Steel fujam ou troquem."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 43
+      },
+      "text": {
+        "effect": "Este Pokémon é imune a golpes sinalizados como baseados em sons.\n\nHeal Bell não é afetado.  Uproar ainda impede este Pokémon de dormir.  Este Pokémon ainda pode receber um contador Perish Song através de Baton Pass e manterá um contador Perish Song se adquirir essa habilidade após Perish Song ser usado.\n\nHowl, Roar of Time, Sonic Boom e Yawn não são sinalizados como baseados em som.",
+        "short_effect": "Protege contra golpes baseados em som."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 44
+      },
+      "text": {
+        "effect": "Este Pokémon cura 1/16 de seu PS máximo após cada turno durante a chuva.",
+        "short_effect": "Cura 1/16 do PS máximo após cada turno durante a chuva."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 45
+      },
+      "text": {
+        "effect": "O clima muda para uma tempestade de areia quando este Pokémon entra em batalha e não termina a menos que seja cancelado por outra condição climática.\n\nSe vários Pokémon com esta habilidade, Drizzle, Drought ou Snow Warning, forem enviados ao mesmo tempo, as habilidades serão ativadas em ordem de velocidade, respeitando Trick Room.  O clima de cada habilidade cancelará o clima anterior, e apenas o clima convocado pelo Pokémon mais lento permanecerá.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontros selvagens será reduzida pela metade em uma tempestade de areia.",
+        "short_effect": "Invoca uma tempestade de areia que dura indefinidamente ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 46
+      },
+      "text": {
+        "effect": "Os golpes direcionados a este Pokémon usam um PP extra.\n\nEsta habilidade acumula se vários alvos a possuírem.  Esta habilidade ainda afeta golpes que falham ou erram.  Esta habilidade não afeta os golpes aliados que têm como alvo todo o campo ou apenas o seu lado, nem os golpes auto-direcionados deste Pokémon; no entanto, afeta golpes de aliados de alvo único direcionados a este Pokémon, golpes de aliados que têm como alvo todos os outros Pokémon e golpes de oponentes que têm como alvo todo o campo.  Se esta habilidade aumentar o custo de PP de um golpe acima do PP restante, ela usará todos os PP restantes.\n\nQuando este Pokémon entra em batalha, todos os treinadores participantes são notificados de que ele possui essa habilidade.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, os Pokémon de nível superior terão sua taxa de encontro aumentada.",
+        "short_effect": "Aumenta em um o custo de PP dos golpes direcionados ao Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 47
+      },
+      "text": {
+        "effect": "Este Pokémon sofre metade do dano de golpes do tipo Fogo e Gelo.",
+        "short_effect": "Reduz pela metade o dano de golpes de Fogo e Gelo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 48
+      },
+      "text": {
+        "effect": "A contagem de turnos de sono restantes deste Pokémon cai em 2 em vez de 1.\n\nSe o contador de sono deste Pokémon estiver em 1, ele cairá para 0 e então o Pokémon acordará.",
+        "short_effect": "Faz o sono passar duas vezes mais rápido."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 49
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe tem 30% de chance de ser queimado.\n\nFora de batalha: Se algum Pokémon do grupo tiver essa habilidade, cada ovo do grupo terá seu contador de eclosão diminuído em 2 (em vez de 1) a cada ciclo de etapa, fazendo com que os ovos eclodam aproximadamente duas vezes mais rápido.  Este efeito não se acumula se vários Pokémon tiverem esta habilidade ou Magma Armor.",
+        "short_effect": "Tem 30% de chance de queimar Pokémon atacantes ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 50
+      },
+      "text": {
+        "effect": "Este Pokémon sempre consegue fugir de batalhas selvagens, mesmo se estiver preso por um golpe ou habilidade.",
+        "short_effect": "Garante o sucesso fugindo de batalhas selvagens."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 51
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ter sua precisão reduzida.\n\nEsta habilidade não evita quaisquer perdas de precisão além dos modificadores de atributos, como o corte de precisão da neblina; nem impede que a evasão de outros Pokémon torne os golpes deste Pokémon menos precisos.  Este Pokémon ainda pode receber modificadores de precisão negativos por meio de Heart Swap.\n\nFora de batalha: Se o primeiro Pokémon do grupo tiver essa habilidade, qualquer encontro aleatório com um Pokémon cinco ou mais níveis abaixo dele tem 50% de chance de ser ignorado.",
+        "short_effect": "Impede que a precisão seja reduzida."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 52
+      },
+      "text": {
+        "effect": "O ataque deste Pokémon não pode ser reduzido por outros Pokémon.\n\nEsta habilidade não evita quaisquer perdas de Ataque além dos modificadores de atributos, como o Corte de Ataque de uma queimadura.  Este Pokémon ainda pode receber modificadores de ataque negativos por meio de Heart Swap ou Power Swap.",
+        "short_effect": "Impede que o Ataque seja reduzido por outros Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 53
+      },
+      "text": {
+        "effect": "No final de cada turno, se outro Pokémon consumiu ou arremessou um item retido naquele turno, esse Pokémon pegará o item se ainda não estiver segurando um.  Após cada batalha, este Pokémon tem 10% de chance de pegar um item se ainda não estiver segurando um.\n\nO Air Balloon e Eject Button não podem ser retirados.\n\nOs itens que podem ser encontrados variam de acordo com o jogo e, desde Pokémon Emerald, de acordo com o nível do Pokémon.  Esta habilidade é verificada após o término da batalha, quando qualquer mudança temporária de habilidade desaparece.",
+        "short_effect": "Pega itens usados ​​e arremessados ​​de outros Pokémon.  Também pode pegar um item após a batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 54
+      },
+      "text": {
+        "effect": "A cada segundo turno em que este Pokémon tentar usar um golpe, ele não fará nada (\"vadiar\").\n\nVadiar interrompe golpes que levam vários turnos da mesma forma que a paralisia, a vacilação, etc.  A maioria desses golpes, por exemplo Bide ou Rollout, são simplesmente interrompidos ao vadiar.  Ataques com turno de recarga, como Hyper Beam, não precisam recarregar; ataques com turno de preparação, como Fly, acabam não sendo utilizados.  Golpes que são forçados em vários turnos e continuam falhando, como Outrage, Uproar ou qualquer golpe forçado por Encore, continuam normalmente.\n\nSe este Pokémon estiver confuso, sua confusão não será verificada quando estiver vagando; o Pokémon não pode se machucar e sua confusão não termina ou está perto de acabar.\n\nSe este Pokémon tentar se mover, mas falhar, por ex. por causa de paralisia ou Gravity, ele ainda conta como tendo se movido e ficará vagando no próximo turno.  Se não tentar se mover, por ex. porque está adormecido ou congelado, tudo o que teria feito será adiado até a próxima tentativa; isto é, ele ficará vagando ou se moverá normalmente, dependendo do que fez pela última vez.\n\nEsta habilidade não pode ser alterada com Worry Seed, mas pode ser desativada com Gastro Acid, alterada com Role Play ou trocada com Skill Swap.",
+        "short_effect": "Pula cada segundo turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 55
+      },
+      "text": {
+        "effect": "Os golpes físicos deste Pokémon causam 1,5x mais dano normal, mas têm 0,8x sua precisão normal.\n\nOs golpes especiais não são afetados.  Golpes que causam dano, como Seismic Toss, têm sua precisão afetada, mas não seu dano.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, os Pokémon de nível superior terão sua taxa de encontro aumentada.",
+        "short_effect": "Fortalece os golpes físicos para infligir 1,5x de dano, mas diminui sua precisão para 0,8x."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 56
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe tem 30% de chance de se apaixonar.\n\nFora de batalha: Se o primeiro Pokémon do grupo tiver essa habilidade, qualquer Pokémon selvagem cuja espécie possa ser de qualquer gênero tem 2/3 de chance de ser definido para o gênero oposto e 1/3 de chance de ter um gênero aleatório, como de costume.",
+        "short_effect": "Tem 30% de chance de encantar Pokémon atacantes ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 57
+      },
+      "text": {
+        "effect": "Este Pokémon tem 1,5x seu Ataque Especial se algum Pokémon aliado tiver Plus ou Minus.\n\nEste bônus não conta como modificador de atributos.  Se uma das habilidades for desativada por Gastro Acid, ambas perderão o efeito.",
+        "short_effect": "Aumenta o Ataque Especial para 1,5× quando um Pokémon aliado tem Plus ou Minus."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 58
+      },
+      "text": {
+        "effect": "Este Pokémon tem 1,5x seu Ataque Especial se algum Pokémon aliado tiver Plus ou Minus.\n\nEste bônus não conta como modificador de atributos.  Se uma das habilidades for desativada por Gastro Acid, ambas perderão o efeito.",
+        "short_effect": "Aumenta o Ataque Especial para 1,5× quando um Pokémon aliado tem Plus ou Minus."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 59
+      },
+      "text": {
+        "effect": "Durante a chuva, luz solar forte ou granizo, o tipo deste Pokémon muda para Água, Fogo ou Gelo, respectivamente, e sua forma muda para combinar.\n\nEsta habilidade não tem efeito para nenhum Pokémon além de Castform.\n\nSe o clima terminar ou se tornar algo que não ative esta habilidade, ou se um Pokémon com Air Lock ou Cloud Nine entrar em batalha, o tipo e a forma deste Pokémon voltarão ao padrão.  Se esta habilidade for perdida ou desativada, este Pokémon não poderá mudar seu tipo e forma atuais até recuperar sua habilidade.",
+        "short_effect": "Altera o tipo e a forma de Castform para corresponder ao clima."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 60
+      },
+      "text": {
+        "effect": "O item de retenção deste Pokémon não pode ser removido por outros Pokémon.\n\nGolpes prejudiciais que removeriam o item deste Pokémon ainda podem causar danos a este Pokémon, por ex. Knock Off ou Pluck.  Este Pokémon ainda pode usar golpes que envolvam a perda do seu próprio item, por ex. Fling ou Trick.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontro durante a pesca aumenta.",
+        "short_effect": "Impede que um item retido seja removido por outros Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 61
+      },
+      "text": {
+        "effect": "Após cada turno, este Pokémon tem 33% de chance de ser curado de qualquer doença grave de status.",
+        "short_effect": "Tem 33% de chance de curar qualquer doença grave de status após cada turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 62
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon estiver dormindo, queimado, paralisado ou envenenado, ele terá 1,5x seu Ataque.  Este Pokémon não é afetado pelo corte normal de ataque de uma queimadura.\n\nEste bônus não conta como modificador de atributos.",
+        "short_effect": "Aumenta o ataque para 1,5× com uma doença de status grave."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 63
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon tiver uma doença de status grave, ele terá 1,5x sua Defesa.\n\nEste bônus não conta como modificador de atributos.",
+        "short_effect": "Aumenta a Defesa para 1,5× com uma doença de status grave."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 64
+      },
+      "text": {
+        "effect": "Sempre que um Pokémon se cura após acertá-lo com um golpe de sanguessuga como Absorb, ele perde tantos PS quanto normalmente ganharia.\n\nDream Eater não é afetado.",
+        "short_effect": "Causa dano aos oponentes usando golpes de sanguessuga tanto quanto eles poderiam curar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 65
+      },
+      "text": {
+        "effect": "Quando este Pokémon tem 1/3 ou menos de seu PS restante, seus golpes do tipo Grass causam 1,5x mais dano normal.",
+        "short_effect": "Fortalece golpes de grama para causar 1,5x de dano com 1/3 do PS máximo ou menos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 66
+      },
+      "text": {
+        "effect": "Quando este Pokémon tem 1/3 ou menos de seu PS restante, seus golpes do tipo Fogo causam 1,5x mais dano normal.",
+        "short_effect": "Fortalece golpes de Fogo para causar 1,5x de dano com 1/3 do PS máximo ou menos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 67
+      },
+      "text": {
+        "effect": "Quando este Pokémon tem 1/3 ou menos de seu PS restante, seus golpes do tipo Água causam 1,5x mais dano normal.",
+        "short_effect": "Fortalece os golpes da Água para causar 1,5x de dano com 1/3 do PS máximo ou menos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 68
+      },
+      "text": {
+        "effect": "Quando este Pokémon tem 1/3 ou menos de seu PS restante, seus golpes do tipo Bug causam 1,5x mais dano normal.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontros selvagens aumenta.",
+        "short_effect": "Fortalece golpes de insetos para infligir 1,5x de dano com 1/3 do PS máximo ou menos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 69
+      },
+      "text": {
+        "effect": "Este Pokémon não recebe dano de recuo devido aos seus golpes de recuo.\n\nO recuo de Struggle não é afetado.  Esta habilidade não evita que danos de colisão sejam perdidos com Jump Kick ou High Jump Kick.",
+        "short_effect": "Protege contra danos de recuo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 70
+      },
+      "text": {
+        "effect": "O clima muda para forte luz solar quando este Pokémon entra em batalha e não termina a menos que seja cancelado por outra condição climática.\n\nSe vários Pokémon com esta habilidade, Drizzle, Sand Stream ou Snow Warning, forem enviados ao mesmo tempo, as habilidades serão ativadas em ordem de velocidade, respeitando Trick Room.  O clima de cada habilidade cancelará o clima anterior, e apenas o clima convocado pelo Pokémon mais lento permanecerá.",
+        "short_effect": "Invoca forte luz solar que dura indefinidamente ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 71
+      },
+      "text": {
+        "effect": "Enquanto este Pokémon estiver em batalha, os Pokémon oponentes não poderão fugir ou trocar de posição.  Pokémon do tipo voador e Pokémon no ar, por ex. devido a Levitate ou Magnet Rise, não são afetados.\n\nPokémon com Run Away ainda podem fugir.  Os Pokémon ainda podem trocar com o uso de um golpe ou item.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontro selvagem será duplicada.",
+        "short_effect": "Impede que os oponentes fujam ou troquem.  Eludido por tipos voadores e Pokémon no ar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 72
+      },
+      "text": {
+        "effect": "Este Pokémon não pode estar dormindo.\n\nIsso faz com que Rest falhe completamente.  Se um Pokémon estiver dormindo e adquirir esta habilidade, ele acordará imediatamente; isso inclui recuperar uma habilidade perdida ao sair da batalha.\n\nEsta habilidade funciona de forma idêntica a Insomnia em batalha.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, os Pokémon de nível superior terão sua taxa de encontro aumentada.",
+        "short_effect": "Impede o sono."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 73
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ter suas atributos reduzidas por outros Pokémon.\n\nEsta habilidade não evita quaisquer perdas de atributos além dos modificadores de atributos, como o corte de velocidade devido à paralisia; nem quedas de atributos autoinfligidas, como a queda do Ataque Especial de Overheat; nem aumentos de atributos acionados pelo oponente, como o aumento de ataque de Swagger.  Este Pokémon ainda pode receber modificadores de atributos negativos por meio de Guard Swap, Heart Swap ou Power Swap.\n\nEsta habilidade funciona de forma idêntica a Clear Body em batalha.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontro selvagem será reduzida pela metade.",
+        "short_effect": "Impede que as atributos sejam reduzidas por outros Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 74
+      },
+      "text": {
+        "effect": "O ataque deste Pokémon é duplicado em batalha.\n\nEste bônus não conta como modificador de atributos.\n\nEsta habilidade funciona de forma idêntica a Huge Power.",
+        "short_effect": "Duplas de ataque em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 75
+      },
+      "text": {
+        "effect": "Os golpes não podem causar acertos críticos contra este Pokémon.\n\nEsta habilidade funciona de forma idêntica a Battle Armor.",
+        "short_effect": "Protege contra ataques críticos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 76
+      },
+      "text": {
+        "effect": "Enquanto este Pokémon estiver em batalha, o clima ainda poderá estar em jogo, mas não terá nenhum dos seus efeitos.\n\nEsta habilidade funciona de forma idêntica a Cloud Nine.",
+        "short_effect": "Nega todos os efeitos do clima, mas não impede o clima em si."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 77
+      },
+      "text": {
+        "effect": "Quando este Pokémon está confuso, ele tem o dobro da sua evasão.",
+        "short_effect": "Duplica a evasão quando confuso."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 78
+      },
+      "text": {
+        "effect": "Sempre que um golpe do tipo Elétrico atinge este Pokémon, sua velocidade aumenta um estágio, negando qualquer outro efeito sobre ele.\n\nEsta habilidade não terá efeito se este Pokémon for imune a golpes elétricos.  Os golpes elétricos irão ignorar o Substitute deste Pokémon.\n\nEste efeito inclui golpes que não causam dano, ou seja, Thunder Wave.",
+        "short_effect": "Absorve golpes elétricos, aumentando a velocidade em um estágio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 79
+      },
+      "text": {
+        "effect": "Este Pokémon causa 1,25x mais dano regular contra Pokémon do mesmo sexo e 0,75x mais dano regular contra Pokémon do sexo oposto.\n\nSe algum dos Pokémon não tiver gênero, o dano não será afetado.",
+        "short_effect": "Aumenta o dano infligido em 1,25× contra Pokémon do mesmo sexo, mas diminui o dano em 0,75× contra o sexo oposto."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 80
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon recua, sua velocidade aumenta um estágio.",
+        "short_effect": "Aumenta a velocidade em um estágio ao hesitar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 81
+      },
+      "text": {
+        "effect": "Durante o granizo, este Pokémon tem 1,25x sua evasão e não sofre dano de granizo, independentemente do tipo.\n\nO bônus de evasão não conta como modificador de atributos.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontros selvagens será reduzida pela metade na neve.",
+        "short_effect": "Aumenta a evasão para 1,25× durante granizo.  Protege contra danos causados ​​por granizo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 82
+      },
+      "text": {
+        "effect": "Este Pokémon come qualquer Berry retida, desencadeada por PS baixo quando ela cai abaixo de 50% de seu PS, independentemente do limite normal da Berry.",
+        "short_effect": "Faz o Pokémon comer qualquer Berry segurado, acionado por PS baixo abaixo de 1/2 do seu PS máximo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 83
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon recebe um golpe crítico, o seu Ataque sobe para o máximo de 6 estágios.\n\nEsta habilidade ainda terá efeito se o acerto crítico for recebido por um Substitute.",
+        "short_effect": "Aumenta o Ataque para no máximo seis estágios ao receber um acerto crítico."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 84
+      },
+      "text": {
+        "effect": "Quando este Pokémon usa ou perde o item que segura, a sua velocidade é duplicada.  Se ganhar outro item ou sair da batalha, este bônus será perdido.\n\nIsso inclui quando o Pokémon deixa cair seu item por causa de Knock Off.  Este bônus não conta como modificador de atributos.  Não há notificação quando esta habilidade entra em vigor.",
+        "short_effect": "Dobra a velocidade ao usar ou perder um item retido."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 85
+      },
+      "text": {
+        "effect": "Este Pokémon sofre metade do dano causado por golpes e queimaduras do tipo Fogo.",
+        "short_effect": "Reduz pela metade o dano causado por golpes de fogo e queimaduras."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 86
+      },
+      "text": {
+        "effect": "Cada estágio dos modificadores de atributos deste Pokémon atua como dois estágios.  Esses estágios duplicados ainda estão limitados a um mínimo de -6 e um máximo de 6.\n\nEste Pokémon ainda pode acumular menos de -3 ou mais de 3 estágios de modificadores de atributos, mesmo que os extras não tenham efeito após duplicarem.",
+        "short_effect": "Dobra os modificadores de atributos do Pokémon.  Esses modificadores duplicados ainda estão limitados a -6 ou 6 estágios."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 87
+      },
+      "text": {
+        "effect": "Este Pokémon sofre 1/8 de seu PS máximo em dano após cada turno durante a luz solar forte, mas cura 1/8 de seu PS a cada turno durante a chuva.  Este Pokémon sofre 1,25x mais dano de golpes do tipo Fogo, mas sempre que um golpe Água o atinge, ele cura 1/4 de seu PS máximo.",
+        "short_effect": "Causa 1/8 do PS máximo em dano a cada turno durante a luz solar forte, mas cura 1/8 do PS máximo durante a chuva.  Aumenta o dano de golpes de Fogo para 1,25×, mas absorve golpes de Água, curando 1/4 do PS máximo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 88
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, seu Ataque ou Ataque Especial, o que corresponder à atributo defensiva total mais fraca de seu oponente, aumenta um estágio.  Em caso de empate, o Ataque Especial é aumentado.\n\nEsta habilidade também entra em vigor quando adquirida durante uma batalha.",
+        "short_effect": "Aumenta a atributo de ataque correspondente à defesa mais fraca do oponente em um estágio ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 89
+      },
+      "text": {
+        "effect": "Golpes sinalizados como baseados em socos têm 1,2x seu poder base para este Pokémon.\n\nSucker Punch não é sinalizado como baseado em punção; seu nome original em japonês significa apenas \"ataque surpresa\".",
+        "short_effect": "Fortalece os golpes baseados em socos para 1,2x sua potência."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 90
+      },
+      "text": {
+        "effect": "Se este Pokémon for envenenado, ele irá curar 1/8 do seu PS máximo após cada turno, em vez de sofrer danos.  Isso inclui veneno ruim.",
+        "short_effect": "Cura 1/8 do PS máximo após cada turno quando envenenado no lugar do dano."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 91
+      },
+      "text": {
+        "effect": "Este Pokémon inflige o dobro de dano com golpes cujos tipos correspondem aos seus, em vez do bônus de ataque normal do mesmo tipo de 1,5×.",
+        "short_effect": "Aumenta o bônus de ataque do mesmo tipo de 1,5× para 2×."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 92
+      },
+      "text": {
+        "effect": "Este Pokémon sempre acerta cinco vezes com golpes de dois a cinco golpes, como Icicle Spear.  Ele também ignora as verificações de precisão no segundo e terceiro acessos de Triple Kick.",
+        "short_effect": "Estende golpes de dois a cinco golpes e Triple Kick em toda a sua extensão sempre."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 93
+      },
+      "text": {
+        "effect": "Este Pokémon é curado de qualquer doença grave de status após cada turno durante a chuva.",
+        "short_effect": "Cura qualquer doença grave de status após cada turno durante a chuva."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 94
+      },
+      "text": {
+        "effect": "Durante a luz solar forte, este Pokémon tem 1,5x seu Ataque Especial, mas sofre 1/8 de seu PS máximo em dano após cada turno.",
+        "short_effect": "Aumenta o Ataque Especial para 1,5×, mas custa 1/8 do PS máximo após cada turno durante luz solar forte."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 95
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon tiver uma doença de status grave, ele terá 1,5x sua velocidade.  Este Pokémon não é afetado pelo corte normal de velocidade causado pela paralisia.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontro selvagem será reduzida pela metade.",
+        "short_effect": "Aumenta a velocidade para 1,5× com uma doença grave de status."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 96
+      },
+      "text": {
+        "effect": "Todos os golpes deste Pokémon agem como se fossem do tipo Normal.\n\nGolpes que infligem dano sem tipo fazem isso normalmente.  As movimentações do tipo variável, como Hidden Power, são afetadas.  Caso contrário, eles funcionam normalmente; Weather Ball, por exemplo, é sempre forçado a ser Normal, mas ainda dobra a potência e parece diferente durante o clima.\n\nComo Thunder Wave é impedido por imunidades, ao contrário da maioria dos golpes que não causam dano, ele não afeta Pokémon do tipo Fantasma sob o efeito desta habilidade.",
+        "short_effect": "Faz com que todos os golpes do Pokémon atuem do tipo Normal."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 97
+      },
+      "text": {
+        "effect": "Este Pokémon inflige dano triplo com acertos críticos, em vez do dano duplo usual.",
+        "short_effect": "Fortalece acertos críticos para infligir 3x de dano em vez de 2x."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 98
+      },
+      "text": {
+        "effect": "Este Pokémon é imune a danos não causados diretamente por um golpe.\n\nPor exemplo, este Pokémon não sofre danos causados ​​pelo clima, recuo, problemas de status ou Spikes, mas ainda sofre o corte de ataque quando queimado, e um Life Orb ainda fortalecerá os golpes deste Pokémon sem danificá-lo.  Tudo o que depende diretamente desses danos também não acontecerá; por exemplo, Leech Seed não machucará este Pokémon nem curará o oponente, e Pokémon com Jaboca Berry ou Rowap Berry não consumirão a fruta quando atingido por este Pokémon.\n\nOs itens a seguir não são afetados: Struggle, Pain Split (seja usado por ou contra este Pokémon), Belly Drum, Substitute, Curse, golpes que nocauteiam o usuário e danos por confusão.\n\nEste Pokémon não perderá nem recuperará PS se drenar PS de um Pokémon com Liquid Ooze.\n\nSe este Pokémon estiver gravemente envenenado, o contador de veneno ainda aumentará a cada turno; se o Pokémon perder essa habilidade, ele começará a sofrer tanto dano quanto receberia se estivesse sofrendo danos crescentes a cada turno.",
+        "short_effect": "Protege contra danos não causados diretamente por um golpe."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 99
+      },
+      "text": {
+        "effect": "Os golpes usados por ou contra este Pokémon nunca falham.\n\nGolpes de KO de um golpe não são afetados.  Os golpes afetados por esta habilidade podem atingir Pokémon durante o turno de preparação de golpes como Dig ou Fly.\n\nFora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontro selvagem será duplicada.",
+        "short_effect": "Garante todos os golpes usados por e contra o Pokémon atingido."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 100
+      },
+      "text": {
+        "effect": "Este Pokémon se move por último em sua faixa de prioridade.\n\nVários Pokémon com esta habilidade se movem em ordem de velocidade entre si.\n\nO Full Incense e Lagging Tail têm precedência sobre esta habilidade; isto é, os Pokémon com esses itens se movem atrás dos Pokémon com essa habilidade.  Pokémon com esta habilidade e um desses itens são atrasados ​​tanto quanto se tivessem apenas o item.\n\nEsta habilidade funciona normalmente durante Trick Room: Pokémon com esta habilidade se moverão na ordem inversa da velocidade após Pokémon sem ela.",
+        "short_effect": "Faz com que o Pokémon se mova por último dentro da faixa de prioridade de seu golpe."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 101
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon têm 1,5x o seu poder se o seu poder base for 60 ou menos.\n\nIsso inclui golpes de potência variável, como Hidden Power e Magnitude, quando seu poder é 60 ou menos.  O aumento de potência de Helping Hand é levado em consideração para qualquer golpe, assim como o aumento de potência de Defense Curl para Rollout.",
+        "short_effect": "Fortalece golpes de 60 de potência base ou menos para 1,5x seu poder."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 102
+      },
+      "text": {
+        "effect": "Este Pokémon não pode sofrer de uma doença de status grave durante a luz solar forte.\n\nEsta habilidade não cura doenças de status anteriores.  Rest falhará completamente com esta capacidade em vigor.  Yawn falhará imediatamente se for usado neste Pokémon durante luz solar forte, e um Yawn já usado falhará se o tempo ficar com luz solar forte nesse meio tempo.",
+        "short_effect": "Protege contra doenças graves durante a luz solar forte."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 103
+      },
+      "text": {
+        "effect": "Na batalha, este Pokémon não pode usar o item que segura, nem o item terá qualquer efeito passivo na batalha, positivo ou negativo.  Este Pokémon também não pode usar Fling.\n\nO corte de velocidade do Iron Ball e dos itens de esforço (Macho Brace, Power Weight, Power Bracer, Power Belt, Power Lens, Power Band e Power Anklet) não é afetado.  Itens que não afetam diretamente a batalha, como Exp. Share, Amulet Coin ou Soothe Bell, funcionam normalmente.  Todos os itens retidos funcionam normalmente fora da batalha.\n\nOutros golpes que usam o item retido, como Natural Gift e Switcheroo, funcionam normalmente.",
+        "short_effect": "Impede que o Pokémon use o item que está segurando em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 104
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon ignoram completamente as habilidades que poderiam impedir ou impedir o seu efeito no alvo.\n\nPor exemplo, os golpes deste Pokémon ignoram habilidades que os negariam totalmente, como Water Absorb; habilidades que impediriam qualquer um de seus efeitos, como Clear Body, Shell Armor ou Sticky Hold; e habilidades que concedem qualquer benefício de proteção geral, como Simple, Snow Cloak ou Thick Fat.  Se uma habilidade puder atrapalhar ou ajudar os golpes deste Pokémon, por ex. Dry Skin ou Unaware, a habilidade será ignorada de qualquer maneira.\n\nHabilidades que não se enquadram nesta descrição, mesmo que possam impedir golpes de alguma outra forma, não são afetadas.  Por exemplo, Cursed Body afeta apenas possíveis usos futuros da movimentação, enquanto Liquid Ooze e Shadow Tag só podem impedir o efeito de uma movimentação no usuário.  Esta habilidade não pode ignorar alterações de tipo ou forma concedidas por habilidades, por exemplo Color Change ou Forecast; nem efeitos que foram causados ​​por habilidades, mas não estão mais vinculados a uma habilidade, como a chuva de Drizzle.  Esta habilidade não pode ignorar Multitype de forma alguma.\n\nUma habilidade ignorada por esta habilidade só é anulada enquanto o golpe estiver sendo usado.  Por exemplo, os golpes deste Pokémon podem paralisar um Pokémon com Limber, mas Limber irá ativar e curar a paralisia imediatamente depois, e os Spikes deste Pokémon não são afetados por esta habilidade depois de terem sido colocados.\n\nQuando este Pokémon entra em batalha, todos os treinadores participantes são notificados de que ele possui essa habilidade.\n\nEsta habilidade funciona de forma idêntica a Teravolt e Turboblaze.",
+        "short_effect": "Ignora as habilidades dos alvos se eles puderem impedir ou impedir um golpe."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 105
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon têm taxas de acerto crítico um estágio acima do normal.",
+        "short_effect": "Aumenta as taxas de acerto crítico dos golpes em um estágio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 106
+      },
+      "text": {
+        "effect": "Quando este Pokémon é nocauteado por um golpe que faz contato, o usuário do golpe sofre 1/4 do seu PS máximo em dano.",
+        "short_effect": "Danifica o atacante em 1/4 do seu PS máximo quando nocauteado por um golpe de contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 107
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, se um de seus oponentes tiver um golpe supereficaz contra ele, Self-Destruct, Explosion, ou um golpe de nocaute de um golpe, todos os treinadores participantes serão notificados.\n\nO golpe em si não é revelado; apenas que existe tal golpe.  Golpes que infligem danos sem tipo, como Future Sight, e golpes de tipo variável, como Hidden Power, contam como seus tipos listados.  Counter, Metal Burst, Mirror Coat e golpes de nocaute de um golpe aos quais este Pokémon é imune não ativam esta habilidade.",
+        "short_effect": "Notifica todos os treinadores ao entrar na batalha se um oponente tiver um golpe supereficaz, Self-Destruct, Explosion, ou um golpe de nocaute de um golpe."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 108
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, ele revela a todos os treinadores participantes o golpe com o maior poder base conhecido por qualquer Pokémon oponente.\n\nEm caso de empate, um será escolhido aleatoriamente.\n\nGolpes sem um poder base listado são atribuídos da seguinte forma:\n\nPoder | Golpes\n----: | -----\n  160 | Golpes de nocaute de um golpe: Fissure, Guillotine, Horn Drill e Sheer Cold\n  120 | Golpes Counter: Counter, Metal Burst e Mirror Coat\n   80 | Potência variável ou conjunto de danos: Crush Grip, Dragon Rage, Electro Ball, Endeavor, Final Gambit, Flail, Frustration, Grass Knot, Gyro Ball, Heat Crash, Heavy Slam, Hidden Power, Low Kick, Natural Gift, Night Shade, Psywave, Return, Reversal, Seismic Toss, Sonic Boom, Trump Card e Wring Out\n    0 | Qualquer golpe desse tipo não listado",
+        "short_effect": "Revela o golpe mais forte dos oponentes ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 109
+      },
+      "text": {
+        "effect": "Este Pokémon ignora os modificadores de atributos de outros Pokémon para fins de cálculo de dano e precisão.\n\nEfetivamente, isso afeta modificadores de todas as atributos, exceto Velocidade.\n\nA potência de Punishment e Stored Power é calculada normalmente.  Quando este Pokémon se machuca em confusão, seus modificadores de atributos afetam o dano normalmente.",
+        "short_effect": "Ignora os modificadores de atributos de outros Pokémon para cálculo de dano e precisão."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 110
+      },
+      "text": {
+        "effect": "Este Pokémon causa o dobro de dano com golpes que não são muito eficazes contra o alvo.",
+        "short_effect": "Duplica o dano infligido com golpes não muito eficazes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 111
+      },
+      "text": {
+        "effect": "Este Pokémon sofre 0,75x mais dano de golpes que são supereficazes contra ele.\n\nEsta habilidade funciona de forma idêntica a Solid Rock.",
+        "short_effect": "Diminui o dano recebido de golpes supereficazes em 1/4."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 112
+      },
+      "text": {
+        "effect": "O Ataque e a Velocidade deste Pokémon são reduzidos pela metade durante cinco turnos ao entrar na batalha.\n\nEsta habilidade também entra em vigor quando adquirida durante a batalha.  Se este Pokémon perder sua habilidade antes do fim dos cinco turnos, seu Ataque e Velocidade voltam ao normal; se ele recuperar essa habilidade sem sair da batalha, seu Ataque e Velocidade serão reduzidos pela metade novamente, mas o contador continuará contando de onde estava.",
+        "short_effect": "Reduz o Ataque e a Velocidade pela metade por cinco turnos ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 113
+      },
+      "text": {
+        "effect": "Este Pokémon ignora a imunidade dos Pokémon do tipo Ghost a golpes do tipo Normal e Fighting.\n\nOs outros tipos de Pokémon Fantasma afetam os danos normalmente.",
+        "short_effect": "Permite que os golpes normais e de luta do Pokémon atinjam o Pokémon Fantasma."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 114
+      },
+      "text": {
+        "effect": "Todos os outros golpes do tipo Água de alvo único de Pokémon são redirecionados para este Pokémon, se ele for um alvo elegível.  Os golpes Water de outros Pokémon aumentam o Ataque Especial deste Pokémon em um estágio, negando qualquer outro efeito sobre ele, e não podem perdê-lo.\n\nSe o alvo pretendido do golpe também tiver essa habilidade, o golpe não será redirecionado.  Quando vários Pokémon com esta habilidade são alvos possíveis para redirecionamento, o golpe é redirecionado para aquele com a atributo de velocidade mais alta ou, em caso de empate, para um Pokémon empatado aleatório.  Follow Me tem precedência sobre esta habilidade.",
+        "short_effect": "Redireciona golpes de água de alvo único para este Pokémon sempre que possível.  Absorve golpes de Água, aumentando o Ataque Especial em um estágio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 115
+      },
+      "text": {
+        "effect": "Este Pokémon cura 1/16 de seu PS máximo após cada turno durante o granizo e não sofre dano de granizo, independentemente do tipo.",
+        "short_effect": "Cura 1/16 do PS máximo após cada turno durante granizo.  Protege contra danos causados ​​por granizo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 116
+      },
+      "text": {
+        "effect": "Este Pokémon sofre 0,75x mais dano de golpes que são supereficazes contra ele.\n\nEsta habilidade funciona de forma idêntica a Filter.",
+        "short_effect": "Diminui o dano recebido de golpes supereficazes em 1/4."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 117
+      },
+      "text": {
+        "effect": "O clima muda para granizo quando este Pokémon entra em batalha e não termina a menos que seja cancelado por outra condição climática.\n\nSe vários Pokémon com esta habilidade, Drizzle, Drought ou Sand Stream, forem enviados ao mesmo tempo, as habilidades serão ativadas em ordem de velocidade, respeitando Trick Room.  O clima de cada habilidade cancelará o clima anterior, e apenas o clima convocado pelo Pokémon mais lento permanecerá.",
+        "short_effect": "Evoca granizo que dura indefinidamente ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 118
+      },
+      "text": {
+        "effect": "Este Pokémon tem chance de pegar Honey após cada batalha.  Essa chance começa em 5% e aumenta mais 5% após cada décimo nível: 5% do nível 1–10, 10% do nível 11–20 e assim por diante, até 50% do nível 91–100.\n\nEsta habilidade é verificada após o término da batalha, quando qualquer mudança temporária de habilidade desaparece.",
+        "short_effect": "O Pokémon pode pegar Honey após a batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 119
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, ele revela o item do Pokémon adversário a todos os treinadores participantes.\n\nNuma batalha dupla, se um oponente tiver um item, este Pokémon irá Frisk aquele Pokémon; se ambos tiverem um item, será Frisk um aleatoriamente.",
+        "short_effect": "Revela o item que o oponente está segurando ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 120
+      },
+      "text": {
+        "effect": "Os golpes de recuo e colisão deste Pokémon têm 1,2x seu poder base.\n\nStruggle não é afetado.\n\nOs \"golpes de colisão\" são os golpes que prejudicam o usuário ao errar: Jump Kick e High Jump Kick.",
+        "short_effect": "Fortalece os golpes de recuo para 1,2x sua potência."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 121
+      },
+      "text": {
+        "effect": "Se este Pokémon estiver segurando uma Placa elemental, seu tipo e forma mudam para corresponder à Placa.\n\nO item retido deste Pokémon, seja ou não uma Placa, não pode ser pego por Covet ou Thief, nem removido por Knock Off, nem trocado por Switcheroo ou Trick.  Covet, Thief e Knock Off ainda causam dano a este Pokémon.  Ao contrário de Sticky Hold, este Pokémon não pode usar Fling, Switcheroo ou Trick para perder seu item, nem ganhar um item através de Switcheroo ou Trick se não tiver um.\n\nEsta habilidade não tem efeito para nenhum Pokémon além de Arceus.  Esta habilidade não pode ser trocada com Skill Swap, nem copiada com Role Play ou Trace, nem desabilitada com Gastro Acid, nem alterada com Worry Seed.  Este Pokémon não pode usar Skill Swap ou Role Play para perder sua habilidade.  Mold Breaker não pode ignorar esta habilidade.\n\nSe um Pokémon se transformar em um Arceus com esta habilidade, ele irá Transform para a forma normal padrão de Arceus.  Se o Pokémon Transformador estiver segurando uma Placa, essa habilidade será ativada e mudará o Pokémon para a forma correspondente.",
+        "short_effect": "Altera o tipo e a forma de Arceus para corresponder à placa retida."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 122
+      },
+      "text": {
+        "effect": "Pokémon aliados têm 1,5x seu ataque e defesa especial durante a luz solar forte se algum Pokémon aliado tiver essa habilidade.\n\nAo contrário de Forecast, Multitype e Zen Mode, esta habilidade não está vinculada à mudança de forma de seu Pokémon; Cherrim alternará entre suas formas mesmo se perder essa habilidade.  Como tal, esta habilidade também funciona se obtida por um Pokémon diferente de Cherrim.",
+        "short_effect": "Aumenta o ataque e a defesa especial de Pokémon aliados para 1,5× durante luz solar forte."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 123
+      },
+      "text": {
+        "effect": "Os Pokémon oponentes recebem 1/8 de seu PS máximo em dano após cada turno enquanto estão dormindo.",
+        "short_effect": "Causa 1/8 de seu PS máximo aos oponentes adormecidos após cada turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 124
+      },
+      "text": {
+        "effect": "Sempre que um golpe faz contato com este Pokémon, se ele não tiver um item retido, ele rouba o item retido do atacante.\n\nEste Pokémon não pode roubar ao ser nocauteado.  Ele pode roubar se o invasor tiver um Substitute, mas não pode roubar quando seu próprio Substitute for atingido.  Se um golpe acertar várias vezes, apenas o último golpe ativará essa habilidade.  Se este Pokémon for selvagem, não poderá roubar um Pokémon treinado.",
+        "short_effect": "Rouba os itens retidos do Pokémon atacante ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 125
+      },
+      "text": {
+        "effect": "Os golpes com efeitos extras deste Pokémon têm 1,3x seu poder, mas perdem seus efeitos extras.\n\nUma chance de efeito é a chance de um golpe infligir uma doença de status, causar uma mudança de atributo ou fazer o alvo hesitar, além do efeito principal do golpe. Por exemplo, a paralisia de Thunder Shock é um efeito extra, mas a de Thunder Wave não é, nem a remoção de itens de Knock Off e o aumento da taxa de acerto crítico de Air Cutter.\n\nGolpes que diminuem as atributos do usuário não são afetados.",
+        "short_effect": "Fortalece golpes com efeitos extras em 1,3x seu poder, mas evita seus efeitos extras."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 126
+      },
+      "text": {
+        "effect": "Sempre que as atributos deste Pokémon aumentam, elas são reduzidas na mesma proporção e vice-versa.",
+        "short_effect": "Inverte alterações de atributos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 127
+      },
+      "text": {
+        "effect": "O Pokémon oponente não pode comer Berries retidos enquanto este Pokémon estiver em batalha.\n\nOs Pokémon afetados ainda podem usar Bug Bite ou Pluck para comer a Berry de um alvo.",
+        "short_effect": "Impede que Pokémon adversários comam frutas retidas."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 128
+      },
+      "text": {
+        "effect": "Quando qualquer uma das atributos deste Pokémon é reduzida, seu ataque aumenta em dois estágios.\n\nSe várias atributos forem reduzidas de uma vez, esta habilidade entra em vigor com cada atributo reduzida.",
+        "short_effect": "Aumenta o ataque em dois estágios após qualquer atributo ser reduzida."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 129
+      },
+      "text": {
+        "effect": "O Ataque e o Ataque Especial deste Pokémon são reduzidos pela metade quando ele tem metade do seu PS ou menos.",
+        "short_effect": "Reduz pela metade o Ataque e o Ataque Especial com 50% do PS máximo ou menos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 130
+      },
+      "text": {
+        "effect": "Os golpes que atingem este Pokémon têm 30% de chance de serem desativados posteriormente.",
+        "short_effect": "Tem 30% de chance de desabilitar qualquer golpe que atinja o Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 131
+      },
+      "text": {
+        "effect": "Pokémon aliados próximos a este Pokémon em batalhas duplas e triplas têm, cada um, 30% de chance de serem curados de qualquer doença de status grave após cada turno.",
+        "short_effect": "Tem 30% de chance de curar cada aliado adjacente de qualquer doença grave de status após cada turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 132
+      },
+      "text": {
+        "effect": "Todos os Pokémon aliados recebem 0,75x mais dano direto de golpes enquanto este Pokémon está em batalha.\n\nEste efeito acumula se vários Pokémon aliados o possuírem.",
+        "short_effect": "Diminui todo o dano direto recebido por Pokémon aliados para 0,75×."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 133
+      },
+      "text": {
+        "effect": "Sempre que um golpe físico atinge este Pokémon, sua velocidade aumenta um estágio e sua defesa cai um estágio.\n\nEsta habilidade é desencadeada a cada acerto de um golpe de acertos múltiplos.",
+        "short_effect": "Aumenta a velocidade e diminui a defesa em um estágio cada ao ser atingido por um golpe físico."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 134
+      },
+      "text": {
+        "effect": "Este Pokémon tem o dobro do peso normal para sua espécie.",
+        "short_effect": "Dobra o peso do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 135
+      },
+      "text": {
+        "effect": "Este Pokémon tem metade do peso normal para sua espécie.",
+        "short_effect": "Reduz pela metade o peso do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 136
+      },
+      "text": {
+        "effect": "Este Pokémon sofre metade do dano quando é atingido com PS total.",
+        "short_effect": "Reduz pela metade o dano recebido do PS total."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 137
+      },
+      "text": {
+        "effect": "Este Pokémon tem 1,5x seu Ataque quando envenenado.",
+        "short_effect": "Aumenta o ataque para 1,5× quando envenenado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 138
+      },
+      "text": {
+        "effect": "Este Pokémon tem 1,5x seu Ataque Especial quando queimado.",
+        "short_effect": "Aumenta o Ataque Especial para 1,5× quando queimado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 139
+      },
+      "text": {
+        "effect": "Após cada turno, se o último item que este Pokémon consumiu foi uma Berry e ele não estiver segurando nenhum item, ele terá 50% de chance de recuperar essa Berry ou 100% de chance durante a luz solar forte.",
+        "short_effect": "Tem 50% de chance de restaurar uma Berry usada após cada turno se o Pokémon não tiver guardado nenhum item nesse meio tempo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 140
+      },
+      "text": {
+        "effect": "Este Pokémon não sofre danos dos golpes de Pokémon aliados, incluindo golpes de alvo único direcionados a ele.",
+        "short_effect": "Protege contra golpes prejudiciais de Pokémon aliados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 141
+      },
+      "text": {
+        "effect": "Após cada turno, as atributos deste Pokémon sobem aleatoriamente dois estágios e outro cai um estágio.\n\nSe uma atributo já estiver em 6 ou -6 estágios, ela não será escolhida para ser aumentada ou diminuída, respectivamente.",
+        "short_effect": "Aumenta uma atributo aleatória em dois estágios e diminui outra em um estágio após cada turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 142
+      },
+      "text": {
+        "effect": "Este Pokémon não sofre danos causados pelo clima.",
+        "short_effect": "Protege contra danos causados pelo clima."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 143
+      },
+      "text": {
+        "effect": "Os golpes de contato deste Pokémon têm 30% de chance de envenenar o alvo a cada golpe.\n\nIsto conta como um efeito extra para efeitos de Shield Dust.  Esta habilidade entra em vigor antes de Mummy.",
+        "short_effect": "Tem 30% de chance de envenenar o Pokémon alvo ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 144
+      },
+      "text": {
+        "effect": "Este Pokémon recupera 1/3 do seu PS máximo quando é trocado por outro Pokémon em qualquer circunstância que não seja desmaiado.\n\nEsta habilidade não entra em vigor quando uma batalha termina.",
+        "short_effect": "Cura 1/3 do PS máximo ao desligar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 145
+      },
+      "text": {
+        "effect": "A defesa deste Pokémon não pode ser reduzida por outros Pokémon.\n\nEste Pokémon ainda pode receber modificadores de defesa negativos por meio de Heart Swap ou Guard Swap.",
+        "short_effect": "Protege contra quedas de defesa."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 146
+      },
+      "text": {
+        "effect": "A velocidade deste Pokémon é duplicada durante uma tempestade de areia e ele não sofre danos de tempestade de areia, independentemente do tipo.",
+        "short_effect": "Dobra a velocidade durante uma tempestade de areia.  Protege contra danos causados ​​por tempestades de areia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 147
+      },
+      "text": {
+        "effect": "Golpes que não causam dano têm exatamente 50% de precisão básica contra este Pokémon.",
+        "short_effect": "Reduz a precisão básica dos golpes recebidos sem causar danos para exatamente 50%."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 148
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon têm 1,3x o seu poder quando ele se move pela última vez no turno.\n\nFuture Sight e Doom Desire não são afetados.",
+        "short_effect": "Fortalece os golpes para 1,3x seu poder no último golpe."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 149
+      },
+      "text": {
+        "effect": "This Pokémon, upon being sent out, appears to have the species, nickname, and Poké Ball of the last Pokémon in the party that is able to battle.  Esta ilusão é interrompida ao ser atingido por um golpe prejudicial.\n\nOutros danos, por ex. do clima ou Spikes, não quebra a ilusão, nem causa danos a um Substitute.\n\nIf the party order becomes temporarily shuffled around as Pokémon are switched out in battle, this ability chooses the last Pokémon according to that shuffled order.",
+        "short_effect": "Assume a aparência do último Pokémon do grupo consciente ao ser enviado até ser atingido por um golpe prejudicial."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 150
+      },
+      "text": {
+        "effect": "Este Pokémon se transforma em um oponente aleatório ao entrar na batalha.  Este efeito é idêntico ao golpe Transform.",
+        "short_effect": "Transforma-se ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 151
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon ignoram Light Screen, Reflect e Safeguard.",
+        "short_effect": "Ignora Light Screen, Reflect e Safeguard."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 152
+      },
+      "text": {
+        "effect": "Sempre que um golpe de contato atinge este Pokémon, a habilidade do Pokémon atacante muda para Mummy.\n\nMultitype não é afetado.  Se um Pokémon com Moxie nocautear este Pokémon, a habilidade do primeiro mudará sem fazer efeito.",
+        "short_effect": "Altera as habilidades do Pokémon atacante para Mummy ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 153
+      },
+      "text": {
+        "effect": "O ataque deste Pokémon aumenta um estágio ao nocautear outro Pokémon, mesmo um Pokémon aliado.\n\nEsta habilidade não tem efeito quando o Pokémon indiretamente causa o desmaio de outro Pokémon, por ex. através de veneno ou Spikes.\n\nSe este Pokémon nocautear um Pokémon com Mummy, a habilidade do primeiro mudará sem fazer efeito.",
+        "short_effect": "Aumenta o Ataque em um estágio ao nocautear um Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 154
+      },
+      "text": {
+        "effect": "Sempre que um golpe do tipo Dark atinge este Pokémon, seu ataque aumenta um estágio.\n\nO golpe não é negado de forma alguma.",
+        "short_effect": "Aumenta o Ataque em um estágio ao receber dano de um golpe das Trevas."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 155
+      },
+      "text": {
+        "effect": "A velocidade deste Pokémon aumenta um estágio a cada golpe de um golpe prejudicial do tipo Dark, Ghost ou Bug.",
+        "short_effect": "Aumenta a velocidade em um estágio ao ser atingido por um golpe Dark, Ghost ou Bug."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 156
+      },
+      "text": {
+        "effect": "Quando este Pokémon é alvo de um golpe sinalizado como refletido, o golpe é redirecionado para seu usuário.\n\nTodos os golpes refletidos não causam dano, e a maioria dos golpes não prejudiciais direcionados a outros Pokémon são refletidos.\n\nUm golpe refletido por esta habilidade ou Magic Coat não pode ser refletido de volta.",
+        "short_effect": "Reflete a maioria dos golpes não prejudiciais ao usuário."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 157
+      },
+      "text": {
+        "effect": "Sempre que um golpe do tipo Grass atinge este Pokémon, seu Ataque aumenta um estágio, negando qualquer outro efeito sobre ele.",
+        "short_effect": "Absorve golpes de grama, aumentando o ataque em um estágio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 158
+      },
+      "text": {
+        "effect": "Os golpes que não causam dano deste Pokémon têm sua prioridade aumentada em um estágio.",
+        "short_effect": "Aumenta a prioridade dos golpes que não causam dano em um estágio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 159
+      },
+      "text": {
+        "effect": "Durante uma tempestade de areia, os golpes do tipo Rock, Ground e Steel deste Pokémon têm 1,3x seu poder base.  Este Pokémon não sofre danos de tempestade de areia, independentemente do tipo.",
+        "short_effect": "Fortalece os golpes Rock, Ground e Steel em 1,3x seu poder durante uma tempestade de areia.  Protege contra danos causados ​​por tempestades de areia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 160
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe sofre 1/8 do seu PS máximo em dano.\n\nEsta habilidade funciona de forma idêntica a Rough Skin.",
+        "short_effect": "Causa dano ao Pokémon atacante em 1/8 do seu PS máximo ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 161
+      },
+      "text": {
+        "effect": "Este Pokémon alterna entre o Modo Padrão e Zen Mode após cada turno, dependendo de seu PS.  Abaixo de 50% de seu PS máximo, ele muda para Zen Mode, e com 50% ou mais, ele muda para o Modo Padrão.\n\nEste Pokémon retorna ao Modo Padrão ao sair da batalha ou perder esta habilidade.  Esta habilidade não tem efeito se este Pokémon não for um Darmanitan.",
+        "short_effect": "Muda a forma de Darmanitan após cada turno dependendo de seu PS: Zen Mode abaixo de 50% do PS máximo e modo padrão caso contrário."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 162
+      },
+      "text": {
+        "effect": "Todos os golpes de Pokémon aliados, incluindo os golpes deste Pokémon, têm 1,1x a precisão normal enquanto este Pokémon está em batalha.",
+        "short_effect": "Aumenta a precisão dos golpes para 1,1× para Pokémon aliados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 163
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon ignoram completamente as habilidades que poderiam impedir ou impedir o seu efeito no alvo.\n\nPor exemplo, os golpes deste Pokémon ignoram habilidades que os negariam totalmente, como Water Absorb; habilidades que impediriam qualquer um de seus efeitos, como Clear Body, Shell Armor ou Sticky Hold; e habilidades que concedem qualquer benefício de proteção geral, como Simple, Snow Cloak ou Thick Fat.  Se uma habilidade puder atrapalhar ou ajudar os golpes deste Pokémon, por ex. Dry Skin ou Unaware, a habilidade será ignorada de qualquer maneira.\n\nHabilidades que não se enquadram nesta descrição, mesmo que possam impedir golpes de alguma outra forma, não são afetadas.  Por exemplo, Cursed Body afeta apenas possíveis usos futuros da movimentação, enquanto Liquid Ooze e Shadow Tag só podem impedir o efeito de uma movimentação no usuário.  Esta habilidade não pode ignorar alterações de tipo ou forma concedidas por habilidades, por exemplo Color Change ou Forecast; nem efeitos que foram causados ​​por habilidades, mas não estão mais vinculados a uma habilidade, como a chuva de Drizzle.  Esta habilidade não pode ignorar Multitype de forma alguma.\n\nUma habilidade ignorada por esta habilidade só é anulada enquanto o golpe estiver sendo usado.  Por exemplo, os golpes deste Pokémon podem paralisar um Pokémon com Limber, mas Limber irá ativar e curar a paralisia imediatamente depois, e os Spikes deste Pokémon não são afetados por esta habilidade depois de terem sido colocados.\n\nQuando este Pokémon entra em batalha, todos os treinadores participantes são notificados de que ele possui essa habilidade.\n\nEsta habilidade funciona de forma idêntica a Mold Breaker e Teravolt.",
+        "short_effect": "Ignora as habilidades dos alvos se eles puderem atrapalhar ou impedir golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 164
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon ignoram completamente as habilidades que poderiam impedir ou impedir o seu efeito no alvo.\n\nPor exemplo, os golpes deste Pokémon ignoram habilidades que os negariam totalmente, como Water Absorb; habilidades que impediriam qualquer um de seus efeitos, como Clear Body, Shell Armor ou Sticky Hold; e habilidades que concedem qualquer benefício de proteção geral, como Simple, Snow Cloak ou Thick Fat.  Se uma habilidade puder atrapalhar ou ajudar os golpes deste Pokémon, por ex. Dry Skin ou Unaware, a habilidade será ignorada de qualquer maneira.\n\nHabilidades que não se enquadram nesta descrição, mesmo que possam impedir golpes de alguma outra forma, não são afetadas.  Por exemplo, Cursed Body afeta apenas possíveis usos futuros da movimentação, enquanto Liquid Ooze e Shadow Tag só podem impedir o efeito de uma movimentação no usuário.  Esta habilidade não pode ignorar alterações de tipo ou forma concedidas por habilidades, por exemplo Color Change ou Forecast; nem efeitos que foram causados ​​por habilidades, mas não estão mais vinculados a uma habilidade, como a chuva de Drizzle.  Esta habilidade não pode ignorar Multitype de forma alguma.\n\nUma habilidade ignorada por esta habilidade só é anulada enquanto o golpe estiver sendo usado.  Por exemplo, os golpes deste Pokémon podem paralisar um Pokémon com Limber, mas Limber irá ativar e curar a paralisia imediatamente depois, e os Spikes deste Pokémon não são afetados por esta habilidade depois de terem sido colocados.\n\nQuando este Pokémon entra em batalha, todos os treinadores participantes são notificados de que ele possui essa habilidade.\n\nEsta habilidade funciona de forma idêntica a Mold Breaker e Turboblaze.",
+        "short_effect": "Ignora as habilidades dos alvos se eles puderem atrapalhar ou impedir golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 165
+      },
+      "text": {
+        "effect": "Protege aliados contra golpes que afetem seu estado mental.",
+        "short_effect": "Protege aliados contra golpes que afetem seu estado mental."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 166
+      },
+      "text": {
+        "effect": "Protege Pokémon Grass amigáveis de terem suas atributos reduzidas por outros Pokémon.",
+        "short_effect": "Protege Pokémon Grass amigáveis de terem suas atributos reduzidas por outros Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 167
+      },
+      "text": {
+        "effect": "Restaura PS ao comer uma Berry, além do efeito da Berry.",
+        "short_effect": "Restaura PS ao comer uma Berry, além do efeito da Berry."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 168
+      },
+      "text": {
+        "effect": "Altera o tipo do portador para corresponder a cada golpe que ele usa.\n\nA mudança de tipo ocorre logo antes da movimentação ser usada.",
+        "short_effect": "Altera o tipo do portador para corresponder a cada golpe que ele usa."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 169
+      },
+      "text": {
+        "effect": "Reduz pela metade o dano de ataques físicos.",
+        "short_effect": "Reduz pela metade o dano de ataques físicos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 170
+      },
+      "text": {
+        "effect": "Rouba o item que o alvo está segurando quando o portador usa um golpe prejudicial.",
+        "short_effect": "Rouba o item que o alvo está segurando quando o portador usa um golpe prejudicial."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 171
+      },
+      "text": {
+        "effect": "Protege contra golpes baseados em balas, bolas e bombas.",
+        "short_effect": "Protege contra golpes baseados em balas, bolas e bombas."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 172
+      },
+      "text": {
+        "effect": "Aumenta o Ataque Especial em dois estágios após qualquer atributo ser reduzida.",
+        "short_effect": "Aumenta o Ataque Especial em dois estágios após qualquer atributo ser reduzida."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 173
+      },
+      "text": {
+        "effect": "Fortalece os golpes de mordida em 1,5x seu poder.",
+        "short_effect": "Fortalece os golpes de mordida em 1,5x seu poder."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 174
+      },
+      "text": {
+        "effect": "Transforma os golpes do tipo Normal do portador em golpes do tipo Ice.  Os golpes alterados por esta habilidade têm 1,3x seu poder.",
+        "short_effect": "Transforma os golpes normais do portador em golpes de gelo e os fortalece para 1,3x seu poder."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 175
+      },
+      "text": {
+        "effect": "Impede que Pokémon aliados durmam.",
+        "short_effect": "Impede que Pokémon aliados durmam."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 176
+      },
+      "text": {
+        "effect": "Muda Aegislash para Blade Forme antes de usar um golpe prejudicial, ou Shield Forme antes de usar King’s Shield.",
+        "short_effect": "Muda Aegislash para Blade Forme antes de usar um golpe prejudicial, ou Shield Forme antes de usar King’s Shield."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 177
+      },
+      "text": {
+        "effect": "Aumenta a prioridade dos golpes voadores em um estágio.",
+        "short_effect": "Aumenta a prioridade dos golpes voadores em um estágio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 178
+      },
+      "text": {
+        "effect": "Fortalece a aura e os golpes de pulso para 1,5x sua potência.",
+        "short_effect": "Fortalece a aura e os golpes de pulso para 1,5x sua potência."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 179
+      },
+      "text": {
+        "effect": "Aumenta a defesa enquanto Grassy Terrain está em vigor.",
+        "short_effect": "Aumenta a defesa enquanto Grassy Terrain está em vigor."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 180
+      },
+      "text": {
+        "effect": "Passa o item mantido pelo portador para um aliado quando o aliado esgota seu item.",
+        "short_effect": "Passa o item mantido pelo portador para um aliado quando o aliado esgota seu item."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 181
+      },
+      "text": {
+        "effect": "Fortalece os golpes que fazem contato em 1,33x sua potência.",
+        "short_effect": "Fortalece os golpes que fazem contato em 1,33x sua potência."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 182
+      },
+      "text": {
+        "effect": "Transforma os golpes do tipo Normal do portador em golpes Fairy.  Os golpes alterados por esta habilidade têm 1,3x seu poder.",
+        "short_effect": "Transforma os golpes normais do portador em golpes de fada e os fortalece para 1,3x seu poder."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 183
+      },
+      "text": {
+        "effect": "Reduz a velocidade do Pokémon atacante em um estágio ao entrar em contato.",
+        "short_effect": "Reduz a velocidade do Pokémon atacante em um estágio ao entrar em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 184
+      },
+      "text": {
+        "effect": "Transforma os golpes do tipo Normal do portador em golpes do tipo Voador.  Os golpes alterados por esta habilidade têm 1,3x seu poder.",
+        "short_effect": "Transforma os golpes normais do portador em golpes voadores e os fortalece para 1,3x seu poder."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 185
+      },
+      "text": {
+        "effect": "Permite que o portador acerte duas vezes com golpes prejudiciais.  O segundo golpe tem metade do poder.",
+        "short_effect": "Permite que o portador acerte duas vezes com golpes prejudiciais.  O segundo golpe tem metade do poder."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 186
+      },
+      "text": {
+        "effect": "Fortalece os golpes Dark para todos os Pokémon aliados e adversários.",
+        "short_effect": "Fortalece os golpes Dark para 1,33x seu poder para todos os Pokémon aliados e adversários."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 187
+      },
+      "text": {
+        "effect": "Fortalece os golpes de fada para todos os Pokémon aliados e adversários.",
+        "short_effect": "Fortalece os golpes Fairy para 1,33× seu poder para todos os Pokémon aliados e adversários."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 188
+      },
+      "text": {
+        "effect": "Enquanto este Pokémon estiver em campo, Dark Aura e Fairy Aura enfraquecem os golpes de seus respectivos tipos para 2/3 de seu poder, em vez de fortalecê-los.",
+        "short_effect": "Faz com que Dark Aura e Fairy Aura enfraqueçam golpes de seus respectivos tipos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 189
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha ou ganha essa habilidade, o tempo vira chuva forte.  A chuva forte tem todas as propriedades de Rain Dance e também faz com que golpes Fire prejudiciais falhem.\n\nA chuva forte termina quando este Pokémon sai da batalha ou perde esta habilidade, ou quando esta habilidade é anulada.  O clima não pode ser alterado de outra forma, exceto pelos efeitos de Delta Stream e Desolate Land.\n\nAir Lock e Cloud Nine evitarão os efeitos de chuva forte, inclusive permitindo que golpes de Fogo funcionem, mas não permitirão que o clima seja alterado.",
+        "short_effect": "Cria chuva forte, que tem todas as propriedades de Rain Dance, não pode ser substituída e faz com que golpes Fire prejudiciais falhem."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 190
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha ou ganha essa habilidade, o clima fica extremamente forte com a luz do sol.  A luz solar extremamente forte tem todas as propriedades de Sunny Day e também faz com que golpes prejudiciais de água falhem.\n\nA luz solar extremamente forte termina quando este Pokémon sai da batalha ou perde esta habilidade, ou quando esta habilidade é anulada.  O clima não pode ser alterado de outra forma, exceto pelos efeitos de Delta Stream e Primordial Sea.\n\nAir Lock e Cloud Nine evitarão os efeitos da luz solar extremamente forte, inclusive permitindo que golpes de água funcionem, mas não permitirão que o clima seja alterado.",
+        "short_effect": "Cria luz solar extremamente forte, que tem todas as propriedades de Sunny Day, não pode ser substituída e faz com que golpes de água prejudiciais falhem."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 191
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha ou ganha esta habilidade, o clima se torna uma misteriosa corrente de ar.  Uma misteriosa corrente de ar faz com que os golpes não sejam supereficazes contra o Voar; eles causam dano neutro em vez disso.  Anticipation e Stealth Rock não são afetados.\n\nA misteriosa corrente de ar termina quando este Pokémon sai da batalha ou perde esta habilidade, ou quando esta habilidade é anulada.  O clima não pode ser alterado de outra forma, exceto pelos efeitos de Desolate Land e Primordial Sea.\n\nAir Lock e Cloud Nine evitarão o efeito de uma corrente de ar misteriosa, mas não permitirão que o clima seja alterado.",
+        "short_effect": "Cria uma misteriosa corrente de ar, que não pode ser substituída e faz com que os golpes nunca sejam supereficazes contra Pokémon Voadores."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 192
+      },
+      "text": {
+        "effect": "Aumenta a Defesa deste Pokémon em um estágio quando ele sofre dano de um golpe.",
+        "short_effect": "Aumenta a Defesa deste Pokémon em um estágio quando ele sofre dano de um golpe."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 193
+      },
+      "text": {
+        "effect": "Depois que este Pokémon for atingido por um golpe, se esse golpe fizer com que o PS deste Pokémon caia para menos da metade, ele será trocado.",
+        "short_effect": "Este Pokémon troca automaticamente quando seu PS cai abaixo da metade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 194
+      },
+      "text": {
+        "effect": "Depois que este Pokémon for atingido por um golpe, se esse golpe fizer com que o PS deste Pokémon caia para menos da metade, ele será trocado.",
+        "short_effect": "Este Pokémon troca automaticamente quando seu PS cai abaixo da metade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 195
+      },
+      "text": {
+        "effect": "Aumenta a Defesa deste Pokémon em dois estágios quando ele é atingido por um golpe Água.",
+        "short_effect": "Aumenta a Defesa deste Pokémon em dois estágios quando ele é atingido por um golpe Água."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 196
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon acertam criticamente alvos envenenados.",
+        "short_effect": "Os golpes deste Pokémon acertam criticamente alvos envenenados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 197
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha e no final de cada turno, se o seu PS for 50% ou mais, ele muda para a Forma Meteoro; caso contrário, ele muda para Core Form.  Na Forma Meteoro, ele não pode receber uma doença de status grave (embora as existentes não sejam curadas), não pode ficar sonolento com Yawn e não pode usar Rest (que simplesmente falhará).\n\nEsta habilidade não pode ser copiada, substituída ou anulada.  Esta habilidade só tem efeito para Minior.",
+        "short_effect": "Transforma este Minior entre Core Form e Meteor Form.  Previne doenças graves e sonolência enquanto estiver na forma de meteoro."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 198
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon têm poder duplo contra Pokémon que trocaram neste turno.",
+        "short_effect": "Os golpes deste Pokémon têm poder duplo contra Pokémon que trocaram neste turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 199
+      },
+      "text": {
+        "effect": "Quando este Pokémon é atingido por um golpe Fire, o dano é reduzido pela metade.  Quando este Pokémon usa um golpe Água, o poder é duplicado. Este Pokémon não pode ser queimado e, se for queimado, a queimadura será curada imediatamente.",
+        "short_effect": "Reduz pela metade o dano dos golpes de Fogo, dobra o dano dos golpes de Água e evita queimaduras."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 200
+      },
+      "text": {
+        "effect": "Os golpes Steel deste Pokémon têm 1,5× de poder.",
+        "short_effect": "Os golpes Steel deste Pokémon têm 1,5× de poder."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 201
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon sofre dano de um golpe que faz com que seu PS caia abaixo de 50%, seu Ataque Especial aumenta um estágio.",
+        "short_effect": "Aumenta o Ataque Especial deste Pokémon em um estágio toda vez que seu PS cai abaixo da metade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 202
+      },
+      "text": {
+        "effect": "Durante Hail, este Pokémon tem velocidade dupla.",
+        "short_effect": "Durante Hail, este Pokémon tem velocidade dupla."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 203
+      },
+      "text": {
+        "effect": "Um golpe usado por este Pokémon não fará contato.",
+        "short_effect": "Os golpes deste Pokémon não fazem contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 204
+      },
+      "text": {
+        "effect": "Quando este Pokémon usa um golpe baseado em som, o tipo desse golpe é Água.",
+        "short_effect": "Golpes baseados em som tornam-se do tipo Água."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 205
+      },
+      "text": {
+        "effect": "Os golpes de cura deste Pokémon têm sua prioridade aumentada em 3.",
+        "short_effect": "Os golpes de cura deste Pokémon têm sua prioridade aumentada em 3."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 206
+      },
+      "text": {
+        "effect": "Quando este Pokémon usa golpes normais, esse golpe é elétrico e seu poder é de 1,2×.",
+        "short_effect": "Os golpes normais deste Pokémon são elétricos e têm seu poder aumentado para 1,2×."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 207
+      },
+      "text": {
+        "effect": "Dobra a velocidade deste Pokémon em Electric Terrain.",
+        "short_effect": "Dobra a velocidade deste Pokémon em Electric Terrain."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 208
+      },
+      "text": {
+        "effect": "Se este Pokémon for um Wishiwashi e nível 20 ou superior, quando entrar em batalha e no início de cada turno, ele se tornará a Forma Schooling se seu PS for 25% ou superior e a Forma Solo caso contrário.\n\nEsta habilidade não pode ser substituída, copiada ou anulada.",
+        "short_effect": "Wishiwashi se torna a forma Schooling quando seu PS é 25% ou superior."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 209
+      },
+      "text": {
+        "effect": "Se este Pokémon estiver na sua forma disfarçada e sofrer dano de um golpe, ele mudará para a sua forma rebentada e o dano será evitado.  Outros efeitos não são evitados.\n\nEsta habilidade não pode ser copiada ou substituída.  Esta habilidade só tem efeito para Mimikyu.",
+        "short_effect": "Previne a primeira ocorrência de dano de batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 210
+      },
+      "text": {
+        "effect": "Transforma este Pokémon em Ash-Greninja após desmaiar um oponente.  O poder de Water Shuriken é 20 e sempre acerta três vezes.\n\nEsta habilidade não pode ser copiada ou substituída.  Esta habilidade só tem efeito para Greninja.",
+        "short_effect": "Transforma este Pokémon em Ash-Greninja após desmaiar um oponente.  O poder de Water Shuriken é 20 e sempre acerta três vezes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 211
+      },
+      "text": {
+        "effect": "Transforma 10% ou 50% de Zygarde em Complete Forme quando seu PS está abaixo de 50%.\n\nEsta habilidade não pode ser copiada ou substituída.  Esta habilidade só tem efeito para Zygarde.",
+        "short_effect": "Transforma 10% ou 50% de Zygarde em Complete Forme quando seu PS está abaixo de 50%."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 212
+      },
+      "text": {
+        "effect": "Os golpes e itens deste Pokémon ignoram a imunidade normal dos Pokémon Veneno e Aço ao tentar infligir veneno.",
+        "short_effect": "Este Pokémon pode infligir veneno em Pokémon Veneno e Aço."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 213
+      },
+      "text": {
+        "effect": "Este Pokémon sempre age como se estivesse dormindo.  Não pode receber outra doença de status; não é afetado por Yawn; pode usar Sleep Talk; e assim por diante.",
+        "short_effect": "Este Pokémon sempre age como se estivesse dormindo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 214
+      },
+      "text": {
+        "effect": "Quando um Pokémon oponente tentar usar um golpe que tenha como alvo esse Pokémon ou um aliado e esse golpe tiver prioridade, ele falhará.",
+        "short_effect": "Pokémon oponentes não podem usar ataques prioritários."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 215
+      },
+      "text": {
+        "effect": "Quando este Pokémon desmaia devido ao golpe de um oponente, esse oponente sofre dano igual ao PS restante deste Pokémon.",
+        "short_effect": "Quando este Pokémon desmaia devido ao golpe de um oponente, esse oponente sofre dano igual ao PS restante deste Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 216
+      },
+      "text": {
+        "effect": "Sempre que outro Pokémon utilizar um golpe de dança, este Pokémon utilizará o mesmo golpe imediatamente a seguir.",
+        "short_effect": "Sempre que outro Pokémon utilizar um golpe de dança, este Pokémon utilizará o mesmo golpe imediatamente a seguir."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 217
+      },
+      "text": {
+        "effect": "Os golpes dos Pokémon aliados têm seu poder aumentado para 1,3×.",
+        "short_effect": "Os golpes dos Pokémon aliados têm seu poder aumentado para 1,3×."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 218
+      },
+      "text": {
+        "effect": "O dano causado por golpes de contato é reduzido pela metade.  O dano causado por golpes de Fogo é duplicado.",
+        "short_effect": "O dano causado por golpes de contato é reduzido pela metade.  O dano causado por golpes de Fogo é duplicado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 219
+      },
+      "text": {
+        "effect": "Quando um Pokémon oponente tentar usar um golpe que tenha como alvo esse Pokémon ou um aliado e esse golpe tiver prioridade, ele falhará.",
+        "short_effect": "Pokémon oponentes não podem usar ataques prioritários."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 220
+      },
+      "text": {
+        "effect": "O ataque especial deste Pokémon aumenta um estágio cada vez que um Pokémon desmaia.",
+        "short_effect": "O ataque especial deste Pokémon aumenta um estágio cada vez que um Pokémon desmaia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 221
+      },
+      "text": {
+        "effect": "Quando este Pokémon sofre danos regulares devido a um golpe de contato, a velocidade do Pokémon atacante diminui em um estágio.",
+        "short_effect": "Quando este Pokémon sofre danos regulares devido a um golpe de contato, a velocidade do Pokémon atacante diminui em um estágio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 222
+      },
+      "text": {
+        "effect": "Quando um aliado desmaia, este Pokémon ganha sua habilidade.",
+        "short_effect": "Quando um aliado desmaia, este Pokémon ganha sua habilidade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 223
+      },
+      "text": {
+        "effect": "Quando um aliado desmaia, este Pokémon ganha sua habilidade.",
+        "short_effect": "Quando um aliado desmaia, este Pokémon ganha sua habilidade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 224
+      },
+      "text": {
+        "effect": "Aumenta o atributo mais alto deste Pokémon em um estágio quando ele desmaia outro Pokémon.",
+        "short_effect": "Aumenta o atributo mais alto deste Pokémon em um estágio quando ele desmaia outro Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 225
+      },
+      "text": {
+        "effect": "Muda o tipo deste Pokémon para corresponder à sua memória mantida.\n\nEsta habilidade não pode ser copiada, substituída ou anulada.  Esta habilidade só tem efeito para Silvally.",
+        "short_effect": "Muda o tipo deste Pokémon para corresponder à sua memória mantida."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 226
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, ele muda o terreno para Electric Terrain.",
+        "short_effect": "Quando este Pokémon entra em batalha, ele muda o terreno para Electric Terrain."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 227
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, ele muda o terreno para Psychic Terrain.",
+        "short_effect": "Quando este Pokémon entra em batalha, ele muda o terreno para Psychic Terrain."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 228
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, ele muda o terreno para Misty Terrain.",
+        "short_effect": "Quando este Pokémon entra em batalha, ele muda o terreno para Misty Terrain."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 229
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, ele muda o terreno para Grassy Terrain.",
+        "short_effect": "Quando este Pokémon entra em batalha, ele muda o terreno para Grassy Terrain."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 230
+      },
+      "text": {
+        "effect": "As atributos deste Pokémon não podem ser reduzidas por golpes ou habilidades de outros Pokémon.  Este efeito se aplica apenas a modificações normais de atributos e não a efeitos mais exóticos, como Topsy-Turvy ou Power Swap.\n\nEsta habilidade não é ignorada por Mold Breaker, Teravolt ou Turboblaze.",
+        "short_effect": "Outros Pokémon não podem diminuir as atributos deste Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 231
+      },
+      "text": {
+        "effect": "Quando este Pokémon está com PS cheio, o dano normal (não o dano fixo!) dos golpes é reduzido pela metade.\n\nEsta habilidade não pode ser anulada.",
+        "short_effect": "Quando este Pokémon está com PS cheio, o dano normal dos golpes é reduzido pela metade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 232
+      },
+      "text": {
+        "effect": "O dano superefetivo que este Pokémon sofre é reduzido para 0,75×.\n\nEsta habilidade não é ignorada por Mold Breaker, Teravolt ou Turboblaze.",
+        "short_effect": "Reduz o dano superefetivo para 0,75×."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 233
+      },
+      "text": {
+        "effect": "Aumenta o dano superefetivo causado em 1,25×.",
+        "short_effect": "Aumenta o dano superefetivo causado em 1,25×."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 234
+      },
+      "text": {
+        "effect": "Aumenta as atributos de ataque do Pokémon na primeira vez que o Pokémon entra em uma batalha.",
+        "short_effect": "Aumenta o ataque em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 235
+      },
+      "text": {
+        "effect": "Aumenta as atributos de defesa do Pokémon na primeira vez que o Pokémon entra em uma batalha.",
+        "short_effect": "Aumenta a defesa em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 236
+      },
+      "text": {
+        "effect": "Muda o tipo do Pokémon para o tipo de golpe que ele está prestes a usar. Isso funciona apenas uma vez cada vez que o Pokémon entra em batalha.",
+        "short_effect": "Libero altera o tipo do Pokémon para o ataque usado anteriormente."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 237
+      },
+      "text": {
+        "effect": "A qualquer momento após o primeiro Poké Ball ser lançado e não conseguir capturar um Pokémon, no final de um turno, se um Pokémon com Ball Fetch estiver em campo e não estiver segurando outro item, ele pegará o mesmo tipo de bola que o primeiro lançado.",
+        "short_effect": "Se o Pokémon não estiver segurando um item, ele irá buscar o Poké Ball do primeiro lançamento fracassado da batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 238
+      },
+      "text": {
+        "effect": "Quando é atingido por um ataque, este Pokémon espalha flocos de algodão ao redor e reduz a Velocidade de todos os outros Pokémon.",
+        "short_effect": "Quando ignora golpes e habilidades que atraem golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 239
+      },
+      "text": {
+        "effect": "Ignora os efeitos das habilidades e golpes do Pokémon adversário que atraem golpes.",
+        "short_effect": "Ignora golpes e habilidades que atraem golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 240
+      },
+      "text": {
+        "effect": "Recupera apenas os efeitos de redução de atributos que o Pokémon recebe.",
+        "short_effect": "Reflete quaisquer efeitos de redução de atributos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 241
+      },
+      "text": {
+        "effect": "Quando usa Surf ou Dive, este Pokémon volta com uma presa. Ao receber dano, cospe a presa para atacar.",
+        "short_effect": "Se um Cramorant com Gulp Missile usar Surf ou Dive, ele captura a presa e muda sua forma dependendo do PS restante."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 242
+      },
+      "text": {
+        "effect": "Ignora os efeitos das habilidades e golpes do Pokémon adversário que atraem golpes.",
+        "short_effect": "Ignora golpes e habilidades que atraem golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 243
+      },
+      "text": {
+        "effect": "Aumenta a velocidade do usuário em três estágios quando ele é atingido por um ataque do tipo Fogo ou Água. O ataque ainda causa dano.",
+        "short_effect": "Aumenta drasticamente a atributo de velocidade quando o Pokémon é atingido por um golpe do tipo Fogo ou Água."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 244
+      },
+      "text": {
+        "effect": "Aumenta o poder dos golpes baseados em som. O Pokémon também sofre metade do dano desse tipo de golpe.",
+        "short_effect": "Aumenta os golpes baseados em som e reduz pela metade o dano dos mesmos golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 245
+      },
+      "text": {
+        "effect": "O Pokémon cria uma tempestade de areia quando é atingido por um ataque.",
+        "short_effect": "Cria uma tempestade de areia quando atingido por um ataque."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 246
+      },
+      "text": {
+        "effect": "O Pokémon é protegido por escamas de gelo, que reduzem pela metade o dano sofrido por golpes especiais.",
+        "short_effect": "Reduz pela metade o dano de golpes especiais."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 247
+      },
+      "text": {
+        "effect": "Amadurece as frutas e duplica o seu efeito.",
+        "short_effect": "Duplica o efeito das frutas vermelhas."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 248
+      },
+      "text": {
+        "effect": "Quando um Eiscue que está em sua forma Ice Face é atingido por um golpe físico, ele não sofre nenhum dano e muda para sua forma Noice Face. Se uma tempestade de granizo ou nevasca começar enquanto Eiscue estiver em sua forma Noice Face, ou se for enviado em sua forma Noice Face durante o granizo, ele reverterá imediatamente para sua forma Ice Face.",
+        "short_effect": "A cabeça de gelo do Pokémon pode receber um ataque físico como substituto, mas o ataque também altera a aparência do Pokémon. O gelo será restaurado quando nevar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 249
+      },
+      "text": {
+        "effect": "\"O poder dos golpes utilizados pelos aliados dos Pokémon com Power Spot é aumentado em 30%.\"",
+        "short_effect": "O simples fato de estar ao lado do Pokémon fortalece os golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 250
+      },
+      "text": {
+        "effect": "Muda o tipo do Pokémon dependendo do terreno.",
+        "short_effect": "Muda de tipo dependendo do terreno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 251
+      },
+      "text": {
+        "effect": "Quando o Pokémon entra em uma batalha, os efeitos de Light Screen, Reflect e Aurora Veil são anulados para Pokémon adversários e aliados.",
+        "short_effect": "Anula os efeitos de Light Screen, Reflect e Aurora Veil."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 252
+      },
+      "text": {
+        "effect": "Aumenta os golpes do tipo Steel do Pokémon e seus aliados.",
+        "short_effect": "Aumenta os golpes do tipo Steel dos Pokémon aliados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 253
+      },
+      "text": {
+        "effect": "Quando um Pokémon com Perish Body é atingido por um golpe de contato, tanto ele quanto o atacante desmaiam após três turnos.",
+        "short_effect": "Quando atingidos por um golpe que faça contato direto, o Pokémon e o atacante desmaiarão após três turnos, a menos que saiam da batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 254
+      },
+      "text": {
+        "effect": "O Pokémon troca Habilidades com um Pokémon que o atinge com um golpe que faz contato direto.",
+        "short_effect": "Troca habilidades com oponentes em contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 255
+      },
+      "text": {
+        "effect": "Aumenta as atributos de ataque do Pokémon, mas permite apenas o uso do primeiro golpe selecionado.",
+        "short_effect": "Aumenta as atributos de ataque do Pokémon, mas permite apenas o uso do primeiro golpe selecionado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 256
+      },
+      "text": {
+        "effect": "Enquanto o Pokémon estiver em batalha, os efeitos de todas as Habilidades dos outros Pokémon serão anulados ou não serão acionados.",
+        "short_effect": "Neutraliza as habilidades de todos os Pokémon em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 257
+      },
+      "text": {
+        "effect": "Evita que o Pokémon e seus companheiros sejam envenenados. Também cura companheiros de equipe envenenados quando entra no campo de batalha.",
+        "short_effect": "Evita que o Pokémon e seus aliados sejam envenenados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 258
+      },
+      "text": {
+        "effect": "O Pokémon muda de forma, alternando entre o modo Full Belly e o modo Hangry após o final de cada turno.",
+        "short_effect": "Faz com que Morpeko mude de forma a cada turno, alternando entre o modo Full Belly e o modo Hangry."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 259
+      },
+      "text": {
+        "effect": "Se um Pokémon com esta habilidade selecionar um golpe prejudicial, ele terá 30% de chance de ser o primeiro em sua faixa de prioridade.",
+        "short_effect": "Permite que o Pokémon se mova primeiro ocasionalmente."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 260
+      },
+      "text": {
+        "effect": "Se o Pokémon usar golpes que façam contato direto, ele poderá atacar o alvo mesmo que o alvo se proteja.",
+        "short_effect": "As movimentações de contato podem ocorrer por meio de Protect/Detect."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 261
+      },
+      "text": {
+        "effect": "Quando o Pokémon entra em uma batalha, ele espalha remédios de sua concha, o que remove todas as alterações de atributos dos aliados.",
+        "short_effect": "Redefine todas as alterações de atributos ao entrar no campo de batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 262
+      },
+      "text": {
+        "effect": "Aumenta em 50% o poder dos golpes do tipo Elétrico usados por este Pokémon.",
+        "short_effect": "Aumenta golpes do tipo elétrico."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 263
+      },
+      "text": {
+        "effect": "Aumenta em 50% o poder dos golpes do tipo Dragão usados por este Pokémon.",
+        "short_effect": "Potencializa golpes do tipo Dragão."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 264
+      },
+      "text": {
+        "effect": "Quando nocauteia um alvo, este Pokémon solta um relincho gélido e aumenta seu Ataque.",
+        "short_effect": "Aumenta o ataque após nocautear um Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 265
+      },
+      "text": {
+        "effect": "Quando nocauteia um alvo, este Pokémon solta um relincho aterrorizante e aumenta seu Ataque Especial.",
+        "short_effect": "Aumenta o Ataque Especial após nocautear um Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 266
+      },
+      "text": {
+        "effect": "Este Pokémon possui os efeitos combinados de Unnerve e Chilling Neigh.\n\nO Pokémon oponente não pode comer Berries retidos enquanto este Pokémon estiver em batalha. Os Pokémon afetados ainda podem usar Bug Bite ou Pluck para comer a Berry de um alvo.\n\nQuando este Pokémon nocauteia um alvo, ele emite um relincho arrepiante, que aumenta sua atributo de Ataque.",
+        "short_effect": "Combina os efeitos de Unnerve e Chilling Neigh."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 267
+      },
+      "text": {
+        "effect": "Este Pokémon possui os efeitos combinados de Unnerve e Grim Neigh.\n\nO Pokémon oponente não pode comer Berries retidos enquanto este Pokémon estiver em batalha. Os Pokémon afetados ainda podem usar Bug Bite ou Pluck para comer a Berry de um alvo.\n\nQuando este Pokémon nocauteia um alvo, ele emite um relincho aterrorizante, que aumenta seu Sp. Atributo de ataque.",
+        "short_effect": "Combina os efeitos de Unnerve e Grim Neigh."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 268
+      },
+      "text": {
+        "effect": "O contato com o Pokémon altera a habilidade do atacante para Lingering Aroma.",
+        "short_effect": "O contato altera a capacidade do invasor para Lingering Aroma."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 269
+      },
+      "text": {
+        "effect": "Transforma o solo em Grassy Terrain quando o Pokémon é atingido por um ataque.",
+        "short_effect": "Transforma o solo em Grassy Terrain quando o Pokémon é atingido por um ataque."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 270
+      },
+      "text": {
+        "effect": "Aumenta a atributo de ataque quando o Pokémon é atingido por um golpe do tipo Fogo. O Pokémon também não pode ser queimado.",
+        "short_effect": "Aumenta o Ataque quando atingido por um golpe do tipo Fogo. Não pode ser queimado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 271
+      },
+      "text": {
+        "effect": "Quando um ataque faz com que seu PS caia para metade ou menos, o Pokémon fica com raiva. Isso diminui sua Defesa e Sp. Atributos de Def, mas aumenta seu Ataque, Sp. Atributos de Atk e Velocidade.",
+        "short_effect": "Quando os PS deste Pokémon caem abaixo da metade, Anger Shell reduz sua Defesa e sua Defesa Especial, mas aumenta seu Ataque, seu Ataque Especial e sua Velocidade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 272
+      },
+      "text": {
+        "effect": "O sal puro do Pokémon o protege de condições de status e reduz pela metade o dano sofrido por golpes do tipo Ghost.",
+        "short_effect": "Protege contra condições de status e reduz pela metade o dano de golpes do tipo Ghost."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 273
+      },
+      "text": {
+        "effect": "O Pokémon não sofre danos quando atingido por golpes do tipo Fire. Em vez disso, a sua atributo de Defesa é acentuadamente aumentada.",
+        "short_effect": "Imune a golpes do tipo Fogo e a Defesa é bastante reforçada."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 274
+      },
+      "text": {
+        "effect": "Aumenta a atributo de ataque do Pokémon se Tailwind entrar em vigor ou se o Pokémon for atingido por um golpe de vento. O Pokémon também não sofre danos com golpes de vento.",
+        "short_effect": "Dá imunidade a golpes de vento e faz com que o ataque do Pokémon aumente em um estágio quando atingido por um."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 275
+      },
+      "text": {
+        "effect": "Aumenta a atributo de ataque do Pokémon se intimidado. Golpes e itens que forçariam o Pokémon a trocar também não funcionam.",
+        "short_effect": "Aumenta o ataque se intimidado e evita ser forçado a trocar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 276
+      },
+      "text": {
+        "effect": "Aumenta em 50% o poder dos golpes do tipo Rock usados por este Pokémon.",
+        "short_effect": "Potencializa golpes do tipo Rock."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 277
+      },
+      "text": {
+        "effect": "O Pokémon fica carregado quando é atingido por um golpe de vento, aumentando o poder do próximo golpe do tipo Elétrico que o Pokémon usar.",
+        "short_effect": "Quando atingido por um golpe de vento, a potência do próximo golpe do tipo Elétrico que ele usar será duplicada."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 278
+      },
+      "text": {
+        "effect": "O Pokémon se transforma em sua forma Hero quando é trocado.",
+        "short_effect": "Transforma-se em seu formulário Hero ao trocar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 279
+      },
+      "text": {
+        "effect": "Quando o Pokémon entra em uma batalha, ele entra na boca de um aliado Dondozo se algum estiver em campo. O Pokémon então emite comandos a partir daí.",
+        "short_effect": "Entra na boca de um aliado Dondozo se ele estiver em campo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 280
+      },
+      "text": {
+        "effect": "O Pokémon fica carregado quando sofre dano, aumentando o poder do próximo golpe do tipo Elétrico que o Pokémon usar.",
+        "short_effect": "Quando atingido por um ataque, o poder do próximo golpe do tipo Elétrico usado é duplicado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 281
+      },
+      "text": {
+        "effect": "Aumenta as atributos mais proficientes do Pokémon sob luz solar intensa ou se o Pokémon estiver segurando Booster Energy.",
+        "short_effect": "Aumenta as atributos mais altas sob luz solar intensa ou se estiver segurando Booster Energy."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 282
+      },
+      "text": {
+        "effect": "Aumenta a atributo mais proficiente do Pokémon em Electric Terrain ou se o Pokémon estiver segurando Booster Energy.",
+        "short_effect": "Aumenta a atributo mais alta em Electric Terrain ou se estiver segurando Booster Energy."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 283
+      },
+      "text": {
+        "effect": "Um corpo de ouro puro e maciço dá ao Pokémon imunidade total aos golpes de status de outros Pokémon.",
+        "short_effect": "Dá imunidade a golpes de status."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 284
+      },
+      "text": {
+        "effect": "O poder do navio ruinoso do Pokémon reduz o Sp. Atributos de ataque de todos os Pokémon, exceto ele mesmo.",
+        "short_effect": "Reduz o Ataque Especial de todos os Pokémon, exceto ele mesmo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 285
+      },
+      "text": {
+        "effect": "O poder da espada ruinosa do Pokémon reduz as atributos de defesa de todos os Pokémon, exceto ele próprio.",
+        "short_effect": "Reduz a defesa de todos os Pokémon, exceto ele mesmo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 286
+      },
+      "text": {
+        "effect": "O poder das ruinosas tábuas de madeira do Pokémon reduz as atributos de ataque de todos os Pokémon, exceto ele mesmo.",
+        "short_effect": "Reduz o ataque de todos os Pokémon, exceto ele mesmo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 287
+      },
+      "text": {
+        "effect": "O poder das contas ruinosas do Pokémon reduz o Sp. Atributos de defesa de todos os Pokémon, exceto ele mesmo.",
+        "short_effect": "Reduz a Defesa Especial de todos os Pokémon, exceto ele mesmo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 288
+      },
+      "text": {
+        "effect": "Torna a luz do sol forte quando o Pokémon entra em batalha. O antigo pulso que vibra no Pokémon também aumenta suas atributos de ataque sob a forte luz do sol.",
+        "short_effect": "Torna a luz do sol forte ao entrar na batalha e aumenta o Ataque enquanto está ativo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 289
+      },
+      "text": {
+        "effect": "Transforma o solo em Electric Terrain quando o Pokémon entra em batalha. O motor futurista do Pokémon também aumenta seu Sp. Atributo de ataque em Electric Terrain.",
+        "short_effect": "Cria um Electric Terrain ao entrar na batalha e aumenta o Ataque Especial enquanto ativo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 290
+      },
+      "text": {
+        "effect": "Se a atributo de um oponente for aumentada, o Pokémon aproveita a oportunidade para aumentar a mesma atributo para si mesmo.",
+        "short_effect": "Copia aumentos de atributos do oponente."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 291
+      },
+      "text": {
+        "effect": "Quando o Pokémon come uma Berry, ele irá regurgitar essa Berry no final do próximo turno e comê-la mais uma vez.",
+        "short_effect": "Faz com que o Pokémon reutilize uma Berry já consumida no final do próximo turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 292
+      },
+      "text": {
+        "effect": "Aumenta o poder de todos os golpes de 'corte' em 50%.",
+        "short_effect": "Potencializa golpes de corte."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 293
+      },
+      "text": {
+        "effect": "Quando o Pokémon entra em uma batalha, seu Ataque e Sp. As atributos de Atk são ligeiramente aumentadas para cada um dos aliados do seu grupo que já foram derrotados.",
+        "short_effect": "O Ataque e o Ataque Especial são aumentados para cada Pokémon do grupo que foi derrotado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 294
+      },
+      "text": {
+        "effect": "Quando o Pokémon entra em uma batalha, ele copia as alterações nas atributos de um aliado.",
+        "short_effect": "Copia as alterações de atributos do aliado ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 295
+      },
+      "text": {
+        "effect": "Espalha espinhos de veneno nos pés do time adversário quando o Pokémon sofre dano de golpes físicos.",
+        "short_effect": "Espalha espinhos de veneno nos pés do time adversário quando o Pokémon sofre dano de golpes físicos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 296
+      },
+      "text": {
+        "effect": "A misteriosa cauda que cobre a cabeça do Pokémon impede que os oponentes usem golpes prioritários contra o Pokémon ou seus aliados.",
+        "short_effect": "Impede que o oponente use quaisquer golpes que tenham prioridade, como Quick Attack."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 297
+      },
+      "text": {
+        "effect": "Se for atingido por um golpe do tipo Ground, o Pokémon terá seu PS restaurado em vez de sofrer danos.",
+        "short_effect": "Restaura PS ao ser atingido por um golpe do tipo Ground."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 298
+      },
+      "text": {
+        "effect": "O Pokémon sempre agirá mais lentamente ao usar golpes de status, mas esses golpes não serão impedidos pela Habilidade do alvo.",
+        "short_effect": "Os golpes de status são os últimos, mas não são afetados pela habilidade do oponente."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 299
+      },
+      "text": {
+        "effect": "Mind's Eye permite que o Pokémon com esta habilidade atinja Pokémon do tipo Ghost com golpes do tipo Normal e Fighting que causam danos. Também evita que outros Pokémon diminuam a precisão do Pokémon e ignora as alterações na evasão dos oponentes.",
+        "short_effect": "O Pokémon ignora as mudanças na evasão dos oponentes, sua precisão não pode ser reduzida e pode atingir os tipos Ghost com golpes do tipo Normal e Fighting."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 300
+      },
+      "text": {
+        "effect": "Um cheiro doce e enjoativo se espalha pelo campo na primeira vez que o Pokémon entra em uma batalha, diminuindo a capacidade de evasão dos Pokémon oponentes.",
+        "short_effect": "Uma vez por batalha, quando um Pokémon com Supersweet Syrup entra na batalha, a atributo de evasão de todos os oponentes adjacentes diminui em um estágio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 301
+      },
+      "text": {
+        "effect": "Quando o Pokémon entra em uma batalha, ele dá hospitalidade ao seu aliado, restaurando uma pequena quantidade do PS do aliado.",
+        "short_effect": "Quando um Pokémon com Hospitality entra em uma batalha, ele restaura o PS de um aliado em 25%."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 302
+      },
+      "text": {
+        "effect": "O poder da cadeia tóxica do Pokémon pode envenenar gravemente qualquer alvo que o Pokémon atingir com um golpe.",
+        "short_effect": "Pode causar envenenamento grave quando o Pokémon atinge um oponente com um golpe."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 303
+      },
+      "text": {
+        "effect": "Embody Aspect aumenta uma atributo específica, dependendo da forma de um Ogerpon Terastalizado",
+        "short_effect": "Embody Aspect aumenta uma atributo específica, dependendo da forma de um Ogerpon Terastalizado"
+      }
+    },
+    {
+      "key": {
+        "ability_id": 304
+      },
+      "text": {
+        "effect": "Quando o Pokémon entra em batalha, ele absorve a energia ao seu redor e se transforma em sua Forma Terastal.",
+        "short_effect": "Quando Terapagos entra na batalha, ele se transforma em sua Forma Terastal até o final da batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 305
+      },
+      "text": {
+        "effect": "A concha do Pokémon contém os poderes de cada tipo. Todos os golpes que causam dano e atingem o Pokémon quando seu PS está cheio não serão muito eficazes.",
+        "short_effect": "Todos os golpes que causam dano e atingem o Pokémon quando seu PS está cheio não serão muito eficazes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 306
+      },
+      "text": {
+        "effect": "Quando Terapagos muda para sua forma estelar, ele usa seus poderes ocultos para eliminar todos os efeitos do clima e do terreno, reduzindo-os a zero.",
+        "short_effect": "Assim que Terapagos assumir sua forma estelar, ele neutralizará imediatamente os efeitos do clima e do terreno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 307
+      },
+      "text": {
+        "effect": "Quando um Pokémon é envenenado por qualquer um dos golpes de Pecharunt, ele também ficará confuso.",
+        "short_effect": "Pokémon envenenados pelos golpes de Pecharunt também ficarão confusos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 308
+      },
+      "text": {
+        "effect": "Ao usar golpes de contato, este Pokémon pode atingir até alvos protegidos, causando um quarto do dano normal. Todos os demais efeitos são ativados normalmente, exceto os efeitos de proteção do alvo.",
+        "short_effect": "Ao usar golpes de contato, este Pokémon pode atingir até alvos que estejam se protegendo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 309
+      },
+      "text": {
+        "effect": "Os golpes do tipo Normal do Pokémon tornam-se golpes do tipo Dragão e seu poder é aumentado em 20%.",
+        "short_effect": "Os golpes do tipo Normal do Pokémon tornam-se golpes do tipo Dragão e seu poder é aumentado em 20%."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 310
+      },
+      "text": {
+        "effect": "Mesmo quando a luz do sol não fica forte, o Pokémon pode usar seus golpes como se o tempo estivesse forte com a luz do sol.",
+        "short_effect": "O Pokémon pode usar seus golpes como se o clima estivesse sob forte luz solar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 311
+      },
+      "text": {
+        "effect": "Quando recebe dano de um golpe, este Pokémon queima o atacante.",
+        "short_effect": "Quando recebe dano de um golpe, este Pokémon queima o atacante."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 312
+      },
+      "text": {
+        "effect": "O Pokémon flutua no chão, tornando-o imune a golpes do tipo Ground, bem como aos status Spikes, Toxic Spikes e Sticky Web. Quando o Pokémon nocauteia um alvo com um ataque, sua atributo mais alta aumenta em 1 estágio.",
+        "short_effect": "O Pokémon flutua no chão, tornando-o imune a golpes do tipo Ground, bem como aos status Spikes, Toxic Spikes e Sticky Web. Quando o Pokémon nocauteia um alvo com um ataque, sua atributo mais alta aumenta em 1 estágio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 313
+      },
+      "text": {
+        "effect": "Aumenta o poder dos golpes do tipo Fogo do Pokémon em 50%.",
+        "short_effect": "Aumenta o poder dos golpes do tipo Fogo do Pokémon em 50%."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 314
+      },
+      "text": {
+        "effect": "Um Pokémon com Aura Guard sofre metade do dano de golpes que fazem contato. Golpes afetados por Long Reach que fazem contato causarão danos regulares.",
+        "short_effect": "Um Pokémon com Aura Guard sofre metade do dano de golpes que fazem contato."
+      }
+    }
+  ]
+}

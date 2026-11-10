@@ -1,0 +1,117 @@
+{
+  "source_sha256": "28a1656a1497411e78fc46faf500c0a810b9b44f4220b22bc910716654b2a857",
+  "entries": [
+    {
+      "key": {
+        "move_meta_category_id": 0
+      },
+      "text": {
+        "description": "Inflige dano"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 1
+      },
+      "text": {
+        "description": "Nenhum dano; inflige doença de status"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 2
+      },
+      "text": {
+        "description": "Nenhum dano; reduz as atributos do alvo ou aumenta as atributos do usuário"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 3
+      },
+      "text": {
+        "description": "Nenhum dano; cura o usuário"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 4
+      },
+      "text": {
+        "description": "Inflige danos; inflige doença de status"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 5
+      },
+      "text": {
+        "description": "Nenhum dano; inflige problemas de status; aumenta as atributos do alvo"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 6
+      },
+      "text": {
+        "description": "Inflige danos; reduz as atributos do alvo"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 7
+      },
+      "text": {
+        "description": "Inflige danos; aumenta as atributos do usuário"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 8
+      },
+      "text": {
+        "description": "Inflige danos; absorve o dano causado para curar o usuário"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 9
+      },
+      "text": {
+        "description": "Nocaute com um golpe"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 10
+      },
+      "text": {
+        "description": "Efeito em todo o campo"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 11
+      },
+      "text": {
+        "description": "Efeito em um lado do campo"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 12
+      },
+      "text": {
+        "description": "Força o alvo a mudar"
+      }
+    },
+    {
+      "key": {
+        "move_meta_category_id": 13
+      },
+      "text": {
+        "description": "Efeito único"
+      }
+    }
+  ]
+}

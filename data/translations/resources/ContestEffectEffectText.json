@@ -1,0 +1,269 @@
+{
+  "source_sha256": "56105e1d83e08bdc0429c81fe44e0385a0b0023233bebeff1762ee414459cdd5",
+  "entries": [
+    {
+      "key": {
+        "contest_effect_id": 1
+      },
+      "text": {
+        "effect": "Dá um grande número de pontos de apelação sem outros efeitos."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 2
+      },
+      "text": {
+        "effect": "Se o Pokémon que recorreu antes do usuário ganhar menos de três pontos de apelação, o usuário ganha seis; se três, o usuário ganha três; se houver mais de três, o usuário não ganha nenhum."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 3
+      },
+      "text": {
+        "effect": "Se o usuário ficar preso neste turno após usar este golpe, ele receberá o dobro de pontos de congestionamento."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 4
+      },
+      "text": {
+        "effect": "Tenta bloquear o Pokémon que atraiu o usuário."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 5
+      },
+      "text": {
+        "effect": "Tenta bloquear todos os Pokémon que recorreram neste turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 6
+      },
+      "text": {
+        "effect": "Tentativas de bloquear os outros Pokémon.  O usuário não pode apelar no próximo turno, mas também não pode ser bloqueado."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 7
+      },
+      "text": {
+        "effect": "O usuário não poderá fazer mais nenhuma apelação até o final do concurso."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 8
+      },
+      "text": {
+        "effect": "Tenta bloquear todos os Pokémon que recorreram neste turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 9
+      },
+      "text": {
+        "effect": "Tenta bloquear o Pokémon que atraiu o usuário."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 10
+      },
+      "text": {
+        "effect": "Tenta bloquear todos os Pokémon que recorreram neste turno.  Se um Pokémon estiver no status de espera de combo, ele sofrerá 5 pontos em vez de 1."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 11
+      },
+      "text": {
+        "effect": "Se o medidor de Aplausos estiver vazio ou em um, ganha um ponto; se dois, ganha três pontos; se três, ganha quatro pontos; se quatro, ganha seis pontos."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 12
+      },
+      "text": {
+        "effect": "Se o apelo do último Pokémon for do mesmo tipo deste golpe, o usuário ganha seis pontos em vez de dois."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 13
+      },
+      "text": {
+        "effect": "Sempre adiciona um ponto ao medidor de aplausos, independentemente de o golpe corresponder à disputa, e também pode ganhar o bônus de aplausos."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 14
+      },
+      "text": {
+        "effect": "Tenta bloquear todos os Pokémon que apelaram neste turno com metade de seus pontos de apelação (mínimo 1)."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 15
+      },
+      "text": {
+        "effect": "Evita travamentos pelo resto deste turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 16
+      },
+      "text": {
+        "effect": "Evita o próximo congestionamento neste turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 17
+      },
+      "text": {
+        "effect": "O uso repetido não acarreta penalidade."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 18
+      },
+      "text": {
+        "effect": "Tentativas de deixar todos os Pokémon seguintes nervosos (e, portanto, incapazes de apelar)."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 19
+      },
+      "text": {
+        "effect": "O usuário ganha pontos de apelo iguais aos pontos que o Pokémon anterior ganhou mais um."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 20
+      },
+      "text": {
+        "effect": "O usuário ganha pontos de apelo iguais a metade dos pontos ganhos por TODOS os Pokémon anteriores mais um."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 21
+      },
+      "text": {
+        "effect": "Embaralha a ordem do próximo turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 22
+      },
+      "text": {
+        "effect": "Cancela o status de espera do combo para todos os Pokémon que recorreram neste turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 23
+      },
+      "text": {
+        "effect": "Tenta bloquear todos os Pokémon que recorreram neste turno.  Se um Pokémon usar o mesmo tipo de golpe que este, ele será bloqueado por 4 pontos em vez de 1."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 24
+      },
+      "text": {
+        "effect": "Impede que o medidor de aplausos suba pelo resto do turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 25
+      },
+      "text": {
+        "effect": "Ganha aleatoriamente um, dois, quatro ou oito pontos."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 26
+      },
+      "text": {
+        "effect": "Se o usuário apelar primeiro neste turno, ganha um ponto; se for o segundo, dois pontos; se for terceiro, quatro pontos; se último, seis pontos."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 27
+      },
+      "text": {
+        "effect": "Se o usuário apelar primeiro neste turno, ganha seis pontos em vez de dois."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 28
+      },
+      "text": {
+        "effect": "Se o usuário recorrer por último neste turno, ganha seis pontos em vez de dois."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 29
+      },
+      "text": {
+        "effect": "Caso o usuário não tenha estrelas, ganha um ponto; se um, três pontos; se dois, cinco pontos; se três, sete pontos.  Isso não inclui o bônus de pontos de apelação concedido pelas estrelas."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 30
+      },
+      "text": {
+        "effect": "O usuário irá primeiro no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 31
+      },
+      "text": {
+        "effect": "O usuário irá por último no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 32
+      },
+      "text": {
+        "effect": "O usuário ganha uma estrela."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 33
+      },
+      "text": {
+        "effect": "Remove todas as estrelas de todos os Pokémon que recorreram neste turno."
+      }
+    }
+  ]
+}

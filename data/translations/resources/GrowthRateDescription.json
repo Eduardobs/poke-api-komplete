@@ -1,0 +1,53 @@
+{
+  "source_sha256": "86368b44d0d1bac557f96d3bfd537bf8e320d18a4238ab6e665f6f78f1edbb36",
+  "entries": [
+    {
+      "key": {
+        "growth_rate_id": 1
+      },
+      "text": {
+        "description": "lento"
+      }
+    },
+    {
+      "key": {
+        "growth_rate_id": 2
+      },
+      "text": {
+        "description": "médio"
+      }
+    },
+    {
+      "key": {
+        "growth_rate_id": 3
+      },
+      "text": {
+        "description": "rápido"
+      }
+    },
+    {
+      "key": {
+        "growth_rate_id": 4
+      },
+      "text": {
+        "description": "médio lento"
+      }
+    },
+    {
+      "key": {
+        "growth_rate_id": 5
+      },
+      "text": {
+        "description": "errático"
+      }
+    },
+    {
+      "key": {
+        "growth_rate_id": 6
+      },
+      "text": {
+        "description": "flutuante"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8205 @@
+{
+  "source_sha256": "9790b0178b7eb35c0d1b0d247f4a44742d09771ed5aac208e9ab0c74d8e75c53",
+  "entries": [
+    {
+      "key": {
+        "pokemon_species_id": 1
+      },
+      "text": {
+        "genus": "Pokémon Semente"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 2
+      },
+      "text": {
+        "genus": "Pokémon Semente"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 3
+      },
+      "text": {
+        "genus": "Pokémon Semente"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 4
+      },
+      "text": {
+        "genus": "Pokémon Lagarto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 5
+      },
+      "text": {
+        "genus": "Pokémon Flamejante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 6
+      },
+      "text": {
+        "genus": "Pokémon Flamejante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 7
+      },
+      "text": {
+        "genus": "Pokémon Tartaruga Minúscula"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 8
+      },
+      "text": {
+        "genus": "Pokémon Tartaruga"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 9
+      },
+      "text": {
+        "genus": "Pokémon Marisco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 10
+      },
+      "text": {
+        "genus": "Pokémon Verme"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 11
+      },
+      "text": {
+        "genus": "Pokémon Casulo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 12
+      },
+      "text": {
+        "genus": "Pokémon Borboleta"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 13
+      },
+      "text": {
+        "genus": "Pokémon Inseto Peludo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 14
+      },
+      "text": {
+        "genus": "Pokémon Casulo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 15
+      },
+      "text": {
+        "genus": "Pokémon Abelha Venenosa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 16
+      },
+      "text": {
+        "genus": "Pokémon Pássaro Minúsculo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 17
+      },
+      "text": {
+        "genus": "Pokémon pássaro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 18
+      },
+      "text": {
+        "genus": "Pokémon pássaro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 19
+      },
+      "text": {
+        "genus": "Pokémon rato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 20
+      },
+      "text": {
+        "genus": "Pokémon rato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 21
+      },
+      "text": {
+        "genus": "Pokémon Pássaro Minúsculo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 22
+      },
+      "text": {
+        "genus": "Pokémon de bico"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 23
+      },
+      "text": {
+        "genus": "Pokémon Cobra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 24
+      },
+      "text": {
+        "genus": "Pokémon Cobra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 25
+      },
+      "text": {
+        "genus": "Pokémon rato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 26
+      },
+      "text": {
+        "genus": "Pokémon rato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 27
+      },
+      "text": {
+        "genus": "Pokémon rato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 28
+      },
+      "text": {
+        "genus": "Pokémon rato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 29
+      },
+      "text": {
+        "genus": "Pokémon com alfinete venenoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 30
+      },
+      "text": {
+        "genus": "Pokémon com alfinete venenoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 31
+      },
+      "text": {
+        "genus": "Treinar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 32
+      },
+      "text": {
+        "genus": "Pokémon com alfinete venenoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 33
+      },
+      "text": {
+        "genus": "Pokémon com alfinete venenoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 34
+      },
+      "text": {
+        "genus": "Treinar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 35
+      },
+      "text": {
+        "genus": "Pokémon Fada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 36
+      },
+      "text": {
+        "genus": "Pokémon Fada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 37
+      },
+      "text": {
+        "genus": "Pokémon Raposa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 38
+      },
+      "text": {
+        "genus": "Pokémon Raposa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 39
+      },
+      "text": {
+        "genus": "Pokémon balão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 40
+      },
+      "text": {
+        "genus": "Pokémon balão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 41
+      },
+      "text": {
+        "genus": "Pokémon Morcego"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 42
+      },
+      "text": {
+        "genus": "Pokémon Morcego"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 43
+      },
+      "text": {
+        "genus": "Pokémon Erva Daninha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 44
+      },
+      "text": {
+        "genus": "Pokémon Erva Daninha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 45
+      },
+      "text": {
+        "genus": "Pokémon Flor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 46
+      },
+      "text": {
+        "genus": "Pokémon cogumelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 47
+      },
+      "text": {
+        "genus": "Pokémon cogumelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 48
+      },
+      "text": {
+        "genus": "Pokémon inseto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 49
+      },
+      "text": {
+        "genus": "Pokémon Mariposa Venenosa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 50
+      },
+      "text": {
+        "genus": "Pokémon toupeira"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 51
+      },
+      "text": {
+        "genus": "Pokémon toupeira"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 52
+      },
+      "text": {
+        "genus": "Scratch Pokémon Gato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 53
+      },
+      "text": {
+        "genus": "Pokémon gato elegante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 54
+      },
+      "text": {
+        "genus": "Pokémon Pato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 55
+      },
+      "text": {
+        "genus": "Pokémon Pato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 56
+      },
+      "text": {
+        "genus": "Pokémon Macaco Porco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 57
+      },
+      "text": {
+        "genus": "Pokémon Macaco Porco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 58
+      },
+      "text": {
+        "genus": "Pokémon cachorrinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 59
+      },
+      "text": {
+        "genus": "Pokémon Lendário"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 60
+      },
+      "text": {
+        "genus": "Pokémon girino"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 61
+      },
+      "text": {
+        "genus": "Pokémon girino"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 62
+      },
+      "text": {
+        "genus": "Pokémon girino"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 63
+      },
+      "text": {
+        "genus": "Pokémon psi"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 64
+      },
+      "text": {
+        "genus": "Pokémon psi"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 65
+      },
+      "text": {
+        "genus": "Pokémon psi"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 66
+      },
+      "text": {
+        "genus": "Pokémon Superpower"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 67
+      },
+      "text": {
+        "genus": "Pokémon Superpower"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 68
+      },
+      "text": {
+        "genus": "Pokémon Superpower"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 69
+      },
+      "text": {
+        "genus": "Pokémon Flor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 70
+      },
+      "text": {
+        "genus": "Pokémon Papa-moscas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 71
+      },
+      "text": {
+        "genus": "Pokémon Papa-moscas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 72
+      },
+      "text": {
+        "genus": "Pokémon água-viva"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 73
+      },
+      "text": {
+        "genus": "Pokémon água-viva"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 74
+      },
+      "text": {
+        "genus": "Pokémon Rocha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 75
+      },
+      "text": {
+        "genus": "Pokémon Rocha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 76
+      },
+      "text": {
+        "genus": "Pokémon Megaton"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 77
+      },
+      "text": {
+        "genus": "Pokémon Cavalo de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 78
+      },
+      "text": {
+        "genus": "Pokémon Cavalo de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 79
+      },
+      "text": {
+        "genus": "Pokémon idiota"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 80
+      },
+      "text": {
+        "genus": "Pokémon Caranguejo Eremita"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 81
+      },
+      "text": {
+        "genus": "Pokémon Magnet"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 82
+      },
+      "text": {
+        "genus": "Pokémon Magnet"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 83
+      },
+      "text": {
+        "genus": "Pokémon Pato Selvagem"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 84
+      },
+      "text": {
+        "genus": "Pokémon Pássaro Gêmeo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 85
+      },
+      "text": {
+        "genus": "Pokémon Pássaro Triplo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 86
+      },
+      "text": {
+        "genus": "Pokémon Leão Marinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 87
+      },
+      "text": {
+        "genus": "Pokémon Leão Marinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 88
+      },
+      "text": {
+        "genus": "Pokémon Sludge"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 89
+      },
+      "text": {
+        "genus": "Pokémon Sludge"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 90
+      },
+      "text": {
+        "genus": "Pokémon Bivalves"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 91
+      },
+      "text": {
+        "genus": "Pokémon Bivalves"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 92
+      },
+      "text": {
+        "genus": "Pokémon de gás"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 93
+      },
+      "text": {
+        "genus": "Pokémon de gás"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 94
+      },
+      "text": {
+        "genus": "Pokémon das Sombras"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 95
+      },
+      "text": {
+        "genus": "Pokémon Serpente Rochosa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 96
+      },
+      "text": {
+        "genus": "Pokémon Hypnosis"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 97
+      },
+      "text": {
+        "genus": "Pokémon Hypnosis"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 98
+      },
+      "text": {
+        "genus": "Pokémon Caranguejo do Rio"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 99
+      },
+      "text": {
+        "genus": "Pokémon pinça"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 100
+      },
+      "text": {
+        "genus": "Pokémon bola"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 101
+      },
+      "text": {
+        "genus": "Pokémon bola"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 102
+      },
+      "text": {
+        "genus": "Pokémon Egg"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 103
+      },
+      "text": {
+        "genus": "Pokémon Coco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 104
+      },
+      "text": {
+        "genus": "Pokémon solitário"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 105
+      },
+      "text": {
+        "genus": "Pokémon Guardião dos Ossos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 106
+      },
+      "text": {
+        "genus": "Chutando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 107
+      },
+      "text": {
+        "genus": "Socando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 108
+      },
+      "text": {
+        "genus": "Lambendo Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 109
+      },
+      "text": {
+        "genus": "Pokémon Poison Gas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 110
+      },
+      "text": {
+        "genus": "Pokémon Poison Gas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 111
+      },
+      "text": {
+        "genus": "Pokémon Spikes"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 112
+      },
+      "text": {
+        "genus": "Treinar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 113
+      },
+      "text": {
+        "genus": "Pokémon Egg"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 114
+      },
+      "text": {
+        "genus": "Pokémon videira"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 115
+      },
+      "text": {
+        "genus": "Pokémon pai"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 116
+      },
+      "text": {
+        "genus": "Pokémon Dragão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 117
+      },
+      "text": {
+        "genus": "Pokémon Dragão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 118
+      },
+      "text": {
+        "genus": "Pokémon Peixe Dourado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 119
+      },
+      "text": {
+        "genus": "Pokémon Peixe Dourado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 120
+      },
+      "text": {
+        "genus": "Pokémon em forma de estrela"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 121
+      },
+      "text": {
+        "genus": "Pokémon misterioso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 122
+      },
+      "text": {
+        "genus": "Pokémon Barrier"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 123
+      },
+      "text": {
+        "genus": "Pokémon Louva-a-deus"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 124
+      },
+      "text": {
+        "genus": "Pokémon em forma humana"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 125
+      },
+      "text": {
+        "genus": "Pokémon elétrico"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 126
+      },
+      "text": {
+        "genus": "Pokémon Spitfire"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 127
+      },
+      "text": {
+        "genus": "Pokémon Besouro Veado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 128
+      },
+      "text": {
+        "genus": "Pokémon Touro Selvagem"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 129
+      },
+      "text": {
+        "genus": "Pokémon Peixe"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 130
+      },
+      "text": {
+        "genus": "Pokémon atrozes"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 131
+      },
+      "text": {
+        "genus": "Pokémon de transporte"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 132
+      },
+      "text": {
+        "genus": "Pokémon Transform"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 133
+      },
+      "text": {
+        "genus": "Evolução Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 134
+      },
+      "text": {
+        "genus": "Bubble Pokémon Jato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 135
+      },
+      "text": {
+        "genus": "Pokémon Relâmpago"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 136
+      },
+      "text": {
+        "genus": "Pokémon Flamejante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 137
+      },
+      "text": {
+        "genus": "Pokémon virtuais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 138
+      },
+      "text": {
+        "genus": "Pokémon Espiral"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 139
+      },
+      "text": {
+        "genus": "Pokémon Espiral"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 140
+      },
+      "text": {
+        "genus": "Pokémon Marisco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 141
+      },
+      "text": {
+        "genus": "Pokémon Marisco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 142
+      },
+      "text": {
+        "genus": "Pokémon Fósseis"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 143
+      },
+      "text": {
+        "genus": "Pokémon adormecido"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 144
+      },
+      "text": {
+        "genus": "Congelar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 145
+      },
+      "text": {
+        "genus": "Pokémon elétrico"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 146
+      },
+      "text": {
+        "genus": "Pokémon Flamejante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 147
+      },
+      "text": {
+        "genus": "Pokémon Dragão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 148
+      },
+      "text": {
+        "genus": "Pokémon Dragão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 149
+      },
+      "text": {
+        "genus": "Pokémon Dragão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 150
+      },
+      "text": {
+        "genus": "Pokémon Genético"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 151
+      },
+      "text": {
+        "genus": "Pokémon de nova espécie"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 152
+      },
+      "text": {
+        "genus": "Pokémon Folha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 153
+      },
+      "text": {
+        "genus": "Pokémon Folha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 154
+      },
+      "text": {
+        "genus": "Pokémon de ervas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 155
+      },
+      "text": {
+        "genus": "Pokémon Rato de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 156
+      },
+      "text": {
+        "genus": "Pokémon Vulcão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 157
+      },
+      "text": {
+        "genus": "Pokémon Vulcão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 158
+      },
+      "text": {
+        "genus": "Pokémon Mandíbula Grande"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 159
+      },
+      "text": {
+        "genus": "Pokémon Mandíbula Grande"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 160
+      },
+      "text": {
+        "genus": "Pokémon Mandíbula Grande"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 161
+      },
+      "text": {
+        "genus": "Pokémon Batedor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 162
+      },
+      "text": {
+        "genus": "Pokémon de Corpo Longo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 163
+      },
+      "text": {
+        "genus": "Pokémon Coruja"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 164
+      },
+      "text": {
+        "genus": "Pokémon Coruja"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 165
+      },
+      "text": {
+        "genus": "Pokémon Cinco Estrelas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 166
+      },
+      "text": {
+        "genus": "Pokémon Cinco Estrelas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 167
+      },
+      "text": {
+        "genus": "Pokémon Cuspe de Corda"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 168
+      },
+      "text": {
+        "genus": "Pokémon de perna longa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 169
+      },
+      "text": {
+        "genus": "Pokémon Morcego"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 170
+      },
+      "text": {
+        "genus": "Pokémon pescador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 171
+      },
+      "text": {
+        "genus": "Pokémon Leve"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 172
+      },
+      "text": {
+        "genus": "Pequeno Pokémon Rato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 173
+      },
+      "text": {
+        "genus": "Pokémon em forma de estrela"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 174
+      },
+      "text": {
+        "genus": "Pokémon balão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 175
+      },
+      "text": {
+        "genus": "Pokémon Bola Espiga"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 176
+      },
+      "text": {
+        "genus": "Pokémon da Felicidade"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 177
+      },
+      "text": {
+        "genus": "Pokémon Pássaro Minúsculo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 178
+      },
+      "text": {
+        "genus": "Pokémon Místico"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 179
+      },
+      "text": {
+        "genus": "Pokémon de lã"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 180
+      },
+      "text": {
+        "genus": "Pokémon de lã"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 181
+      },
+      "text": {
+        "genus": "Pokémon Leve"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 182
+      },
+      "text": {
+        "genus": "Pokémon Flor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 183
+      },
+      "text": {
+        "genus": "Pokémon Rato Aqua"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 184
+      },
+      "text": {
+        "genus": "Pokémon Coelho Aqua"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 185
+      },
+      "text": {
+        "genus": "Imitação de Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 186
+      },
+      "text": {
+        "genus": "Pokémon Sapo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 187
+      },
+      "text": {
+        "genus": "Pokémon Algodão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 188
+      },
+      "text": {
+        "genus": "Pokémon Algodão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 189
+      },
+      "text": {
+        "genus": "Pokémon Algodão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 190
+      },
+      "text": {
+        "genus": "Pokémon de cauda longa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 191
+      },
+      "text": {
+        "genus": "Pokémon Semente"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 192
+      },
+      "text": {
+        "genus": "Pokémon do Sol"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 193
+      },
+      "text": {
+        "genus": "Pokémon de asas claras"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 194
+      },
+      "text": {
+        "genus": "Pokémon Peixe Aquático"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 195
+      },
+      "text": {
+        "genus": "Pokémon Peixe Aquático"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 196
+      },
+      "text": {
+        "genus": "Pokémon do Sol"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 197
+      },
+      "text": {
+        "genus": "Pokémon Moonlight"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 198
+      },
+      "text": {
+        "genus": "Pokémon das Trevas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 199
+      },
+      "text": {
+        "genus": "Pokémon Real"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 200
+      },
+      "text": {
+        "genus": "Pokémon Screech"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 201
+      },
+      "text": {
+        "genus": "Símbolo Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 202
+      },
+      "text": {
+        "genus": "Pokémon Paciente"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 203
+      },
+      "text": {
+        "genus": "Pokémon de pescoço longo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 204
+      },
+      "text": {
+        "genus": "Pokémon Bagworm"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 205
+      },
+      "text": {
+        "genus": "Pokémon Bagworm"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 206
+      },
+      "text": {
+        "genus": "Pokémon Serpente Terrestre"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 207
+      },
+      "text": {
+        "genus": "Fly Pokémon Escorpião"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 208
+      },
+      "text": {
+        "genus": "Iron Pokémon Cobra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 209
+      },
+      "text": {
+        "genus": "Pokémon Fada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 210
+      },
+      "text": {
+        "genus": "Pokémon Fada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 211
+      },
+      "text": {
+        "genus": "Pokémon balão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 212
+      },
+      "text": {
+        "genus": "Pokémon pinça"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 213
+      },
+      "text": {
+        "genus": "Pokémon mofado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 214
+      },
+      "text": {
+        "genus": "Pokémon de Chifre Único"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 215
+      },
+      "text": {
+        "genus": "Pokémon Garra Afiada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 216
+      },
+      "text": {
+        "genus": "Pokémon Ursinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 217
+      },
+      "text": {
+        "genus": "Pokémon Hibernador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 218
+      },
+      "text": {
+        "genus": "Pokémon Lava"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 219
+      },
+      "text": {
+        "genus": "Pokémon Lava"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 220
+      },
+      "text": {
+        "genus": "Pokémon Porco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 221
+      },
+      "text": {
+        "genus": "Pokémon suíno"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 222
+      },
+      "text": {
+        "genus": "Pokémon Coral"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 223
+      },
+      "text": {
+        "genus": "Pokémon a jato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 224
+      },
+      "text": {
+        "genus": "Pokémon a jato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 225
+      },
+      "text": {
+        "genus": "Pokémon de entrega"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 226
+      },
+      "text": {
+        "genus": "Pokémon pipa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 227
+      },
+      "text": {
+        "genus": "Pokémon Pássaro Armadura"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 228
+      },
+      "text": {
+        "genus": "Pokémon Sombrio"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 229
+      },
+      "text": {
+        "genus": "Pokémon Sombrio"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 230
+      },
+      "text": {
+        "genus": "Pokémon Dragão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 231
+      },
+      "text": {
+        "genus": "Pokémon Nariz Comprido"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 232
+      },
+      "text": {
+        "genus": "Pokémon de armadura"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 233
+      },
+      "text": {
+        "genus": "Pokémon virtuais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 234
+      },
+      "text": {
+        "genus": "Pokémon Chifre Grande"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 235
+      },
+      "text": {
+        "genus": "Pokémon Pintor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 236
+      },
+      "text": {
+        "genus": "Pokémon briga"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 237
+      },
+      "text": {
+        "genus": "Pokémon de parada de mão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 238
+      },
+      "text": {
+        "genus": "Beijar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 239
+      },
+      "text": {
+        "genus": "Pokémon elétrico"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 240
+      },
+      "text": {
+        "genus": "Pokémon Carvão Vivo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 241
+      },
+      "text": {
+        "genus": "Pokémon Vaca Leiteira"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 242
+      },
+      "text": {
+        "genus": "Pokémon da Felicidade"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 243
+      },
+      "text": {
+        "genus": "Pokémon Thunder"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 244
+      },
+      "text": {
+        "genus": "Pokémon Vulcão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 245
+      },
+      "text": {
+        "genus": "Pokémon Aurora"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 246
+      },
+      "text": {
+        "genus": "Pokémon de pele de rocha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 247
+      },
+      "text": {
+        "genus": "Pokémon de casca dura"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 248
+      },
+      "text": {
+        "genus": "Pokémon de armadura"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 249
+      },
+      "text": {
+        "genus": "Mergulhando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 250
+      },
+      "text": {
+        "genus": "Pokémon arco-íris"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 251
+      },
+      "text": {
+        "genus": "Pokémon de viagem no tempo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 252
+      },
+      "text": {
+        "genus": "Pokémon Geco da Madeira"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 253
+      },
+      "text": {
+        "genus": "Pokémon Geco da Madeira"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 254
+      },
+      "text": {
+        "genus": "Pokémon da floresta"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 255
+      },
+      "text": {
+        "genus": "Pintainho Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 256
+      },
+      "text": {
+        "genus": "Pokémon Galinha Jovem"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 257
+      },
+      "text": {
+        "genus": "Pokémon Blaze"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 258
+      },
+      "text": {
+        "genus": "Pokémon Peixe Lama"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 259
+      },
+      "text": {
+        "genus": "Pokémon Peixe Lama"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 260
+      },
+      "text": {
+        "genus": "Pokémon Peixe Lama"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 261
+      },
+      "text": {
+        "genus": "Pokémon Bite"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 262
+      },
+      "text": {
+        "genus": "Pokémon Bite"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 263
+      },
+      "text": {
+        "genus": "Pequeno Pokémon Guaxinim"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 264
+      },
+      "text": {
+        "genus": "Pokémon apressados"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 265
+      },
+      "text": {
+        "genus": "Pokémon Verme"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 266
+      },
+      "text": {
+        "genus": "Pokémon Casulo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 267
+      },
+      "text": {
+        "genus": "Pokémon Borboleta"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 268
+      },
+      "text": {
+        "genus": "Pokémon Casulo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 269
+      },
+      "text": {
+        "genus": "Pokémon Mariposa Venenosa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 270
+      },
+      "text": {
+        "genus": "Pokémon Erva Daninha Aquática"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 271
+      },
+      "text": {
+        "genus": "Pokémon alegre"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 272
+      },
+      "text": {
+        "genus": "Pokémon despreocupado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 273
+      },
+      "text": {
+        "genus": "Pokémon Bolota"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 274
+      },
+      "text": {
+        "genus": "Pokémon astuto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 275
+      },
+      "text": {
+        "genus": "Pokémon Malvado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 276
+      },
+      "text": {
+        "genus": "Pequenos Pokémon Swallow"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 277
+      },
+      "text": {
+        "genus": "Pokémon Swallow"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 278
+      },
+      "text": {
+        "genus": "Pokémon Gaivota"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 279
+      },
+      "text": {
+        "genus": "Pokémon Ave Aquática"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 280
+      },
+      "text": {
+        "genus": "Sentindo Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 281
+      },
+      "text": {
+        "genus": "Pokémon Emocional"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 282
+      },
+      "text": {
+        "genus": "Abrace Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 283
+      },
+      "text": {
+        "genus": "Pokémon Lagoa Skater"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 284
+      },
+      "text": {
+        "genus": "Pokémon globo ocular"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 285
+      },
+      "text": {
+        "genus": "Pokémon cogumelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 286
+      },
+      "text": {
+        "genus": "Pokémon cogumelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 287
+      },
+      "text": {
+        "genus": "Pokémon preguiçoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 288
+      },
+      "text": {
+        "genus": "Pokémon Macaco Selvagem"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 289
+      },
+      "text": {
+        "genus": "Pokémon preguiçoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 290
+      },
+      "text": {
+        "genus": "Pokémon estagiário"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 291
+      },
+      "text": {
+        "genus": "Pokémon Ninja"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 292
+      },
+      "text": {
+        "genus": "Galpão de Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 293
+      },
+      "text": {
+        "genus": "Pokémon Sussurro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 294
+      },
+      "text": {
+        "genus": "Pokémon de Grande Voz"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 295
+      },
+      "text": {
+        "genus": "Pokémon com barulho alto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 296
+      },
+      "text": {
+        "genus": "Pokémon Guts"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 297
+      },
+      "text": {
+        "genus": "Pokémon Arm Thrust"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 298
+      },
+      "text": {
+        "genus": "Pokémon de bolinhas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 299
+      },
+      "text": {
+        "genus": "Pokémon Bússola"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 300
+      },
+      "text": {
+        "genus": "Pokémon Gatinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 301
+      },
+      "text": {
+        "genus": "Pokémon primitivo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 302
+      },
+      "text": {
+        "genus": "Pokémon das Trevas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 303
+      },
+      "text": {
+        "genus": "Pokémon Enganador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 304
+      },
+      "text": {
+        "genus": "Pokémon de Armadura Iron"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 305
+      },
+      "text": {
+        "genus": "Pokémon de Armadura Iron"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 306
+      },
+      "text": {
+        "genus": "Pokémon de Armadura Iron"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 307
+      },
+      "text": {
+        "genus": "Pokémon Meditate"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 308
+      },
+      "text": {
+        "genus": "Pokémon Meditate"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 309
+      },
+      "text": {
+        "genus": "Pokémon Relâmpago"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 310
+      },
+      "text": {
+        "genus": "Pokémon Discharge"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 311
+      },
+      "text": {
+        "genus": "Torcendo Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 312
+      },
+      "text": {
+        "genus": "Torcendo Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 313
+      },
+      "text": {
+        "genus": "Pokémon Vaga-lume"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 314
+      },
+      "text": {
+        "genus": "Pokémon Vaga-lume"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 315
+      },
+      "text": {
+        "genus": "Pokémon Espinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 316
+      },
+      "text": {
+        "genus": "Pokémon Estômago"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 317
+      },
+      "text": {
+        "genus": "Pokémon Saco Venenoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 318
+      },
+      "text": {
+        "genus": "Pokémon Selvagem"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 319
+      },
+      "text": {
+        "genus": "Pokémon brutais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 320
+      },
+      "text": {
+        "genus": "Pokémon Baleia Bola"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 321
+      },
+      "text": {
+        "genus": "Pokémon Baleia Flutuante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 322
+      },
+      "text": {
+        "genus": "Pokémon entorpecido"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 323
+      },
+      "text": {
+        "genus": "Pokémon Eruption"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 324
+      },
+      "text": {
+        "genus": "Pokémon Carvão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 325
+      },
+      "text": {
+        "genus": "Pokémon Bounce"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 326
+      },
+      "text": {
+        "genus": "Manipular Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 327
+      },
+      "text": {
+        "genus": "Descubra Pokémon Panda"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 328
+      },
+      "text": {
+        "genus": "Pokémon Formiga Poço"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 329
+      },
+      "text": {
+        "genus": "Pokémon Vibratório"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 330
+      },
+      "text": {
+        "genus": "Pokémon Místico"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 331
+      },
+      "text": {
+        "genus": "Pokémon cacto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 332
+      },
+      "text": {
+        "genus": "Pokémon Espantalho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 333
+      },
+      "text": {
+        "genus": "Pokémon Pássaro de Algodão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 334
+      },
+      "text": {
+        "genus": "Pokémon cantarolando"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 335
+      },
+      "text": {
+        "genus": "Pokémon Furão Gato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 336
+      },
+      "text": {
+        "genus": "Pokémon Cobra Presa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 337
+      },
+      "text": {
+        "genus": "Pokémon Meteorite"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 338
+      },
+      "text": {
+        "genus": "Pokémon Meteorite"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 339
+      },
+      "text": {
+        "genus": "Pokémon Bigodes"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 340
+      },
+      "text": {
+        "genus": "Pokémon Bigodes"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 341
+      },
+      "text": {
+        "genus": "Pokémon Rufião"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 342
+      },
+      "text": {
+        "genus": "Pokémon Ladino"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 343
+      },
+      "text": {
+        "genus": "Pokémon boneco de argila"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 344
+      },
+      "text": {
+        "genus": "Pokémon boneco de argila"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 345
+      },
+      "text": {
+        "genus": "Pokémon Lírio do Mar"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 346
+      },
+      "text": {
+        "genus": "Pokémon Craca"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 347
+      },
+      "text": {
+        "genus": "Antigo Pokémon Camarão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 348
+      },
+      "text": {
+        "genus": "Pokémon de placa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 349
+      },
+      "text": {
+        "genus": "Pokémon Peixe"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 350
+      },
+      "text": {
+        "genus": "Pokémon gentil"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 351
+      },
+      "text": {
+        "genus": "Pokémon do tempo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 352
+      },
+      "text": {
+        "genus": "Pokémon com troca de cores"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 353
+      },
+      "text": {
+        "genus": "Pokémon fantoche"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 354
+      },
+      "text": {
+        "genus": "Pokémon Marionete"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 355
+      },
+      "text": {
+        "genus": "Pokémon Réquiem"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 356
+      },
+      "text": {
+        "genus": "Acenar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 357
+      },
+      "text": {
+        "genus": "Pokémon de frutas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 358
+      },
+      "text": {
+        "genus": "Pokémon Sino do Vento"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 359
+      },
+      "text": {
+        "genus": "Pokémon Desastre"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 360
+      },
+      "text": {
+        "genus": "Pokémon Brilhantes"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 361
+      },
+      "text": {
+        "genus": "Pokémon Chapéu de Neve"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 362
+      },
+      "text": {
+        "genus": "Enfrentar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 363
+      },
+      "text": {
+        "genus": "Bata palmas Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 364
+      },
+      "text": {
+        "genus": "Pokémon Rolando Bola"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 365
+      },
+      "text": {
+        "genus": "Pokémon Quebra-Gelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 366
+      },
+      "text": {
+        "genus": "Pokémon Bivalves"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 367
+      },
+      "text": {
+        "genus": "Pokémon do Mar Profundo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 368
+      },
+      "text": {
+        "genus": "Pokémon do Mar do Sul"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 369
+      },
+      "text": {
+        "genus": "Pokémon de longevidade"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 370
+      },
+      "text": {
+        "genus": "Pokémon de encontro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 371
+      },
+      "text": {
+        "genus": "Pokémon Rock Head"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 372
+      },
+      "text": {
+        "genus": "Pokémon de resistência"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 373
+      },
+      "text": {
+        "genus": "Pokémon Dragão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 374
+      },
+      "text": {
+        "genus": "Pokémon Iron Ball"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 375
+      },
+      "text": {
+        "genus": "Iron Pokémon Garra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 376
+      },
+      "text": {
+        "genus": "Pokémon de perna Iron"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 377
+      },
+      "text": {
+        "genus": "Pokémon Pico da Rocha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 378
+      },
+      "text": {
+        "genus": "Pokémon Iceberg"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 379
+      },
+      "text": {
+        "genus": "Pokémon Iron"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 380
+      },
+      "text": {
+        "genus": "Pokémon Eon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 381
+      },
+      "text": {
+        "genus": "Pokémon Eon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 382
+      },
+      "text": {
+        "genus": "Pokémon da Bacia Marinha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 383
+      },
+      "text": {
+        "genus": "Pokémon do continente"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 384
+      },
+      "text": {
+        "genus": "Pokémon nas alturas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 385
+      },
+      "text": {
+        "genus": "Pokémon Wish"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 386
+      },
+      "text": {
+        "genus": "Pokémon de DNA"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 387
+      },
+      "text": {
+        "genus": "Pokémon Folha Minúscula"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 388
+      },
+      "text": {
+        "genus": "Pokémon do Bosque"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 389
+      },
+      "text": {
+        "genus": "Pokémon do continente"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 390
+      },
+      "text": {
+        "genus": "Pokémon chimpanzé"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 391
+      },
+      "text": {
+        "genus": "Pokémon brincalhão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 392
+      },
+      "text": {
+        "genus": "Pokémon Flamejante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 393
+      },
+      "text": {
+        "genus": "Pokémon Pinguim"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 394
+      },
+      "text": {
+        "genus": "Pokémon Pinguim"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 395
+      },
+      "text": {
+        "genus": "Pokémon Imperador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 396
+      },
+      "text": {
+        "genus": "Pokémon Estorninho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 397
+      },
+      "text": {
+        "genus": "Pokémon Estorninho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 398
+      },
+      "text": {
+        "genus": "Pokémon Predador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 399
+      },
+      "text": {
+        "genus": "Pokémon Rato Rechonchudo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 400
+      },
+      "text": {
+        "genus": "Pokémon castor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 401
+      },
+      "text": {
+        "genus": "Pokémon Críquete"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 402
+      },
+      "text": {
+        "genus": "Pokémon Críquete"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 403
+      },
+      "text": {
+        "genus": "Pokémon Flash"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 404
+      },
+      "text": {
+        "genus": "Pokémon Spark"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 405
+      },
+      "text": {
+        "genus": "Pokémon Olhos Brilhantes"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 406
+      },
+      "text": {
+        "genus": "Pokémon Bud"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 407
+      },
+      "text": {
+        "genus": "Buquê de Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 408
+      },
+      "text": {
+        "genus": "Cabeçada Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 409
+      },
+      "text": {
+        "genus": "Cabeçada Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 410
+      },
+      "text": {
+        "genus": "Pokémon Shield"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 411
+      },
+      "text": {
+        "genus": "Pokémon Shield"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 412
+      },
+      "text": {
+        "genus": "Pokémon Bagworm"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 413
+      },
+      "text": {
+        "genus": "Pokémon Bagworm"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 414
+      },
+      "text": {
+        "genus": "Pokémon mariposa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 415
+      },
+      "text": {
+        "genus": "Pokémon Abelha Minúscula"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 416
+      },
+      "text": {
+        "genus": "Pokémon Colmeia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 417
+      },
+      "text": {
+        "genus": "Pokémon EleSquirrel"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 418
+      },
+      "text": {
+        "genus": "Pokémon Doninha Marinha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 419
+      },
+      "text": {
+        "genus": "Pokémon Doninha Marinha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 420
+      },
+      "text": {
+        "genus": "Pokémon cereja"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 421
+      },
+      "text": {
+        "genus": "Pokémon Florido"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 422
+      },
+      "text": {
+        "genus": "Pokémon Lesma do Mar"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 423
+      },
+      "text": {
+        "genus": "Pokémon Lesma do Mar"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 424
+      },
+      "text": {
+        "genus": "Pokémon de cauda longa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 425
+      },
+      "text": {
+        "genus": "Pokémon balão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 426
+      },
+      "text": {
+        "genus": "Pokémon dirigível"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 427
+      },
+      "text": {
+        "genus": "Pokémon Coelho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 428
+      },
+      "text": {
+        "genus": "Pokémon Coelho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 429
+      },
+      "text": {
+        "genus": "Pokémon mágico"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 430
+      },
+      "text": {
+        "genus": "Pokémon Grande Chefe"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 431
+      },
+      "text": {
+        "genus": "Pokémon malicioso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 432
+      },
+      "text": {
+        "genus": "Pokémon Gato Tigre"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 433
+      },
+      "text": {
+        "genus": "Pokémon Sino"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 434
+      },
+      "text": {
+        "genus": "Pokémon gambá"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 435
+      },
+      "text": {
+        "genus": "Pokémon gambá"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 436
+      },
+      "text": {
+        "genus": "Pokémon Bronze"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 437
+      },
+      "text": {
+        "genus": "Pokémon Sino de Bronze"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 438
+      },
+      "text": {
+        "genus": "Pokémon bonsai"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 439
+      },
+      "text": {
+        "genus": "Pokémon Mímico"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 440
+      },
+      "text": {
+        "genus": "Pokémon de teatro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 441
+      },
+      "text": {
+        "genus": "Nota Musical Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 442
+      },
+      "text": {
+        "genus": "Pokémon Proibido"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 443
+      },
+      "text": {
+        "genus": "Pokémon Tubarão Terrestre"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 444
+      },
+      "text": {
+        "genus": "Pokémon da Caverna"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 445
+      },
+      "text": {
+        "genus": "Mach Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 446
+      },
+      "text": {
+        "genus": "Pokémon Grande Comedor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 447
+      },
+      "text": {
+        "genus": "Pokémon de emanação"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 448
+      },
+      "text": {
+        "genus": "Pokémon de aura"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 449
+      },
+      "text": {
+        "genus": "Pokémon hipopótamo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 450
+      },
+      "text": {
+        "genus": "Pokémon Peso Pesado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 451
+      },
+      "text": {
+        "genus": "Pokémon Escorpião"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 452
+      },
+      "text": {
+        "genus": "Pokémon Ogro Escorpião"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 453
+      },
+      "text": {
+        "genus": "Toxic Pokémon Boca"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 454
+      },
+      "text": {
+        "genus": "Toxic Pokémon Boca"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 455
+      },
+      "text": {
+        "genus": "Pokémon Apanhador de Insetos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 456
+      },
+      "text": {
+        "genus": "Pokémon Peixe Asa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 457
+      },
+      "text": {
+        "genus": "Pokémon néon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 458
+      },
+      "text": {
+        "genus": "Pokémon pipa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 459
+      },
+      "text": {
+        "genus": "Pokémon Árvore Congelada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 460
+      },
+      "text": {
+        "genus": "Pokémon Árvore Congelada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 461
+      },
+      "text": {
+        "genus": "Pokémon Garra Afiada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 462
+      },
+      "text": {
+        "genus": "Pokémon de área Magnet"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 463
+      },
+      "text": {
+        "genus": "Lambendo Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 464
+      },
+      "text": {
+        "genus": "Treinar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 465
+      },
+      "text": {
+        "genus": "Pokémon videira"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 466
+      },
+      "text": {
+        "genus": "Pokémon Thunderbolt"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 467
+      },
+      "text": {
+        "genus": "Pokémon Explosivo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 468
+      },
+      "text": {
+        "genus": "Pokémon Jubileu"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 469
+      },
+      "text": {
+        "genus": "Pokémon Ogro Darner"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 470
+      },
+      "text": {
+        "genus": "Pokémon Verdejante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 471
+      },
+      "text": {
+        "genus": "Pokémon de neve fresco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 472
+      },
+      "text": {
+        "genus": "Pokémon Escorpião Fang"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 473
+      },
+      "text": {
+        "genus": "Pokémon Presa Gêmea"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 474
+      },
+      "text": {
+        "genus": "Pokémon virtuais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 475
+      },
+      "text": {
+        "genus": "Pokémon Lâmina"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 476
+      },
+      "text": {
+        "genus": "Pokémon Bússola"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 477
+      },
+      "text": {
+        "genus": "Pokémon Garra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 478
+      },
+      "text": {
+        "genus": "Pokémon da Terra da Neve"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 479
+      },
+      "text": {
+        "genus": "Pokémon de plasma"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 480
+      },
+      "text": {
+        "genus": "Pokémon de conhecimento"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 481
+      },
+      "text": {
+        "genus": "Pokémon Emocional"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 482
+      },
+      "text": {
+        "genus": "Pokémon com força de vontade"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 483
+      },
+      "text": {
+        "genus": "Pokémon Temporais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 484
+      },
+      "text": {
+        "genus": "Pokémon Espacial"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 485
+      },
+      "text": {
+        "genus": "Pokémon Domo de Lava"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 486
+      },
+      "text": {
+        "genus": "Pokémon Colossais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 487
+      },
+      "text": {
+        "genus": "Pokémon Renegado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 488
+      },
+      "text": {
+        "genus": "Pokémon Lunares"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 489
+      },
+      "text": {
+        "genus": "Pokémon Derivante do Mar"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 490
+      },
+      "text": {
+        "genus": "Pokémon marítimo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 491
+      },
+      "text": {
+        "genus": "Pokémon preto como breu"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 492
+      },
+      "text": {
+        "genus": "Gratidão Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 493
+      },
+      "text": {
+        "genus": "Pokémon Alfa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 494
+      },
+      "text": {
+        "genus": "Pokémon de vitória"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 495
+      },
+      "text": {
+        "genus": "Pokémon Cobra de Grama"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 496
+      },
+      "text": {
+        "genus": "Pokémon Cobra de Grama"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 497
+      },
+      "text": {
+        "genus": "Pokémon reais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 498
+      },
+      "text": {
+        "genus": "Pokémon Porco de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 499
+      },
+      "text": {
+        "genus": "Pokémon Porco de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 500
+      },
+      "text": {
+        "genus": "Pokémon Mega Porco de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 501
+      },
+      "text": {
+        "genus": "Pokémon Lontra Marinha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 502
+      },
+      "text": {
+        "genus": "Disciplinar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 503
+      },
+      "text": {
+        "genus": "Pokémon formidável"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 504
+      },
+      "text": {
+        "genus": "Pokémon Batedor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 505
+      },
+      "text": {
+        "genus": "Pokémon Vigia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 506
+      },
+      "text": {
+        "genus": "Pokémon cachorrinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 507
+      },
+      "text": {
+        "genus": "Pokémon cão leal"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 508
+      },
+      "text": {
+        "genus": "Pokémon de grande coração"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 509
+      },
+      "text": {
+        "genus": "Pokémon tortuoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 510
+      },
+      "text": {
+        "genus": "Pokémon Cruel"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 511
+      },
+      "text": {
+        "genus": "Pokémon Macaco Grama"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 512
+      },
+      "text": {
+        "genus": "Pokémon Macaco Espinhoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 513
+      },
+      "text": {
+        "genus": "Pokémon de alta temperatura"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 514
+      },
+      "text": {
+        "genus": "Pokémon Ember"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 515
+      },
+      "text": {
+        "genus": "Pulverizar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 516
+      },
+      "text": {
+        "genus": "Pokémon Gêiser"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 517
+      },
+      "text": {
+        "genus": "Pokémon Dream Eater"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 518
+      },
+      "text": {
+        "genus": "Pokémon sonolento"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 519
+      },
+      "text": {
+        "genus": "Pequeno Pokémon Pombo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 520
+      },
+      "text": {
+        "genus": "Pokémon Pombo Selvagem"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 521
+      },
+      "text": {
+        "genus": "Pokémon orgulhoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 522
+      },
+      "text": {
+        "genus": "Pokémon eletrificado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 523
+      },
+      "text": {
+        "genus": "Pokémon Thunderbolt"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 524
+      },
+      "text": {
+        "genus": "Pokémon de manto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 525
+      },
+      "text": {
+        "genus": "Pokémon Minério"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 526
+      },
+      "text": {
+        "genus": "Pokémon compactados"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 527
+      },
+      "text": {
+        "genus": "Pokémon Morcego"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 528
+      },
+      "text": {
+        "genus": "Cortejando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 529
+      },
+      "text": {
+        "genus": "Pokémon toupeira"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 530
+      },
+      "text": {
+        "genus": "Pokémon subterrâneo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 531
+      },
+      "text": {
+        "genus": "Ouvindo Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 532
+      },
+      "text": {
+        "genus": "Pokémon musculoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 533
+      },
+      "text": {
+        "genus": "Pokémon musculoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 534
+      },
+      "text": {
+        "genus": "Pokémon musculoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 535
+      },
+      "text": {
+        "genus": "Pokémon girino"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 536
+      },
+      "text": {
+        "genus": "Pokémon Vibratório"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 537
+      },
+      "text": {
+        "genus": "Pokémon Vibratório"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 538
+      },
+      "text": {
+        "genus": "Pokémon judô"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 539
+      },
+      "text": {
+        "genus": "Pokémon Karatê"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 540
+      },
+      "text": {
+        "genus": "Costurando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 541
+      },
+      "text": {
+        "genus": "Pokémon Envolto em Folha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 542
+      },
+      "text": {
+        "genus": "Nutrindo Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 543
+      },
+      "text": {
+        "genus": "Pokémon Centopeia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 544
+      },
+      "text": {
+        "genus": "Pokémon Curlípede"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 545
+      },
+      "text": {
+        "genus": "Pokémon Megapede"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 546
+      },
+      "text": {
+        "genus": "Pokémon Puff de Algodão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 547
+      },
+      "text": {
+        "genus": "Pokémon Velado pelo Vento"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 548
+      },
+      "text": {
+        "genus": "Pokémon Bulbo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 549
+      },
+      "text": {
+        "genus": "Pokémon florescendo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 550
+      },
+      "text": {
+        "genus": "Pokémon Hostil"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 551
+      },
+      "text": {
+        "genus": "Pokémon Crocodilo do Deserto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 552
+      },
+      "text": {
+        "genus": "Pokémon Crocodilo do Deserto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 553
+      },
+      "text": {
+        "genus": "Pokémon de intimidação"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 554
+      },
+      "text": {
+        "genus": "Pokémon Zen Charm"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 555
+      },
+      "text": {
+        "genus": "Pokémon resplandecente"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 556
+      },
+      "text": {
+        "genus": "Pokémon cacto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 557
+      },
+      "text": {
+        "genus": "Pokémon Rock Inn"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 558
+      },
+      "text": {
+        "genus": "Pokémon da Casa de Pedra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 559
+      },
+      "text": {
+        "genus": "Trocando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 560
+      },
+      "text": {
+        "genus": "Pokémon bandido"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 561
+      },
+      "text": {
+        "genus": "Pokémon Avianóide"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 562
+      },
+      "text": {
+        "genus": "Pokémon Spirit"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 563
+      },
+      "text": {
+        "genus": "Pokémon caixão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 564
+      },
+      "text": {
+        "genus": "Pokémon prototartaruga"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 565
+      },
+      "text": {
+        "genus": "Pokémon prototartaruga"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 566
+      },
+      "text": {
+        "genus": "Primeiro Pokémon Pássaro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 567
+      },
+      "text": {
+        "genus": "Primeiro Pokémon Pássaro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 568
+      },
+      "text": {
+        "genus": "Pokémon saco de lixo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 569
+      },
+      "text": {
+        "genus": "Pokémon Pilha de Lixo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 570
+      },
+      "text": {
+        "genus": "Pokémon raposa complicado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 571
+      },
+      "text": {
+        "genus": "Illusion Pokémon Raposa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 572
+      },
+      "text": {
+        "genus": "Pokémon chinchila"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 573
+      },
+      "text": {
+        "genus": "Pokémon lenço"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 574
+      },
+      "text": {
+        "genus": "Pokémon de fixação"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 575
+      },
+      "text": {
+        "genus": "Manipular Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 576
+      },
+      "text": {
+        "genus": "Pokémon de Corpo Astral"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 577
+      },
+      "text": {
+        "genus": "Pokémon celular"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 578
+      },
+      "text": {
+        "genus": "Pokémon Mitose"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 579
+      },
+      "text": {
+        "genus": "Multiplicando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 580
+      },
+      "text": {
+        "genus": "Pokémon Ave Aquática"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 581
+      },
+      "text": {
+        "genus": "Pokémon Pássaro Branco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 582
+      },
+      "text": {
+        "genus": "Pokémon de neve fresco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 583
+      },
+      "text": {
+        "genus": "Pokémon da Neve Gelada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 584
+      },
+      "text": {
+        "genus": "Pokémon Tempestade de Neve"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 585
+      },
+      "text": {
+        "genus": "Pokémon da temporada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 586
+      },
+      "text": {
+        "genus": "Pokémon da temporada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 587
+      },
+      "text": {
+        "genus": "Pokémon Esquilo Celeste"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 588
+      },
+      "text": {
+        "genus": "Apertando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 589
+      },
+      "text": {
+        "genus": "Pokémon de cavalaria"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 590
+      },
+      "text": {
+        "genus": "Pokémon cogumelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 591
+      },
+      "text": {
+        "genus": "Pokémon cogumelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 592
+      },
+      "text": {
+        "genus": "Pokémon flutuante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 593
+      },
+      "text": {
+        "genus": "Pokémon flutuante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 594
+      },
+      "text": {
+        "genus": "Pokémon carinhoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 595
+      },
+      "text": {
+        "genus": "Anexando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 596
+      },
+      "text": {
+        "genus": "Pokémon EleSpider"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 597
+      },
+      "text": {
+        "genus": "Pokémon Semente de Espinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 598
+      },
+      "text": {
+        "genus": "Pokémon Vagem Espinhoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 599
+      },
+      "text": {
+        "genus": "Pokémon de equipamento"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 600
+      },
+      "text": {
+        "genus": "Pokémon de equipamento"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 601
+      },
+      "text": {
+        "genus": "Pokémon de equipamento"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 602
+      },
+      "text": {
+        "genus": "Pokémon EleFish"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 603
+      },
+      "text": {
+        "genus": "Pokémon EleFish"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 604
+      },
+      "text": {
+        "genus": "Pokémon EleFish"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 605
+      },
+      "text": {
+        "genus": "Pokémon Cerebral"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 606
+      },
+      "text": {
+        "genus": "Pokémon Cerebral"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 607
+      },
+      "text": {
+        "genus": "Pokémon Vela"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 608
+      },
+      "text": {
+        "genus": "Pokémon da lâmpada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 609
+      },
+      "text": {
+        "genus": "Atraindo Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 610
+      },
+      "text": {
+        "genus": "Pokémon presa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 611
+      },
+      "text": {
+        "genus": "Pokémon Mandíbula Machado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 612
+      },
+      "text": {
+        "genus": "Pokémon Mandíbula Machado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 613
+      },
+      "text": {
+        "genus": "Pokémon frio"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 614
+      },
+      "text": {
+        "genus": "Pokémon Congelante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 615
+      },
+      "text": {
+        "genus": "Cristalizando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 616
+      },
+      "text": {
+        "genus": "Pokémon caracol"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 617
+      },
+      "text": {
+        "genus": "Desembolsar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 618
+      },
+      "text": {
+        "genus": "Armadilha Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 619
+      },
+      "text": {
+        "genus": "Pokémon de artes marciais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 620
+      },
+      "text": {
+        "genus": "Pokémon de artes marciais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 621
+      },
+      "text": {
+        "genus": "Pokémon da Caverna"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 622
+      },
+      "text": {
+        "genus": "Pokémon Autômato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 623
+      },
+      "text": {
+        "genus": "Pokémon Autômato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 624
+      },
+      "text": {
+        "genus": "Pokémon Lâmina Afiada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 625
+      },
+      "text": {
+        "genus": "Pokémon Espada Lâmina"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 626
+      },
+      "text": {
+        "genus": "Golpear Pokémon Búfalo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 627
+      },
+      "text": {
+        "genus": "Pokémon Águia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 628
+      },
+      "text": {
+        "genus": "Pokémon Valentes"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 629
+      },
+      "text": {
+        "genus": "Pokémon com fralda"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 630
+      },
+      "text": {
+        "genus": "Pokémon Abutre Osso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 631
+      },
+      "text": {
+        "genus": "Pokémon Tamanduá"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 632
+      },
+      "text": {
+        "genus": "Iron Pokémon Formiga"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 633
+      },
+      "text": {
+        "genus": "Pokémon irado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 634
+      },
+      "text": {
+        "genus": "Pokémon Hostil"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 635
+      },
+      "text": {
+        "genus": "Pokémon brutais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 636
+      },
+      "text": {
+        "genus": "Pokémon Tocha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 637
+      },
+      "text": {
+        "genus": "Pokémon do Sol"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 638
+      },
+      "text": {
+        "genus": "Iron Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 639
+      },
+      "text": {
+        "genus": "Pokémon da Caverna"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 640
+      },
+      "text": {
+        "genus": "Pokémon da pastagem"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 641
+      },
+      "text": {
+        "genus": "Pokémon ciclone"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 642
+      },
+      "text": {
+        "genus": "Pokémon Bolt Strike"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 643
+      },
+      "text": {
+        "genus": "Vastos Pokémon Brancos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 644
+      },
+      "text": {
+        "genus": "Pokémon Negro Profundo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 645
+      },
+      "text": {
+        "genus": "Pokémon de abundância"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 646
+      },
+      "text": {
+        "genus": "Pokémon de limite"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 647
+      },
+      "text": {
+        "genus": "Pokémon Colt"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 648
+      },
+      "text": {
+        "genus": "Melodia Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 649
+      },
+      "text": {
+        "genus": "Pokémon Paleozóico"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 650
+      },
+      "text": {
+        "genus": "Pokémon Noz Espinhosa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 651
+      },
+      "text": {
+        "genus": "Pokémon Armadura Espinhosa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 652
+      },
+      "text": {
+        "genus": "Pokémon Armadura Espinhosa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 653
+      },
+      "text": {
+        "genus": "Pokémon Raposa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 654
+      },
+      "text": {
+        "genus": "Pokémon Raposa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 655
+      },
+      "text": {
+        "genus": "Pokémon Raposa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 656
+      },
+      "text": {
+        "genus": "Bubble Pokémon Sapo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 657
+      },
+      "text": {
+        "genus": "Bubble Pokémon Sapo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 658
+      },
+      "text": {
+        "genus": "Pokémon Ninja"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 659
+      },
+      "text": {
+        "genus": "Cavando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 660
+      },
+      "text": {
+        "genus": "Cavando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 661
+      },
+      "text": {
+        "genus": "Pequeno Pokémon Robin"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 662
+      },
+      "text": {
+        "genus": "Pokémon Ember"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 663
+      },
+      "text": {
+        "genus": "Pokémon abrasador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 664
+      },
+      "text": {
+        "genus": "Pokémon de poeira dispersa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 665
+      },
+      "text": {
+        "genus": "Pokémon de poeira dispersa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 666
+      },
+      "text": {
+        "genus": "Escalar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 667
+      },
+      "text": {
+        "genus": "Pokémon Filhote de Leão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 668
+      },
+      "text": {
+        "genus": "Pokémon Real"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 669
+      },
+      "text": {
+        "genus": "Pokémon de flor única"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 670
+      },
+      "text": {
+        "genus": "Pokémon de flor única"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 671
+      },
+      "text": {
+        "genus": "Pokémon de jardim"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 672
+      },
+      "text": {
+        "genus": "Monte Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 673
+      },
+      "text": {
+        "genus": "Monte Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 674
+      },
+      "text": {
+        "genus": "Pokémon brincalhão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 675
+      },
+      "text": {
+        "genus": "Pokémon assustadores"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 676
+      },
+      "text": {
+        "genus": "Pokémon Caniche"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 677
+      },
+      "text": {
+        "genus": "Pokémon de restrição"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 678
+      },
+      "text": {
+        "genus": "Restringir Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 679
+      },
+      "text": {
+        "genus": "Pokémon Espada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 680
+      },
+      "text": {
+        "genus": "Pokémon Espada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 681
+      },
+      "text": {
+        "genus": "Pokémon Espada Real"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 682
+      },
+      "text": {
+        "genus": "Perfume Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 683
+      },
+      "text": {
+        "genus": "Pokémon de fragrância"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 684
+      },
+      "text": {
+        "genus": "Pokémon algodão doce"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 685
+      },
+      "text": {
+        "genus": "Pokémon Merengue"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 686
+      },
+      "text": {
+        "genus": "Pokémon giratório"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 687
+      },
+      "text": {
+        "genus": "Derrubando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 688
+      },
+      "text": {
+        "genus": "Pokémon de duas mãos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 689
+      },
+      "text": {
+        "genus": "Pokémon coletivo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 690
+      },
+      "text": {
+        "genus": "Pokémon Simulado Kelp"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 691
+      },
+      "text": {
+        "genus": "Pokémon Simulado Kelp"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 692
+      },
+      "text": {
+        "genus": "Pokémon Water Gun"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 693
+      },
+      "text": {
+        "genus": "Pokémon obuseiro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 694
+      },
+      "text": {
+        "genus": "Pokémon Gerador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 695
+      },
+      "text": {
+        "genus": "Pokémon Gerador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 696
+      },
+      "text": {
+        "genus": "Pokémon Herdeiro Real"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 697
+      },
+      "text": {
+        "genus": "Pokémon Déspota"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 698
+      },
+      "text": {
+        "genus": "Pokémon Tundra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 699
+      },
+      "text": {
+        "genus": "Pokémon Tundra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 700
+      },
+      "text": {
+        "genus": "Pokémon entrelaçados"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 701
+      },
+      "text": {
+        "genus": "Lutando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 702
+      },
+      "text": {
+        "genus": "Pokémon Antena"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 703
+      },
+      "text": {
+        "genus": "Pokémon joia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 704
+      },
+      "text": {
+        "genus": "Pokémon de tecido mole"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 705
+      },
+      "text": {
+        "genus": "Pokémon de tecido mole"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 706
+      },
+      "text": {
+        "genus": "Pokémon Dragão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 707
+      },
+      "text": {
+        "genus": "Chaveiro Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 708
+      },
+      "text": {
+        "genus": "Pokémon Toco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 709
+      },
+      "text": {
+        "genus": "Pokémon Ancião da Árvore"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 710
+      },
+      "text": {
+        "genus": "Pokémon abóbora"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 711
+      },
+      "text": {
+        "genus": "Pokémon abóbora"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 712
+      },
+      "text": {
+        "genus": "Pokémon Pedaço de Gelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 713
+      },
+      "text": {
+        "genus": "Pokémon Iceberg"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 714
+      },
+      "text": {
+        "genus": "Pokémon Onda Sonora"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 715
+      },
+      "text": {
+        "genus": "Pokémon Onda Sonora"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 716
+      },
+      "text": {
+        "genus": "Pokémon da vida"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 717
+      },
+      "text": {
+        "genus": "Pokémon de destruição"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 718
+      },
+      "text": {
+        "genus": "Encomendar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 719
+      },
+      "text": {
+        "genus": "Pokémon joia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 720
+      },
+      "text": {
+        "genus": "Pokémon travessos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 721
+      },
+      "text": {
+        "genus": "Pokémon Steam"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 722
+      },
+      "text": {
+        "genus": "Pokémon Pena de Grama"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 723
+      },
+      "text": {
+        "genus": "Pokémon Pena Lâmina"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 724
+      },
+      "text": {
+        "genus": "Pokémon Flecha Pena"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 725
+      },
+      "text": {
+        "genus": "Pokémon Gato de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 726
+      },
+      "text": {
+        "genus": "Pokémon Gato de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 727
+      },
+      "text": {
+        "genus": "Pokémon de calcanhar"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 728
+      },
+      "text": {
+        "genus": "Pokémon Leão Marinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 729
+      },
+      "text": {
+        "genus": "Pokémon estrela pop"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 730
+      },
+      "text": {
+        "genus": "Pokémon Solista"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 731
+      },
+      "text": {
+        "genus": "Pokémon Pica-Pau"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 732
+      },
+      "text": {
+        "genus": "Pokémon Bico Bugle"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 733
+      },
+      "text": {
+        "genus": "Pokémon canhão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 734
+      },
+      "text": {
+        "genus": "Pokémon vagabundos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 735
+      },
+      "text": {
+        "genus": "Pokémon Stakeout"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 736
+      },
+      "text": {
+        "genus": "Pokémon larva"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 737
+      },
+      "text": {
+        "genus": "Pokémon Battery"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 738
+      },
+      "text": {
+        "genus": "Pokémon Besouro Veado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 739
+      },
+      "text": {
+        "genus": "Boxe Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 740
+      },
+      "text": {
+        "genus": "Pokémon Caranguejo Lanoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 741
+      },
+      "text": {
+        "genus": "Pokémon Dançante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 742
+      },
+      "text": {
+        "genus": "Pokémon Abelha Fly"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 743
+      },
+      "text": {
+        "genus": "Pokémon Abelha Fly"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 744
+      },
+      "text": {
+        "genus": "Pokémon cachorrinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 745
+      },
+      "text": {
+        "genus": "Pokémon Lobo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 746
+      },
+      "text": {
+        "genus": "Pokémon Frito Pequeno"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 747
+      },
+      "text": {
+        "genus": "Pokémon Estrela Brutal"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 748
+      },
+      "text": {
+        "genus": "Pokémon Estrela Brutal"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 749
+      },
+      "text": {
+        "genus": "Pokémon burro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 750
+      },
+      "text": {
+        "genus": "Pokémon Cavalo de Draft"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 751
+      },
+      "text": {
+        "genus": "Pokémon Water Bubble"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 752
+      },
+      "text": {
+        "genus": "Pokémon Water Bubble"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 753
+      },
+      "text": {
+        "genus": "Pokémon Foice Grama"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 754
+      },
+      "text": {
+        "genus": "Pokémon Foice Bloom"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 755
+      },
+      "text": {
+        "genus": "Pokémon iluminador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 756
+      },
+      "text": {
+        "genus": "Pokémon iluminador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 757
+      },
+      "text": {
+        "genus": "Toxic Pokémon Lagarto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 758
+      },
+      "text": {
+        "genus": "Toxic Pokémon Lagarto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 759
+      },
+      "text": {
+        "genus": "Pokémon agitados"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 760
+      },
+      "text": {
+        "genus": "Pokémon de braço forte"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 761
+      },
+      "text": {
+        "genus": "Pokémon de frutas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 762
+      },
+      "text": {
+        "genus": "Pokémon de frutas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 763
+      },
+      "text": {
+        "genus": "Pokémon de frutas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 764
+      },
+      "text": {
+        "genus": "Pokémon Posy Picker"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 765
+      },
+      "text": {
+        "genus": "Pokémon Sábio"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 766
+      },
+      "text": {
+        "genus": "Pokémon de trabalho em equipe"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 767
+      },
+      "text": {
+        "genus": "Pokémon de cauda virada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 768
+      },
+      "text": {
+        "genus": "Pokémon de escala difícil"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 769
+      },
+      "text": {
+        "genus": "Pokémon Pilha de Areia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 770
+      },
+      "text": {
+        "genus": "Pokémon do Castelo de Areia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 771
+      },
+      "text": {
+        "genus": "Pokémon do mar Cucumber"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 772
+      },
+      "text": {
+        "genus": "Pokémon Sintético"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 773
+      },
+      "text": {
+        "genus": "Pokémon Sintético"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 774
+      },
+      "text": {
+        "genus": "Pokémon Meteoro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 775
+      },
+      "text": {
+        "genus": "Pokémon sonolento"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 776
+      },
+      "text": {
+        "genus": "Pokémon Tartaruga Explosiva"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 777
+      },
+      "text": {
+        "genus": "Pokémon Roly-Poly"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 778
+      },
+      "text": {
+        "genus": "Pokémon Disguise"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 779
+      },
+      "text": {
+        "genus": "Pokémon Ranger Dentes"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 780
+      },
+      "text": {
+        "genus": "Pokémon Plácido"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 781
+      },
+      "text": {
+        "genus": "Pokémon Rastejante do Mar"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 782
+      },
+      "text": {
+        "genus": "Pokémon escamoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 783
+      },
+      "text": {
+        "genus": "Pokémon escamoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 784
+      },
+      "text": {
+        "genus": "Pokémon escamoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 785
+      },
+      "text": {
+        "genus": "Conseguir Pokémon Spirit"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 786
+      },
+      "text": {
+        "genus": "Conseguir Pokémon Spirit"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 787
+      },
+      "text": {
+        "genus": "Conseguir Pokémon Spirit"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 788
+      },
+      "text": {
+        "genus": "Conseguir Pokémon Spirit"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 789
+      },
+      "text": {
+        "genus": "Pokémon da nebulosa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 790
+      },
+      "text": {
+        "genus": "Pokémon protoestrela"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 791
+      },
+      "text": {
+        "genus": "Pokémon Sunne"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 792
+      },
+      "text": {
+        "genus": "Pokémon Lunar"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 793
+      },
+      "text": {
+        "genus": "Pokémon Parasita"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 794
+      },
+      "text": {
+        "genus": "Pokémon inchado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 795
+      },
+      "text": {
+        "genus": "Pokémon Lissome"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 796
+      },
+      "text": {
+        "genus": "Pokémon brilhantes"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 797
+      },
+      "text": {
+        "genus": "Lançar Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 798
+      },
+      "text": {
+        "genus": "Pokémon Espada Desenhada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 799
+      },
+      "text": {
+        "genus": "Pokémon Junkívoro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 800
+      },
+      "text": {
+        "genus": "Pokémon Prisma"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 801
+      },
+      "text": {
+        "genus": "Pokémon Artificiais"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 802
+      },
+      "text": {
+        "genus": "Pokémon Morador das Trevas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 803
+      },
+      "text": {
+        "genus": "Pokémon com alfinete venenoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 804
+      },
+      "text": {
+        "genus": "Pokémon com alfinete venenoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 805
+      },
+      "text": {
+        "genus": "Pokémon Muralha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 806
+      },
+      "text": {
+        "genus": "Pokémon de fogos de artifício"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 807
+      },
+      "text": {
+        "genus": "Pokémon Thunderclap"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 808
+      },
+      "text": {
+        "genus": "Hex Pokémon Noz"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 809
+      },
+      "text": {
+        "genus": "Hex Pokémon Noz"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 810
+      },
+      "text": {
+        "genus": "Pokémon chimpanzé"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 811
+      },
+      "text": {
+        "genus": "Vença Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 812
+      },
+      "text": {
+        "genus": "Pokémon Baterista"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 813
+      },
+      "text": {
+        "genus": "Pokémon Coelho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 814
+      },
+      "text": {
+        "genus": "Pokémon Coelho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 815
+      },
+      "text": {
+        "genus": "Pokémon atacante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 816
+      },
+      "text": {
+        "genus": "Pokémon Lagarto de Água"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 817
+      },
+      "text": {
+        "genus": "Pokémon Lagarto de Água"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 818
+      },
+      "text": {
+        "genus": "Agente Secreto Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 819
+      },
+      "text": {
+        "genus": "Pokémon atrevido"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 820
+      },
+      "text": {
+        "genus": "Pokémon ganancioso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 821
+      },
+      "text": {
+        "genus": "Pokémon Pássaro Minúsculo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 822
+      },
+      "text": {
+        "genus": "Pokémon Corvo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 823
+      },
+      "text": {
+        "genus": "Pokémon Corvo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 824
+      },
+      "text": {
+        "genus": "Pokémon larva"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 825
+      },
+      "text": {
+        "genus": "Pokémon Radôme"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 826
+      },
+      "text": {
+        "genus": "Pokémon de sete pontos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 827
+      },
+      "text": {
+        "genus": "Pokémon Raposa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 828
+      },
+      "text": {
+        "genus": "Pokémon Raposa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 829
+      },
+      "text": {
+        "genus": "Pokémon florescendo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 830
+      },
+      "text": {
+        "genus": "Pokémon Bloom de Algodão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 831
+      },
+      "text": {
+        "genus": "Pokémon ovelha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 832
+      },
+      "text": {
+        "genus": "Pokémon ovelha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 833
+      },
+      "text": {
+        "genus": "Capturando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 834
+      },
+      "text": {
+        "genus": "Pokémon Bite"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 835
+      },
+      "text": {
+        "genus": "Pokémon cachorrinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 836
+      },
+      "text": {
+        "genus": "Pokémon Cachorro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 837
+      },
+      "text": {
+        "genus": "Pokémon Carvão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 838
+      },
+      "text": {
+        "genus": "Pokémon Carvão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 839
+      },
+      "text": {
+        "genus": "Pokémon Carvão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 840
+      },
+      "text": {
+        "genus": "Pokémon central Apple"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 841
+      },
+      "text": {
+        "genus": "Apple Pokémon Asa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 842
+      },
+      "text": {
+        "genus": "Apple Pokémon Néctar"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 843
+      },
+      "text": {
+        "genus": "Pokémon Serpente de Areia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 844
+      },
+      "text": {
+        "genus": "Pokémon Serpente de Areia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 845
+      },
+      "text": {
+        "genus": "Pokémon Gulp"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 846
+      },
+      "text": {
+        "genus": "Pokémon apressados"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 847
+      },
+      "text": {
+        "genus": "Espeto Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 848
+      },
+      "text": {
+        "genus": "Bebê Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 849
+      },
+      "text": {
+        "genus": "Pokémon Punk"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 850
+      },
+      "text": {
+        "genus": "Pokémon Radiador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 851
+      },
+      "text": {
+        "genus": "Pokémon Radiador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 852
+      },
+      "text": {
+        "genus": "Pokémon de birra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 853
+      },
+      "text": {
+        "genus": "Pokémon Jujitsu"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 854
+      },
+      "text": {
+        "genus": "Pokémon preto Tea"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 855
+      },
+      "text": {
+        "genus": "Pokémon preto Tea"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 856
+      },
+      "text": {
+        "genus": "Pokémon calmo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 857
+      },
+      "text": {
+        "genus": "Pokémon sereno"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 858
+      },
+      "text": {
+        "genus": "Pokémon Silencioso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 859
+      },
+      "text": {
+        "genus": "Pokémon astuto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 860
+      },
+      "text": {
+        "genus": "Pokémon tortuoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 861
+      },
+      "text": {
+        "genus": "Pokémon Bulk Up"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 862
+      },
+      "text": {
+        "genus": "Bloqueando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 863
+      },
+      "text": {
+        "genus": "Pokémon Viking"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 864
+      },
+      "text": {
+        "genus": "Pokémon Coral"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 865
+      },
+      "text": {
+        "genus": "Pokémon Pato Selvagem"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 866
+      },
+      "text": {
+        "genus": "Pokémon comediante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 867
+      },
+      "text": {
+        "genus": "Pokémon Grudge"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 868
+      },
+      "text": {
+        "genus": "Pokémon Creme"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 869
+      },
+      "text": {
+        "genus": "Pokémon Creme"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 870
+      },
+      "text": {
+        "genus": "Pokémon de formação"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 871
+      },
+      "text": {
+        "genus": "Pokémon Ouriço do Mar"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 872
+      },
+      "text": {
+        "genus": "Pokémon Verme"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 873
+      },
+      "text": {
+        "genus": "Pokémon Mariposa Congelada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 874
+      },
+      "text": {
+        "genus": "Pokémon Grande Pedra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 875
+      },
+      "text": {
+        "genus": "Pokémon Pinguim"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 876
+      },
+      "text": {
+        "genus": "Pokémon Emocional"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 877
+      },
+      "text": {
+        "genus": "Pokémon de dois lados"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 878
+      },
+      "text": {
+        "genus": "Pokémon Copperderm"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 879
+      },
+      "text": {
+        "genus": "Pokémon Copperderm"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 880
+      },
+      "text": {
+        "genus": "Pokémon Fósseis"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 881
+      },
+      "text": {
+        "genus": "Pokémon Fósseis"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 882
+      },
+      "text": {
+        "genus": "Pokémon Fósseis"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 883
+      },
+      "text": {
+        "genus": "Pokémon Fósseis"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 884
+      },
+      "text": {
+        "genus": "Pokémon de Liga"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 885
+      },
+      "text": {
+        "genus": "Pokémon persistentes"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 886
+      },
+      "text": {
+        "genus": "Pokémon zelador"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 887
+      },
+      "text": {
+        "genus": "Pokémon Stealth"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 888
+      },
+      "text": {
+        "genus": "Pokémon Guerreiro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 889
+      },
+      "text": {
+        "genus": "Pokémon Guerreiro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 890
+      },
+      "text": {
+        "genus": "Pokémon gigantesco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 891
+      },
+      "text": {
+        "genus": "Pokémon Wushu"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 892
+      },
+      "text": {
+        "genus": "Pokémon Wushu"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 893
+      },
+      "text": {
+        "genus": "Pokémon Macaco Ladino"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 894
+      },
+      "text": {
+        "genus": "Pokémon Elétron"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 895
+      },
+      "text": {
+        "genus": "Pokémon Orbe do Dragão"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 896
+      },
+      "text": {
+        "genus": "Pokémon Cavalo Selvagem"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 897
+      },
+      "text": {
+        "genus": "Swift Pokémon Cavalo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 898
+      },
+      "text": {
+        "genus": "Rei Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 899
+      },
+      "text": {
+        "genus": "Pokémon Chifre Grande"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 900
+      },
+      "text": {
+        "genus": "Pokémon Machado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 901
+      },
+      "text": {
+        "genus": "Pokémon turfa"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 902
+      },
+      "text": {
+        "genus": "Pokémon Peixe Grande"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 903
+      },
+      "text": {
+        "genus": "Pokémon de escalada grátis"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 904
+      },
+      "text": {
+        "genus": "Fixar Pokémon Cluster"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 905
+      },
+      "text": {
+        "genus": "Pokémon de amor e ódio"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 906
+      },
+      "text": {
+        "genus": "Pokémon Gato Grama"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 907
+      },
+      "text": {
+        "genus": "Pokémon Gato Grama"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 908
+      },
+      "text": {
+        "genus": "Pokémon Magician"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 909
+      },
+      "text": {
+        "genus": "Pokémon Crocodilo de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 910
+      },
+      "text": {
+        "genus": "Pokémon Crocodilo de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 911
+      },
+      "text": {
+        "genus": "Cantor Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 912
+      },
+      "text": {
+        "genus": "Pokémon Patinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 913
+      },
+      "text": {
+        "genus": "Praticando Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 914
+      },
+      "text": {
+        "genus": "Pokémon Dancer"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 915
+      },
+      "text": {
+        "genus": "Pokémon Porco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 916
+      },
+      "text": {
+        "genus": "Pokémon Porco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 917
+      },
+      "text": {
+        "genus": "Pokémon Bola de Corda"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 918
+      },
+      "text": {
+        "genus": "Armadilha Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 919
+      },
+      "text": {
+        "genus": "Pokémon Gafanhoto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 920
+      },
+      "text": {
+        "genus": "Pokémon Gafanhoto"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 921
+      },
+      "text": {
+        "genus": "Pokémon rato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 922
+      },
+      "text": {
+        "genus": "Pokémon rato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 923
+      },
+      "text": {
+        "genus": "Pokémon prático"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 924
+      },
+      "text": {
+        "genus": "Casal Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 925
+      },
+      "text": {
+        "genus": "Família Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 926
+      },
+      "text": {
+        "genus": "Pokémon cachorrinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 927
+      },
+      "text": {
+        "genus": "Pokémon Cachorro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 928
+      },
+      "text": {
+        "genus": "Pokémon Oliva"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 929
+      },
+      "text": {
+        "genus": "Pokémon Oliva"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 930
+      },
+      "text": {
+        "genus": "Pokémon Oliva"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 931
+      },
+      "text": {
+        "genus": "Pokémon papagaio"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 932
+      },
+      "text": {
+        "genus": "Rock Pokémon Salt"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 933
+      },
+      "text": {
+        "genus": "Rock Pokémon Salt"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 934
+      },
+      "text": {
+        "genus": "Rock Pokémon Salt"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 935
+      },
+      "text": {
+        "genus": "Pokémon Criança Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 936
+      },
+      "text": {
+        "genus": "Pokémon Guerreiro de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 937
+      },
+      "text": {
+        "genus": "Pokémon Lâminas de Fogo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 938
+      },
+      "text": {
+        "genus": "Pokémon EleTadpole"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 939
+      },
+      "text": {
+        "genus": "Pokémon EleFrog"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 940
+      },
+      "text": {
+        "genus": "Pokémon Petrel da Tempestade"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 941
+      },
+      "text": {
+        "genus": "Pokémon Fragata"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 942
+      },
+      "text": {
+        "genus": "Pokémon malandro"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 943
+      },
+      "text": {
+        "genus": "Chefe Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 944
+      },
+      "text": {
+        "genus": "Toxic Pokémon Rato"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 945
+      },
+      "text": {
+        "genus": "Toxic Pokémon Macaco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 946
+      },
+      "text": {
+        "genus": "Pokémon erva daninha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 947
+      },
+      "text": {
+        "genus": "Pokémon erva daninha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 948
+      },
+      "text": {
+        "genus": "Pokémon Woodear"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 949
+      },
+      "text": {
+        "genus": "Pokémon Woodear"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 950
+      },
+      "text": {
+        "genus": "Pokémon de emboscada"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 951
+      },
+      "text": {
+        "genus": "Pokémon Picante Pepper"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 952
+      },
+      "text": {
+        "genus": "Pokémon Picante Pepper"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 953
+      },
+      "text": {
+        "genus": "Pokémon rolante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 954
+      },
+      "text": {
+        "genus": "Pokémon rolante"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 955
+      },
+      "text": {
+        "genus": "Pokémon babado"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 956
+      },
+      "text": {
+        "genus": "Pokémon avestruz"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 957
+      },
+      "text": {
+        "genus": "Pokémon Metalúrgico"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 958
+      },
+      "text": {
+        "genus": "Pokémon Martelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 959
+      },
+      "text": {
+        "genus": "Pokémon Martelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 960
+      },
+      "text": {
+        "genus": "Pokémon Enguia de Jardim"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 961
+      },
+      "text": {
+        "genus": "Pokémon Enguia de Jardim"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 962
+      },
+      "text": {
+        "genus": "Pokémon Item Drop"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 963
+      },
+      "text": {
+        "genus": "Pokémon Golfinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 964
+      },
+      "text": {
+        "genus": "Pokémon Golfinho"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 965
+      },
+      "text": {
+        "genus": "Pokémon de cilindro único"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 966
+      },
+      "text": {
+        "genus": "Pokémon Multi-Cyl"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 967
+      },
+      "text": {
+        "genus": "Monte Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 968
+      },
+      "text": {
+        "genus": "Pokémon Minhoca"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 969
+      },
+      "text": {
+        "genus": "Pokémon Minério"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 970
+      },
+      "text": {
+        "genus": "Pokémon Minério"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 971
+      },
+      "text": {
+        "genus": "Pokémon Cachorro Fantasma"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 972
+      },
+      "text": {
+        "genus": "Pokémon Cachorro Fantasma"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 973
+      },
+      "text": {
+        "genus": "Pokémon Synchronize"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 974
+      },
+      "text": {
+        "genus": "Pokémon Terra Baleia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 975
+      },
+      "text": {
+        "genus": "Pokémon Terra Baleia"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 976
+      },
+      "text": {
+        "genus": "Pokémon Abandonados"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 977
+      },
+      "text": {
+        "genus": "Pokémon Peixe-Gato Grande"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 978
+      },
+      "text": {
+        "genus": "Pokémon Mimicry"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 979
+      },
+      "text": {
+        "genus": "Rage Pokémon Macaco"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 980
+      },
+      "text": {
+        "genus": "Pokémon Peixe Espinhoso"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 981
+      },
+      "text": {
+        "genus": "Pokémon de pescoço longo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 982
+      },
+      "text": {
+        "genus": "Pokémon Serpente Terrestre"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 983
+      },
+      "text": {
+        "genus": "Pokémon Lâmina Grande"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 984
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 985
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 986
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 987
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 988
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 989
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 990
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 991
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 992
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 993
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 994
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 995
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 996
+      },
+      "text": {
+        "genus": "Pokémon Barbatana de Gelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 997
+      },
+      "text": {
+        "genus": "Pokémon Barbatana de Gelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 998
+      },
+      "text": {
+        "genus": "Pokémon Dragão de Gelo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 999
+      },
+      "text": {
+        "genus": "Pokémon Baú de Moedas"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1000
+      },
+      "text": {
+        "genus": "Pokémon Entidade Moeda"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1001
+      },
+      "text": {
+        "genus": "Pokémon ruinosos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1002
+      },
+      "text": {
+        "genus": "Pokémon ruinosos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1003
+      },
+      "text": {
+        "genus": "Pokémon ruinosos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1004
+      },
+      "text": {
+        "genus": "Pokémon ruinosos"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1005
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1006
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1007
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1008
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1009
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1010
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1011
+      },
+      "text": {
+        "genus": "Pokémon Doce Apple"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1012
+      },
+      "text": {
+        "genus": "Pokémon Matcha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1013
+      },
+      "text": {
+        "genus": "Pokémon Matcha"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1014
+      },
+      "text": {
+        "genus": "Pokémon Retentor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1015
+      },
+      "text": {
+        "genus": "Pokémon Retentor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1016
+      },
+      "text": {
+        "genus": "Pokémon Retentor"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1017
+      },
+      "text": {
+        "genus": "Máscara Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1018
+      },
+      "text": {
+        "genus": "Pokémon de Liga"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1019
+      },
+      "text": {
+        "genus": "Apple Pokémon Hidra"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1020
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1021
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1022
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1023
+      },
+      "text": {
+        "genus": "Pokémon Paradoxo"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1024
+      },
+      "text": {
+        "genus": "Tera Pokémon"
+      }
+    },
+    {
+      "key": {
+        "pokemon_species_id": 1025
+      },
+      "text": {
+        "genus": "Pokémon de subjugação"
+      }
+    }
+  ]
+}

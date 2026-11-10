@@ -1,0 +1,421 @@
+{
+  "source_sha256": "f2a776f4477f4545546fb67f835f9c5bcd7f4190c1a0f3ec225325a0a7e99eb4",
+  "entries": [
+    {
+      "key": {
+        "ability_change_id": 1
+      },
+      "text": {
+        "effect": "Não tem efeito em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 2
+      },
+      "text": {
+        "effect": "Os golpes One Hit KO não têm efeito quando usados ​​neste Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 3
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe tem 30% de chance de ficar paralisado. Pokémon imunes a golpes do tipo Elétrico ainda podem ficar paralisados ​​por esta habilidade."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 4
+      },
+      "text": {
+        "effect": "Este Pokémon é imune a golpes prejudiciais do tipo Elétrico e restaura 1/4 do seu PS máximo, arredondado para baixo, quando atingido por um."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 5
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon sofre dano de um golpe, o tipo do Pokémon muda para corresponder ao golpe. Se o Pokémon tiver dois tipos, ambos serão substituídos. O Pokémon deve sofrer dano diretamente; por exemplo, golpes bloqueados por um Substitute não ativarão essa habilidade, nem golpes que causem dano indiretamente, como Spikes. Em Pokémon Colosseum e XD: Gale of Darkness, esta habilidade não tem efeito em golpes do tipo Shadow."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 6
+      },
+      "text": {
+        "effect": "Este Pokémon é imune a golpes do tipo Fogo, desde que não esteja congelado. Na primeira vez que for atingido por um golpe do tipo Fogo, o dano de seus ataques do tipo Fogo será multiplicado por 1,5 enquanto ele permanecer ativo e tiver esta habilidade. Se este Pokémon tiver uma condição de status não volátil, for do tipo Fogo ou tiver um substituto, Will-O-Wisp não ativará esta habilidade."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 7
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ser forçado a sair da batalha por golpes como Whirlwind. Dragon Tail e Circle Throw ainda causam dano a este Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 8
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, o Ataque do oponente é reduzido em um estágio. Numa batalha dupla, ambos os oponentes são afetados. Esta habilidade não tem efeito em um oponente que possua Substitute."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 9
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, o Ataque do oponente é reduzido em um estágio. Numa batalha dupla, ambos os oponentes são afetados. Esta habilidade não tem efeito em um oponente que possua Substitute.  Fora de batalha: Se o primeiro Pokémon do grupo tiver essa habilidade, qualquer encontro aleatório com um Pokémon cinco ou mais níveis abaixo dele tem 50% de chance de ser ignorado."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 10
+      },
+      "text": {
+        "effect": "Enquanto este Pokémon estiver em batalha, os Pokémon oponentes não poderão fugir ou trocar de posição. Pokémon com Run Away ainda podem fugir."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 11
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe sofre 1/16 de seu PS máximo em dano."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 12
+      },
+      "text": {
+        "effect": "Este Pokémon só sofre dano de Fire Fang, golpes superefetivos, dano indireto."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 13
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon for queimado, paralisado ou envenenado, o Pokémon que lhe deu aquela doença também receberá a doença."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 14
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon for queimado, paralisado ou envenenado, o Pokémon que lhe deu aquela doença também receberá a doença. Esta habilidade devolve veneno ruim quando este Pokémon está gravemente envenenado. Esta habilidade não pode transmitir uma doença de status que o Pokémon não recebeu diretamente de outro Pokémon, como o veneno de Toxic Spikes ou a queimadura de um Flame Orb. Fora de batalha: Se o Pokémon líder tiver essa habilidade, os Pokémon selvagens terão 50% de chance de ter a natureza do Pokémon líder e 50% de chance de receber uma natureza aleatória como de costume, incluindo a natureza do Pokémon líder. Isso não funciona em Pokémon recebidos fora da batalha, em encontros estáticos ou em roaming lendários."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 15
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon for queimado, paralisado ou envenenado, o Pokémon que lhe deu aquela doença também receberá a doença. Esta habilidade retorna envenenada como veneno normal. Esta habilidade não pode transmitir uma doença de status que o Pokémon não recebeu diretamente de outro Pokémon, como o veneno de Toxic Spikes ou a queimadura de um Flame Orb. Fora de batalha: Se o Pokémon líder tiver essa habilidade, os Pokémon selvagens terão 50% de chance de ter a natureza do Pokémon líder e 50% de chance de receber uma natureza aleatória como de costume, incluindo a natureza do Pokémon líder. Isso não funciona em Pokémon recebidos fora da batalha ou em roaming lendários."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 16
+      },
+      "text": {
+        "effect": "Se este Pokémon não for alvo de um golpe do tipo Elétrico de alvo único usado por outro Pokémon, este Pokémon redireciona esse golpe para si mesmo. Não redireciona Hidden Power."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 17
+      },
+      "text": {
+        "effect": "Se este Pokémon não for alvo de um golpe do tipo Elétrico de alvo único usado por outro Pokémon, este Pokémon redireciona esse golpe para si mesmo.  Não redireciona Hidden Power. Fora de batalha: Aumenta a frequência de chamadas de Match Call no mundo superior se algum Pokémon do grupo tiver essa habilidade."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 18
+      },
+      "text": {
+        "effect": "Se este Pokémon não for alvo de um golpe do tipo Elétrico de alvo único usado por outro Pokémon, este Pokémon redireciona esse golpe para si mesmo.  Não redireciona Hidden Power ou Julgamento."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 19
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ser congelado. Se um Pokémon estiver congelado e adquirir esta habilidade, ele irá descongelar imediatamente; isso inclui recuperar uma habilidade perdida ao sair da batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 20
+      },
+      "text": {
+        "effect": "Enquanto este Pokémon estiver em batalha, os Pokémon do tipo Steel oponentes não poderão fugir ou trocar de posição. Pokémon com Run Away ainda podem fugir. Os Pokémon ainda podem trocar com o uso de um golpe ou item."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 21
+      },
+      "text": {
+        "effect": "Este Pokémon é imune a golpes sinalizados como baseados em sons. Impede que Heal Bell cure o Pokémon, esteja ele em batalha ou não. Uproar ainda impede este Pokémon de dormir. Este Pokémon ainda pode receber um contador Perish Song através de Baton Pass e manterá um contador Perish Song se adquirir essa habilidade após Perish Song ser usado. Howl, Roar of Time, Sonic Boom e Yawn não são sinalizados como baseados em som."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 22
+      },
+      "text": {
+        "effect": "Os golpes direcionados a este Pokémon usam um PP extra. Esta habilidade acumula se vários alvos a possuírem. Esta habilidade ainda afeta golpes que falham ou erram. Esta habilidade não afeta os golpes aliados que visam todo o campo ou apenas o seu lado, nem os golpes auto-direcionados deste Pokémon; no entanto, afeta golpes de aliados de alvo único direcionados a este Pokémon, golpes de aliados que têm como alvo todos os outros Pokémon e golpes de oponentes que têm como alvo todo o campo. Se esta habilidade aumentar o custo de PP de um golpe acima do PP restante, ela usará todos os PP restantes. Quando este Pokémon entra em batalha, todos os treinadores participantes são notificados de que ele possui essa habilidade."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 23
+      },
+      "text": {
+        "effect": "Os golpes direcionados a este Pokémon usam um PP extra. Esta habilidade acumula se vários alvos a possuírem. Esta habilidade ainda afeta golpes que falham ou erram. Esta habilidade não afeta os golpes de Pokémon aliados ​​que têm como alvo todos os outros Pokémon, nem os golpes auto-direcionados deste Pokémon; no entanto, afeta golpes de aliados de alvo único direcionados a este Pokémon, golpes de aliados que têm como alvo todos os outros Pokémon e golpes de oponentes que têm como alvo todo o campo. Se esta habilidade aumentar o custo de PP de um golpe acima do PP restante, ela usará todos os PP restantes."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 24
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe tem 30% de chance de ser queimado."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 25
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ter sua precisão reduzida. Esta habilidade não impede que a evasão de outros Pokémon torne os golpes deste Pokémon menos precisos."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 26
+      },
+      "text": {
+        "effect": "O ataque deste Pokémon não pode ser reduzido por outros Pokémon. Esta habilidade não evita quaisquer perdas de Ataque além dos modificadores de atributos, como o Corte de Ataque de uma queimadura."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 27
+      },
+      "text": {
+        "effect": "O ataque deste Pokémon não pode ser reduzido por outros Pokémon. Esta habilidade não evita quaisquer perdas de Ataque além dos modificadores de atributos, como o Corte de Ataque de uma queimadura. Fora de batalha: Dobra o raio de corte de grama de Cut no mundo superior se algum Pokémon do grupo tiver essa habilidade."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 28
+      },
+      "text": {
+        "effect": "Após cada batalha, este Pokémon tem 10% de chance de pegar um item se ainda não estiver segurando um. Os itens que podem ser encontrados variam de acordo com o jogo e, desde Pokémon Emerald, de acordo com o nível do Pokémon. Esta habilidade é verificada após o término da batalha, quando qualquer mudança temporária de habilidade desaparece."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 29
+      },
+      "text": {
+        "effect": "Os golpes físicos deste Pokémon causam 1,5x mais dano normal, mas têm 0,8x sua precisão normal. Os golpes especiais não são afetados. Golpes que causam dano, como Seismic Toss, têm sua precisão afetada, mas não seu dano."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 30
+      },
+      "text": {
+        "effect": "Sempre que um golpe entra em contato com este Pokémon, o usuário do golpe tem 30% de chance de se apaixonar."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 31
+      },
+      "text": {
+        "effect": "O item de retenção deste Pokémon não pode ser removido por outros Pokémon. Golpes prejudiciais que removeriam o item deste Pokémon ainda podem causar danos a este Pokémon, por ex. Knock Off. Este Pokémon ainda pode usar golpes que envolvam a perda do seu próprio item, por ex. Fling ou Trick."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 32
+      },
+      "text": {
+        "effect": "Sempre que este Pokémon for queimado, paralisado ou envenenado, ele terá 1,5x seu Ataque. Este Pokémon não é afetado pelo corte normal de ataque de uma queimadura. Este bônus não conta como modificador de atributos."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 33
+      },
+      "text": {
+        "effect": "Quando este Pokémon tem 1/3 ou menos de seu PS restante, seus golpes do tipo Bug causam 1,5x mais dano normal."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 34
+      },
+      "text": {
+        "effect": "Quando este Pokémon tem 1/3 ou menos de seu PS restante, seus golpes do tipo Bug causam 1,5x mais dano normal. Fora de batalha: Aumenta a frequência dos gritos ouvidos no mundo superior se algum Pokémon do grupo tiver essa habilidade."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 35
+      },
+      "text": {
+        "effect": "Enquanto este Pokémon estiver em batalha, os Pokémon oponentes não poderão fugir ou trocar de posição. Pokémon do tipo voador e Pokémon no ar, por ex. devido a Levitate não são afetados. Pokémon com Run Away ainda podem fugir. Os Pokémon ainda podem trocar com o uso de um golpe ou item."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 36
+      },
+      "text": {
+        "effect": "Este Pokémon não pode estar dormindo. Isso faz com que Rest falhe completamente. Se um Pokémon estiver dormindo e adquirir esta habilidade, ele acordará imediatamente; isso inclui recuperar uma habilidade perdida ao sair da batalha. Esta habilidade funciona de forma idêntica a Insomnia em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 37
+      },
+      "text": {
+        "effect": "Este Pokémon não pode ter suas atributos reduzidas por outros Pokémon. Esta habilidade não evita quaisquer perdas de atributos além dos modificadores de atributos, como o corte de velocidade devido à paralisia; nem quedas de atributos autoinfligidas, como a queda do Ataque Especial de Overheat; nem aumentos de atributos acionados pelo oponente, como o aumento de ataque de Swagger. Esta habilidade funciona de forma idêntica a Clear Body em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 38
+      },
+      "text": {
+        "effect": "Se este Pokémon for envenenado, ele irá curar 1/8 do seu PS máximo após cada turno, em vez de sofrer danos. Isso inclui veneno ruim. Esta habilidade não evita dano de veneno fora da batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 39
+      },
+      "text": {
+        "effect": "Este Pokémon é imune a danos não causados diretamente por um golpe. Por exemplo, este Pokémon não sofre danos causados ​​pelo clima, recuo, problemas de status ou Spikes, mas ainda sofre o corte de ataque quando queimado, e um Life Orb ainda fortalecerá os golpes deste Pokémon sem danificá-lo. Tudo o que depende diretamente desses danos também não acontecerá; por exemplo, Leech Seed não machucará este Pokémon nem curará o oponente, e Pokémon com Jaboca Berry ou Rowap Berry não consumirão a fruta quando atingido por este Pokémon. Os itens a seguir não são afetados: Struggle, Pain Split (seja usado por ou contra este Pokémon), Belly Drum, Substitute, Curse, golpes que nocauteiam o usuário e danos por confusão. Este Pokémon não perderá nem recuperará PS se drenar PS de um Pokémon com Liquid Ooze. Se este Pokémon estiver gravemente envenenado, o contador de veneno ainda aumentará a cada turno; se o Pokémon perder essa habilidade, ele começará a sofrer tanto dano quanto receberia se estivesse sofrendo danos crescentes a cada turno. A paralisia não pode impedir o Pokémon de se mover, embora o corte de velocidade não seja afetado.  O veneno ainda causa danos ao Pokémon fora da batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 40
+      },
+      "text": {
+        "effect": "Os golpes usados por ou contra este Pokémon nunca falham. Golpes de KO de um golpe não são afetados. Os golpes afetados por esta habilidade podem atingir Pokémon durante o turno de preparação de golpes como Dig ou Fly. Devido a uma falha, os golpes afetados por esta habilidade têm (100 - precisão)% de chance de acertar Detect ou Protect. Fora de batalha: Se o Pokémon líder tiver essa habilidade, a taxa de encontro selvagem será duplicada."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 41
+      },
+      "text": {
+        "effect": "Este Pokémon não pode sofrer de uma doença de status grave durante a luz solar forte. Esta habilidade não cura doenças de status anteriores. Rest funciona normalmente sob luz solar forte. Yawn falhará imediatamente se for usado neste Pokémon durante luz solar forte, e um Yawn já usado falhará se o tempo ficar com luz solar forte nesse meio tempo."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 42
+      },
+      "text": {
+        "effect": "Na batalha, este Pokémon não pode usar o item que segura, nem o item terá qualquer efeito passivo na batalha, positivo ou negativo. O corte de velocidade de Iron Ball e dos itens de esforço (Macho Brace, Power Weight, Power Bracer, Power Belt, Power Lens, Power Band e Power Anklet) não é afetado. Itens que não afetam diretamente a batalha, como Exp. Share, Amulet Coin ou Soothe Bell, funcionam normalmente. Todos os itens retidos funcionam normalmente fora da batalha. Outros golpes que usam o item retido, como Natural Gift e Switcheroo, funcionam normalmente."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 43
+      },
+      "text": {
+        "effect": "Se este Pokémon não for alvo de um golpe do tipo Água de alvo único usado por outro Pokémon, este Pokémon redireciona esse golpe para si mesmo. Esta habilidade conta o poder oculto como tipo normal."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 44
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, ele copia uma habilidade aleatória do oponente. Esta habilidade não pode copiar Forecast, Multitype ou Trace."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 45
+      },
+      "text": {
+        "effect": "Quando este Pokémon entra em batalha, ele copia uma habilidade aleatória do oponente."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 46
+      },
+      "text": {
+        "effect": "Este Pokémon tem 1,5x seu Ataque Especial se algum Pokémon aliado tiver Minus."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 47
+      },
+      "text": {
+        "effect": "Este Pokémon tem 1,5x seu Ataque Especial se algum Pokémon aliado tiver Plus."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 48
+      },
+      "text": {
+        "effect": "Após cada turno, este Pokémon tem 30% de chance de ser curado de qualquer doença grave de status."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 49
+      },
+      "text": {
+        "effect": "Este Pokémon sempre acerta cinco vezes com golpes de dois a cinco golpes, como Icicle Spear."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 50
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon têm 1,5x o seu poder se o seu poder base for 60 ou menos. Isso inclui golpes de potência variável, como Hidden Power e Magnitude, quando sua potência é 60 ou menos. Struggle não é afetado.  Helping Hand e o aumento de Defense Curls para Rollout não são levados em consideração."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 51
+      },
+      "text": {
+        "effect": "Os golpes deste Pokémon têm 1,3x de precisão. Esta habilidade não tem efeito nos golpes de KO de um golpe (Fissure, Guillotine, Horn Drill e Sheer Cold)."
+      }
+    },
+    {
+      "key": {
+        "ability_change_id": 52
+      },
+      "text": {
+        "effect": "Após cada turno, este Pokémon tem 33% de chance de ser curado de qualquer doença grave de status."
+      }
+    }
+  ]
+}

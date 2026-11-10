@@ -1,0 +1,269 @@
+{
+  "source_sha256": "b1599dea0e73eee24eec1f5d625c09527331e0f9ae99774f19cf8c038d6d05b1",
+  "entries": [
+    {
+      "key": {
+        "contest_effect_id": 1
+      },
+      "text": {
+        "flavor_text": "Um golpe altamente atraente."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 2
+      },
+      "text": {
+        "flavor_text": "Afetado pela qualidade do apelo à frente."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 3
+      },
+      "text": {
+        "flavor_text": "Após esse golpe, o usuário se assusta com mais facilidade."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 4
+      },
+      "text": {
+        "flavor_text": "Assusta gravemente o Pokémon na frente."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 5
+      },
+      "text": {
+        "flavor_text": "Assusta gravemente aqueles que fizeram apelos."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 6
+      },
+      "text": {
+        "flavor_text": "Bloqueia os outros e perde uma rodada de apelos."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 7
+      },
+      "text": {
+        "flavor_text": "Faz um grande apelo, mas não permite mais nada até o fim."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 8
+      },
+      "text": {
+        "flavor_text": "Assusta todos os Pokémon que fizeram seus apelos."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 9
+      },
+      "text": {
+        "flavor_text": "Assusta o Pokémon que apelou diante do usuário."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 10
+      },
+      "text": {
+        "flavor_text": "Assusta o Pokémon que chama a atenção do juiz."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 11
+      },
+      "text": {
+        "flavor_text": "O apelo funciona melhor quanto mais a multidão estiver entusiasmada."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 12
+      },
+      "text": {
+        "flavor_text": "Funciona bem se for do mesmo tipo que o anterior."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 13
+      },
+      "text": {
+        "flavor_text": "Um apelo que emociona o público em qualquer concurso."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 14
+      },
+      "text": {
+        "flavor_text": "Assusta gravemente todos os Pokémon que fizeram bons apelos."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 15
+      },
+      "text": {
+        "flavor_text": "Pode evitar ser assustado por outras pessoas."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 16
+      },
+      "text": {
+        "flavor_text": "Pode evitar ser surpreendido por outras pessoas uma vez."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 17
+      },
+      "text": {
+        "flavor_text": "Pode ser usado repetidamente sem entediar o juiz."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 18
+      },
+      "text": {
+        "flavor_text": "Deixa todos os Pokémon nervosos após o usuário."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 19
+      },
+      "text": {
+        "flavor_text": "Torna o apelo tão bom quanto o anterior."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 20
+      },
+      "text": {
+        "flavor_text": "Torna o apelo tão bom quanto os anteriores."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 21
+      },
+      "text": {
+        "flavor_text": "Embaralha a ordem dos apelos no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 22
+      },
+      "text": {
+        "flavor_text": "Desvia a atenção do juiz dos outros."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 23
+      },
+      "text": {
+        "flavor_text": "Assusta Pokémon que fizeram um apelo do mesmo tipo."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 24
+      },
+      "text": {
+        "flavor_text": "Impede temporariamente que a multidão fique animada."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 25
+      },
+      "text": {
+        "flavor_text": "A qualidade do recurso depende do seu momento."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 26
+      },
+      "text": {
+        "flavor_text": "O apelo funciona melhor quanto mais tarde for executado."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 27
+      },
+      "text": {
+        "flavor_text": "O apelo funciona muito bem se executado primeiro."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 28
+      },
+      "text": {
+        "flavor_text": "O apelo funciona muito bem se for executado por último."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 29
+      },
+      "text": {
+        "flavor_text": "O recurso funciona bem se a condição do usuário for boa."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 30
+      },
+      "text": {
+        "flavor_text": "O próximo apelo pode ser feito no início do próximo turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 31
+      },
+      "text": {
+        "flavor_text": "O próximo apelo pode ser feito no próximo turno."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 32
+      },
+      "text": {
+        "flavor_text": "Aumenta a condição do usuário.  Ajuda a prevenir o nervosismo."
+      }
+    },
+    {
+      "key": {
+        "contest_effect_id": 33
+      },
+      "text": {
+        "flavor_text": "Piora a condição daqueles que fizeram apelos."
+      }
+    }
+  ]
+}
