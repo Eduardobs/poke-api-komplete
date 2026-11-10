@@ -35,6 +35,8 @@ O build importa os CSVs para SQLite e gera `public/` e `src/generated/`, incluin
 
 Após alterar os CSVs, remova `vendor/pokeapi/.snapshot-db-ready` e gere novamente. Para atualizar PostgreSQL, importe em **outro banco vazio**, valide e então troque a conexão: o importador não sobrescreve dados existentes.
 
+As descrições resumidas dos 937 golpes em português brasileiro são mantidas pelo projeto em `data/translations/`. O build aplica as traduções ao SQLite mesmo quando o snapshot já está em cache. REST expõe os textos em `flavor_text_entries` e, para golpes com efeito cadastrado, em `effect_entries` (`effect` e `short_effect` contêm o mesmo resumo). GraphQL expõe os mesmos dados nas relações `moveflavortexts` e `moveeffecteffecttexts`, com `language_id: 13` (`pt-br`). São resumos dos efeitos, não traduções integrais dos textos longos nem de todas as versões históricas; cada golpe tem uma descrição associada à versão mais recente disponível. Os textos dos demais idiomas são preservados. Depois de adicionar ou editar traduções, execute `npm run data:build` e atualize o PostgreSQL pelo processo acima.
+
 ## Executar localmente
 
 ```sh

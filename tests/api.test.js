@@ -12,6 +12,32 @@ const asset = async request => {
 const env = { ASSETS: { fetch: asset } };
 const call = (path, init, bindings = env) => worker.fetch(new Request('https://pokemon.example' + path, init), bindings);
 
+test('every move exposes a Brazilian Portuguese description without replacing English', async () => {
+  const folder = new URL('../public/data/move/', import.meta.url);
+  const index = JSON.parse(await readFile(new URL('index.json', folder)));
+  let count = 0;
+  for (const shard of new Set(Object.values(index.shards))) {
+    const moves = JSON.parse(await readFile(new URL(`${shard}.json`, folder)));
+    for (const move of Object.values(moves)) {
+      const descriptions = move.flavor_text_entries.filter(entry => entry.language.name === 'pt-br');
+      assert.equal(descriptions.length, 1, move.name);
+      assert.ok(descriptions[0].flavor_text.trim(), move.name);
+      if (move.effect_entries.some(entry => entry.language.name === 'en')) {
+        const effect = move.effect_entries.find(entry => entry.language.name === 'pt-br');
+        assert.ok(effect?.short_effect.trim(), move.name);
+        assert.equal(effect.effect, effect.short_effect, move.name);
+      }
+      count++;
+    }
+  }
+  assert.equal(count, Object.keys(index.shards).length);
+  const ember = await (await call('/api/v2/move/ember/')).json();
+  assert.equal(ember.effect_entries.find(entry => entry.language.name === 'pt-br').short_effect, 'Pode queimar o alvo.');
+  assert.ok(ember.effect_entries.find(entry => entry.language.name === 'en').short_effect.includes('burn'));
+  const recent = await (await call('/api/v2/move/malignant-chain/')).json();
+  assert.match(recent.flavor_text_entries.find(entry => entry.language.name === 'pt-br').flavor_text, /envenená-lo gravemente/);
+});
+
 // These expectations were captured by running the unchanged PokeAPI/deploy helpers.
 test('public REST root includes exactly all 51 official entries, including meta', async () => {
   const root = await (await call('/api/v2/')).json();

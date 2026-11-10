@@ -5,6 +5,7 @@ COPY vendor/pokeapi/pyproject.toml vendor/pokeapi/uv.lock vendor/pokeapi/
 RUN uv sync --project vendor/pokeapi --locked --no-dev --no-install-project
 COPY vendor/ vendor/
 COPY scripts/ scripts/
+COPY data/ data/
 COPY contracts/ contracts/
 COPY deploy/graphiql.html deploy/graphiql.html
 COPY upstream.lock.json .
