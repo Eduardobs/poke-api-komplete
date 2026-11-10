@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-10T00:03:32.095Z",
+  "date": "2026-11-10T12:33:19.758Z",
   "node": "v22.23.4",
   "passed": true,
-  "comparisons": 1506,
+  "comparisons": 1518,
   "reference": "Hasura 2.50.2, unchanged official anonymous metadata, same local PostgreSQL snapshot",
   "source": {
     "repository": "https://github.com/PokeAPI/pokeapi",

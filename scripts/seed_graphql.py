@@ -61,6 +61,15 @@ def main():
                 cursor.execute(sql.SQL('SELECT setval(pg_get_serial_sequence(%s, %s), GREATEST(COALESCE(MAX({}),1),1), MAX({}) IS NOT NULL) FROM {}').format(sql.Identifier(pk), sql.Identifier(pk), sql.Identifier(table_name)), (table_name, pk))
                 total += count
                 print(f'{table_name}: {count}', flush=True)
+            # Finish deferred foreign-key checks before creating an index.
+            cursor.execute('SET CONSTRAINTS ALL IMMEDIATE')
+            # Support bounded relation pages and DISTINCT ON ordered by Pokémon/id.
+            cursor.execute('CREATE INDEX IF NOT EXISTS pokeapi_pokemonmove_pokemon_id_id_idx '
+                           'ON pokemon_v2_pokemonmove (pokemon_id, id)')
+            # COPY bypasses normal incremental traffic: collect planner statistics
+            # before the newly imported snapshot receives its first queries.
+            for model in models:
+                cursor.execute(sql.SQL('ANALYZE {}').format(sql.Identifier(model._meta.db_table)))
         print(f'Imported {total} relational rows. PostgreSQL bytes: {pg.execute("SELECT pg_database_size(current_database())").fetchone()[0]}', flush=True)
 
 

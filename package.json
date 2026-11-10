@@ -13,6 +13,7 @@
     "test:compatibility": "node tests/backend.compatibility.test.js",
     "start": "node --max-old-space-size=192 src/backend/server.js",
     "test:http": "node --max-old-space-size=256 tests/backend.http.test.js",
+    "benchmark:sql": "node --max-old-space-size=192 scripts/benchmark_sql.mjs",
     "benchmark:local": "node --max-old-space-size=192 scripts/benchmark_local.mjs",
     "benchmark": "node --max-old-space-size=192 scripts/benchmark_backend.mjs",
     "graphql:seed": "vendor/pokeapi/.venv/bin/python scripts/seed_graphql.py",

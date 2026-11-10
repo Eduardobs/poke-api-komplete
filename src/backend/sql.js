@@ -136,13 +136,15 @@ export class Compiler {
     for (const item of items || []) walk(table, alias, item);
     return parts;
   }
-  rows(table, alias, args, path, join, cap = true) {
+  rows(table, alias, args, path, join, cap = true, columns) {
     if (args.limit != null && args.limit < 0) throw new ContractError("expected a non-negative 32-bit integer for type 'Int', but found an integer", path + '.limit');
     const orders = this.order(table, alias, args.order_by);
     const distinct = args.distinct_on || [];
     if (distinct.length && orders.length && (orders.slice(0, distinct.length).some(o => !o.simple || !distinct.includes(o.column)) || new Set(orders.slice(0, distinct.length).map(o => o.column)).size !== distinct.length)) throw new ContractError('"distinct_on" columns must match initial "order_by" columns', path);
     const limit = cap ? Math.min(args.limit ?? this.catalog[table].limit, this.catalog[table].limit) : args.limit;
-    return 'SELECT ' + (distinct.length ? 'DISTINCT ON (' + distinct.map(c => this.column(table, alias, c)).join(',') + ') ' : '') + quote(alias) + '.* FROM ' + quote(this.catalog[table].sql) + ' ' + quote(alias) + ' WHERE ' + (join ? join + ' AND ' : '') + this.where(table, alias, args.where, path + '.where') + (orders.length ? ' ORDER BY ' + orders.map(o => o.sql).join(',') : '') + (limit != null ? ' LIMIT ' + this.param(limit, 'integer') : '') + (args.offset != null ? ' OFFSET ' + this.param(args.offset, 'integer') : '');
+    const projection = columns === undefined ? quote(alias) + '.*'
+      : columns.size ? [...columns].map(column => this.column(table, alias, column)).join(',') : '1 AS _row';
+    return 'SELECT ' + (distinct.length ? 'DISTINCT ON (' + distinct.map(c => this.column(table, alias, c)).join(',') + ') ' : '') + projection + ' FROM ' + quote(this.catalog[table].sql) + ' ' + quote(alias) + ' WHERE ' + (join ? join + ' AND ' : '') + this.where(table, alias, args.where, path + '.where') + (orders.length ? ' ORDER BY ' + orders.map(o => o.sql).join(',') : '') + (limit != null ? ' LIMIT ' + this.param(limit, 'integer') : '') + (args.offset != null ? ' OFFSET ' + this.param(args.offset, 'integer') : '');
   }
   jsonPath(expr, path, errorPath) {
     if (path == null) return expr;
@@ -172,13 +174,40 @@ export class Compiler {
       return this.selection(childType, field.nodes, nested => this.aggregateValue(table, alias, field.name, { column: nested.name }));
     });
   }
+  aggregateColumns(table, type, nodes) {
+    const columns = new Set();
+    for (const field of this.fields(nodes)) {
+      if (field.name === '__typename') continue;
+      const childType = getNamedType(type.getFields()[field.name].type);
+      for (const child of this.fields(field.nodes)) {
+        if (child.name === '__typename') continue;
+        if (field.name === 'nodes') {
+          if (Object.hasOwn(this.catalog[table].columns, child.name)) columns.add(child.name);
+          else {
+            const relation = this.catalog[table].relations[child.name.replace(/_aggregate$/, '')];
+            if (!relation) throw new Error('Unknown selected relation ' + child.name);
+            columns.add(relation.local);
+          }
+        } else if (child.name === 'count') {
+          for (const column of this.args(childType, child).columns || []) columns.add(column);
+        } else {
+          for (const column of this.fields(child.nodes)) if (column.name !== '__typename') columns.add(column.name);
+        }
+      }
+    }
+    return columns;
+  }
   select(table, args, type, nodes, path, aggregate = false, many = true, relation, parentAlias) {
     const alias = this.alias();
     const join = relation ? this.join(relation, parentAlias, alias) : null;
     if (aggregate) {
       const rowset = this.alias();
-      const selected = this.rows(table, alias, args, path + '.args', join, false);
-      return '(WITH ' + quote(rowset) + ' AS MATERIALIZED (' + selected + ') SELECT ' + this.selection(type, nodes, (field, _args, childType) => {
+      // Preserve the existing DISTINCT ON projection: narrowing before sorting
+      // added CPU in the measured incremental-sort workload.
+      const selected = this.rows(table, alias, args, path + '.args', join, false, args.distinct_on?.length ? undefined : this.aggregateColumns(table, type, nodes));
+      // One consumer can be inlined; multiple consumers share a narrow rowset.
+      const consumers = this.fields(nodes).filter(field => field.name !== '__typename').length;
+      return '(WITH ' + quote(rowset) + (consumers > 1 ? ' AS MATERIALIZED (' : ' AS (') + selected + ') SELECT ' + this.selection(type, nodes, (field, _args, childType) => {
         const item = this.alias();
         if (field.name === 'aggregate') return '(SELECT ' + this.aggregateObject(table, item, childType, field.nodes) + ' FROM ' + quote(rowset) + ' ' + quote(item) + ')';
         if (field.name === 'nodes') {

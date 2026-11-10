@@ -55,6 +55,7 @@ jobs:
       - run: npm run test:compatibility
       - run: npm run test:http
       - run: npm run benchmark
+      - run: npm run benchmark:sql
       - run: npm run build
       - name: Build production backend after compatibility and performance gates
         run: |
@@ -73,6 +74,7 @@ jobs:
           path: |
             contracts/rest.audit.json
             contracts/backend.performance.json
+            contracts/sql.performance.json
             contracts/backend.compatibility.json
       - name: Deploy tested Worker and snapshot to Cloudflare
         if: github.event_name == 'push' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && vars.ENABLE_WORKER_DEPLOY == 'true'

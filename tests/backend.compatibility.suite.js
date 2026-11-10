@@ -178,3 +178,20 @@ test('official request envelopes, batches and PostgreSQL integer coercion match'
     {query:'query($x:Int!){pokemon(where:{id:{_eq:$x}}){id}}',variables:{x:'25'}},
   ]) await compare(input);
 });
+
+test('optimized aggregate rowsets preserve counts, relations, directives and aliases', async () => {
+  for (const query of [
+    '{pokemonmove_aggregate{aggregate{count}}}',
+    '{pokemonmove_aggregate(limit:1000){aggregate{count(columns:[pokemon_id,move_id],distinct:true) avg{level} max{level}}}}',
+    '{pokemon_aggregate(limit:3,order_by:{id:asc}){aggregate{count} nodes{id species:pokemonspecy{name} pokemonmoves_aggregate{aggregate{count}}}}}',
+    '{pokemon_aggregate(limit:3){aggregate{__typename count} nodes{__typename}}}',
+    '{pokemon_aggregate(limit:3){__typename}}',
+    '{pokemon_aggregate(limit:0){aggregate{count} nodes{id}}}',
+    '{pokemon_aggregate(limit:3){a:aggregate{count} b:aggregate{max{height}}}}',
+    '{pokemon_aggregate(limit:3){nodes{id} other:nodes{name}}}',
+    '{pokemonmove_aggregate(distinct_on:[pokemon_id],order_by:[{pokemon_id:asc},{id:asc}],limit:10,offset:2){aggregate{count max{level}} nodes{id pokemon_id}}}',
+    'query($skip:Boolean!){pokemon_aggregate(limit:3){aggregate{count} nodes @skip(if:$skip){id name}}}',
+    '{pokemonsprites_aggregate(limit:2){aggregate{count} nodes{pokemon_id sprites(path:"front_default") pokemon{name}}}}',
+  ]) await compare(query, query.startsWith('query') ? {skip:true} : undefined);
+  await compare('query($include:Boolean!){pokemon_aggregate(limit:3){aggregate{count} nodes @include(if:$include){...P}}} fragment P on pokemon{id name pokemontypes{slot type{name}}}', {include:true});
+});

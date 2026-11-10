@@ -1,5 +1,7 @@
 # Análise de desempenho
 
+A continuação com PostgreSQL real, planos SQL, índice composto e resultados atualizados está em [PERFORMANCE_SQL.md](PERFORMANCE_SQL.md).
+
 A análise acompanhou os caminhos REST (`worker.js`, assets e paginação), GraphQL (validação, compilação SQL, execução e serialização), caches, pool PostgreSQL e scripts de medição. As mudanças concentram-se em trabalho repetido identificado diretamente no código e validado por testes e medição local.
 
 ## Diagnóstico e mudanças
@@ -39,10 +41,10 @@ Para GraphQL, o benchmark utiliza um pool simulado com atraso de 5 ms: 32 opera�
 ## Pontos preservados e próximos alvos de medição
 
 - O compilador já reúne campos raiz em uma chamada SQL e resolve relações dentro do SQL, evitando uma chamada de rede por relação. Subconsultas correlacionadas ainda podem custar caro em consultas profundas: medir `EXPLAIN (ANALYZE, BUFFERS)` para consultas reais antes de alterar índices ou joins.
-- Agregações usam CTE `MATERIALIZED` e seleção de todas as colunas. Para tabelas grandes com JSON, avaliar projeção de colunas e materialização condicional. A alteração precisa preservar `distinct_on`, ordenação, `nodes` e agregações do contrato; não foi aplicada sem planos e medições de banco.
-- O importador usa `COPY` e índices das migrations Django. Não executa `ANALYZE` explícito após a carga; avaliar estatísticas antes da primeira carga de tráfego em um banco recém-importado, especialmente antes do benchmark. Não foram alterados índices nem banco nesta tarefa.
+- Na primeira análise, agregações usavam CTE `MATERIALIZED` e seleção de todas as colunas. Para tabelas grandes com JSON, avaliar projeção de colunas e materialização condicional. A alteração precisa preservar `distinct_on`, ordenação, `nodes` e agregações do contrato; não foi aplicada sem planos e medições de banco.
+- Na primeira análise, o importador usava `COPY` e índices das migrations Django, sem `ANALYZE` explícito após a carga; avaliar estatísticas antes da primeira carga de tráfego em um banco recém-importado, especialmente antes do benchmark. Não foram alterados índices nem banco nesta tarefa.
 - O pool de quatro conexões e a execução sequencial de lotes limitam a pressão no PostgreSQL. Aumentar concorrência sem medir espera no pool pode piorar p95 e memória em hospedagem pequena.
 - O cache da borda já evita boa parte das chamadas repetidas, mas o novo cache REST também beneficia o Node sem CDN, HEAD, misses e paginações diferentes que acessam o mesmo índice. Não foi adicionado outro cache integral de respostas, para evitar duplicação de grandes payloads em memória.
 - Recomenda-se medir em produção acertos dos caches, consultas compartilhadas, duração e espera no pool, p95 por classe de consulta e RSS sob carga variada antes de ajustar os orçamentos. Esta alteração adiciona contagem de compartilhamento GraphQL; não instala infraestrutura externa de observabilidade.
 
-`DATABASE_URL` e `REFERENCE_GRAPHQL_URL` não estavam configuradas para esta execução. O benchmark real PostgreSQL/Hasura e a suíte comparativa completa não foram reexecutados. O relatório anterior `contracts/backend.performance.json` foi preservado; os novos números estão em um arquivo separado. Nenhuma medição local inclui TLS, CDN, suspensão dos provedores ou cold start de produção.
+Na primeira rodada, `DATABASE_URL` e `REFERENCE_GRAPHQL_URL` não estavam configuradas. O benchmark real PostgreSQL/Hasura e a suíte comparativa completa não foram reexecutados. O relatório anterior `contracts/backend.performance.json` foi preservado naquela rodada e atualizado na segunda; os novos números estão em um arquivo separado. Nenhuma medição local inclui TLS, CDN, suspensão dos provedores ou cold start de produção.
