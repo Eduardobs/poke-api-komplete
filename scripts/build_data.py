@@ -25,7 +25,7 @@ ORIGIN = 'https://snapshot.invalid'
 PUBLIC = ROOT / 'public'
 GENERATED = ROOT / 'src/generated'
 PUBLIC.mkdir(exist_ok=True)
-GENERATED.mkdir(exist_ok=True)
+GENERATED.mkdir(parents=True, exist_ok=True)
 
 
 def write(path, data):
