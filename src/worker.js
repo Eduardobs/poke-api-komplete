@@ -4,6 +4,7 @@ import { LruCache } from './backend/cache.js';
 
 // Bindings isolate snapshots; origin and version isolate rewritten URLs.
 const snapshotCaches = new WeakMap();
+const responseCaches = new WeakMap();
 
 const restCors = {
   'access-control-allow-origin': '*',
@@ -115,6 +116,28 @@ export default {
 };
 
 async function handle(request, env) {
+  const url = new URL(request.url);
+  if (!['GET', 'HEAD'].includes(request.method) || !/^\/api\/v2(?:\/|$)/.test(url.pathname)
+      || request.headers.has('authorization') || request.headers.has('cookie')) return handleUncached(request, env);
+  let cache = responseCaches.get(env);
+  if (!cache) {
+    cache = new LruCache({ maxBytes: 4 * 1024 * 1024, maxEntries: 256, ttlMs: 60000 });
+    responseCaches.set(env, cache);
+  }
+  const key = JSON.stringify([env.CACHE_VERSION || '1', request.url]);
+  const hit = cache.get(key);
+  if (hit) return new Response(request.method === 'HEAD' ? null : hit.body, { headers: hit.headers });
+  const response = await handleUncached(request, env);
+  // A HEAD miss has no body to retain. Errors must remain immediately retryable.
+  if (request.method !== 'GET' || response.status !== 200) return response;
+  const body = await response.text();
+  const headers = Object.fromEntries(response.headers);
+  const bytes = (body.length + key.length + JSON.stringify(headers).length) * 2;
+  cache.set(key, { body, headers }, bytes);
+  return new Response(body, { headers });
+}
+
+async function handleUncached(request, env) {
     const url = new URL(request.url);
     const path = url.pathname.replace(/\/+$/, '') || '/';
     const isGraphql = path === '/graphql' || path === '/v1beta2';

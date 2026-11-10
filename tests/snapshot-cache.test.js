@@ -1,7 +1,38 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { store } from '../src/worker.js';
+import worker, { store } from '../src/worker.js';
 import { LruCache } from '../src/backend/cache.js';
+
+test('ready REST responses isolate versions/origins, expire and preserve HEAD and headers', async () => {
+  let revision = 1;
+  const env = { ASSETS: { async fetch(request) {
+    return Response.json(new URL(request.url).pathname === '/data/meta.json'
+      ? { hash: String(revision) } : { revision, url: 'https://snapshot.invalid/api/v2/' });
+  } } };
+  const call = (origin = 'https://one.example', method = 'GET') => worker.fetch(new Request(origin + '/api/v2/', { method }), env);
+  const first = await call();
+  const original = await first.text();
+  first.headers.set('x-pokeapi-hash', 'client-change');
+  revision++;
+  const hit = await call();
+  assert.equal(await hit.text(), original);
+  assert.equal(hit.headers.get('x-pokeapi-hash'), '1');
+  const head = await call(undefined, 'HEAD');
+  assert.equal(await head.text(), '');
+  assert.equal(head.headers.get('x-pokeapi-hash'), '1');
+  assert.equal((await (await call('https://two.example')).json()).url, 'https://two.example/api/v2/');
+  env.CACHE_VERSION = '2';
+  assert.equal((await (await call()).json()).revision, 2);
+  const now = Date.now;
+  try {
+    const future = now() + 60001;
+    Date.now = () => future;
+    revision++;
+    const expired = await call();
+    assert.equal((await expired.json()).revision, 3);
+    assert.equal(expired.headers.get('x-pokeapi-hash'), '3');
+  } finally { Date.now = now; }
+});
 
 test('REST stores reuse parsed snapshots and concurrent reads across requests', async () => {
   let reads = 0;

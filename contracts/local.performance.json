@@ -1,27 +1,27 @@
 {
-  "node": "v22.23.4",
+  "node": "v26.10.0",
   "samples": 100,
   "scope": "Local REST with in-memory asset bytes; simulated GraphQL pool with 5 ms delay, no real database, HTTP, CDN or production latency measured",
   "rest": {
     "cold_parsed_cache": {
-      "median_ms": 4.266,
-      "p95_ms": 6.642,
+      "median_ms": 3.866,
+      "p95_ms": 6.684,
       "asset_reads": 300
     },
     "warm_parsed_cache": {
-      "median_ms": 1.603,
-      "p95_ms": 2.014,
+      "median_ms": 0.971,
+      "p95_ms": 1.181,
       "asset_reads": 0
     }
   },
   "graphql": {
     "independent": {
       "sql_statements": 32,
-      "elapsed_ms": 38.957
+      "elapsed_ms": 38.195
     },
     "coalesced": {
       "sql_statements": 1,
-      "elapsed_ms": 6.009
+      "elapsed_ms": 5.93
     }
   }
 }
