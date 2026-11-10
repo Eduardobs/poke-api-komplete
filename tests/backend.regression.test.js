@@ -61,3 +61,44 @@ test('concurrent assets return independent bodies and failed reads can be retrie
     await rm(directory, { recursive: true, force: true });
   }
 });
+
+test('identical concurrent GraphQL requests share SQL and failures can be retried', async () => {
+  let calls = 0;
+  let release;
+  let fail = true;
+  const engine = createGraphQL({ pool: { async query() {
+    calls++;
+    await new Promise(resolve => { release = resolve; });
+    if (fail) throw new Error('temporary failure');
+    return { rows: [{ data: { r0: [{ id: 25 }] } }] };
+  } } });
+  const input = { query: '{pokemon(where:{id:{_eq:25}}){id}}' };
+  for (const shouldFail of [true, false]) {
+    fail = shouldFail;
+    const requests = Array.from({ length: 32 }, () => engine.run(input));
+    await new Promise(resolve => setImmediate(resolve));
+    assert.equal(calls, shouldFail ? 1 : 2);
+    release();
+    const results = await Promise.all(requests);
+    if (shouldFail) assert.ok(results.every(result => result.body.errors));
+    else assert.ok(results.every(result => JSON.parse(result.json).data.pokemon[0].id === 25));
+  }
+  assert.equal((await engine.run(input)).cache, 'HIT');
+  assert.equal(engine.metrics.coalescedRequests, 62);
+});
+
+test('coalescing isolates GraphQL variables and respects disabled response cache', async () => {
+  const statements = [];
+  const pool = { async query(statement) {
+    statements.push(statement);
+    await new Promise(resolve => setImmediate(resolve));
+    return { rows: [{ data: { r0: [{ id: statement.values[0] }] } }] };
+  } };
+  const query = 'query($id:Int!){pokemon(where:{id:{_eq:$id}}){id}}';
+  const engine = createGraphQL({ pool });
+  const results = await Promise.all([25, 1].map(id => engine.run({ query, variables: { id } })));
+  assert.deepEqual(results.map(result => JSON.parse(result.json).data.pokemon[0].id), [25, 1]);
+  const uncached = createGraphQL({ pool, responseTtlMs: 0 });
+  await Promise.all(Array.from({ length: 4 }, () => uncached.run({ query, variables: { id: 25 } })));
+  assert.equal(statements.length, 6);
+});

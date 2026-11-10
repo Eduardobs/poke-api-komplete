@@ -131,6 +131,8 @@ curl http://localhost:8080/v1beta2 \
 
 ## Compatibilidade e desempenho
 
+A análise dos gargalos e as melhorias de cache estão em [docs/PERFORMANCE.md](docs/PERFORMANCE.md). `npm run benchmark:local` mede a reutilização REST e a deduplicação GraphQL sem depender de PostgreSQL; grava um relatório separado em `contracts/local.performance.json`. O REST também reutiliza objetos JSON por até 60 segundos, com orçamento estimado de 16 MiB/128 entradas e isolamento por domínio, bindings e versão. Consultas GraphQL simultâneas idênticas compartilham a execução enquanto o cache de respostas está habilitado.
+
 `npm run test:backend` verifica lotes GraphQL, resolução de campos e leituras concorrentes de arquivos sem exigir PostgreSQL ou Hasura (abre uma porta HTTP local).
 
 Os contratos originais estão registrados em `contracts/rest.contract.json`, `contracts/graphql.schema.graphql` e `contracts/graphql.introspection.json`. Não regenere esses arquivos a partir do backend candidato para fazer testes passarem.

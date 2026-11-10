@@ -71,7 +71,8 @@ function databaseError(error) {
 export function createGraphQL({ pool, responseCacheBytes = 16 * 1024 * 1024, responseTtlMs = 60000 } = {}) {
   const documents = new LruCache({ maxBytes: 8 * 1024 * 1024, maxEntries: 128 });
   const responses = new LruCache({ maxBytes: responseCacheBytes, ttlMs: responseTtlMs });
-  const metrics = { requests: 0, responseCacheHits: 0, documentCacheHits: 0, sqlStatements: 0 };
+  const pendingResponses = new Map();
+  const metrics = { coalescedRequests: 0, requests: 0, responseCacheHits: 0, documentCacheHits: 0, sqlStatements: 0 };
   async function run(input) {
     metrics.requests++;
     try {
@@ -92,6 +93,17 @@ export function createGraphQL({ pool, responseCacheBytes = 16 * 1024 * 1024, res
     const key = digest(JSON.stringify([input.query, input.variables, input.operationName]));
     const cached = responses.get(key);
     if (cached) { metrics.responseCacheHits++; return { status: 200, json: cached, cache: 'HIT' }; }
+    const pending = pendingResponses.get(key);
+    if (pending) { metrics.coalescedRequests++; return pending; }
+    const execution = runOperation(input, key);
+    if (responseTtlMs > 0 && responseCacheBytes > 0 && pendingResponses.size < 128) {
+      pendingResponses.set(key, execution);
+      const clear = () => pendingResponses.delete(key);
+      execution.then(clear, clear);
+    }
+    return execution;
+  }
+  async function runOperation(input, key) {
     let document = documents.get(input.query);
     if (document) metrics.documentCacheHits++;
     else {

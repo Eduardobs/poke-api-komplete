@@ -1,5 +1,9 @@
 import catalog from './generated/catalog.js';
 import { cachedFetch } from './edge-cache.js';
+import { LruCache } from './backend/cache.js';
+
+// Bindings isolate snapshots; origin and version isolate rewritten URLs.
+const snapshotCaches = new WeakMap();
 
 const restCors = {
   'access-control-allow-origin': '*',
@@ -23,14 +27,37 @@ function json(body, status = 200, cache = false, headers = {}) {
 function apiError(status, message) { return json({ status, message }, status); }
 
 export function store(env, origin) {
-  const pending = new Map();
+  let shared = snapshotCaches.get(env);
+  if (!shared) {
+    shared = { cache: new LruCache({ maxBytes: 16 * 1024 * 1024, maxEntries: 128, ttlMs: 60000 }), pending: new Map() };
+    snapshotCaches.set(env, shared);
+  }
+  const local = new Map();
   const read = path => {
-    if (!pending.has(path)) pending.set(path, (async () => {
-      const response = await env.ASSETS.fetch(new Request('https://assets.invalid/' + path));
-      if (!response.ok) throw new Error('Snapshot unavailable');
-      return JSON.parse((await response.text()).replaceAll('https://snapshot.invalid', origin));
-    })());
-    return pending.get(path);
+    if (local.has(path)) return local.get(path);
+    const key = JSON.stringify([env.CACHE_VERSION || '1', origin, path]);
+    const cached = shared.cache.get(key);
+    if (cached !== undefined) return Promise.resolve(cached);
+    let pending = shared.pending.get(key);
+    if (!pending) {
+      pending = (async () => {
+        const response = await env.ASSETS.fetch(new Request('https://assets.invalid/' + path));
+        if (!response.ok) throw new Error('Snapshot unavailable');
+        const text = (await response.text()).replaceAll('https://snapshot.invalid', origin);
+        const value = JSON.parse(text);
+        // Conservative estimate for parsed strings/objects, not an exact heap size.
+        shared.cache.set(key, value, text.length * 6 + key.length * 2);
+        return value;
+      })();
+      // Bound retained in-flight keys even when clients request many origins.
+      if (shared.pending.size < 128) {
+        shared.pending.set(key, pending);
+        const clear = () => shared.pending.delete(key);
+        pending.then(clear, clear);
+      }
+    }
+    local.set(path, pending);
+    return pending;
   };
   return {
     read,
