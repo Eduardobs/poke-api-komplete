@@ -39,6 +39,21 @@ As descrições resumidas dos 937 golpes em português brasileiro são mantidas 
 
 Os demais recursos também recebem descrições em `pt-br`: habilidades (efeitos completos, resumos e alterações históricas), espécies (textos da Pokédex, categoria e formas), itens e seus efeitos, características, crescimento, métodos de aprendizado, alvos e categorias de golpes, concursos e variáveis de evolução. As traduções automáticas são versionadas em [data/translations/](data/translations/README.md), com validação de cobertura e limites do banco. Para textos que variam por jogo, é incluída uma entrada da versão mais recente disponível. REST usa `language.name: "pt-br"`; GraphQL usa `language_id: 13`. O build e a API funcionam sem serviço externo de tradução. O registro `data/translations/locales.json` centraliza os idiomas e seus catálogos; o pipeline compartilhado aplica as traduções em uma transação, com gravações em lote e sem regravar textos inalterados. Consulte o guia de traduções para adicionar idiomas e selecionar textos nas duas APIs.
 
+## Atualizar a base original
+
+A base acompanha a [master do PokeAPI](https://github.com/PokeAPI/pokeapi). Peça ao Codex **“Cheque atualizações do PokeAPI desde a última sincronização”** ou **“Atualize a base do PokeAPI”**. A skill versionada está em [skills/pokeapi-sync/SKILL.md](skills/pokeapi-sync/SKILL.md), com descoberta neste repositório orientada por `AGENTS.md`.
+
+```sh
+npm run upstream:check  # consulta e lista diferenças, sem aplicar fontes
+npm run upstream:sync   # aplica diferenças após verificar conflitos
+```
+
+`upstream.lock.json` guarda o commit sincronizado, `last_synced_at` e `last_checked_at` em UTC. A data inicial foi recuperada do commit que introduziu o lock (`last_synced_at_source` registra essa origem); as próximas sincronizações registram o horário efetivo. A comparação usa o SHA para não perder commits por diferenças de datas. Uma consulta sem novidades preserva a data da sincronização. `last_checked_commit` pode ser mais recente que `commit` quando existem atualizações pendentes.
+
+O sincronizador preserva adaptações que não conflitam, exige vendor/lock sem alterações pendentes e interrompe em conflitos, histórico divergente ou alterações de submódulos. Cries e manifesto de sprites mantêm seus controles próprios. Ao aplicar mudanças, remove o SQLite local e seu marcador de cache para o próximo build reconstruir os dados. Traduções próprias ficam em `data/translations/`.
+
+Depois de aplicar, siga a skill para revisar dependências, regenerar dados e validar traduções, API e compatibilidade. A sincronização de fontes não significa validação ou publicação: `last_validated_commit`/`last_validated_at` só devem ser registrados após os checks necessários passarem. Banco remoto e deploy seguem o procedimento de publicação, separadamente.
+
 ## Executar localmente
 
 ```sh

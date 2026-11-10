@@ -22,7 +22,9 @@
     "graphql:schema": "node scripts/capture_graphql_schema.mjs",
     "test:integration": "node tests/graphql.integration.test.js",
     "audit:rest": "node scripts/audit_rest.mjs",
-    "audit:rest:full": "node scripts/audit_rest.mjs --full"
+    "audit:rest:full": "node scripts/audit_rest.mjs --full",
+    "upstream:check": "python3 scripts/sync_upstream.py",
+    "upstream:sync": "python3 scripts/sync_upstream.py --apply"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"
