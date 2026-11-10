@@ -12,6 +12,7 @@ import { parseJson } from './json.js';
 export function createApp({ pool, publicDirectory = resolve('public'), cacheTtlMs = 60000 } = {}) {
   const engine = createGraphQL({ pool, responseTtlMs: cacheTtlMs });
   const assets = new LruCache({ maxBytes: 16 * 1024 * 1024 });
+  const pendingAssets = new Map();
   const env = {
     ASSETS: { async fetch(request) {
       const pathname = new URL(request.url).pathname;
@@ -19,7 +20,20 @@ export function createApp({ pool, publicDirectory = resolve('public'), cacheTtlM
       if (!file.startsWith(publicDirectory + sep)) return new Response(null, { status: 404 });
       try {
         let body = assets.get(file);
-        if (body === undefined) { body = await readFile(file); assets.set(file, body, body.byteLength); }
+        if (body === undefined) {
+          let pending = pendingAssets.get(file);
+          if (!pending) {
+            pending = (async () => {
+              try {
+                const content = await readFile(file);
+                assets.set(file, content, content.byteLength);
+                return content;
+              } finally { pendingAssets.delete(file); }
+            })();
+            pendingAssets.set(file, pending);
+          }
+          body = await pending;
+        }
         return new Response(body);
       } catch { return new Response(null, { status: 404 }); }
     } },

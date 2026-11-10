@@ -82,8 +82,12 @@ export function createGraphQL({ pool, responseCacheBytes = 16 * 1024 * 1024, res
       const results=[];
       // Sequential execution bounds database concurrency for large batches.
       for (const item of input) results.push(await run(item));
-      const body=results.map(result=>result.json ? JSON.parse(result.json) : result.body);
-      return results.every(result=>result.json) ? {status:200,json:JSON.stringify(body),cache:results.length && results.every(result=>result.cache==='HIT') ? 'HIT' : 'MISS'} : {status:200,body};
+      if (results.every(result=>result.json)) {
+        // Each entry is already complete JSON. Avoid allocating and traversing
+        // the entire batch again, especially when all entries are cache hits.
+        return {status:200,json:'['+results.map(result=>result.json).join(',')+']',cache:results.length && results.every(result=>result.cache==='HIT') ? 'HIT' : 'MISS'};
+      }
+      return {status:200,body:results.map(result=>result.json ? JSON.parse(result.json) : result.body)};
     }
     const key = digest(JSON.stringify([input.query, input.variables, input.operationName]));
     const cached = responses.get(key);
@@ -141,7 +145,8 @@ export function createGraphQL({ pool, responseCacheBytes = 16 * 1024 * 1024, res
       }
       return promise;
     };
-    const rootValue = Object.fromEntries(Object.keys(schema.getQueryType().getFields()).map(name => [name, root]));
+    // The field resolver dispatches by source identity; no per-field map is needed.
+    const rootValue = {};
     const result = await execute({ schema, document, rootValue, variableValues: input.variables || {}, operationName: input.operationName,
       fieldResolver(source, args, context, info) {
         if (source === rootValue) return root(args, context, info);

@@ -14,7 +14,7 @@ O backend de produção é **Node.js + PostgreSQL**, com compilação das consul
 
 É possível começar apenas com **Render + Neon**; o domínio `onrender.com` atende todos os endpoints. Para reduzir latência de REST e consultas repetidas, use o Worker como domínio público. O Worker executa a lógica REST sobre arquivos locais e encaminha os misses GraphQL ao seu backend. GitHub Pages pode hospedar documentação, mas não executa o backend GraphQL nem reproduz sozinho a paginação e os erros REST.
 
-O cache GraphQL do backend dura 60 segundos, com orçamento de 16 MiB de conteúdo. Documentos validados têm cache de 8 MiB/128 entradas, e arquivos REST, 16 MiB. O pool usa até quatro conexões, encerra conexões ociosas e não consulta o banco no health check. Na borda, respostas REST e respostas GraphQL bem-sucedidas são armazenadas por até 60 segundos; erros não entram no cache. Variáveis, documento, operação, domínio e backend participam da chave. Requisições com autorização/cookies não usam o cache da borda.
+O cache GraphQL do backend dura 60 segundos, com orçamento de 16 MiB de conteúdo. Documentos validados têm cache de 8 MiB/128 entradas, e arquivos REST, 16 MiB. Leituras simultâneas do mesmo arquivo compartilham a operação de disco em andamento; lotes GraphQL bem-sucedidos reutilizam o JSON serializado de cada resposta. O pool usa até quatro conexões, encerra conexões ociosas e não consulta o banco no health check. Na borda, respostas REST e respostas GraphQL bem-sucedidas são armazenadas por até 60 segundos; erros não entram no cache. Variáveis, documento, operação, domínio e backend participam da chave. Requisições com autorização/cookies não usam o cache da borda.
 
 As cotas gratuitas continuam valendo: [Workers Free](https://developers.cloudflare.com/workers/platform/limits/) tem 100 mil requisições/dia e 10 ms de CPU por requisição; [Render Free](https://render.com/docs/free) suspende após 15 minutos de inatividade e exige um cold start ao voltar. A instância Free tem [512 MB e 0,1 CPU](https://render.com/docs/compute-plans). O [Neon Free passou a oferecer 1 GB por projeto](https://neon.com/blog/neon-free-plan-1-gb-per-project); confira também as cotas de computação/tráfego na conta. O snapshot importado ocupa aproximadamente 183 MiB, com 1.235.381 linhas. Não há garantia de disponibilidade ou latência constante nos planos gratuitos. Não use o PostgreSQL Free do Render para persistência, pois expira em 30 dias.
 
@@ -108,6 +108,8 @@ curl http://localhost:8080/v1beta2 \
 ```
 
 ## Compatibilidade e desempenho
+
+`npm run test:backend` verifica lotes GraphQL, resolução de campos e leituras concorrentes de arquivos sem exigir PostgreSQL ou Hasura (abre uma porta HTTP local).
 
 Os contratos originais estão registrados em `contracts/rest.contract.json`, `contracts/graphql.schema.graphql` e `contracts/graphql.introspection.json`. Não regenere esses arquivos a partir do backend candidato para fazer testes passarem.
 
