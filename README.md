@@ -180,3 +180,11 @@ Leia [COMPATIBILITY.md](COMPATIBILITY.md) para as revisões, a evidência e as l
 ## Licenças
 
 Código próprio: MIT. PokeAPI: BSD-3-Clause em `vendor/pokeapi/LICENSE.md`. Origem: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Pokémon e seus nomes são marcas da Nintendo; este projeto não é oficial.
+
+### Tempo da pipeline
+
+A CI guarda `public/`, `src/generated/` e o SQLite usado como referência em um cache por conteúdo das fontes, scripts, traduções, schema e manifesto de upstream. A chave é calculada antes da instalação Python; somente uma correspondência exata permite pular `data:build`. Alterações nesses insumos geram um snapshot novo. A auditoria REST completa, a carga PostgreSQL e os testes continuam executando mesmo com cache.
+
+Após as validações, a imagem do backend usa o target `tested-snapshot` de `deploy/backend/Dockerfile`, com os mesmos arquivos já testados, sem reconstruir os dados. Esse target exige BuildKit e um snapshot completo no contexto; `Dockerfile.dockerignore` permite incluir os arquivos gerados. O build padrão usado pelo Render continua gerando o próprio snapshot.
+
+No registro de referência de 38 minutos, `data:build` consumiu 11min38s, a auditoria REST 9min35s e o build Docker 13min14s. As otimizações removem a geração duplicada no Docker e, com cache válido, a geração inicial. O tempo restante inclui auditoria, PostgreSQL, transferência do cache e montagem da imagem; o ganho efetivo deve ser medido no GitHub Actions.

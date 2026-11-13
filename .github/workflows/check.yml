@@ -28,6 +28,17 @@ jobs:
       REFERENCE_GRAPHQL_URL: http://localhost:18080/v1/graphql
     steps:
       - uses: actions/checkout@v4
+      # Resolve the key before installing dependencies inside vendor/pokeapi.
+      # No fallback keys: SQLite and generated files must match all build inputs.
+      - uses: actions/cache/restore@v4
+        id: snapshot-cache
+        with:
+          path: |
+            public
+            src/generated
+            vendor/pokeapi/db.sqlite3
+            vendor/pokeapi/.snapshot-db-ready
+          key: snapshot-v1-${{ runner.os }}-${{ runner.arch }}-py314-${{ hashFiles('vendor/**', 'scripts/**', 'data/**', 'contracts/graphql.schema.graphql', 'deploy/graphiql.html', 'upstream.lock.json') }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -40,6 +51,16 @@ jobs:
         working-directory: vendor/pokeapi
       - run: npm ci
       - run: npm run data:build
+        if: steps.snapshot-cache.outputs.cache-hit != 'true'
+      - uses: actions/cache/save@v4
+        if: steps.snapshot-cache.outputs.cache-hit != 'true'
+        with:
+          path: |
+            public
+            src/generated
+            vendor/pokeapi/db.sqlite3
+            vendor/pokeapi/.snapshot-db-ready
+          key: ${{ steps.snapshot-cache.outputs.cache-primary-key }}
       - run: npm test
       - run: npm run audit:rest:full
       - run: npm run graphql:seed
@@ -59,7 +80,7 @@ jobs:
       - run: npm run build
       - name: Build production backend after compatibility and performance gates
         run: |
-          docker build -f deploy/backend/Dockerfile -t pokeapi-own-backend .
+          DOCKER_BUILDKIT=1 docker build -f deploy/backend/Dockerfile --target tested-snapshot -t pokeapi-own-backend .
           docker run -d --name pokeapi-own-backend --network host --memory=512m \
             -e DATABASE_URL="$DATABASE_URL" -e PORT=18081 pokeapi-own-backend
           curl --retry 30 --retry-connrefused --retry-delay 2 --fail http://localhost:18081/healthz
