@@ -90,6 +90,22 @@ de cada fonte.
 Os campos GraphQL seguem `contracts/graphql.schema.graphql`, por exemplo
 `abilityeffecttexts`, `pokemonspeciesflavortexts` e `moveflavortexts`.
 
+Para buscar os resumos de habilidades em português brasileiro, envie ao
+`/v1beta2` a consulta abaixo com `{"ids":[1,9,314],"languages":["pt-br"]}`:
+
+```graphql
+query AbilityListDetails($ids: [Int!]!, $languages: [String!]!) {
+  ability(where: { id: { _in: $ids } }) {
+    id
+    name
+    abilityeffecttexts(where: { language: { name: { _in: $languages } } }) {
+      short_effect
+      language { name }
+    }
+  }
+}
+```
+
 ## Origem dos textos existentes
 
 Os resumos dos 937 golpes em português brasileiro são mantidos pelo projeto.
@@ -98,6 +114,11 @@ Os textos dos demais recursos foram inicialmente produzidos com Google Tradutor
 local `gemma4:e4b`. Houve ajustes de terminologia e revisão por amostragem.
 Não são traduções oficiais da franquia. Os nomes próprios continuam vindos do
 upstream; os resumos de golpes não são traduções integrais dos efeitos longos.
+
+Os 314 resumos de habilidades (`AbilityEffectText.short_effect`) foram
+retraduzidos do inglês com o modelo local `gemma4:e4b` via Ollama. Os efeitos
+completos e os textos históricos mantêm as traduções anteriores. As mecânicas
+descritas na fonte são preservadas, inclusive quando se referem a jogos antigos.
 
 As descrições históricas ausentes foram traduzidas com `gemma4:e4b` local e
 Google Tradutor (`en` → `pt-BR`), usando somente textos públicos dos CSVs do
