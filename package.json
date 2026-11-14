@@ -24,7 +24,8 @@
     "audit:rest": "node scripts/audit_rest.mjs",
     "audit:rest:full": "node scripts/audit_rest.mjs --full",
     "upstream:check": "python3 scripts/sync_upstream.py",
-    "upstream:sync": "python3 scripts/sync_upstream.py --apply"
+    "upstream:sync": "python3 scripts/sync_upstream.py --apply",
+    "test:seed": "vendor/pokeapi/.venv/bin/python tests/seed_graphql.test.py"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"

@@ -66,8 +66,10 @@ A aplicação ocorre em uma transação para todos os idiomas, com uma leitura d
 registros de destino por modelo e gravações em lotes de até 250 registros.
 Textos inalterados não geram atualizações e os IDs existentes são preservados.
 REST mantém seus shards estáticos; GraphQL usa as tabelas importadas e seus
-filtros e caches existentes. Para atualizar um PostgreSQL existente, siga o
-processo de importação em banco vazio no README principal.
+filtros e caches existentes. Para atualizar um PostgreSQL existente, execute novamente
+`npm run graphql:seed` com `DATABASE_URL` apontando para o banco do backend.
+O importador insere registros ausentes e atualiza somente linhas diferentes;
+registros extras no destino são preservados. Consulte o README principal.
 
 ## Seleção pelos consumidores
 

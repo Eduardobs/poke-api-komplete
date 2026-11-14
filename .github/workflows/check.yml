@@ -63,7 +63,15 @@ jobs:
           key: ${{ steps.snapshot-cache.outputs.cache-primary-key }}
       - run: npm test
       - run: npm run audit:rest:full
+      - run: npm run test:seed
+        env:
+          TEST_DATABASE_URL: ${{ env.DATABASE_URL }}
       - run: npm run graphql:seed
+      - name: Verify full snapshot idempotency
+        run: |
+          npm run graphql:seed > /tmp/snapshot-repeat.log
+          cat /tmp/snapshot-repeat.log
+          grep -Eq "Synchronized [0-9]+ relational rows; 0 inserted/updated" /tmp/snapshot-repeat.log
       - name: Start official GraphQL engine with unchanged upstream metadata
         run: |
           docker build -f deploy/hasura/Dockerfile -t pokeapi-contract-graphql .

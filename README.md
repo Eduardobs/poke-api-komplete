@@ -33,11 +33,25 @@ npm test
 
 O build importa os CSVs para SQLite e gera `public/` e `src/generated/`, incluindo o catálogo relacional do backend. São centenas de MiB e a geração pode levar vários minutos. Os dados temporários, ambientes virtuais e segredos são ignorados no Git e no contexto Docker.
 
-Após alterar os CSVs, remova `vendor/pokeapi/.snapshot-db-ready` e gere novamente. Para atualizar PostgreSQL, importe em **outro banco vazio**, valide e então troque a conexão: o importador não sobrescreve dados existentes.
+Após alterar os CSVs, remova `vendor/pokeapi/.snapshot-db-ready` e gere novamente. Para atualizar PostgreSQL, gere novamente os dados e execute `npm run graphql:seed` com a conexão do banco de destino em `DATABASE_URL`. O importador é idempotente: insere registros ausentes e atualiza somente os campos diferentes, usando o ID do snapshot como chave. Registros existentes apenas no destino são preservados; não há exclusão automática. O snapshot local é a fonte dos valores e pode sobrescrever edições manuais nos mesmos IDs.
 
 As descrições resumidas dos 937 golpes em português brasileiro são mantidas pelo projeto em `data/translations/`. O build aplica as traduções ao SQLite mesmo quando o snapshot já está em cache. REST expõe os textos em `flavor_text_entries` e, para golpes com efeito cadastrado, em `effect_entries` (`effect` e `short_effect` contêm o mesmo resumo). GraphQL expõe os mesmos dados nas relações `moveflavortexts` e `moveeffecteffecttexts`, com `language_id: 13` (`pt-br`). Os resumos já existentes são preservados; as demais descrições de jogos são traduzidas a partir do texto em inglês de cada `version_group`, incluindo as versões históricas. Os textos dos demais idiomas são preservados. Depois de adicionar ou editar traduções, execute `npm run data:build` e atualize o PostgreSQL pelo processo acima.
 
 Os demais recursos também recebem descrições em `pt-br`: habilidades (efeitos completos, resumos e alterações históricas), espécies (textos da Pokédex, categoria e formas), itens e seus efeitos, características, crescimento, métodos de aprendizado, alvos e categorias de golpes, concursos e variáveis de evolução. As traduções automáticas são versionadas em [data/translations/](data/translations/README.md), com validação de cobertura e limites do banco. Para textos que variam por jogo, são incluídas entradas para todas as versões disponíveis em inglês, preservando `version` ou `version_group`. REST usa `language.name: "pt-br"`; GraphQL usa `language_id: 13`. O build e a API funcionam sem serviço externo de tradução. O registro `data/translations/locales.json` centraliza os idiomas e seus catálogos; o pipeline compartilhado aplica as traduções em uma transação, com gravações em lote e sem regravar textos inalterados. Consulte o guia de traduções para adicionar idiomas e selecionar textos nas duas APIs.
+
+## Atualizar PostgreSQL com traduções
+
+```sh
+npm run data:build
+export DATABASE_URL='postgresql://USUARIO:SENHA@SEU_HOST/SEU_BANCO?sslmode=require'
+npm run graphql:seed
+```
+
+`DATABASE_URL` deve apontar para o mesmo banco usado pelo backend GraphQL. O comando não carrega `.env` automaticamente. Nenhuma tradução é gerada durante a importação: o build aplica os catálogos versionados ao SQLite e o importador sincroniza esse snapshot com PostgreSQL.
+
+A carga usa tabelas temporárias, `COPY` e `ON CONFLICT (id) DO UPDATE`, sem regravar linhas iguais. Todas as tabelas de dados são atualizadas em uma transação; falhas revertem a carga inteira. As migrações Django são executadas antes dessa transação. Durante a carga, outras gravações aguardam e as consultas da API continuam permitidas. As sequências são ajustadas aos IDs do destino; alterações de sequências não são revertidas pelo PostgreSQL em caso de falha. O resumo informa quantas linhas foram inseridas ou atualizadas; uma segunda execução com o mesmo snapshot deve informar zero alterações.
+
+Após o commit, respostas anteriores podem permanecer nos caches do backend e da borda, cada um com TTL de 60 segundos. Confira a consulta de habilidades depois da expiração. Publicar o Worker ou o Render não executa essa importação automaticamente; atualize também os assets REST quando o snapshot mudar.
 
 ## Atualizar a base original
 
@@ -87,7 +101,7 @@ O Worker estará em `http://localhost:8787`. O Cache API da borda depende do amb
    npm run graphql:seed
    ```
 
-   Execute após preparar os dados acima. Espere a importação terminar; ela cria as tabelas e copia o snapshot próprio. A senha fica apenas no seu ambiente local e no provedor.
+   Execute após preparar os dados acima. Espere a importação terminar; ela cria as tabelas e sincroniza o snapshot próprio. O mesmo comando também atualiza um banco já importado. A senha fica apenas no seu ambiente local e no provedor.
 3. No **Render**, escolha **New → Blueprint**, conecte o repositório e selecione `render.yaml`. Ele usa o plano `free` e `deploy/backend/Dockerfile`. Informe `DATABASE_URL` com a conexão direta do Neon. Não é necessário configurar Hasura ou chave administrativa. Selecione uma região próxima ao Neon e aguarde o build/health check. O Render fornece `https://SEU-SERVICO.onrender.com`. As próximas implantações automáticas usam [`autoDeployTrigger: checksPass`](https://render.com/docs/blueprint-spec), aguardando a aprovação dos checks da CI.
 4. Verifique REST e GraphQL diretamente no Render:
 
