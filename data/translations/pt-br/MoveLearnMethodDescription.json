@@ -1,5 +1,5 @@
 {
-  "source_sha256": "b5f3a834b37f681084fcd8779cc2bcaac7d34212692710ab9f4525cb0859cc9b",
+  "source_sha256": "3e1fe4c859250c3d91c86e82c405945c1e93956221ae1cc70945d82cb76c01ff",
   "entries": [
     {
       "key": {
@@ -95,6 +95,14 @@
       },
       "text": {
         "description": "Ensinado através do menu de treinamento em Pokémon Champions."
+      }
+    },
+    {
+      "key": {
+        "move_learn_method_id": 13
+      },
+      "text": {
+        "description": "Disponível com o Relembrador de Movimentos sem precisar subir de nível."
       }
     }
   ]

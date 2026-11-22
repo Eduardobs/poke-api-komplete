@@ -1,5 +1,5 @@
 {
-  "source_sha256": "8285c92f583ab266415d5fb621bfbd73bc434bcc88daa14587d5e41aa0ade4ad",
+  "source_sha256": "ae599e9a65bb2ec3c9ab606a98b21bc56fa7deae71492592dfb56a56b427503b",
   "entries": [
     {
       "key": {
@@ -122,6 +122,15 @@
       "key": {
         "ability_id": 1,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao liberar fedor ao atacar, este Pokémon pode fazer o alvo tremer."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 1,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Ao liberar fedor ao atacar, este Pokémon pode fazer o alvo tremer."
@@ -265,6 +274,15 @@
     {
       "key": {
         "ability_id": 2,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon faz chover quando entra em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 2,
         "version_group_id": 25
       },
       "text": {
@@ -392,6 +410,15 @@
       "key": {
         "ability_id": 3,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Seu status VELOCIDADE é aumentado a cada turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 3,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Seu status VELOCIDADE é aumentado a cada turno."
@@ -535,6 +562,15 @@
     {
       "key": {
         "ability_id": 4,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "A armadura rígida protege o Pokémon de ataques críticos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 4,
         "version_group_id": 25
       },
       "text": {
@@ -662,6 +698,15 @@
       "key": {
         "ability_id": 5,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Não pode ser nocauteado com um golpe. Movimentos nocaute em um golpe não podem nocauteá-lo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 5,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Não pode ser nocauteado com um golpe. Movimentos nocaute em um golpe não podem nocauteá-lo."
@@ -805,6 +850,15 @@
     {
       "key": {
         "ability_id": 6,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Impede o uso de movimentos explosivos, como Autodestruição, amortecendo seus arredores."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 6,
         "version_group_id": 25
       },
       "text": {
@@ -932,6 +986,15 @@
       "key": {
         "ability_id": 7,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Seu corpo flexível protege o Pokémon contra paralisia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 7,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Seu corpo flexível protege o Pokémon contra paralisia."
@@ -1075,6 +1138,15 @@
     {
       "key": {
         "ability_id": 8,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a evasão do Pokémon em uma tempestade de areia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 8,
         "version_group_id": 25
       },
       "text": {
@@ -1202,6 +1274,15 @@
       "key": {
         "ability_id": 9,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon está carregado de eletricidade estática, então o contato pode causar paralisia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 9,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon está carregado de eletricidade estática, então o contato pode causar paralisia."
@@ -1345,6 +1426,15 @@
     {
       "key": {
         "ability_id": 10,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Resta PS se for atingido por um movimento do tipo Elétrico em vez de sofrer dano."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 10,
         "version_group_id": 25
       },
       "text": {
@@ -1472,6 +1562,15 @@
       "key": {
         "ability_id": 11,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Resta PS se for atingido por um movimento do tipo Água em vez de sofrer dano."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 11,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Resta PS se for atingido por um movimento do tipo Água em vez de sofrer dano."
@@ -1615,6 +1714,15 @@
     {
       "key": {
         "ability_id": 12,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon é alheio, e isso impede que fique enfeitiçado ou caia por provocações."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 12,
         "version_group_id": 25
       },
       "text": {
@@ -1750,6 +1858,15 @@
     {
       "key": {
         "ability_id": 13,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Elimina os efeitos do clima."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 13,
         "version_group_id": 25
       },
       "text": {
@@ -1877,6 +1994,15 @@
       "key": {
         "ability_id": 14,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Os olhos compostos do Pokémon aumentam sua precisão."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 14,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Os olhos compostos do Pokémon aumentam sua precisão."
@@ -2019,6 +2145,24 @@
     },
     {
       "key": {
+        "ability_id": 15,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon está sofrendo de insônia e não pode adormecer."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 15,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "A insônia do Pokémon o impede de adormecer."
+      }
+    },
+    {
+      "key": {
         "ability_id": 16,
         "version_group_id": 5
       },
@@ -2145,6 +2289,24 @@
     },
     {
       "key": {
+        "ability_id": 16,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O tipo do Pokémon se torna o tipo do golpe usado nele."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 16,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O tipo do Pokémon se torna o tipo do golpe usado nele."
+      }
+    },
+    {
+      "key": {
         "ability_id": 17,
         "version_group_id": 5
       },
@@ -2264,6 +2426,15 @@
       "key": {
         "ability_id": 17,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O sistema imunológico do Pokémon impede que ele seja envenenado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 17,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O sistema imunológico do Pokémon impede que ele seja envenenado."
@@ -2407,6 +2578,15 @@
     {
       "key": {
         "ability_id": 18,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Potencializa os movimentos do tipo Fogo do Pokémon se for atingido por um."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 18,
         "version_group_id": 25
       },
       "text": {
@@ -2534,6 +2714,15 @@
       "key": {
         "ability_id": 19,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O pó deste Pokémon bloqueia os efeitos adicionais de ataques recebidos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 19,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O pó deste Pokémon bloqueia os efeitos adicionais de ataques recebidos."
@@ -2677,6 +2866,15 @@
     {
       "key": {
         "ability_id": 20,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Este Pokémon tem seu próprio ritmo, e isso impede que ele fique confuso."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 20,
         "version_group_id": 25
       },
       "text": {
@@ -2812,6 +3010,24 @@
     {
       "key": {
         "ability_id": 21,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Este Pokémon usa ventosas para permanecer no lugar, anulando todos os movimentos e itens que forçam a troca de Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 21,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O Pokémon usa ventosas para ficar no mesmo lugar. Isso o protege de golpes e itens que o forçariam a trocar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 21,
         "version_group_id": 27
       },
       "text": {
@@ -2939,6 +3155,15 @@
       "key": {
         "ability_id": 22,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon intimida os Pokémon adversários ao entrar em batalha, diminuindo seu status Ataque."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 22,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon intimida os Pokémon adversários ao entrar em batalha, diminuindo seu status Ataque."
@@ -3082,6 +3307,15 @@
     {
       "key": {
         "ability_id": 23,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Este Pokémon pisa na sombra do Pokémon adversário para impedir sua fuga."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 23,
         "version_group_id": 25
       },
       "text": {
@@ -3209,6 +3443,15 @@
       "key": {
         "ability_id": 24,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Este Pokémon inflige dano com sua pele áspera ao atacante ao contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 24,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Este Pokémon inflige dano com sua pele áspera ao atacante ao contato."
@@ -3351,6 +3594,24 @@
     },
     {
       "key": {
+        "ability_id": 25,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Seu poder misterioso só permite que golpes super efetivos atinjam o Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 25,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Seu poder misterioso só permite que golpes super efetivos atinjam o Pokémon."
+      }
+    },
+    {
+      "key": {
         "ability_id": 26,
         "version_group_id": 5
       },
@@ -3470,6 +3731,15 @@
       "key": {
         "ability_id": 26,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao flutuar no ar, o Pokémon recebe imunidade total a todos os golpes do tipo Ground."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 26,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Ao flutuar no ar, o Pokémon recebe imunidade total a todos os golpes do tipo Ground."
@@ -3605,6 +3875,15 @@
       "key": {
         "ability_id": 27,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O contato com o Pokémon pode infligir veneno, sono ou paralisia em seu atacante."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 27,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O contato com o Pokémon pode infligir veneno, sono ou paralisia em seu atacante."
@@ -3748,6 +4027,15 @@
     {
       "key": {
         "ability_id": 28,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O atacante receberá a mesma condição de status se infligir queimadura, veneno ou paralisia ao Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 28,
         "version_group_id": 25
       },
       "text": {
@@ -3883,6 +4171,15 @@
     {
       "key": {
         "ability_id": 29,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Impede que golpes ou habilidades de outros Pokémon reduzam as atributos do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 29,
         "version_group_id": 25
       },
       "text": {
@@ -4010,6 +4307,15 @@
       "key": {
         "ability_id": 30,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Todas as condições de status curam quando o Pokémon troca."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 30,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Todas as condições de status curam quando o Pokémon troca."
@@ -4153,6 +4459,15 @@
     {
       "key": {
         "ability_id": 31,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon aprende todos os movimentos do tipo Elétrico. Em vez de ser atingido por movimentos elétricos, ele aumenta seu Ataque Especial."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 31,
         "version_group_id": 25
       },
       "text": {
@@ -4280,6 +4595,15 @@
       "key": {
         "ability_id": 32,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta a probabilidade de efeitos adicionais ocorrerem ao atacar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 32,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta a probabilidade de efeitos adicionais ocorrerem ao atacar."
@@ -4423,6 +4747,15 @@
     {
       "key": {
         "ability_id": 33,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a atributo de velocidade do Pokémon na chuva."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 33,
         "version_group_id": 25
       },
       "text": {
@@ -4553,6 +4886,15 @@
       },
       "text": {
         "flavor_text": "Aumenta o status Velocidade do Pokémon sob sol forte."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 34,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a atributo de velocidade do Pokémon sob luz solar intensa."
       }
     },
     {
@@ -4693,6 +5035,24 @@
     {
       "key": {
         "ability_id": 35,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a probabilidade de encontrar Pokémon selvagens iluminando os arredores."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 35,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ao iluminar o ambiente ao seu redor, o Pokémon evita que sua precisão seja diminuída."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 35,
         "version_group_id": 26
       },
       "text": {
@@ -4823,6 +5183,15 @@
       },
       "text": {
         "flavor_text": "Ao entrar em batalha, o Pokémon copia a Habilidade de um Pokémon adversário."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 36,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Quando entra em uma batalha, o Pokémon copia a habilidade de um Pokémon oponente."
       }
     },
     {
@@ -4963,6 +5332,15 @@
     {
       "key": {
         "ability_id": 37,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Dobra o status de ataque do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 37,
         "version_group_id": 25
       },
       "text": {
@@ -5098,6 +5476,15 @@
     {
       "key": {
         "ability_id": 38,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O contato com o Pokémon pode envenenar o atacante."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 38,
         "version_group_id": 25
       },
       "text": {
@@ -5225,6 +5612,15 @@
       "key": {
         "ability_id": 39,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O foco intenso do Pokémon, e que protege o Pokémon de flinchar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 39,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O foco intenso do Pokémon, e que protege o Pokémon de flinchar."
@@ -5368,6 +5764,15 @@
     {
       "key": {
         "ability_id": 40,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon é coberto por magma quente, o que impede que o Pokémon congele."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 40,
         "version_group_id": 25
       },
       "text": {
@@ -5495,6 +5900,15 @@
       "key": {
         "ability_id": 41,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon está coberto por um véu d'água, o que impede que o Pokémon sofra queimaduras."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 41,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon está coberto por um véu d'água, o que impede que o Pokémon sofra queimaduras."
@@ -5638,6 +6052,15 @@
     {
       "key": {
         "ability_id": 42,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Impede que Pokémon do tipo AÇO escapem usando sua força magnética."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 42,
         "version_group_id": 25
       },
       "text": {
@@ -5773,6 +6196,15 @@
     {
       "key": {
         "ability_id": 43,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "A insonorização dá ao Pokémon imunidade total a todos os golpes baseados em som."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 43,
         "version_group_id": 25
       },
       "text": {
@@ -5908,6 +6340,15 @@
     {
       "key": {
         "ability_id": 44,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon recupera PS gradualmente na chuva."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 44,
         "version_group_id": 25
       },
       "text": {
@@ -6043,6 +6484,15 @@
     {
       "key": {
         "ability_id": 45,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon invoca uma tempestade de areia quando entra em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 45,
         "version_group_id": 25
       },
       "text": {
@@ -6170,6 +6620,15 @@
       "key": {
         "ability_id": 46,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao pressionar o Pokémon adversário, aumenta o uso de PP dele."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 46,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Ao pressionar o Pokémon adversário, aumenta o uso de PP dele."
@@ -6313,6 +6772,15 @@
     {
       "key": {
         "ability_id": 47,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon é protegido por uma camada espessa de gordura, que reduz pela metade o dano sofrido por golpes do tipo Fogo e Gelo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 47,
         "version_group_id": 25
       },
       "text": {
@@ -6448,6 +6916,15 @@
     {
       "key": {
         "ability_id": 48,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon desperta do sono duas vezes mais rápido que outros Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 48,
         "version_group_id": 25
       },
       "text": {
@@ -6583,6 +7060,15 @@
     {
       "key": {
         "ability_id": 49,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O contato com o Pokémon pode queimar o atacante."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 49,
         "version_group_id": 25
       },
       "text": {
@@ -6718,6 +7204,15 @@
     {
       "key": {
         "ability_id": 50,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Permite uma fuga segura de Pokémon selvagens."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 50,
         "version_group_id": 25
       },
       "text": {
@@ -6845,6 +7340,15 @@
       "key": {
         "ability_id": 51,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Olhos aguçados impedem que outros Pokémon diminuam a precisão deste Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 51,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Olhos aguçados impedem que outros Pokémon diminuam a precisão deste Pokémon."
@@ -6988,6 +7492,15 @@
     {
       "key": {
         "ability_id": 52,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon se orgulha de suas garras poderosas. Elas impedem que outros Pokémon diminuam seu status Ataque."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 52,
         "version_group_id": 25
       },
       "text": {
@@ -7115,6 +7628,15 @@
       "key": {
         "ability_id": 53,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon pode descobrir o item usado por um Pokémon adversário durante uma batalha. Também pode descobrir itens fora de batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 53,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon pode descobrir o item usado por um Pokémon adversário durante uma batalha. Também pode descobrir itens fora de batalha."
@@ -7258,6 +7780,15 @@
     {
       "key": {
         "ability_id": 54,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon não pode usar um movimento se usou um no turno anterior."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 54,
         "version_group_id": 25
       },
       "text": {
@@ -7385,6 +7916,15 @@
       "key": {
         "ability_id": 55,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque, mas diminui a precisão."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 55,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta o Ataque, mas diminui a precisão."
@@ -7528,6 +8068,15 @@
     {
       "key": {
         "ability_id": 56,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O contato com o Pokémon pode causar enfeitiçamento."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 56,
         "version_group_id": 25
       },
       "text": {
@@ -7663,6 +8212,15 @@
     {
       "key": {
         "ability_id": 57,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta o Sp. Atributo de ataque do Pokémon se um aliado com a habilidade Plus ou Minus também estiver em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 57,
         "version_group_id": 25
       },
       "text": {
@@ -7798,6 +8356,15 @@
     {
       "key": {
         "ability_id": 58,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta o Sp. Atributo de ataque do Pokémon se um aliado com a habilidade Plus ou Minus também estiver em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 58,
         "version_group_id": 25
       },
       "text": {
@@ -7932,6 +8499,24 @@
     },
     {
       "key": {
+        "ability_id": 59,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon se transforma com o clima para mudar seu tipo para Água, Fogo ou Gelo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 59,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O Pokémon se transforma com o clima para mudar seu tipo para Água, Fogo ou Gelo."
+      }
+    },
+    {
+      "key": {
         "ability_id": 60,
         "version_group_id": 5
       },
@@ -8051,6 +8636,15 @@
       "key": {
         "ability_id": 60,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Os itens do Pokémon ficam presos e não podem ser removidos por outros Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 60,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Os itens do Pokémon ficam presos e não podem ser removidos por outros Pokémon."
@@ -8194,6 +8788,15 @@
     {
       "key": {
         "ability_id": 61,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon pode curar suas próprias condições de status ao se livrar da pele."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 61,
         "version_group_id": 25
       },
       "text": {
@@ -8329,6 +8932,15 @@
     {
       "key": {
         "ability_id": 62,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "É tão corajoso que ter uma condição de status aumenta as atributos de ataque do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 62,
         "version_group_id": 25
       },
       "text": {
@@ -8456,6 +9068,15 @@
       "key": {
         "ability_id": 63,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "As magníficas escamas do Pokémon aumentam o status de Defesa se ele tiver uma condição de status."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 63,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "As magníficas escamas do Pokémon aumentam o status de Defesa se ele tiver uma condição de status."
@@ -8599,6 +9220,15 @@
     {
       "key": {
         "ability_id": 64,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O líquido viscoso tem um cheiro forte, que danifica os atacantes usando qualquer movimento de drenagem."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 64,
         "version_group_id": 25
       },
       "text": {
@@ -8729,6 +9359,15 @@
       },
       "text": {
         "flavor_text": "Potencializa os movimentos do tipo Grama quando o PS do Pokémon está baixo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 65,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta os golpes do tipo Grass quando o PS do Pokémon está baixo."
       }
     },
     {
@@ -8869,6 +9508,15 @@
     {
       "key": {
         "ability_id": 66,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta os golpes do tipo Fire quando o PS do Pokémon está baixo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 66,
         "version_group_id": 25
       },
       "text": {
@@ -8999,6 +9647,15 @@
       },
       "text": {
         "flavor_text": "Potencializa os movimentos do tipo Água quando o PS do Pokémon está baixo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 67,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta os golpes do tipo Água quando o PS do Pokémon está baixo."
       }
     },
     {
@@ -9139,6 +9796,15 @@
     {
       "key": {
         "ability_id": 68,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta golpes do tipo Bug quando o PS do Pokémon está baixo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 68,
         "version_group_id": 25
       },
       "text": {
@@ -9274,6 +9940,15 @@
     {
       "key": {
         "ability_id": 69,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Protege o Pokémon contra danos de recuo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 69,
         "version_group_id": 25
       },
       "text": {
@@ -9409,6 +10084,15 @@
     {
       "key": {
         "ability_id": 70,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Torna a luz do sol forte quando o Pokémon entra em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 70,
         "version_group_id": 25
       },
       "text": {
@@ -9536,6 +10220,15 @@
       "key": {
         "ability_id": 71,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Impede que Pokémon adversários fujam."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 71,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Impede que Pokémon adversários fujam."
@@ -9679,6 +10372,15 @@
     {
       "key": {
         "ability_id": 72,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon está cheio de vitalidade e isso o impede de adormecer."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 72,
         "version_group_id": 25
       },
       "text": {
@@ -9814,6 +10516,15 @@
     {
       "key": {
         "ability_id": 73,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon é protegido por sua fumaça branca, o que impede que outros Pokémon diminuam suas atributos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 73,
         "version_group_id": 25
       },
       "text": {
@@ -9949,6 +10660,15 @@
     {
       "key": {
         "ability_id": 74,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Usando seu poder puro, o Pokémon dobra seu status de Ataque."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 74,
         "version_group_id": 25
       },
       "text": {
@@ -10084,6 +10804,15 @@
     {
       "key": {
         "ability_id": 75,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Uma casca dura protege o Pokémon de ataques críticos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 75,
         "version_group_id": 25
       },
       "text": {
@@ -10219,6 +10948,24 @@
     {
       "key": {
         "ability_id": 76,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Elimina os efeitos do clima."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 76,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Elimina os efeitos do clima."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 76,
         "version_group_id": 27
       },
       "text": {
@@ -10319,6 +11066,15 @@
       "key": {
         "ability_id": 77,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta a evasividade se o Pokémon estiver confuso."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 77,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta a evasividade se o Pokémon estiver confuso."
@@ -10435,6 +11191,24 @@
     {
       "key": {
         "ability_id": 78,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta sua estatística de Velocidade se for atingido por um movimento do tipo Elétrico em vez de sofrer dano."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 78,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O Pokémon não sofre danos quando atingido por golpes do tipo Elétrico. Em vez disso, sua atributo de velocidade é aumentada."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 78,
         "version_group_id": 27
       },
       "text": {
@@ -10535,6 +11309,15 @@
       "key": {
         "ability_id": 79,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Torna-se competitivo e causa mais dano a Pokémon do mesmo gênero, mas causa menos a Pokémon do gênero oposto."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 79,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Torna-se competitivo e causa mais dano a Pokémon do mesmo gênero, mas causa menos a Pokémon do gênero oposto."
@@ -10651,6 +11434,15 @@
     {
       "key": {
         "ability_id": 80,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "A determinação do Pokémon aumenta a estatística de Velocidade cada vez que o Pokémon vacila."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 80,
         "version_group_id": 25
       },
       "text": {
@@ -10751,6 +11543,15 @@
       "key": {
         "ability_id": 81,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta a evasividade em uma tempestade de gelo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 81,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta a evasividade em uma tempestade de gelo."
@@ -10867,6 +11668,15 @@
     {
       "key": {
         "ability_id": 82,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Faz o Pokémon comer uma Fruta guardada quando seu PS cair para metade ou menos, o que é mais cedo que o normal."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 82,
         "version_group_id": 25
       },
       "text": {
@@ -10975,6 +11785,15 @@
     {
       "key": {
         "ability_id": 83,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon fica irritado quando recebe um golpe crítico, e isso maximiza sua atributo de Ataque."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 83,
         "version_group_id": 25
       },
       "text": {
@@ -11083,6 +11902,15 @@
     {
       "key": {
         "ability_id": 84,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a atributo de velocidade se o item segurado pelo Pokémon for usado ou perdido."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 84,
         "version_group_id": 25
       },
       "text": {
@@ -11183,6 +12011,15 @@
       "key": {
         "ability_id": 85,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O corpo à prova de calor do Pokémon reduz pela metade o dano de movimentos do tipo Fogo que o atingem."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 85,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O corpo à prova de calor do Pokémon reduz pela metade o dano de movimentos do tipo Fogo que o atingem."
@@ -11299,6 +12136,15 @@
     {
       "key": {
         "ability_id": 86,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Os aumentos de status que o Pokémon recebe são dobrados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 86,
         "version_group_id": 25
       },
       "text": {
@@ -11399,6 +12245,15 @@
       "key": {
         "ability_id": 87,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Restaura PS na chuva ou ao ser atingido por movimentos do tipo Água. Reduz PS sob sol forte, e aumenta o dano recebido de movimentos do tipo Fogo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 87,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Restaura PS na chuva ou ao ser atingido por movimentos do tipo Água. Reduz PS sob sol forte, e aumenta o dano recebido de movimentos do tipo Fogo."
@@ -11515,6 +12370,24 @@
     {
       "key": {
         "ability_id": 88,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Compara as defesas e defesas especiais de um Pokémon adversário antes de aumentar seu próprio Ataque ou Ataque Especial—o que for mais eficaz."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 88,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O Pokémon compara a Defesa e Sp de um Pokémon adversário. Atributos de Def antes de aumentar seu próprio Ataque ou Sp. Atributo de ataque – o que for mais eficaz."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 88,
         "version_group_id": 27
       },
       "text": {
@@ -11623,6 +12496,15 @@
     {
       "key": {
         "ability_id": 89,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Potencializa golpes de soco."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 89,
         "version_group_id": 25
       },
       "text": {
@@ -11723,6 +12605,15 @@
       "key": {
         "ability_id": 90,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Restaura PS se o Pokémon estiver envenenado em vez de perder PS."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 90,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Restaura PS se o Pokémon estiver envenenado em vez de perder PS."
@@ -11839,6 +12730,15 @@
     {
       "key": {
         "ability_id": 91,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Potencializa golpes do mesmo tipo do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 91,
         "version_group_id": 25
       },
       "text": {
@@ -11947,6 +12847,15 @@
     {
       "key": {
         "ability_id": 92,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Maximiza o número de vezes que os golpes multistrike são atingidos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 92,
         "version_group_id": 25
       },
       "text": {
@@ -12047,6 +12956,15 @@
       "key": {
         "ability_id": 93,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Cura condições de status se estiver chovendo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 93,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Cura condições de status se estiver chovendo."
@@ -12163,6 +13081,15 @@
     {
       "key": {
         "ability_id": 94,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque Especial em sol forte, mas PS diminui a cada turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 94,
         "version_group_id": 25
       },
       "text": {
@@ -12271,6 +13198,15 @@
     {
       "key": {
         "ability_id": 95,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a atributo de velocidade se o Pokémon tiver uma condição de status."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 95,
         "version_group_id": 25
       },
       "text": {
@@ -12378,6 +13314,24 @@
     },
     {
       "key": {
+        "ability_id": 96,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Todos os golpes do Pokémon tornam-se do tipo Normal. O poder desses golpes é um pouco aumentado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 96,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Todos os golpes do Pokémon tornam-se do tipo Normal. O poder desses golpes é um pouco aumentado."
+      }
+    },
+    {
+      "key": {
         "ability_id": 97,
         "version_group_id": 8
       },
@@ -12473,6 +13427,24 @@
       },
       "text": {
         "flavor_text": "Aumenta o poder dos movimentos se forem acertos críticos ao atacar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 97,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta o poder dos movimentos se forem acertos críticos ao atacar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 97,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Se o ataque do Pokémon acertar um acerto crítico, o ataque será ainda mais poderoso."
       }
     },
     {
@@ -12578,6 +13550,24 @@
       "key": {
         "ability_id": 98,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon só sofre danos de ataques."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 98,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon só sofre danos de ataques."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 98,
+        "version_group_id": 25
       },
       "text": {
         "flavor_text": "O Pokémon só sofre danos de ataques."
@@ -12694,6 +13684,15 @@
     {
       "key": {
         "ability_id": 99,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon emprega táticas sem guarda para garantir que os ataques recebidos e enviados sempre acertem."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 99,
         "version_group_id": 25
       },
       "text": {
@@ -12794,6 +13793,15 @@
       "key": {
         "ability_id": 100,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon move-se depois de todos os outros Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 100,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon move-se depois de todos os outros Pokémon."
@@ -12910,6 +13918,15 @@
     {
       "key": {
         "ability_id": 101,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta o poder dos movimentos mais fracos do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 101,
         "version_group_id": 25
       },
       "text": {
@@ -13018,6 +14035,15 @@
     {
       "key": {
         "ability_id": 102,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Evita condições de status sob luz solar intensa."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 102,
         "version_group_id": 25
       },
       "text": {
@@ -13126,6 +14152,15 @@
     {
       "key": {
         "ability_id": 103,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon não pode usar nenhum item retido."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 103,
         "version_group_id": 25
       },
       "text": {
@@ -13226,6 +14261,15 @@
       "key": {
         "ability_id": 104,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Movimentos podem ser usados no alvo independentemente de suas Habilidades."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 104,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Movimentos podem ser usados no alvo independentemente de suas Habilidades."
@@ -13342,6 +14386,15 @@
     {
       "key": {
         "ability_id": 105,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon tem tanta sorte que a taxa de acerto crítico de seus golpes aumenta."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 105,
         "version_group_id": 25
       },
       "text": {
@@ -13442,6 +14495,15 @@
       "key": {
         "ability_id": 106,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Dá dano ao atacante se acertar o Pokémon com um golpe final."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 106,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Dá dano ao atacante se acertar o Pokémon com um golpe final."
@@ -13558,6 +14620,15 @@
     {
       "key": {
         "ability_id": 107,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon pode sentir os golpes perigosos de um Pokémon adversário."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 107,
         "version_group_id": 25
       },
       "text": {
@@ -13666,6 +14737,15 @@
     {
       "key": {
         "ability_id": 108,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Quando entra em uma batalha, o Pokémon pode identificar um dos golpes que um Pokémon oponente possui."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 108,
         "version_group_id": 25
       },
       "text": {
@@ -13766,6 +14846,15 @@
       "key": {
         "ability_id": 109,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ao atacar, o Pokémon ignora as mudanças de estatística do Pokémon alvo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 109,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Ao atacar, o Pokémon ignora as mudanças de estatística do Pokémon alvo."
@@ -13882,6 +14971,15 @@
     {
       "key": {
         "ability_id": 110,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon pode usar golpes “não muito eficazes” para causar danos regulares."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 110,
         "version_group_id": 25
       },
       "text": {
@@ -13982,6 +15080,15 @@
       "key": {
         "ability_id": 111,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Reduz o poder de ataques superefetivos realizados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 111,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Reduz o poder de ataques superefetivos realizados."
@@ -14098,6 +15205,15 @@
     {
       "key": {
         "ability_id": 112,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Durante cinco turnos, as atributos de ataque e velocidade do Pokémon são reduzidas à metade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 112,
         "version_group_id": 25
       },
       "text": {
@@ -14198,6 +15314,15 @@
       "key": {
         "ability_id": 113,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon pode atingir Pokémon do tipo Fantasma com movimentos do tipo Normal e Lutador."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 113,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon pode atingir Pokémon do tipo Fantasma com movimentos do tipo Normal e Lutador."
@@ -14314,6 +15439,15 @@
     {
       "key": {
         "ability_id": 114,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Recupera estatísticas de Ataque Especial ao usar movimentos do tipo Água. Em vez de ser atingido, aumenta seu Ataque Especial."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 114,
         "version_group_id": 25
       },
       "text": {
@@ -14414,6 +15548,15 @@
       "key": {
         "ability_id": 115,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon recupera PS gradualmente em uma tempestade de gelo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 115,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon recupera PS gradualmente em uma tempestade de gelo."
@@ -14530,6 +15673,15 @@
     {
       "key": {
         "ability_id": 116,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Reduz o poder de ataques superefetivos realizados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 116,
         "version_group_id": 25
       },
       "text": {
@@ -14630,6 +15782,15 @@
       "key": {
         "ability_id": 117,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon invoca uma tempestade de gelo ao entrar na batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 117,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon invoca uma tempestade de gelo ao entrar na batalha."
@@ -14746,6 +15907,15 @@
     {
       "key": {
         "ability_id": 118,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon pode reunir Honey após uma batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 118,
         "version_group_id": 25
       },
       "text": {
@@ -14849,6 +16019,15 @@
       },
       "text": {
         "flavor_text": "Ao entrar na batalha, o Pokémon pode verificar o item de um Pokémon adversário."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 119,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Quando entra em uma batalha, o Pokémon pode verificar o item segurado pelo Pokémon oponente."
       }
     },
     {
@@ -14962,6 +16141,15 @@
     {
       "key": {
         "ability_id": 120,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Potencializa golpes que causam dano de recuo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 120,
         "version_group_id": 25
       },
       "text": {
@@ -15065,6 +16253,15 @@
       },
       "text": {
         "flavor_text": "Muda o tipo do Pokémon para corresponder à Placa ou Cristal Z que está segurando."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 121,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Muda o tipo do Pokémon para corresponder à placa que ele contém."
       }
     },
     {
@@ -15177,6 +16374,24 @@
     },
     {
       "key": {
+        "ability_id": 122,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta os stats de Ataque e Def. Especial de si mesmo e aliados sob luz solar forte."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 122,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Sob sol intenso, aumenta o Ataque e a Defesa Especial do Pokémon e de seus aliados."
+      }
+    },
+    {
+      "key": {
         "ability_id": 123,
         "version_group_id": 8
       },
@@ -15277,6 +16492,15 @@
     {
       "key": {
         "ability_id": 123,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Reduz o PS de Pokémon adversários adormecidos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 123,
         "version_group_id": 25
       },
       "text": {
@@ -15358,10 +16582,19 @@
     {
       "key": {
         "ability_id": 124,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Rouba um item de um atacante que fez contato direto."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 124,
         "version_group_id": 25
       },
       "text": {
-        "flavor_text": "O Pokémon rouba o item dos atacantes que fizeram contato direto com ele."
+        "flavor_text": "Rouba o item que o atacante segura ao fazer contato direto com o Pokémon."
       }
     },
     {
@@ -15431,6 +16664,15 @@
       "key": {
         "ability_id": 125,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Remove efeitos adicionais que aumentam o poder de movimentos ao atacar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 125,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Remove efeitos adicionais que aumentam o poder de movimentos ao atacar."
@@ -15520,10 +16762,19 @@
     {
       "key": {
         "ability_id": 126,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Faz com que as mudanças de status tenham efeito oposto."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 126,
         "version_group_id": 25
       },
       "text": {
-        "flavor_text": "Reverte quaisquer alterações de atributos que afetem o Pokémon para que as tentativas de aumentar suas atributos as reduzam – e as tentativas de diminuir suas atributos irão aumentá-las."
+        "flavor_text": "Inverte as alterações nos atributos do Pokémon. Tentativas de aumentá-los os reduzem e tentativas de reduzi-los os aumentam."
       }
     },
     {
@@ -15593,6 +16844,15 @@
       "key": {
         "ability_id": 127,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Enerva os Pokémon oponentes e os impede de comer frutas."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 127,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Enerva os Pokémon oponentes e os impede de comer frutas."
@@ -15674,6 +16934,15 @@
       "key": {
         "ability_id": 128,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta drasticamente o status Ataque do Pokémon quando seus status são reduzidos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 128,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta drasticamente o status Ataque do Pokémon quando seus status são reduzidos."
@@ -15762,6 +17031,24 @@
     },
     {
       "key": {
+        "ability_id": 129,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Reduz o Ataque e o Ataque Especial dos Pokémon quando seu PS chega a metade ou menos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 129,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz pela metade o Ataque e o Ataque Especial do Pokémon quando ele fica com metade dos PS ou menos."
+      }
+    },
+    {
+      "key": {
         "ability_id": 130,
         "version_group_id": 11
       },
@@ -15827,6 +17114,15 @@
       "key": {
         "ability_id": 130,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Pode desabilitar um movimento usado no Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 130,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Pode desabilitar um movimento usado no Pokémon."
@@ -15916,6 +17212,15 @@
     {
       "key": {
         "ability_id": 131,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Às vezes cura a condição de status de um aliado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 131,
         "version_group_id": 25
       },
       "text": {
@@ -15989,6 +17294,15 @@
       "key": {
         "ability_id": 132,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Reduz o dano causado a aliados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 132,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Reduz o dano causado a aliados."
@@ -16078,6 +17392,15 @@
     {
       "key": {
         "ability_id": 133,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Ataques físicos diminuem a Defesa do Pokémon, mas aumentam drasticamente sua Velocidade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 133,
         "version_group_id": 25
       },
       "text": {
@@ -16159,6 +17482,15 @@
     {
       "key": {
         "ability_id": 134,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Dobra o peso do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 134,
         "version_group_id": 25
       },
       "text": {
@@ -16240,6 +17572,15 @@
     {
       "key": {
         "ability_id": 135,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Reduz pela metade o peso do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 135,
         "version_group_id": 25
       },
       "text": {
@@ -16321,6 +17662,15 @@
     {
       "key": {
         "ability_id": 136,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Reduz a quantidade de dano que o Pokémon sofre enquanto seu PS está cheio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 136,
         "version_group_id": 25
       },
       "text": {
@@ -16394,6 +17744,15 @@
       "key": {
         "ability_id": 137,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta os ataques físicos quando o Pokémon está envenenado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 137,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta os ataques físicos quando o Pokémon está envenenado."
@@ -16483,6 +17842,15 @@
     {
       "key": {
         "ability_id": 138,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta os ataques especiais quando o Pokémon está queimado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 138,
         "version_group_id": 25
       },
       "text": {
@@ -16564,6 +17932,15 @@
     {
       "key": {
         "ability_id": 139,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Pode criar outra Berry após uma ser usada."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 139,
         "version_group_id": 25
       },
       "text": {
@@ -16637,6 +18014,15 @@
       "key": {
         "ability_id": 140,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Antecipa um ataque de um aliado e o desvia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 140,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Antecipa um ataque de um aliado e o desvia."
@@ -16726,6 +18112,15 @@
     {
       "key": {
         "ability_id": 141,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta uma estatística drasticamente e diminui outra a cada turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 141,
         "version_group_id": 25
       },
       "text": {
@@ -16799,6 +18194,15 @@
       "key": {
         "ability_id": 142,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Protege o Pokémon de coisas como areia, granizo e pó."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 142,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Protege o Pokémon de coisas como areia, granizo e pó."
@@ -16888,6 +18292,15 @@
     {
       "key": {
         "ability_id": 143,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Pode envenenar um alvo quando o Pokémon faz contato."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 143,
         "version_group_id": 25
       },
       "text": {
@@ -16961,6 +18374,15 @@
       "key": {
         "ability_id": 144,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Restaura um pouco de PS ao ser retirado da batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 144,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Restaura um pouco de PS ao ser retirado da batalha."
@@ -17050,6 +18472,15 @@
     {
       "key": {
         "ability_id": 145,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Protege o Pokémon de efeitos que diminuem a Defesa."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 145,
         "version_group_id": 25
       },
       "text": {
@@ -17131,6 +18562,15 @@
     {
       "key": {
         "ability_id": 146,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a velocidade do Pokémon em uma tempestade de areia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 146,
         "version_group_id": 25
       },
       "text": {
@@ -17204,6 +18644,15 @@
       "key": {
         "ability_id": 147,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Faz com que movimentos de status tenham mais chance de errar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 147,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Faz com que movimentos de status tenham mais chance de errar."
@@ -17293,6 +18742,15 @@
     {
       "key": {
         "ability_id": 148,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta o poder do movimento quando o Pokémon age por último."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 148,
         "version_group_id": 25
       },
       "text": {
@@ -17366,6 +18824,15 @@
       "key": {
         "ability_id": 149,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aparece disfarçado do Pokémon na última vaga do time."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 149,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aparece disfarçado do Pokémon na última vaga do time."
@@ -17455,6 +18922,15 @@
     {
       "key": {
         "ability_id": 150,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon se transforma no Pokémon que está enfrentando."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 150,
         "version_group_id": 25
       },
       "text": {
@@ -17528,6 +19004,15 @@
       "key": {
         "ability_id": 151,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Passa pela barreira do Pokémon adversário, substituto e similares, e ataca."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 151,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Passa pela barreira do Pokémon adversário, substituto e similares, e ataca."
@@ -17616,6 +19101,24 @@
     },
     {
       "key": {
+        "ability_id": 152,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O contato com o Pokémon muda a Habilidade do atacante para Mummy."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 152,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O contato com o Pokémon muda a Habilidade do atacante para Mummy."
+      }
+    },
+    {
+      "key": {
         "ability_id": 153,
         "version_group_id": 11
       },
@@ -17681,6 +19184,15 @@
       "key": {
         "ability_id": 153,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon mostra moxie, e isso aumenta o Ataque após nocautear qualquer Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 153,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon mostra moxie, e isso aumenta o Ataque após nocautear qualquer Pokémon."
@@ -17770,6 +19282,15 @@
     {
       "key": {
         "ability_id": 154,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Ser atingido por um movimento do tipo Sombrio aumenta o Ataque do Pokémon, por justiça."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 154,
         "version_group_id": 25
       },
       "text": {
@@ -17843,6 +19364,15 @@
       "key": {
         "ability_id": 155,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Movimentos do tipo Sombrio, Fantasma e Inseto assustam o Pokémon e aumentam seu Ataque Especial."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 155,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Movimentos do tipo Sombrio, Fantasma e Inseto assustam o Pokémon e aumentam seu Ataque Especial."
@@ -17932,6 +19462,15 @@
     {
       "key": {
         "ability_id": 156,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Reflete movimentos de status em vez de ser atingido por eles."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 156,
         "version_group_id": 25
       },
       "text": {
@@ -18005,6 +19544,15 @@
       "key": {
         "ability_id": 157,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta o stat Ataque se atingido por um movimento do tipo Grama em vez de sofrer dano."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 157,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta o stat Ataque se atingido por um movimento do tipo Grama em vez de sofrer dano."
@@ -18094,6 +19642,15 @@
     {
       "key": {
         "ability_id": 158,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Dá prioridade a um movimento de status."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 158,
         "version_group_id": 25
       },
       "text": {
@@ -18175,6 +19732,15 @@
     {
       "key": {
         "ability_id": 159,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta o poder dos golpes do tipo Rock, Ground e Steel em uma tempestade de areia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 159,
         "version_group_id": 25
       },
       "text": {
@@ -18255,6 +19821,24 @@
     },
     {
       "key": {
+        "ability_id": 160,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Inflige dano ao atacante ao entrar em contato com espinhos de ferro."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 160,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "As farpas de ferro do Pokémon causam dano a quem o atacar por contato direto."
+      }
+    },
+    {
+      "key": {
         "ability_id": 161,
         "version_group_id": 11
       },
@@ -18327,6 +19911,24 @@
     },
     {
       "key": {
+        "ability_id": 161,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Altera a forma do Pokémon quando o PS estiver em metade ou menos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 161,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Muda a forma do Pokémon quando ele fica com metade dos PS ou menos."
+      }
+    },
+    {
+      "key": {
         "ability_id": 162,
         "version_group_id": 11
       },
@@ -18399,6 +20001,24 @@
     },
     {
       "key": {
+        "ability_id": 162,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a precisão de seus aliados e de si mesmo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 162,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta a precisão do Pokémon e de seus aliados."
+      }
+    },
+    {
+      "key": {
         "ability_id": 163,
         "version_group_id": 11
       },
@@ -18467,6 +20087,24 @@
       },
       "text": {
         "flavor_text": "Movimentos podem ser usados no alvo independentemente de suas Habilidades."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 163,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Movimentos podem ser usados no alvo independentemente de suas Habilidades."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 163,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Os golpes do Pokémon não são impedidos pela habilidade do alvo."
       }
     },
     {
@@ -18553,6 +20191,24 @@
     {
       "key": {
         "ability_id": 164,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Movimentos podem ser usados no alvo independentemente de suas Habilidades."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 164,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Os golpes do Pokémon não são impedidos pela habilidade do alvo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 164,
         "version_group_id": 27
       },
       "text": {
@@ -18608,6 +20264,15 @@
       "key": {
         "ability_id": 165,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Protege a si mesmo e seus aliados de ataques que limitam suas escolhas de movimentos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 165,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Protege a si mesmo e seus aliados de ataques que limitam suas escolhas de movimentos."
@@ -18679,6 +20344,15 @@
     {
       "key": {
         "ability_id": 166,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Os Pokémon do tipo Ally Grass estão protegidos de condições de status e da redução de suas atributos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 166,
         "version_group_id": 25
       },
       "text": {
@@ -18734,6 +20408,15 @@
       "key": {
         "ability_id": 167,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Resta PS também quando o Pokémon come uma Fruta."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 167,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Resta PS também quando o Pokémon come uma Fruta."
@@ -18805,6 +20488,15 @@
     {
       "key": {
         "ability_id": 168,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Muda o tipo do Pokémon para o tipo do movimento que está prestes a usar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 168,
         "version_group_id": 25
       },
       "text": {
@@ -18868,6 +20560,15 @@
     {
       "key": {
         "ability_id": 169,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Reduz pela metade o dano causado por golpes físicos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 169,
         "version_group_id": 25
       },
       "text": {
@@ -18923,6 +20624,15 @@
       "key": {
         "ability_id": 170,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon rouba o item do Pokémon que acerta com um movimento."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 170,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon rouba o item do Pokémon que acerta com um movimento."
@@ -18994,6 +20704,15 @@
     {
       "key": {
         "ability_id": 171,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Protege o Pokémon de alguns movimentos de bola e bomba."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 171,
         "version_group_id": 25
       },
       "text": {
@@ -19049,6 +20768,15 @@
       "key": {
         "ability_id": 172,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta drasticamente o Ataque Especial quando um status é reduzido."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 172,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta drasticamente o Ataque Especial quando um status é reduzido."
@@ -19120,6 +20848,15 @@
     {
       "key": {
         "ability_id": 173,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "A forte mandíbula do Pokémon aumenta o poder de seus golpes mordazes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 173,
         "version_group_id": 25
       },
       "text": {
@@ -19182,6 +20919,24 @@
     },
     {
       "key": {
+        "ability_id": 174,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Golpes do tipo Normal se tornam golpes do tipo Ice. O poder desses golpes é um pouco aumentado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 174,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Golpes do tipo Normal se tornam golpes do tipo Ice. O poder desses golpes é um pouco aumentado."
+      }
+    },
+    {
+      "key": {
         "ability_id": 175,
         "version_group_id": 15
       },
@@ -19229,6 +20984,15 @@
       "key": {
         "ability_id": 175,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Impede que ele mesmo e Pokémon aliados caiam no sono."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 175,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Impede que ele mesmo e Pokémon aliados caiam no sono."
@@ -19299,6 +21063,24 @@
     },
     {
       "key": {
+        "ability_id": 176,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon muda sua forma para Blade Forme quando usa um golpe de ataque e muda para Shield Forme quando usa King’s Shield."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 176,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O Pokémon muda sua forma para Blade Forme quando usa um golpe de ataque e muda para Shield Forme quando usa King’s Shield."
+      }
+    },
+    {
+      "key": {
         "ability_id": 177,
         "version_group_id": 15
       },
@@ -19346,6 +21128,15 @@
       "key": {
         "ability_id": 177,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Dá prioridade a movimentos do tipo Voadro quando o PS do Pokémon está cheio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 177,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Dá prioridade a movimentos do tipo Voadro quando o PS do Pokémon está cheio."
@@ -19417,6 +21208,15 @@
     {
       "key": {
         "ability_id": 178,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta o poder dos movimentos Aura e Pulso."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 178,
         "version_group_id": 25
       },
       "text": {
@@ -19480,6 +21280,15 @@
     {
       "key": {
         "ability_id": 179,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a atributo de defesa do Pokémon em Grassy Terrain."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 179,
         "version_group_id": 25
       },
       "text": {
@@ -19535,6 +21344,15 @@
       "key": {
         "ability_id": 180,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon passa seu item para um aliado que gastou um item."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 180,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O Pokémon passa seu item para um aliado que gastou um item."
@@ -19606,6 +21424,15 @@
     {
       "key": {
         "ability_id": 181,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Potencializa golpes que fazem contato direto."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 181,
         "version_group_id": 25
       },
       "text": {
@@ -19669,6 +21496,15 @@
     {
       "key": {
         "ability_id": 182,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Golpes do tipo normal tornam-se golpes do tipo Fairy. O poder desses golpes aumenta um pouco."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 182,
         "version_group_id": 25
       },
       "text": {
@@ -19732,6 +21568,15 @@
     {
       "key": {
         "ability_id": 183,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O contato com o Pokémon diminui a atributo de velocidade do atacante."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 183,
         "version_group_id": 25
       },
       "text": {
@@ -19794,6 +21639,24 @@
     },
     {
       "key": {
+        "ability_id": 184,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Golpes do tipo Normal se tornam golpes do tipo Flying. O poder desses golpes é um pouco aumentado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 184,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Golpes do tipo Normal se tornam golpes do tipo Flying. O poder desses golpes é um pouco aumentado."
+      }
+    },
+    {
+      "key": {
         "ability_id": 185,
         "version_group_id": 15
       },
@@ -19848,6 +21711,24 @@
     },
     {
       "key": {
+        "ability_id": 185,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Pai e filho atacam cada um."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 185,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O progenitor e o filhote atacam um após o outro."
+      }
+    },
+    {
+      "key": {
         "ability_id": 186,
         "version_group_id": 15
       },
@@ -19902,6 +21783,24 @@
     },
     {
       "key": {
+        "ability_id": 186,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta os golpes do tipo Dark de cada Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 186,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Fortalece os movimentos do tipo Sombrio de todos os Pokémon em campo."
+      }
+    },
+    {
+      "key": {
         "ability_id": 187,
         "version_group_id": 15
       },
@@ -19952,6 +21851,24 @@
       },
       "text": {
         "flavor_text": "Aumenta os golpes do tipo Fada de cada Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 187,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta os golpes do tipo Fada de cada Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 187,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Fortalece os movimentos do tipo Fada de todos os Pokémon em campo."
       }
     },
     {
@@ -20003,6 +21920,24 @@
       "key": {
         "ability_id": 188,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Os efeitos das Habilidades “Aura” são revertidos para diminuir o poder dos golpes afetados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 188,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Os efeitos das Habilidades “Aura” são revertidos para diminuir o poder dos golpes afetados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 188,
+        "version_group_id": 25
       },
       "text": {
         "flavor_text": "Os efeitos das Habilidades “Aura” são revertidos para diminuir o poder dos golpes afetados."
@@ -20055,6 +21990,24 @@
     },
     {
       "key": {
+        "ability_id": 189,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon muda o clima para anular ataques do tipo Fogo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 189,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O Pokémon muda o clima para anular ataques do tipo Fogo."
+      }
+    },
+    {
+      "key": {
         "ability_id": 190,
         "version_group_id": 16
       },
@@ -20093,6 +22046,24 @@
       "key": {
         "ability_id": 190,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon muda o clima para anular ataques do tipo Água."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 190,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon muda o clima para anular ataques do tipo Água."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 190,
+        "version_group_id": 25
       },
       "text": {
         "flavor_text": "O Pokémon muda o clima para anular ataques do tipo Água."
@@ -20145,6 +22116,24 @@
     },
     {
       "key": {
+        "ability_id": 191,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon muda o clima para eliminar todas as fraquezas do tipo Voador."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 191,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O Pokémon muda o clima para impedir que golpes sejam supereficazes contra o tipo Voador."
+      }
+    },
+    {
+      "key": {
         "ability_id": 192,
         "version_group_id": 17
       },
@@ -20174,6 +22163,15 @@
       "key": {
         "ability_id": 192,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa ao ser atingido por um ataque."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 192,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta a Defesa ao ser atingido por um ataque."
@@ -20226,6 +22224,24 @@
     },
     {
       "key": {
+        "ability_id": 193,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon troca covardemente quando seu PS chega a metade ou menos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 193,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O Pokémon foge de medo e dá lugar a outro quando fica com metade dos PS ou menos."
+      }
+    },
+    {
+      "key": {
         "ability_id": 194,
         "version_group_id": 17
       },
@@ -20262,6 +22278,24 @@
     },
     {
       "key": {
+        "ability_id": 194,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon, ao sentir perigo, troca quando seu PS chega a metade ou menos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 194,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ao sentir o perigo, o Pokémon dá lugar a outro quando fica com metade dos PS ou menos."
+      }
+    },
+    {
+      "key": {
         "ability_id": 195,
         "version_group_id": 17
       },
@@ -20291,6 +22325,15 @@
       "key": {
         "ability_id": 195,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta drasticamente a Defesa do Pokémon ao ser atingido por um movimento do tipo Água."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 195,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta drasticamente a Defesa do Pokémon ao ser atingido por um movimento do tipo Água."
@@ -20344,6 +22387,15 @@
     {
       "key": {
         "ability_id": 196,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Os ataques do Pokémon tornam-se acertos críticos se o alvo estiver envenenado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 196,
         "version_group_id": 25
       },
       "text": {
@@ -20389,6 +22441,24 @@
     {
       "key": {
         "ability_id": 197,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Quando seu PS chega a metade ou menos, a carapaça do Pokémon quebra e ele fica agressivo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 197,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quando seu PS cai para metade ou menos, a casca do Pokémon quebra e ele se torna agressivo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 197,
         "version_group_id": 27
       },
       "text": {
@@ -20426,6 +22496,15 @@
       "key": {
         "ability_id": 198,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Dobra o dano causado ao substituto do alvo se o alvo trocar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 198,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Dobra o dano causado ao substituto do alvo se o alvo trocar."
@@ -20479,6 +22558,24 @@
     {
       "key": {
         "ability_id": 199,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Diminui o poder dos movimentos do tipo Fogo feitos no Pokémon e impede que ele sofra queimadura."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 199,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o poder dos golpes do tipo Fogo que atingem o Pokémon e evita que ele seja queimado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 199,
         "version_group_id": 27
       },
       "text": {
@@ -20523,6 +22620,24 @@
     },
     {
       "key": {
+        "ability_id": 200,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Potencializa golpes do tipo Steel."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 200,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Potencializa golpes do tipo Steel."
+      }
+    },
+    {
+      "key": {
         "ability_id": 201,
         "version_group_id": 17
       },
@@ -20552,6 +22667,15 @@
       "key": {
         "ability_id": 201,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque Especial do Pokémon quando ele sofre um golpe que reduz seu PS para metade ou menos."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 201,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta o Ataque Especial do Pokémon quando ele sofre um golpe que reduz seu PS para metade ou menos."
@@ -20605,6 +22729,15 @@
     {
       "key": {
         "ability_id": 202,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a Velocidade do Pokémon em uma tempestade de gelo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 202,
         "version_group_id": 25
       },
       "text": {
@@ -20650,6 +22783,15 @@
     {
       "key": {
         "ability_id": 203,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon usa seus golpes sem fazer contato com o alvo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 203,
         "version_group_id": 25
       },
       "text": {
@@ -20690,6 +22832,24 @@
       },
       "text": {
         "flavor_text": "Todos os movimentos baseados em som se tornam do tipo Água."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 204,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Todos os movimentos baseados em som se tornam do tipo Água."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 204,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Golpes baseados em som tornam-se golpes do tipo Água."
       }
     },
     {
@@ -20740,6 +22900,24 @@
     {
       "key": {
         "ability_id": 205,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Dá prioridade a um movimento de cura."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 205,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Dá prioridade aos golpes de cura do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 205,
         "version_group_id": 27
       },
       "text": {
@@ -20777,6 +22955,24 @@
       "key": {
         "ability_id": 206,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Golpes do tipo normal tornam-se golpes do tipo elétrico. O poder desses golpes aumenta um pouco."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 206,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Golpes do tipo normal tornam-se golpes do tipo elétrico. O poder desses golpes aumenta um pouco."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 206,
+        "version_group_id": 25
       },
       "text": {
         "flavor_text": "Golpes do tipo normal tornam-se golpes do tipo elétrico. O poder desses golpes aumenta um pouco."
@@ -20830,6 +23026,15 @@
     {
       "key": {
         "ability_id": 207,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Dobra a atributo de velocidade do Pokémon em Electric Terrain."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 207,
         "version_group_id": 25
       },
       "text": {
@@ -20874,6 +23079,24 @@
     },
     {
       "key": {
+        "ability_id": 208,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Quando tem muito PS, o Pokémon forma um cardume poderoso. Ele para de formar cardume quando seu PS está baixo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 208,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quando tem muito PS, o Pokémon forma um cardume poderoso. Ele para de formar cardume quando seu PS está baixo."
+      }
+    },
+    {
+      "key": {
         "ability_id": 209,
         "version_group_id": 17
       },
@@ -20903,6 +23126,15 @@
       "key": {
         "ability_id": 209,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Uma vez por batalha, a mortalha que cobre o Pokémon pode protegê-lo de um ataque."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 209,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Uma vez por batalha, a mortalha que cobre o Pokémon pode protegê-lo de um ataque."
@@ -20948,6 +23180,15 @@
       "key": {
         "ability_id": 210,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Derrotar um Pokémon adversário fortalece o laço do Pokémon com seu Treinador, e ele se torna Ash-Greninja. Shuriken de Água fica mais poderoso."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 210,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Derrotar um Pokémon adversário fortalece o laço do Pokémon com seu Treinador, e ele se torna Ash-Greninja. Shuriken de Água fica mais poderoso."
@@ -21000,6 +23241,24 @@
     },
     {
       "key": {
+        "ability_id": 211,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Outras Células se reúnem para ajudar quando seu PS chega a metade ou menos. Então o Pokémon muda sua forma para Forma Completa."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 211,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quando o Pokémon fica com metade dos PS ou menos, células se reúnem para ajudá-lo e ele assume sua Forma Completa."
+      }
+    },
+    {
+      "key": {
         "ability_id": 212,
         "version_group_id": 17
       },
@@ -21032,6 +23291,15 @@
       },
       "text": {
         "flavor_text": "O Pokémon pode envenenar o alvo mesmo que seja do tipo Aço ou Veneno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 212,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon pode envenenar o alvo mesmo que seja do tipo Steel ou Poison."
       }
     },
     {
@@ -21074,6 +23342,15 @@
       "key": {
         "ability_id": 213,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Está sempre sonolento e nunca acordará. Pode atacar sem acordar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 213,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Está sempre sonolento e nunca acordará. Pode atacar sem acordar."
@@ -21127,6 +23404,15 @@
     {
       "key": {
         "ability_id": 214,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Sua majestade pressiona o Pokémon adversário, impedindo-o de usar movimentos de prioridade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 214,
         "version_group_id": 25
       },
       "text": {
@@ -21135,15 +23421,6 @@
     },
     {
       "key": {
-        "ability_id": 214,
-        "version_group_id": 26
-      },
-      "text": {
-        "flavor_text": "Quando usa Surf ou Dive, este Pokémon volta com uma presa. Ao receber dano, cospe a presa para atacar."
-      }
-    },
-    {
-      "key": {
         "ability_id": 215,
         "version_group_id": 17
       },
@@ -21180,6 +23457,24 @@
     },
     {
       "key": {
+        "ability_id": 215,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Dana o atacante que desfere o golpe final pela quantidade igual ao seu último PS."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 215,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quando o Pokémon desmaia, causa ao atacante dano igual aos PS que tinha antes de receber o golpe."
+      }
+    },
+    {
+      "key": {
         "ability_id": 216,
         "version_group_id": 17
       },
@@ -21209,6 +23504,15 @@
       "key": {
         "ability_id": 216,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Quando outro Pokémon usa um movimento de dança, ele pode usar um movimento de dança em seguida, independentemente de sua Velocidade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 216,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Quando outro Pokémon usa um movimento de dança, ele pode usar um movimento de dança em seguida, independentemente de sua Velocidade."
@@ -21262,6 +23566,24 @@
     {
       "key": {
         "ability_id": 217,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta os golpes especiais dos Pokémon aliados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 217,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta os golpes especiais dos Pokémon aliados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 217,
         "version_group_id": 26
       },
       "text": {
@@ -21307,6 +23629,15 @@
     {
       "key": {
         "ability_id": 218,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Reduz pela metade o dano sofrido por golpes que fazem contato direto, mas dobra o dano causado por golpes do tipo Fogo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 218,
         "version_group_id": 25
       },
       "text": {
@@ -21344,6 +23675,15 @@
       "key": {
         "ability_id": 219,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Surpreende o Pokémon adversário, impedindo-o de usar movimentos de prioridade."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 219,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Surpreende o Pokémon adversário, impedindo-o de usar movimentos de prioridade."
@@ -21397,6 +23737,15 @@
     {
       "key": {
         "ability_id": 220,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta seu Ataque Especial sempre que um Pokémon desmaia."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 220,
         "version_group_id": 25
       },
       "text": {
@@ -21437,6 +23786,15 @@
       },
       "text": {
         "flavor_text": "O contato com o Pokémon diminui a estatística Velocidade do atacante."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 221,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O contato com o Pokémon diminui a atributo de velocidade do atacante."
       }
     },
     {
@@ -21487,6 +23845,15 @@
     {
       "key": {
         "ability_id": 222,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon copia a habilidade de um aliado derrotado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 222,
         "version_group_id": 25
       },
       "text": {
@@ -21532,6 +23899,15 @@
     {
       "key": {
         "ability_id": 223,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon copia a habilidade de um aliado derrotado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 223,
         "version_group_id": 25
       },
       "text": {
@@ -21576,6 +23952,24 @@
     },
     {
       "key": {
+        "ability_id": 224,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon aumenta seu atributo mais proficiente cada vez que nocauteia um Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 224,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o melhor atributo do Pokémon sempre que ele faz um alvo desmaiar."
+      }
+    },
+    {
+      "key": {
         "ability_id": 225,
         "version_group_id": 17
       },
@@ -21612,6 +24006,24 @@
     },
     {
       "key": {
+        "ability_id": 225,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Altera o tipo do Pokémon para corresponder ao disco de memória que ele carrega."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 225,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Altera o tipo do Pokémon para corresponder ao disco de memória que ele carrega."
+      }
+    },
+    {
+      "key": {
         "ability_id": 226,
         "version_group_id": 17
       },
@@ -21641,6 +24053,15 @@
       "key": {
         "ability_id": 226,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Transforma o solo em Electric Terrain quando o Pokémon entra em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 226,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Transforma o solo em Electric Terrain quando o Pokémon entra em batalha."
@@ -21686,6 +24107,15 @@
       "key": {
         "ability_id": 227,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Transforma o solo em Psychic Terrain quando o Pokémon entra em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 227,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Transforma o solo em Psychic Terrain quando o Pokémon entra em batalha."
@@ -21731,6 +24161,15 @@
       "key": {
         "ability_id": 228,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Transforma o solo em Misty Terrain quando o Pokémon entra em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 228,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Transforma o solo em Misty Terrain quando o Pokémon entra em batalha."
@@ -21776,6 +24215,15 @@
       "key": {
         "ability_id": 229,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Transforma o solo em Grassy Terrain quando o Pokémon entra em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 229,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Transforma o solo em Grassy Terrain quando o Pokémon entra em batalha."
@@ -21821,6 +24269,24 @@
       "key": {
         "ability_id": 230,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Impede que os golpes ou Habilidades de outros Pokémon diminuam as atributos do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 230,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Impede que os golpes ou Habilidades de outros Pokémon diminuam as atributos do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 230,
+        "version_group_id": 25
       },
       "text": {
         "flavor_text": "Impede que os golpes ou Habilidades de outros Pokémon diminuam as atributos do Pokémon."
@@ -21864,6 +24330,24 @@
     },
     {
       "key": {
+        "ability_id": 231,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Reduz a quantidade de dano que o Pokémon recebe enquanto seu PS está cheio."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 231,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz a quantidade de dano que o Pokémon recebe enquanto seu PS está cheio."
+      }
+    },
+    {
+      "key": {
         "ability_id": 232,
         "version_group_id": 17
       },
@@ -21900,6 +24384,24 @@
     },
     {
       "key": {
+        "ability_id": 232,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Reduz o poder de ataques superefetivos realizados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 232,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Reduz o poder de ataques superefetivos que atingem o Pokémon."
+      }
+    },
+    {
+      "key": {
         "ability_id": 233,
         "version_group_id": 18
       },
@@ -21927,8 +24429,35 @@
     },
     {
       "key": {
+        "ability_id": 233,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Potencializa golpes supereficazes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 233,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Fortalece ainda mais os ataques supereficazes do Pokémon."
+      }
+    },
+    {
+      "key": {
         "ability_id": 234,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Aumenta o Ataque do Pokémon ao entrar em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 234,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Aumenta o Ataque do Pokémon ao entrar em batalha."
@@ -21955,6 +24484,15 @@
     {
       "key": {
         "ability_id": 235,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta a Defesa do Pokémon ao entrar em batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 235,
         "version_group_id": 25
       },
       "text": {
@@ -21965,6 +24503,15 @@
       "key": {
         "ability_id": 236,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Muda o tipo do Pokémon para o tipo do movimento que está prestes a usar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 236,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Muda o tipo do Pokémon para o tipo do movimento que está prestes a usar."
@@ -21990,6 +24537,24 @@
     },
     {
       "key": {
+        "ability_id": 237,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Se o Pokémon não estiver segurando um item, ele buscará a Poké Ball no primeiro arremesso falho da batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 237,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Se o Pokémon não estiver segurando um item, ele buscará a Poké Ball no primeiro arremesso falho da batalha."
+      }
+    },
+    {
+      "key": {
         "ability_id": 238,
         "version_group_id": 20
       },
@@ -21999,8 +24564,35 @@
     },
     {
       "key": {
+        "ability_id": 238,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Quando o Pokémon é atingido por um ataque, ele espalha algodão e diminui o stat Velocidade de todos os Pokémon, exceto ele mesmo."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 238,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ao ser atingido por um ataque, o Pokémon espalha tufos de algodão e reduz a Velocidade de todos os outros Pokémon."
+      }
+    },
+    {
+      "key": {
         "ability_id": 239,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ignora os efeitos das habilidades e golpes do Pokémon adversário que atraem golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 239,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Ignora os efeitos das habilidades e golpes do Pokémon adversário que atraem golpes."
@@ -22019,6 +24611,15 @@
       "key": {
         "ability_id": 240,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Recupera apenas os efeitos de redução de atributos que o Pokémon recebe."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 240,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Recupera apenas os efeitos de redução de atributos que o Pokémon recebe."
@@ -22044,8 +24645,53 @@
     },
     {
       "key": {
+        "ability_id": 241,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Quando o Pokémon usa Surf ou Dive, ele retorna com presas. Quando sofre dano, ele cospe a presa para atacar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 241,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quando o Pokémon usa Surf ou Dive, ele retorna com presas. Quando sofre dano, ele cospe a presa para atacar."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 241,
+        "version_group_id": 26
+      },
+      "text": {
+        "flavor_text": "Quando o Pokémon usa Surf ou Dive, ele retorna com presas. Quando sofre dano, ele cospe a presa para atacar."
+      }
+    },
+    {
+      "key": {
         "ability_id": 242,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Ignora os efeitos das habilidades e golpes do Pokémon adversário que atraem golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 242,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Ignora os efeitos das habilidades e golpes do Pokémon adversário que atraem golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 242,
+        "version_group_id": 25
       },
       "text": {
         "flavor_text": "Ignora os efeitos das habilidades e golpes do Pokémon adversário que atraem golpes."
@@ -22072,6 +24718,15 @@
     {
       "key": {
         "ability_id": 243,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta drasticamente a Velocidade do Pokémon se for atingido por um movimento do tipo Fogo ou Água."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 243,
         "version_group_id": 25
       },
       "text": {
@@ -22090,6 +24745,15 @@
     {
       "key": {
         "ability_id": 244,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta o poder dos golpes baseados em som. O Pokémon também sofre metade do dano desse tipo de golpe."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 244,
         "version_group_id": 25
       },
       "text": {
@@ -22108,6 +24772,15 @@
     {
       "key": {
         "ability_id": 245,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon cria uma tempestade de areia quando é atingido por um ataque."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 245,
         "version_group_id": 25
       },
       "text": {
@@ -22126,6 +24799,15 @@
     {
       "key": {
         "ability_id": 246,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon é protegido por escamas de gelo, que reduzem pela metade o dano sofrido por golpes especiais."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 246,
         "version_group_id": 25
       },
       "text": {
@@ -22136,6 +24818,15 @@
       "key": {
         "ability_id": 247,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Amadurece as frutas e duplica o seu efeito."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 247,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Amadurece as frutas e duplica o seu efeito."
@@ -22162,6 +24853,15 @@
     {
       "key": {
         "ability_id": 248,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "A cabeça de gelo do Pokémon pode absorver um ataque físico como substituto, mas o ataque também muda a aparência do Pokémon. O gelo será restaurado quando chover."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 248,
         "version_group_id": 25
       },
       "text": {
@@ -22172,6 +24872,15 @@
       "key": {
         "ability_id": 249,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O simples fato de estar ao lado do Pokémon fortalece os golpes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 249,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "O simples fato de estar ao lado do Pokémon fortalece os golpes."
@@ -22197,6 +24906,24 @@
     },
     {
       "key": {
+        "ability_id": 250,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Muda o tipo do Pokémon dependendo do terreno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 250,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Muda o tipo do Pokémon dependendo do terreno."
+      }
+    },
+    {
+      "key": {
         "ability_id": 251,
         "version_group_id": 20
       },
@@ -22206,8 +24933,35 @@
     },
     {
       "key": {
+        "ability_id": 251,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Quando o Pokémon entra em batalha, os efeitos de Light Screen, Reflect e Aurora Veil são anulados tanto para Pokémon adversários quanto para aliados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 251,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quando o Pokémon entra em batalha, os efeitos de Light Screen, Reflect e Aurora Veil são anulados tanto para Pokémon adversários quanto para aliados."
+      }
+    },
+    {
+      "key": {
         "ability_id": 252,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Potencializa os movimentos do tipo Aço dos Pokémon aliados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 252,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Potencializa os movimentos do tipo Aço dos Pokémon aliados."
@@ -22233,8 +24987,44 @@
     },
     {
       "key": {
+        "ability_id": 253,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Ao ser atingido por um golpe de contato direto, o Pokémon e o atacante desmaiarão após três turnos, a menos que troquem de batalha."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 253,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ao ser atingido por um golpe de contato direto, o Pokémon e o atacante desmaiarão após três turnos, a menos que troquem de batalha."
+      }
+    },
+    {
+      "key": {
         "ability_id": 254,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "O Pokémon troca Habilidades com um Pokémon que o atinge com um golpe de contato direto."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 254,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon troca Habilidades com um Pokémon que o atinge com um golpe de contato direto."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 254,
+        "version_group_id": 25
       },
       "text": {
         "flavor_text": "O Pokémon troca Habilidades com um Pokémon que o atinge com um golpe de contato direto."
@@ -22251,11 +25041,47 @@
     },
     {
       "key": {
+        "ability_id": 255,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta o stat de Ataque do Pokémon, mas só permite o uso do primeiro golpe selecionado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 255,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Aumenta o stat de Ataque do Pokémon, mas só permite o uso do primeiro golpe selecionado."
+      }
+    },
+    {
+      "key": {
         "ability_id": 256,
         "version_group_id": 20
       },
       "text": {
         "flavor_text": "Se o Pokémon com Gás Neutralizante estiver na batalha, os efeitos de todas as Habilidades dos Pokémon serão anulados ou não serão acionados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 256,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Se o Pokémon com Gás Neutralizante estiver na batalha, os efeitos de todas as Habilidades dos Pokémon serão anulados ou não serão acionados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 256,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Enquanto o Pokémon estiver na batalha, os efeitos de todas as Habilidades dos outros Pokémon serão anulados ou não serão acionados."
       }
     },
     {
@@ -22278,11 +25104,47 @@
     },
     {
       "key": {
+        "ability_id": 257,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Protege o Pokémon e seus Pokémon aliados de serem envenenados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 257,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Impede que o Pokémon e seus aliados sejam envenenados."
+      }
+    },
+    {
+      "key": {
         "ability_id": 258,
         "version_group_id": 20
       },
       "text": {
         "flavor_text": "O Pokémon muda de forma, alternando entre o Modo Barriga Cheia e o Modo Irritado após o final de cada turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 258,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "O Pokémon muda de forma, alternando entre o Modo Barriga Cheia e o Modo Irritado após o final de cada turno."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 258,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O Pokémon muda de forma, alternando entre o modo Full Belly e o modo Hangry após o final de cada turno."
       }
     },
     {
@@ -22306,6 +25168,15 @@
     {
       "key": {
         "ability_id": 259,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Permite que o Pokémon se mova primeiro ocasionalmente."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 259,
         "version_group_id": 25
       },
       "text": {
@@ -22316,6 +25187,24 @@
       "key": {
         "ability_id": 260,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Se o Pokémon usar golpes que façam contato direto, ele poderá atacar o alvo mesmo que o alvo se proteja."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 260,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Se o Pokémon usar golpes que façam contato direto, ele poderá atacar o alvo mesmo que o alvo se proteja."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 260,
+        "version_group_id": 25
       },
       "text": {
         "flavor_text": "Se o Pokémon usar golpes que façam contato direto, ele poderá atacar o alvo mesmo que o alvo se proteja."
@@ -22342,6 +25231,15 @@
     {
       "key": {
         "ability_id": 261,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Quando o Pokémon entra em uma batalha, ele espalha remédios de sua concha, o que remove todas as alterações de atributos dos aliados."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 261,
         "version_group_id": 25
       },
       "text": {
@@ -22360,6 +25258,15 @@
     {
       "key": {
         "ability_id": 262,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Aumenta golpes do tipo elétrico."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 262,
         "version_group_id": 25
       },
       "text": {
@@ -22378,6 +25285,15 @@
     {
       "key": {
         "ability_id": 263,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Potencializa golpes do tipo Dragão."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 263,
         "version_group_id": 25
       },
       "text": {
@@ -22396,6 +25312,15 @@
     {
       "key": {
         "ability_id": 264,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Quando nocauteia um alvo, este Pokémon solta um relincho gélido e aumenta seu Ataque."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 264,
         "version_group_id": 25
       },
       "text": {
@@ -22406,6 +25331,15 @@
       "key": {
         "ability_id": 265,
         "version_group_id": 20
+      },
+      "text": {
+        "flavor_text": "Quando nocauteia um alvo, este Pokémon solta um relincho aterrorizante e aumenta seu Ataque Especial."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 265,
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Quando nocauteia um alvo, este Pokémon solta um relincho aterrorizante e aumenta seu Ataque Especial."
@@ -22432,7 +25366,7 @@
     {
       "key": {
         "ability_id": 266,
-        "version_group_id": 25
+        "version_group_id": 23
       },
       "text": {
         "flavor_text": "Esta habilidade combina os efeitos da habilidade Unnerve de Calyrex e da habilidade Chilling Neigh de Glastrier."
@@ -22445,6 +25379,15 @@
       },
       "text": {
         "flavor_text": "Esta Habilidade combina os efeitos da Habilidade Desorientação de Calyrex e da Habilidade Vizinhança Sombria de Spectrier."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 267,
+        "version_group_id": 23
+      },
+      "text": {
+        "flavor_text": "Esta habilidade combina os efeitos da habilidade Unnerve de Calyrex e da habilidade Grim Neigh de Spectrier."
       }
     },
     {
@@ -22738,10 +25681,28 @@
     {
       "key": {
         "ability_id": 299,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ignora mudanças na evasão dos adversários, impede que sua precisão diminua e permite atingir o tipo Fantasma com golpes dos tipos Normal e Lutador."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 299,
         "version_group_id": 26
       },
       "text": {
         "flavor_text": "O Pokémon ignora as mudanças na evasão dos oponentes, sua precisão não pode ser reduzida e pode atingir os tipos Fantasma com golpes do tipo Normal e do tipo Fighting."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 300,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Na primeira vez que o Pokémon entra em batalha, um aroma enjoativamente doce se espalha pelo campo e reduz a evasão dos adversários."
       }
     },
     {
@@ -22756,10 +25717,28 @@
     {
       "key": {
         "ability_id": 301,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Ao entrar em batalha, o Pokémon recebe seu aliado com hospitalidade e restaura uma pequena quantidade dos PS dele."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 301,
         "version_group_id": 26
       },
       "text": {
         "flavor_text": "Quando o Pokémon entra em uma batalha, ele dá hospitalidade ao seu aliado, restaurando uma pequena quantidade do PS do aliado."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 302,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O poder da corrente tóxica pode envenenar gravemente qualquer alvo atingido por um movimento do Pokémon."
       }
     },
     {
@@ -22774,10 +25753,28 @@
     {
       "key": {
         "ability_id": 303,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "O coração do Pokémon se enche de lembranças, fazendo a Máscara da Pedra Angular brilhar e aumentando a Defesa do Pokémon."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 303,
         "version_group_id": 26
       },
       "text": {
         "flavor_text": "O coração do Pokémon se enche de memórias, fazendo com que a Máscara brilhe e uma das atributos do Pokémon seja aumentada."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 304,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quando o Pokémon entra em batalha, ele absorve a energia ao seu redor e se transforma em sua Forma Terastal."
       }
     },
     {
@@ -22792,6 +25789,15 @@
     {
       "key": {
         "ability_id": 305,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "A concha do Pokémon contém os poderes de cada tipo. Todos os golpes que causam dano e atingem o Pokémon quando seu PS está cheio não serão muito eficazes."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 305,
         "version_group_id": 27
       },
       "text": {
@@ -22801,10 +25807,28 @@
     {
       "key": {
         "ability_id": 306,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Quando Terapagos muda para sua forma estelar, ele usa seus poderes ocultos para eliminar todos os efeitos do clima e do terreno, reduzindo-os a zero."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 306,
         "version_group_id": 27
       },
       "text": {
         "flavor_text": "Quando Terapagos muda para sua forma estelar, ele usa seus poderes ocultos para eliminar todos os efeitos do clima e do terreno, reduzindo-os a zero."
+      }
+    },
+    {
+      "key": {
+        "ability_id": 307,
+        "version_group_id": 25
+      },
+      "text": {
+        "flavor_text": "Pokémon envenenados pelos golpes de Pecharunt também ficarão confusos."
       }
     },
     {

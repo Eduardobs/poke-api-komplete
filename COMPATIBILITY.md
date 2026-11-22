@@ -1,6 +1,6 @@
 # Compatibilidade com a PokeAPI
 
-A verificação foi realizada em **9 de novembro de 2026**. A implementação inicial não era totalmente compatível: o GraphQL tinha schema próprio, a raiz REST omitia `meta`, os metadados tinham outro formato e a paginação tinha regras e limites diferentes. Esses comportamentos foram substituídos.
+A verificação inicial foi realizada em **9 de novembro de 2026**. A implementação inicial não era totalmente compatível: o GraphQL tinha schema próprio, a raiz REST omitia `meta`, os metadados tinham outro formato e a paginação tinha regras e limites diferentes. Esses comportamentos foram substituídos.
 
 O objetivo é preservar o contrato público da API: caminhos, argumentos, estrutura dos corpos JSON, tipos GraphQL, relações, filtros, agregações e erros. Não se trata de reproduzir o site de documentação, o firewall, os endereços de domínio nem a capacidade operacional da hospedagem oficial.
 
@@ -8,7 +8,7 @@ O objetivo é preservar o contrato público da API: caminhos, argumentos, estrut
 
 | Referência | Revisão/arquivo |
 | --- | --- |
-| Código e CSVs copiados | `PokeAPI/pokeapi@5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7` |
+| Código e CSVs copiados | `PokeAPI/pokeapi@cd5f6c6232f23430aa6089896d96230f5f7ecef4` |
 | Publicação REST oficial | `PokeAPI/deploy@b58f61a80bd1be91e758cdab1d182ca913b9d693`, `functions_v1/src/index.js` |
 | Inventário e paginação pública | `contracts/rest.contract.json` |
 | Metadados GraphQL públicos | `vendor/pokeapi/graphql/v1beta2/metadata` |
@@ -26,20 +26,22 @@ O [índice público](https://pokeapi.co/api/v2/) apresenta **51 entradas**: 50 c
 ## Cobertura REST
 
 - Raiz `/api/v2/`: todas as 51 entradas oficiais, incluindo `meta`.
-- Todas as 50 coleções e todos os **14.134 detalhes** do snapshot.
+- Todas as 50 coleções e todos os **14.276 detalhes** do snapshot.
 - `/api/v2/pokemon/{id}/encounters`: todos os **1.351 Pokémon** do snapshot.
 - `/api/v2/meta/`: `deploy_date`, `hash`, `tag`; a origem do dataset fica separadamente em `/snapshot.json`.
 - Paginação pública: 60 casos executados nos helpers originais do Firebase, incluindo final de lista, offset excedente, valores padrão, negativos, inválidos e limites grandes.
 - Nomes e maiúsculas/minúsculas, IDs negativos existentes, ausência de um teto próprio de paginação e `q` ignorado.
 - Erros `{status, message}`, CORS, HEAD e redirecionamento legado `/api/v1/`.
 
-A auditoria completa fez **15.537 comparações exatas de corpos JSON**: 14.134 detalhes, 1.351 encontros, 50 listagens completas, raiz e metadados. A referência foi o Django oficial sem modificações, executado sobre o mesmo snapshot local e domínio de teste. Não é uma comparação de duas cópias da implementação do Worker. O teste de paginação usa resultados capturados da implementação pública oficial, que é diferente do Django.
+A auditoria completa fez **15.679 comparações exatas de corpos JSON**: 14.276 detalhes, 1.351 encontros, 50 listagens completas, raiz e metadados. A referência foram as views e os serializadores oficiais do Django, executados sobre o mesmo snapshot local e domínio de teste. Não é uma comparação de duas cópias da implementação do Worker. O teste de paginação usa resultados capturados da implementação pública oficial, que é diferente do Django.
 
 ## Cobertura GraphQL
 
 O backend de produção é próprio: Node.js compila as operações para SQL parametrizado em PostgreSQL. O schema e a introspecção de referência são carregados sem acrescentar campos. A execução não depende de Hasura ou da API pública. O Worker encaminha GraphQL ao backend próprio; `HASURA_GRAPHQL_URL` continua aceito como configuração legada para retorno à referência.
 
-Foram executadas **1.506 comparações diferenciais de status e corpos JSON** entre o backend próprio e o Hasura oficial 2.50.2, com o mesmo snapshot PostgreSQL:
+O REST expõe o nível de aprimoramento dos golpes em `enhancement_level`. No PostgreSQL, a coluna mantém o nome `mastery` usado pelo contrato GraphQL. O importador também mantém as colunas inteiras do contrato no tipo PostgreSQL `integer`, com os limites de valor definidos pelos modelos Django.
+
+Foram executadas **1.518 comparações diferenciais de status e corpos JSON** entre o backend próprio e o Hasura oficial 2.50.2, com o mesmo snapshot PostgreSQL:
 
 - Introspecção completa, incluindo descrições, tipos e ordem dos campos de introspecção legados.
 - Os **327 campos raiz** oficiais.

@@ -1,14 +1,19 @@
 {
-  "date": "2026-11-10T12:33:19.758Z",
-  "node": "v22.23.4",
+  "date": "2026-11-22T02:36:13.252Z",
+  "node": "v26.10.0",
   "passed": true,
   "comparisons": 1518,
   "reference": "Hasura 2.50.2, unchanged official anonymous metadata, same local PostgreSQL snapshot",
   "source": {
     "repository": "https://github.com/PokeAPI/pokeapi",
-    "commit": "5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7",
+    "commit": "cd5f6c6232f23430aa6089896d96230f5f7ecef4",
     "cries_commit": "7ba07038103b3482973fa781e25c09debbaaedd8",
-    "sprites_manifest_sha256": "0096a1463129318d3a2635f73ea4710637dbed587d518cd5d689c4a083aaee2b"
+    "sprites_manifest_sha256": "0096a1463129318d3a2635f73ea4710637dbed587d518cd5d689c4a083aaee2b",
+    "branch": "master",
+    "last_synced_at": "2026-11-22T02:25:26+00:00",
+    "last_synced_at_source": "source_sync",
+    "last_checked_at": "2026-11-22T02:25:15+00:00",
+    "last_checked_commit": "cd5f6c6232f23430aa6089896d96230f5f7ecef4"
   },
   "scope": "327 root fields; 163 tables and all their columns; 601 relationships; 299 related aggregates; official examples; combined operations, filters, errors and batches",
   "live_public_api_comparison": false,

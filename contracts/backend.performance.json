@@ -1,89 +1,94 @@
 {
-  "date": "2026-11-10T12:33:20.956Z",
-  "node": "v22.23.4",
+  "date": "2026-11-22T02:36:25.289Z",
+  "node": "v26.10.0",
   "platform": "linux",
   "arch": "x64",
   "scope": "Local HTTP, same PostgreSQL snapshot; no CDN, free hosting, TLS or cold starts measured",
   "source": {
     "repository": "https://github.com/PokeAPI/pokeapi",
-    "commit": "5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7",
+    "commit": "cd5f6c6232f23430aa6089896d96230f5f7ecef4",
     "cries_commit": "7ba07038103b3482973fa781e25c09debbaaedd8",
-    "sprites_manifest_sha256": "0096a1463129318d3a2635f73ea4710637dbed587d518cd5d689c4a083aaee2b"
+    "sprites_manifest_sha256": "0096a1463129318d3a2635f73ea4710637dbed587d518cd5d689c4a083aaee2b",
+    "branch": "master",
+    "last_synced_at": "2026-11-22T02:25:26+00:00",
+    "last_synced_at_source": "source_sync",
+    "last_checked_at": "2026-11-22T02:25:15+00:00",
+    "last_checked_commit": "cd5f6c6232f23430aa6089896d96230f5f7ecef4"
   },
   "samples_per_operation": 30,
   "warmup": 5,
   "gate": "uncached p95 <= max(100 ms, 5x reference); cached median <= uncached median + 1 ms; sampled RSS < 384 MiB",
   "memory_measurement": "process.memoryUsage().rss, sampled every 10 ms and after each response; includes two app instances and HTTP client",
-  "sampled_peak_rss_mib": 148.6,
+  "sampled_peak_rss_mib": 195.4,
   "results": {
     "lookup": {
       "reference": {
-        "median_ms": 1.484,
-        "p95_ms": 1.788
+        "median_ms": 1.726,
+        "p95_ms": 2.07
       },
       "own_uncached": {
-        "median_ms": 1.728,
-        "p95_ms": 2.163
+        "median_ms": 2.235,
+        "p95_ms": 2.672
       },
       "own_cached": {
-        "median_ms": 1.05,
-        "p95_ms": 1.477
+        "median_ms": 1.171,
+        "p95_ms": 1.558
       }
     },
     "list": {
       "reference": {
-        "median_ms": 1.701,
-        "p95_ms": 1.991
+        "median_ms": 1.952,
+        "p95_ms": 2.171
       },
       "own_uncached": {
-        "median_ms": 1.65,
-        "p95_ms": 3.096
+        "median_ms": 2.042,
+        "p95_ms": 2.303
       },
       "own_cached": {
-        "median_ms": 0.947,
-        "p95_ms": 1.359
+        "median_ms": 0.95,
+        "p95_ms": 1.178
       }
     },
     "nested": {
       "reference": {
-        "median_ms": 2.772,
-        "p95_ms": 3.382
+        "median_ms": 3.931,
+        "p95_ms": 4.753
       },
       "own_uncached": {
-        "median_ms": 2.596,
-        "p95_ms": 3.61
+        "median_ms": 3.734,
+        "p95_ms": 4.332
       },
       "own_cached": {
-        "median_ms": 0.914,
-        "p95_ms": 1.327
+        "median_ms": 1.175,
+        "p95_ms": 1.54
       }
     },
     "aggregate": {
       "reference": {
-        "median_ms": 1.345,
-        "p95_ms": 1.609
+        "median_ms": 1.492,
+        "p95_ms": 1.915
       },
       "own_uncached": {
-        "median_ms": 1.389,
-        "p95_ms": 1.786
+        "median_ms": 1.608,
+        "p95_ms": 1.986
       },
       "own_cached": {
-        "median_ms": 0.795,
-        "p95_ms": 1.031
+        "median_ms": 0.72,
+        "p95_ms": 0.985
       }
     },
     "json": {
       "reference": {
-        "median_ms": 1.888,
-        "p95_ms": 2.248
+        "median_ms": 2.11,
+        "p95_ms": 2.683
       },
       "own_uncached": {
-        "median_ms": 1.801,
-        "p95_ms": 2.474
+        "median_ms": 2.131,
+        "p95_ms": 5.237
       },
       "own_cached": {
-        "median_ms": 0.904,
-        "p95_ms": 1.175
+        "median_ms": 0.78,
+        "p95_ms": 1.714
       }
     }
   }

@@ -60,7 +60,7 @@ def main():
     target = urlsplit(database_url)
     options = dict(part.split('=', 1) for part in target.query.split('&') if '=' in part)
     settings.DATABASES = {'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'snapshot_postgresql',
         'NAME': unquote(target.path.lstrip('/')),
         'USER': unquote(target.username or ''), 'PASSWORD': unquote(target.password or ''),
         'HOST': target.hostname or '', 'PORT': str(target.port or 5432),
