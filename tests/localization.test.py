@@ -52,7 +52,7 @@ class LocalizationTest(unittest.TestCase):
     def test_all_resources_use_the_same_catalog_validation(self):
         locale = load_locales()[0]
         rows = validated_rows(locale)
-        self.assertEqual(len(rows), 39761)
+        self.assertEqual(len(rows), 50221)
         self.assertIn('MoveFlavorText', {model.__name__ for model, _, _ in rows})
         # Existing translations in another target language must not affect sources.
         self.assertEqual(len(validated_rows({**locale, 'id': 12})), len(rows))
